@@ -1,5 +1,11 @@
+import argparse
 import os
 from openai import OpenAI
+
+parser = argparse.ArgumentParser(description='用大模型蒸餾出訓練語料')
+parser.add_argument('--out_dir', default='corpus/planets', help='輸出的語料目錄')
+args = parser.parse_args()
+os.makedirs(args.out_dir, exist_ok=True)
 
 print("=== 開始執行大模型資料蒸餾 (Knowledge Distillation) ===")
 
@@ -91,11 +97,11 @@ finetune_text = "".join(finetune_qa)
 # ==========================================
 # 5. 儲存純文字檔 (供後續 pretrain.py 建立詞表與張量)
 # ==========================================
-print("-> 儲存純文字檔 (pretrain.txt, finetune.txt)...")
-with open('pretrain.txt', 'w', encoding='utf-8') as f:
+print(f"-> 儲存純文字檔到 {args.out_dir}/ (pretrain.txt, finetune.txt)...")
+with open(os.path.join(args.out_dir, 'pretrain.txt'), 'w', encoding='utf-8') as f:
     f.write(pretrain_text)
 
-with open('finetune.txt', 'w', encoding='utf-8') as f:
+with open(os.path.join(args.out_dir, 'finetune.txt'), 'w', encoding='utf-8') as f:
     f.write(finetune_text)
 
-print("✅ 大模型蒸餾資料準備完成！請繼續執行 pretrain.py 和 finetune.py")
+print("✅ 大模型蒸餾資料準備完成！請繼續執行 ./run.sh")

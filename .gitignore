@@ -221,3 +221,6 @@ __marimo__/
 
 # mini-lm checkpoints / tensors
 *.pt
+
+# mini-lm 訓練輸出
+mini-lm/runs/
