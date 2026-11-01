@@ -2,7 +2,7 @@
 
 > 問題：mini-lm 遇到的許多問題，是不是因為模型太小，達不到 LLM 的智慧湧現？為什麼小模型做不到？
 >
-> 相關文件：[roadmap.md](roadmap.md)、[understanding.md](understanding.md)
+> 相關文件：[generalization.md](generalization.md)（小模型為什麼泛化不足）、[roadmap.md](roadmap.md)、[understanding.md](understanding.md)
 
 ## 結論
 
