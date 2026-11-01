@@ -2,8 +2,9 @@ import argparse
 import os
 import random
 import torch
-from model import load_checkpoint, save_checkpoint, IGNORE_INDEX
-from data import add_corpus_args, corpus_files, default_out_dir, load_qa, split_holdout, format_prompt
+from model import load_checkpoint, save_checkpoint
+from data import add_corpus_args, corpus_files, default_out_dir, load_qa, split_holdout
+from trainer import train_qa
 from chat import evaluate
 
 parser = argparse.ArgumentParser(description='mini-lm 問答微調')
@@ -15,6 +16,7 @@ parser.add_argument('--max_iters', type=int, default=300)
 parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--holdout', type=float, default=0.2, help='保留不訓練的驗證集比例')
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('--train_question', action='store_true', help='問題部分也計算 loss（讓模型學會發問）')
 args = parser.parse_args()
 if not args.corpus and not args.finetune:
     parser.error('請用 --corpus 或 --finetune 指定語料，例如 --corpus corpus/planets')
@@ -43,41 +45,10 @@ if unknown:
     print(f"⚠️ 有 {len(unknown)} 個字元不在詞表中（會變成 <UNK>）: {''.join(unknown)}")
     print("   請重新執行 pretrain.py 以更新詞表。")
 
-def encode_sample(q, a):
-    """序列為 <Q>問題<A>答案<EOS>；只對「答案 + <EOS>」計算 loss，問題部分遮掉。"""
-    prompt = tokenizer.encode(format_prompt(q))
-    answer = tokenizer.encode(a) + [tokenizer.eos_id]
-    tokens = (prompt + answer)[:seq_len + 1]
-    x = tokens[:-1]
-    y = tokens[1:]
-    y = [IGNORE_INDEX] * (len(prompt) - 1) + y[len(prompt) - 1:]
-    return x, y
-
-train_samples = [encode_sample(q, a) for q, a in train_pairs]
-
-def get_batch():
-    batch = random.choices(train_samples, k=args.batch_size)
-    T = max(len(x) for x, _ in batch)
-    xs = [x + [tokenizer.pad_id] * (T - len(x)) for x, _ in batch]
-    ys = [y + [IGNORE_INDEX] * (T - len(y)) for _, y in batch]
-    return torch.tensor(xs, device=device), torch.tensor(ys, device=device)
-
-# 3. 微調訓練迴圈
-optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
+# 3. 微調：預設只對「答案 + <EOS>」計算 loss
 print(f"使用硬體: {device} | 開始 Fine-tuning...")
-
-for iter in range(args.max_iters):
-    model.train()
-    xb, yb = get_batch()
-
-    logits, loss = model(xb, yb)
-    optimizer.zero_grad(set_to_none=True)
-    loss.backward()
-    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-    optimizer.step()
-
-    if iter % 100 == 0 or iter == args.max_iters - 1:
-        print(f"Finetune Step {iter:4d} | Loss: {loss.item():.4f}")
+train_qa(model, tokenizer, train_pairs, device, args.max_iters, args.lr, args.batch_size, seq_len,
+         train_question=args.train_question)
 
 ckpt_path = os.path.join(out_dir, 'finetune.pt')
 save_checkpoint(ckpt_path, model, config, tokenizer)

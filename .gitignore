@@ -224,3 +224,4 @@ __marimo__/
 
 # mini-lm 訓練輸出
 mini-lm/runs/
+mini-talk/runs/
