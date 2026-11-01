@@ -2,7 +2,7 @@
 
 > 問題：為什麼小模型的泛化能力不足？
 >
-> 相關文件：[small-models.md](small-models.md)（小模型為什麼沒有湧現）、[roadmap.md](roadmap.md)
+> 相關文件：[small-models.md](small-models.md)（小模型為什麼沒有湧現）、[data-and-model-size.md](data-and-model-size.md)（資料要多大、模型該不該縮小）、[roadmap.md](roadmap.md)
 
 ## 結論
 
