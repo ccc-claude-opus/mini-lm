@@ -1,93 +1,79 @@
-import json
+import argparse
+import random
 import torch
-from model import ModernLanguageModel
+from model import load_checkpoint, save_checkpoint, IGNORE_INDEX
+from data import load_qa, split_holdout, format_prompt
+from chat import evaluate
 
-# 參數設定
-batch_size = 32
-seq_len = 64
-max_iters = 300
-learning_rate = 1e-4
+parser = argparse.ArgumentParser(description='mini-lm 問答微調')
+parser.add_argument('--batch_size', type=int, default=32)
+parser.add_argument('--max_iters', type=int, default=300)
+parser.add_argument('--lr', type=float, default=1e-4)
+parser.add_argument('--holdout', type=float, default=0.2, help='保留不訓練的驗證集比例')
+parser.add_argument('--seed', type=int, default=42)
+args = parser.parse_args()
+
+torch.manual_seed(args.seed)
+random.seed(args.seed)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-# 1. 載入詞表與微調資料
-with open('vocab.json', 'r', encoding='utf-8') as f:
-    vocab = json.load(f)
-vocab_size = vocab['vocab_size']
-stoi = vocab['stoi']
-itos = {int(k): v for k, v in vocab['itos'].items()}  # json keys are strings
-encode = lambda s: [stoi[c] for c in s]
-decode = lambda l: ''.join([itos[i] for i in l])
-
-with open('finetune.txt', 'r', encoding='utf-8') as f:
-    finetune_text = f.read()
-data = torch.tensor(encode(finetune_text), dtype=torch.long)
-torch.save(data, 'finetune_data.pt')
-print(f"Finetune 資料已建立，長度: {len(data)}")
-
-def get_batch(data):
-    ix = torch.randint(len(data) - seq_len, (batch_size,))
-    x = torch.stack([data[i:i+seq_len] for i in ix])
-    y = torch.stack([data[i+1:i+seq_len+1] for i in ix])
-    return x.to(device), y.to(device)
-
-# 2. 初始化模型並載入預訓練權重
-model = ModernLanguageModel(vocab_size=vocab_size, seq_len=seq_len, device=device).to(device)
-model.load_state_dict(torch.load('pretrain.pt', map_location=device))
+# 1. 載入預訓練模型（checkpoint 內含模型設定與詞表）
+model, config, tokenizer = load_checkpoint('pretrain.pt', device)
 print("成功載入 pretrain.pt 權重！")
+seq_len = config['seq_len']
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-print(f"使用硬體: {device} | 開始 Fine-tuning...")
+# 2. 載入問答資料（自動去重）並切出驗證集
+pairs = load_qa('finetune.txt')
+train_pairs, val_pairs = split_holdout(pairs, args.holdout, args.seed)
+print(f"Finetune 資料: {len(pairs)} 組問答 → 訓練 {len(train_pairs)} / 驗證 {len(val_pairs)}")
+
+unknown = tokenizer.unknown_chars(''.join(q + a for q, a in pairs))
+if unknown:
+    print(f"⚠️ 有 {len(unknown)} 個字元不在詞表中（會變成 <UNK>）: {''.join(unknown)}")
+    print("   請重新執行 pretrain.py 以更新詞表。")
+
+def encode_sample(q, a):
+    """序列為 <Q>問題<A>答案<EOS>；只對「答案 + <EOS>」計算 loss，問題部分遮掉。"""
+    prompt = tokenizer.encode(format_prompt(q))
+    answer = tokenizer.encode(a) + [tokenizer.eos_id]
+    tokens = (prompt + answer)[:seq_len + 1]
+    x = tokens[:-1]
+    y = tokens[1:]
+    y = [IGNORE_INDEX] * (len(prompt) - 1) + y[len(prompt) - 1:]
+    return x, y
+
+train_samples = [encode_sample(q, a) for q, a in train_pairs]
+
+def get_batch():
+    batch = random.choices(train_samples, k=args.batch_size)
+    T = max(len(x) for x, _ in batch)
+    xs = [x + [tokenizer.pad_id] * (T - len(x)) for x, _ in batch]
+    ys = [y + [IGNORE_INDEX] * (T - len(y)) for _, y in batch]
+    return torch.tensor(xs, device=device), torch.tensor(ys, device=device)
 
 # 3. 微調訓練迴圈
-for iter in range(max_iters):
+optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
+print(f"使用硬體: {device} | 開始 Fine-tuning...")
+
+for iter in range(args.max_iters):
     model.train()
-    xb, yb = get_batch(data)
-    
+    xb, yb = get_batch()
+
     logits, loss = model(xb, yb)
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
     torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
     optimizer.step()
-    
-    if iter % 100 == 0 or iter == max_iters - 1:
+
+    if iter % 100 == 0 or iter == args.max_iters - 1:
         print(f"Finetune Step {iter:4d} | Loss: {loss.item():.4f}")
 
-torch.save(model.state_dict(), 'finetune.pt')
+save_checkpoint('finetune.pt', model, config, tokenizer)
 print("微調完成！模型已儲存為 finetune.pt")
 
-# ==========================================
-# 4. 實測 AI 語言模型 (自動從 finetune.txt 抓取測試題)
-# ==========================================
-print("\n" + "="*50)
-print("測試對話 (自動抓取訓練集第一句進行測試)")
-print("="*50)
-
-# 讀取剛剛生成的 finetune.txt 的第一行
-try:
-    with open('finetune.txt', 'r', encoding='utf-8') as f:
-        first_line = f.readline().strip() # 讀取第一行並去掉換行符號
-except FileNotFoundError:
-    raise FileNotFoundError("找不到 finetune.txt，請確定你有修改 gen_data.py 並重新執行。")
-
-# 假設格式是 "<Q>問題？<A>答案"，我們要把它從 <A> 切開
-# 這樣我們只餵給模型 prompt，並把答案留著當對照組
-if "<A>" in first_line:
-    prompt = first_line.split("<A>")[0] + "<A>"  # 組合出: <Q>問題？<A>
-    expected_answer = first_line.split("<A>")[1] # 提取出正確答案
-else:
-    prompt = first_line
-    expected_answer = "(無法解析答案)"
-
-print(f"📝 抽取到的題目: {prompt}")
-print(f"🎯 預期的解答: {expected_answer}")
-print("-" * 50)
-
-# 將 prompt 轉換為 tensor 並餵給模型
-idx = torch.tensor(encode(prompt), dtype=torch.long, device=device).unsqueeze(0)
-
-# max_new_tokens 可以設短一點，因為我們的答案通常很短
-generated_idx = model.generate(idx, max_new_tokens=100) 
-result = decode(generated_idx[0].tolist())
-
-print(f"🤖 AI 實際輸出:\n{result}")
-print("="*50)
+# 4. 評估：greedy 解碼，答案完全一致才算對
+print("\n" + "=" * 50)
+evaluate(model, tokenizer, train_pairs, '訓練集', device, show=3)
+if val_pairs:
+    evaluate(model, tokenizer, val_pairs, '驗證集（微調沒看過的問題）', device, show=len(val_pairs))
+print("=" * 50)

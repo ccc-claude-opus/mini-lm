@@ -1,5 +1,4 @@
 import os
-import random
 from openai import OpenAI
 
 print("=== 開始執行大模型資料蒸餾 (Knowledge Distillation) ===")
@@ -80,19 +79,14 @@ if len(pretrain_facts) == 0 or len(finetune_qa) == 0:
 print(f"-> 成功解析出 {len(pretrain_facts)} 條知識，{len(finetune_qa)} 條問答。")
 
 # ==========================================
-# 4. 擴增資料量以滿足神經網路訓練需求
+# 4. 去除重複句子
 # ==========================================
-# 因為大模型只生成了幾十句，對神經網路來說太少了，我們將它重複打亂拼接
-PRETRAIN_TARGET_LENGTH = 100000
-FINETUNE_TARGET_LENGTH = 30000
-
-pretrain_text = ""
-while len(pretrain_text) < PRETRAIN_TARGET_LENGTH:
-    pretrain_text += "".join(random.sample(pretrain_facts, len(pretrain_facts)))
-
-finetune_text = ""
-while len(finetune_text) < FINETUNE_TARGET_LENGTH:
-    finetune_text += "".join(random.sample(finetune_qa, len(finetune_qa)))
+# 舊版會把幾十句重複打亂拼接到十萬字，那只是讓同樣的句子出現上千次，
+# 並沒有增加資訊量；現在只存不重複的句子，打亂與取樣交給 pretrain.py / finetune.py。
+pretrain_facts = list(dict.fromkeys(pretrain_facts))
+finetune_qa = list(dict.fromkeys(finetune_qa))
+pretrain_text = "".join(pretrain_facts)
+finetune_text = "".join(finetune_qa)
 
 # ==========================================
 # 5. 儲存純文字檔 (供後續 pretrain.py 建立詞表與張量)

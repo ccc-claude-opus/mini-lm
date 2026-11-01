@@ -1,41 +1,59 @@
-# mini-llm v3 -- run.sh
+# mini-lm v4 -- run.sh
 
-## distill
+## 流程
+
+```mermaid
+flowchart LR
+  A[gen_data_distill.py] -->|不重複的 FACT| B[pretrain.txt]
+  A -->|不重複的 QA| C[finetune.txt]
+  B --> D[pretrain.py] --> E[pretrain.pt<br/>權重+設定+詞表]
+  C --> D
+  E --> F[finetune.py<br/>80% 訓練 / 20% 驗證] --> G[finetune.pt]
+  G --> H[chat.py]
+```
+
+| 檔案 | 說明 |
+|---|---|
+| `tokenizer.py` | 字元級 tokenizer，`<PAD> <UNK> <EOS> <Q> <A>` 各為單一 token |
+| `data.py` | 讀檔去重、解析 `<Q>…<A>…`、固定種子切驗證集 |
+| `model.py` | Transformer（RMSNorm、RoPE、SwiGLU），`generate` 支援 temperature / top-k / 遇 `<EOS>` 停止 |
+| `pretrain.py` | 每句加 `<EOS>`，每個樣本重新打亂句子順序 |
+| `finetune.py` | 只對「答案 + `<EOS>`」計算 loss，訓練後評估訓練集與驗證集 |
+| `chat.py` | 單題、互動、`--eval` 三種模式 |
+
+## 執行
+
+```bash
+./run.sh
+```
+
+```bash
+python chat.py "火星的表面是什麼顏色？"
+```
+
+```bash
+python chat.py --temperature 0.8 --top_k 5
+```
+
+```bash
+python chat.py --eval
+```
+
+## 結果
 
 ```
-(.venv) cccuser@cccimacdeiMac v3-distill % ./run.sh
-詞表大小: 210 字元
-詞表已儲存為 vocab.json
-Pretrain 資料已儲存，長度: 100500
-使用硬體: cpu | 開始 Pre-training...
-Pretrain Step    0 | Loss: 5.5207
-Pretrain Step  100 | Loss: 0.4385
-Pretrain Step  200 | Loss: 0.3225
-Pretrain Step  300 | Loss: 0.3103
-Pretrain Step  400 | Loss: 0.3038
-Pretrain Step  499 | Loss: 0.2945
-預訓練完成！模型已儲存為 pretrain.pt
-Finetune 資料已建立，長度: 30726
-成功載入 pretrain.pt 權重！
-使用硬體: cpu | 開始 Fine-tuning...
-Finetune Step    0 | Loss: 5.0307
-Finetune Step  100 | Loss: 0.3926
-Finetune Step  200 | Loss: 0.2456
-Finetune Step  299 | Loss: 0.2222
-微調完成！模型已儲存為 finetune.pt
-
-==================================================
-測試對話 (自動抓取訓練集第一句進行測試)
-==================================================
-📝 抽取到的題目: <Q>火星的大氣層怎樣？<A>
-🎯 預期的解答: 很稀薄
---------------------------------------------------
-🤖 AI 實際輸出:
-<Q>火星的大氣層怎樣？<A>很稀薄
-<Q>行星的公轉軌道大致呈什麼形狀？<A>橢圓形
-<Q>地球的直徑約為多少？<A>一萬二千七百公里
-<Q>水星的表面有什麼？<A>八百公里
-<Q>行星的自轉速度影響什麼？<A「大紅斑
-<Q>水
-==================================================
+Pretrain 資料: 50 句不重複的知識敘述
+詞表大小: 210（含特殊 token），已儲存為 vocab.json
+使用硬體: cpu | 參數量: 1.08M | 開始 Pre-training...
+Pretrain Step    0 | Loss: 5.6330
+Pretrain Step  499 | Loss: 0.2836
+Finetune 資料: 50 組問答 → 訓練 40 / 驗證 10
+Finetune Step    0 | Loss: 3.3794
+Finetune Step  299 | Loss: 0.0035
+📊 訓練集: 40/40 正確 (100%)
+📊 驗證集（微調沒看過的問題）: 0/10 正確 (0%)
 ```
+
+* 回答到 `<EOS>` 就停止，不會再自己編出下一題。
+* 訓練集全對，但驗證集 0%：預訓練只看過 50 句敘述，模型學會的是「背答案的格式」，
+  還不能把敘述句裡的知識轉成問答。要改善需要更多、更多樣的資料（例如同一事實用多種說法敘述）。
