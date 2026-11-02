@@ -16,7 +16,7 @@ def encode_qa(tokenizer, q, a, seq_len, train_question=False):
     return x, y
 
 def train_qa(model, tokenizer, pairs, device, max_iters, lr, batch_size, seq_len,
-             train_question=False, log_every=100, tag='Finetune'):
+             train_question=False, log_every=100, tag='Finetune', weight_decay=0.01):
     samples = [encode_qa(tokenizer, q, a, seq_len, train_question) for q, a in pairs]
 
     def get_batch():
@@ -26,7 +26,7 @@ def train_qa(model, tokenizer, pairs, device, max_iters, lr, batch_size, seq_len
         ys = [y + [IGNORE_INDEX] * (T - len(y)) for _, y in batch]
         return torch.tensor(xs, device=device), torch.tensor(ys, device=device)
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay)
     for iter in range(max_iters):
         model.train()
         xb, yb = get_batch()

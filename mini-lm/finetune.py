@@ -16,6 +16,8 @@ parser.add_argument('--max_iters', type=int, default=300)
 parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--holdout', type=float, default=0.2, help='保留不訓練的驗證集比例')
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('--weight_decay', type=float, default=0.01)
+parser.add_argument('--no_train_eval', action='store_true', help='不評估訓練集（節省時間）')
 parser.add_argument('--train_question', action='store_true', help='問題部分也計算 loss（讓模型學會發問）')
 args = parser.parse_args()
 if not args.corpus and not args.finetune:
@@ -48,7 +50,7 @@ if unknown:
 # 3. 微調：預設只對「答案 + <EOS>」計算 loss
 print(f"使用硬體: {device} | 開始 Fine-tuning...")
 train_qa(model, tokenizer, train_pairs, device, args.max_iters, args.lr, args.batch_size, seq_len,
-         train_question=args.train_question)
+         train_question=args.train_question, weight_decay=args.weight_decay)
 
 ckpt_path = os.path.join(out_dir, 'finetune.pt')
 save_checkpoint(ckpt_path, model, config, tokenizer)
@@ -56,7 +58,8 @@ print(f"微調完成！模型已儲存為 {ckpt_path}")
 
 # 4. 評估：greedy 解碼，答案完全一致才算對
 print("\n" + "=" * 50)
-evaluate(model, tokenizer, train_pairs, '訓練集', device, show=3)
+if not args.no_train_eval:
+    evaluate(model, tokenizer, train_pairs, '訓練集', device, show=3)
 if val_pairs:
     evaluate(model, tokenizer, val_pairs, '驗證集（微調沒看過的問題）', device, show=len(val_pairs))
 print("=" * 50)

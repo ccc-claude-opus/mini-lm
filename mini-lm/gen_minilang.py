@@ -12,6 +12,7 @@ from check import DOC, load_charset, unknown
 parser = argparse.ArgumentParser(description='依 mini-lang.md 的字表與語法產生 Mini-Lang 語料')
 parser.add_argument('--out_dir', default='corpus/minilang')
 parser.add_argument('--n_sentences', type=int, default=1500, help='一般句子的數量')
+parser.add_argument('--n_people', type=int, default=16, help='人物數量（最多 256）')
 parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 rng = random.Random(args.seed)
@@ -28,7 +29,13 @@ def num(n):
 # 1. 人物與事實：預訓練學事實，微調學問答格式
 # ==========================================
 # 名字用字表內的字組成，避開一般句子會用到的「我、你、他」
-NAMES = [a + b for a in '小大' for b in '明山花文天月雨心']
+# 前 16 個是原本的名字；人數更多時，再用兩個字組成名字
+NAME_CHARS = '明山花文天月雨心東南白紅新樂真方'
+NAMES = [a + b for a in '小大' for b in NAME_CHARS[:8]]
+NAMES += [a + b for a in NAME_CHARS for b in NAME_CHARS if a != b]
+if args.n_people > len(NAMES):
+    sys.exit(f'--n_people 最多 {len(NAMES)}')
+NAMES = NAMES[:args.n_people]
 JOBS = {'老師': '在學校教書', '醫生': '給人看病', '學生': '在學校學習', '工人': '每天都很忙'}
 HOMES = ['東邊', '西邊', '南邊', '北邊']
 FOODS = ['肉', '菜', '水果', '飯']

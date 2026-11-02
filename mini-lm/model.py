@@ -62,26 +62,27 @@ class Attention(nn.Module):
         return self.wo(out)
 
 class TransformerBlock(nn.Module):
-    def __init__(self, dim, n_heads):
+    def __init__(self, dim, n_heads, dropout=0.0):
         super().__init__()
         self.attention = Attention(dim, n_heads)
         self.ffn = FeedForward(dim, hidden_dim=4 * dim)
         self.norm1 = RMSNorm(dim)
         self.norm2 = RMSNorm(dim)
+        self.dropout = nn.Dropout(dropout)
 
     def forward(self, x, freqs_cis):
-        x = x + self.attention(self.norm1(x), freqs_cis)
-        x = x + self.ffn(self.norm2(x))
+        x = x + self.dropout(self.attention(self.norm1(x), freqs_cis))
+        x = x + self.dropout(self.ffn(self.norm2(x)))
         return x
 
 IGNORE_INDEX = -100  # targets 中標成這個值的位置不計 loss
 
 class ModernLanguageModel(nn.Module):
-    def __init__(self, vocab_size, d_model=128, n_heads=4, n_layers=4, seq_len=64):
+    def __init__(self, vocab_size, d_model=128, n_heads=4, n_layers=4, seq_len=64, dropout=0.0):
         super().__init__()
         self.seq_len = seq_len
         self.tok_emb = nn.Embedding(vocab_size, d_model)
-        self.layers = nn.ModuleList([TransformerBlock(d_model, n_heads) for _ in range(n_layers)])
+        self.layers = nn.ModuleList([TransformerBlock(d_model, n_heads, dropout) for _ in range(n_layers)])
         self.norm = RMSNorm(d_model)
         self.output = nn.Linear(d_model, vocab_size, bias=False)
         self.tok_emb.weight = self.output.weight

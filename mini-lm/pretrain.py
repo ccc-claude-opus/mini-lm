@@ -16,6 +16,8 @@ parser.add_argument('--lr', type=float, default=5e-4)
 parser.add_argument('--d_model', type=int, default=128)
 parser.add_argument('--n_heads', type=int, default=4)
 parser.add_argument('--n_layers', type=int, default=4)
+parser.add_argument('--dropout', type=float, default=0.0)
+parser.add_argument('--weight_decay', type=float, default=0.01)
 parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 if not args.corpus and not args.pretrain:
@@ -56,11 +58,11 @@ def get_batch():
 
 # 2. 初始化模型
 config = dict(vocab_size=tokenizer.vocab_size, d_model=args.d_model, n_heads=args.n_heads,
-              n_layers=args.n_layers, seq_len=args.seq_len)
+              n_layers=args.n_layers, seq_len=args.seq_len, dropout=args.dropout)
 model = build_model(config).to(device)
-optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
+optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 n_params = sum(p.numel() for p in model.parameters())
-print(f"使用硬體: {device} | 參數量: {n_params/1e6:.2f}M | 開始 Pre-training...")
+print(f"使用硬體: {device} | 參數量: {n_params/1e6:.2f}M ({n_params:,}) | 開始 Pre-training...")
 
 # 3. 訓練迴圈
 for iter in range(args.max_iters):
