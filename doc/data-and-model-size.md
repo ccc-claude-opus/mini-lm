@@ -2,7 +2,7 @@
 
 > 問題：資料要到多大才夠？或者反過來，把模型縮得更小，泛化能力會不會更好？
 >
-> 相關文件：[generalization.md](generalization.md)、[small-models.md](small-models.md)
+> 相關文件：[generalization.md](generalization.md)、[small-models.md](small-models.md)、[best-model.md](best-model.md)（依這些結果設計的最佳模型）
 
 ## 結論
 

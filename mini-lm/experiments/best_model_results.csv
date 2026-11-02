@@ -1,0 +1,5 @@
+設定,test_fact,test_fact_acc,test_phrase,test_phrase_acc,test_both,test_both_acc,handwritten_loss,handwritten_ppl,dir_dialogue,dir_family_work,dir_feeling_opinion,dir_health_body,dir_learning_language,dir_place_direction,dir_reasoning,dir_shopping_food,dir_social,dir_stories,dir_time_number,dir_transport,dir_weather_nature,directions_loss
+A 基準,353/358,0.986,983/1434,0.685,206/358,0.575,5.54,254.68,7.638,6.053,6.395,6.613,6.632,6.836,6.124,6.222,6.579,7.666,7.295,7.144,6.45,6.742
+B 加強資料,289/358,0.807,1226/1434,0.855,230/358,0.642,5.911,369.08,8.517,6.249,6.41,6.517,6.863,7.5,6.323,6.26,6.739,7.624,7.448,7.087,6.406,6.919
+C 加強＋手寫,299/358,0.835,1057/1434,0.737,190/358,0.531,4.891,133.09,6.869,5.377,5.139,5.606,6.163,6.241,5.862,5.972,5.419,6.813,6.083,6.397,5.861,5.985
+D 加強＋手寫＋方向語句,283/358,0.791,1156/1434,0.806,186/358,0.52,2.349,10.48,3.423,2.609,3.017,3.251,3.325,3.187,3.411,3.452,3.166,3.543,3.756,3.483,3.234,3.297
