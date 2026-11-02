@@ -20,6 +20,8 @@ parser.add_argument('--holdout', type=float, default=0.0,
                     help='保留不微調的事實比例；大於 0 時另外輸出 test_*.txt')
 parser.add_argument('--holdout_phrase', action='store_true',
                     help='最後一種問法完全不微調，只用來測試換句話問')
+parser.add_argument('--owners', action='store_true',
+                    help='另外輸出 owners.txt：每行「人名<TAB>句子」，標出人物事實、小傳與問答是關於誰')
 parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 rng = random.Random(args.seed)
@@ -195,9 +197,12 @@ def doc_sentences():
 # ==========================================
 charset = set(load_charset(open(DOC, encoding='utf-8').read()))
 
-facts = [f for p in people for v in person_facts(p, args.fact_variants).values() for f in v]
+owned_facts = [(p['name'], f) for p in people for v in person_facts(p, args.fact_variants).values() for f in v]
 bio_rng = random.Random(args.seed + 1)  # 獨立的亂數，不影響人物與一般句子
-bios = [person_bio(p, args.fact_variants, bio_rng) for p in people for _ in range(args.bios_per_person)]
+owned_bios = [(p['name'], person_bio(p, args.fact_variants, bio_rng))
+              for p in people for _ in range(args.bios_per_person)]
+facts = [f for _, f in owned_facts]
+bios = [b for _, b in owned_bios]
 general = list(dict.fromkeys(sentence() for _ in range(args.n_sentences * 3)))[:args.n_sentences]
 examples = doc_sentences()
 pretrain = list(dict.fromkeys(facts + bios + general + examples))
@@ -244,6 +249,12 @@ with open(os.path.join(args.out_dir, 'finetune.txt'), 'w', encoding='utf-8') as 
 for name, lines in tests.items():
     with open(os.path.join(args.out_dir, name), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
+if args.owners:
+    # 事實句可能同時提到兩個人（例如「小花是小明的朋友」），只靠人名比對分不出是誰的事實
+    owner_of_q = {q.format(n=p['name']): p['name'] for p in people for qs in QUESTIONS.values() for q in qs}
+    owned_qa = [(owner_of_q[l[len('<Q>'):].split('<A>')[0]], l) for l in all_qa]
+    with open(os.path.join(args.out_dir, 'owners.txt'), 'w', encoding='utf-8') as f:
+        f.write(''.join(f'{n}\t{l}\n' for n, l in owned_facts + owned_bios + owned_qa))
 # 完整的 256 字（加上標點）放進詞表，讓詞表大小固定，不隨語料改變
 punct = sorted({c for c in ''.join(pretrain + all_qa) if c not in charset and not c.isascii()})
 with open(os.path.join(args.out_dir, 'charset.txt'), 'w', encoding='utf-8') as f:

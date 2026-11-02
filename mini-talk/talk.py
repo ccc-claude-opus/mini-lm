@@ -72,11 +72,12 @@ A, B = Agent('A', args.a), Agent('B', args.b)
 log = ['# 對話紀錄', '']
 stats = {'utter': 0, 'off': 0, 'answered': 0, 'correct': 0, 'dont_know': 0, 'invalid_q': 0}
 
-def say(who, text):
+def say(who, text, mark=''):
+    """只檢查說出的話；mark 是評估用的標記，不算在話裡。"""
     bad = unknown(text, charset)
     stats['utter'] += 1
     stats['off'] += bool(bad)
-    line = f"{who}：{text}" + (f"　⚠️ 字表外: {''.join(bad)}" if bad else '')
+    line = f"{who}：{text}{mark}" + (f"　⚠️ 字表外: {''.join(bad)}" if bad else '')
     print(line)
     log.append(line + '  ')
     return line
@@ -103,7 +104,7 @@ for r in range(args.rounds):
             stats['answered'] += 1
             stats['correct'] += a == truth[q]
             mark = '　✅' if a == truth[q] else f'　❌（正解: {truth[q]}）'
-        say(replier.name, a + mark if not mark.startswith('（') else a)
+        say(replier.name, a, mark if not mark.startswith('（') else '')
         if a != DONT_KNOW:
             asker.heard[q] = a
 print('=' * 50)
@@ -120,23 +121,30 @@ log += ['', '## 統計', ''] + summary
 # 2. 從對話中學習
 # ==========================================
 if args.learn:
-    log += ['', '## 從對話中學習', '', '| 模型 | 聽到的答案 | 學習前答對（對方那組人） | 學習後答對 | 其中聽過的題目 |', '|---|---:|---:|---:|---:|']
+    log += ['', '## 從對話中學習', '',
+            '| 模型 | 聽到的答案 | 學習前答對（對方那組人） | 學習後答對 | 其中聽過的題目 | 自己那組人（學習前 → 後） |',
+            '|---|---:|---:|---:|---:|---:|']
     for agent in (A, B):
-        other = [q for q in truth if agent.reply(q) == DONT_KNOW]
-        before = knows(agent, other)
         own_qa = load_qa([os.path.join(args.corpus, agent.name, 'finetune.txt')])
-        # 聽到的新知識 + 原本的問答（避免忘記）；聽過的問題不再用「我不知道」當答案
-        pairs = list(agent.heard.items()) + [(q, a) for q, a in own_qa if q not in agent.heard]
+        other = [q for q in truth if agent.reply(q) == DONT_KNOW]
+        mine = [q for q, a in own_qa if a != DONT_KNOW]  # 自己那組人的問題，檢查有沒有忘記
+        before, mine_before = knows(agent, other), knows(agent, mine)
+        # 聽到的新知識 + 原本的問答（避免忘記）；聽過的問題不再用「我不知道」當答案。
+        # 原本的問答遠多於聽到的答案，所以把聽到的答案重複到約佔一半，才學得進去。
+        heard = list(agent.heard.items())
+        replay = [(q, a) for q, a in own_qa if q not in agent.heard]
+        pairs = heard * max(1, len(replay) // max(1, len(heard))) + replay
         print(f"\n{agent.name} 從對話中學習 {len(agent.heard)} 個答案...")
         train_qa(agent.model, agent.tok, pairs, device, args.learn_iters, args.lr, 32,
                  agent.config['seq_len'], train_question=True, tag=f'Learn {agent.name}')
         heard_valid = [q for q in agent.heard if q in other]
         after = knows(agent, other)
         after_heard = knows(agent, heard_valid)
+        mine_after = knows(agent, mine)
         row = (f"| {agent.name} | {len(agent.heard)} | {before}/{len(other)} | {after}/{len(other)} | "
-               f"{after_heard}/{len(heard_valid)} |")
+               f"{after_heard}/{len(heard_valid)} | {mine_before} → {mine_after} / {len(mine)} |")
         print(f"{agent.name}：對方那組人的問題，學習前 {before}/{len(other)}，學習後 {after}/{len(other)}"
-              f"（聽過的 {after_heard}/{len(heard_valid)}）")
+              f"（聽過的 {after_heard}/{len(heard_valid)}）；自己那組人 {mine_before} → {mine_after} / {len(mine)}")
         log.append(row)
         out_dir = os.path.join(HERE, 'runs', agent.name + '_learned')
         os.makedirs(out_dir, exist_ok=True)
