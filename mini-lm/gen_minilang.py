@@ -13,6 +13,13 @@ parser = argparse.ArgumentParser(description='依 mini-lang.md 的字表與語�
 parser.add_argument('--out_dir', default='corpus/minilang')
 parser.add_argument('--n_sentences', type=int, default=1500, help='一般句子的數量')
 parser.add_argument('--n_people', type=int, default=16, help='人物數量（最多 256）')
+parser.add_argument('--fact_variants', type=int, default=2, help='每個事實的說法數（2–4）')
+parser.add_argument('--bios_per_person', type=int, default=0, help='每人幾段小傳（事實打亂順序寫成一段）')
+parser.add_argument('--question_variants', type=int, default=1, help='每種問題的問法數（1–3）')
+parser.add_argument('--holdout', type=float, default=0.0,
+                    help='保留不微調的事實比例；大於 0 時另外輸出 test_*.txt')
+parser.add_argument('--holdout_phrase', action='store_true',
+                    help='最後一種問法完全不微調，只用來測試換句話問')
 parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 rng = random.Random(args.seed)
@@ -54,34 +61,56 @@ for p in people:
 def count(k):
     return '兩個' if k == 2 else num(k) + '個'
 
-def person_facts(p):
-    """同一個事實用兩種說法，讓模型學到意思而不是背一個句型。"""
-    n = p['name']
-    facts = [
-        f"{n}今年{num(p['age'])}歲。", f"{n}{num(p['age'])}歲了。",
-        f"{n}是{p['job']}。", f"{n}{JOBS[p['job']]}。",
-        f"{n}的家在{p['home']}。", f"{n}住在{p['home']}。",
-        f"{n}喜歡吃{p['food']}。", f"{n}最喜歡吃{p['food']}。",
-        f"{n}喜歡喝{p['drink']}。", f"{n}每天都喝{p['drink']}。",
-        f"{n}的朋友是{p['friend']}。", f"{n}和{p['friend']}是朋友。",
-    ]
-    if p['kids']:
-        facts += [f"{n}有{count(p['kids'])}孩子。", f"{n}的家裡有{count(p['kids'])}孩子。"]
-    else:
-        facts += [f"{n}沒有孩子。", f"{n}的家裡沒有孩子。"]
-    return facts
+ATTRS = ['age', 'job', 'home', 'food', 'drink', 'friend', 'kids']
 
-def person_qa(p):
-    n = p['name']
-    return [
-        (f"{n}幾歲？", f"{num(p['age'])}歲"),
-        (f"{n}是做什麼的？", p['job']),
-        (f"{n}的家在哪裡？", p['home']),
-        (f"{n}喜歡吃什麼？", p['food']),
-        (f"{n}喜歡喝什麼？", p['drink']),
-        (f"{n}的朋友是誰？", p['friend']),
-        (f"{n}有幾個孩子？", count(p['kids']) if p['kids'] else '沒有'),
-    ]
+def person_facts(p, n_variants=2):
+    """同一個事實用多種說法，讓模型學到意思而不是背一個句型。
+    回傳 {屬性: [說法…]}，前兩種說法和最早的版本相同。"""
+    n, k = p['name'], count(p['kids'])
+    facts = {
+        'age': [f"{n}今年{num(p['age'])}歲。", f"{n}{num(p['age'])}歲了。",
+                f"{n}是一個{num(p['age'])}歲的人。", f"今年{n}{num(p['age'])}歲。"],
+        'job': [f"{n}是{p['job']}。", f"{n}{JOBS[p['job']]}。",
+                f"大家都知道{n}是{p['job']}。", f"{n}是一個{p['job']}。"],
+        'home': [f"{n}的家在{p['home']}。", f"{n}住在{p['home']}。",
+                 f"{n}住在{p['home']}的一個房子裡。", f"{p['home']}有{n}的家。"],
+        'food': [f"{n}喜歡吃{p['food']}。", f"{n}最喜歡吃{p['food']}。",
+                 f"{n}很愛吃{p['food']}。", f"{p['food']}是{n}最喜歡吃的東西。"],
+        'drink': [f"{n}喜歡喝{p['drink']}。", f"{n}每天都喝{p['drink']}。",
+                  f"{n}很愛喝{p['drink']}。", f"{p['drink']}是{n}最喜歡喝的東西。"],
+        'friend': [f"{n}的朋友是{p['friend']}。", f"{n}和{p['friend']}是朋友。",
+                   f"{n}有一個朋友叫{p['friend']}。", f"{p['friend']}是{n}的朋友。"],
+        'kids': ([f"{n}有{k}孩子。", f"{n}的家裡有{k}孩子。",
+                  f"{n}有{k}孩子，都很可愛。", f"{n}家裡有{k}孩子。"] if p['kids'] else
+                 [f"{n}沒有孩子。", f"{n}的家裡沒有孩子。", f"{n}還沒有孩子。", f"{n}家裡沒有孩子。"]),
+    }
+    return {a: v[:n_variants] for a, v in facts.items()}
+
+# 每種問題的問法；第 0 種是最早的版本，最後一種可以保留不微調（--holdout_phrase）
+QUESTIONS = {
+    'age': ['{n}幾歲？', '{n}今年幾歲？', '{n}多大了？'],
+    'job': ['{n}是做什麼的？', '{n}做什麼工作？', '{n}的工作是什麼？'],
+    'home': ['{n}的家在哪裡？', '{n}住在哪裡？', '{n}住在哪邊？'],
+    'food': ['{n}喜歡吃什麼？', '{n}最喜歡吃什麼？', '{n}愛吃什麼？'],
+    'drink': ['{n}喜歡喝什麼？', '{n}每天都喝什麼？', '{n}愛喝什麼？'],
+    'friend': ['{n}的朋友是誰？', '{n}和誰是朋友？', '誰是{n}的朋友？'],
+    'kids': ['{n}有幾個孩子？', '{n}的家裡有幾個孩子？', '{n}的孩子有幾個？'],
+}
+
+def answer_of(p, attr):
+    return {'age': f"{num(p['age'])}歲", 'job': p['job'], 'home': p['home'], 'food': p['food'],
+            'drink': p['drink'], 'friend': p['friend'],
+            'kids': count(p['kids']) if p['kids'] else '沒有'}[attr]
+
+def person_qa(p, variant=0):
+    return [(QUESTIONS[a][variant].format(n=p['name']), answer_of(p, a)) for a in ATTRS]
+
+def person_bio(p, n_variants, bio_rng):
+    """一段小傳：每個屬性挑一種說法，順序打亂（Allen-Zhu & Li 的 multi + permute 擴增）。"""
+    facts = person_facts(p, n_variants)
+    parts = [bio_rng.choice(facts[a]) for a in ATTRS]
+    bio_rng.shuffle(parts)
+    return ''.join(parts)
 
 # ==========================================
 # 2. 一般句子：依 mini-lang.md 第 4 節的語法規則產生
@@ -166,13 +195,44 @@ def doc_sentences():
 # ==========================================
 charset = set(load_charset(open(DOC, encoding='utf-8').read()))
 
-facts = [f for p in people for f in person_facts(p)]
+facts = [f for p in people for v in person_facts(p, args.fact_variants).values() for f in v]
+bio_rng = random.Random(args.seed + 1)  # 獨立的亂數，不影響人物與一般句子
+bios = [person_bio(p, args.fact_variants, bio_rng) for p in people for _ in range(args.bios_per_person)]
 general = list(dict.fromkeys(sentence() for _ in range(args.n_sentences * 3)))[:args.n_sentences]
 examples = doc_sentences()
-pretrain = list(dict.fromkeys(facts + general + examples))
-qa = [f"<Q>{q}<A>{a}" for p in people for q, a in person_qa(p)]
+pretrain = list(dict.fromkeys(facts + bios + general + examples))
 
-bad = unknown(''.join(pretrain + [q.replace('<Q>', '').replace('<A>', '') for q in qa]), charset)
+def qa_lines(pairs):
+    return [f"<Q>{q}<A>{a}" for q, a in pairs]
+
+tests = {}
+if args.holdout > 0:
+    # 用和 finetune.py 相同的方式切分（第 0 種問法、相同種子），保留的事實和舊實驗一致
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from data import split_holdout
+    keys = [(i, a) for i, p in enumerate(people) for a in ATTRS]
+    canonical = [(QUESTIONS[a][0].format(n=people[i]['name']), answer_of(people[i], a)) for i, a in keys]
+    _, held = split_holdout(canonical, args.holdout, args.seed)
+    held = set(held)
+    held_keys = {k for k, c in zip(keys, canonical) if c in held}
+    train_keys = [k for k in keys if k not in held_keys]
+    test_keys = [k for k in keys if k in held_keys]
+    n_train_variants = args.question_variants - (1 if args.holdout_phrase else 0)
+    last = args.question_variants - 1
+
+    def pairs_of(ks, variants):
+        return [(QUESTIONS[a][v].format(n=people[i]['name']), answer_of(people[i], a)) for i, a in ks for v in variants]
+
+    qa = qa_lines(pairs_of(train_keys, range(n_train_variants)))
+    tests['test_fact.txt'] = qa_lines(pairs_of(test_keys, [0]))          # 新事實、原本的問法
+    if args.holdout_phrase:
+        tests['test_phrase.txt'] = qa_lines(pairs_of(train_keys, [last]))  # 練過的事實、新問法
+        tests['test_both.txt'] = qa_lines(pairs_of(test_keys, [last]))     # 新事實、新問法
+else:
+    qa = qa_lines([pair for p in people for v in range(args.question_variants) for pair in person_qa(p, v)])
+
+all_qa = qa + [l for t in tests.values() for l in t]
+bad = unknown(''.join(pretrain + [q.replace('<Q>', '').replace('<A>', '') for q in all_qa]), charset)
 if bad:
     sys.exit(f"❌ 產生的語料用了字表外的字: {''.join(bad)}")
 
@@ -181,11 +241,15 @@ with open(os.path.join(args.out_dir, 'pretrain.txt'), 'w', encoding='utf-8') as 
     f.write('\n'.join(pretrain) + '\n')
 with open(os.path.join(args.out_dir, 'finetune.txt'), 'w', encoding='utf-8') as f:
     f.write('\n'.join(qa) + '\n')
+for name, lines in tests.items():
+    with open(os.path.join(args.out_dir, name), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
 # 完整的 256 字（加上標點）放進詞表，讓詞表大小固定，不隨語料改變
-punct = sorted({c for c in ''.join(pretrain + qa) if c not in charset and not c.isascii()})
+punct = sorted({c for c in ''.join(pretrain + all_qa) if c not in charset and not c.isascii()})
 with open(os.path.join(args.out_dir, 'charset.txt'), 'w', encoding='utf-8') as f:
     f.write(''.join(sorted(charset)) + ''.join(punct) + '\n')
 
-print(f"✅ 人物 {len(people)} 位，事實 {len(facts)} 句，一般句子 {len(general)} 句，"
-      f"文件例句 {len(examples)} 句，問答 {len(qa)} 組")
+print(f"✅ 人物 {len(people)} 位，事實 {len(facts)} 句，小傳 {len(bios)} 段，一般句子 {len(general)} 句，"
+      f"文件例句 {len(examples)} 句，問答 {len(qa)} 組"
+      + ''.join(f"，{n} {len(t)} 組" for n, t in tests.items()))
 print(f"   已寫入 {args.out_dir}/ (pretrain.txt, finetune.txt, charset.txt)")
