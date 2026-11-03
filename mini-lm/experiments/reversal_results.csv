@@ -1,0 +1,4 @@
+設定,train_fwd,train_fwd_acc,train_bwd,train_bwd_acc,test_fwd,test_fwd_acc,test_bwd,test_bwd_acc,pretrain_fwd,pretrain_bwd
+F 只有正向,64/64,1.0,64/64,1.0,24/64,0.375,0/64,0.0,38/64,0/64
+M 部分雙向,64/64,1.0,64/64,1.0,55/64,0.859,0/64,0.0,45/64,0/64
+B 全部雙向,64/64,1.0,64/64,1.0,33/64,0.516,35/64,0.547,43/64,34/64
