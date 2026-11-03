@@ -4,7 +4,7 @@
 
 | 檔案 | 內容 |
 |---|---|
-| [system.md](system.md) | 系統提示詞：247 字的字表、四個原則、換詞的三層、外來語、數字與量詞、語法替代表、自我檢查 |
+| [system.md](system.md) | 系統提示詞：297 字的字表、四個原則、換詞的三層、外來語、數字與量詞、語法替代表、自我檢查 |
 | [expert.md](expert.md) | 網頁版「Mini-Lang 專家」加在 system.md 後面的部分：專家的角色、回答格式（Mini-Lang 放在 minilang 區塊）、專案背景 |
 | [tasks.md](tasks.md) | 六個任務的模板：中文 → Mini-Lang、Mini-Lang → 中文、English → Mini-Lang、Mini-Lang → English、寫文章、修改 |
 

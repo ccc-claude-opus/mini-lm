@@ -1,4 +1,4 @@
-"""檢查 mini-lang.md：字表是否最多 256 個不重複的字（目前 247 字），例句與組合例是否只用到字表內的字。
+"""檢查 mini-lang.md：字表是否沒有重複的字（目前 297 字），例句與組合例是否只用到字表內的字。
 
 用法：
     python check.py                 # 檢查 mini-lang.md
@@ -62,8 +62,8 @@ def main():
     ok = True
     dups = sorted({c for c in chars if chars.count(c) > 1})
     print(f'字表: {len(chars)} 字，不重複 {len(charset)} 字')
-    if len(chars) > 256 or dups:
-        print(f"❌ 字數超過 256 或有重複: {''.join(dups)}")
+    if dups:
+        print(f"❌ 字表有重複的字: {''.join(dups)}")
         ok = False
 
     # 第 2 節各類表格第一欄的字，必須和完整字表一致

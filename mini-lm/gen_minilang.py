@@ -41,7 +41,7 @@ NAMES += [a + b for a in NAME_CHARS for b in NAME_CHARS if a != b]
 if args.n_people > len(NAMES):
     sys.exit(f'--n_people 最多 {len(NAMES)}')
 NAMES = NAMES[:args.n_people]
-JOBS = {'老師': '在學校教書', '醫生': '給人看病', '學生': '在學校學習', '工人': '每天都很忙'}
+JOBS = {'老師': '在學校教書', '醫生': '給人看病', '學生': '在學校學東西', '工人': '每天都很忙'}
 HOMES = ['東邊', '西邊', '南邊', '北邊']
 FOODS = ['肉', '菜', '水果', '飯']
 DRINKS = ['茶', '水', '紅茶']
@@ -172,8 +172,8 @@ def sentence():
     if kind == 8:   # 規則 17：因為…所以…
         r, res = rng.choice(BECAUSE)
         return f"因為{s}{r}，所以{pronoun(s)}{res}。" if r in ('很忙', '生病了', '想學中文') else f"因為{r}，所以{s}{res}。"
-    c, act = rng.choice(IF)  # 規則 17：如果…就…
-    return f"如果{c}，{'我們' if c.startswith('你') else s}就{act}。"
+    c, act = rng.choice(IF)  # 規則 17：要是…就…
+    return f"要是{c}，{'我們' if c.startswith('你') else s}就{act}。"
 
 # ==========================================
 # 3. mini-lang.md 中的例句與對話

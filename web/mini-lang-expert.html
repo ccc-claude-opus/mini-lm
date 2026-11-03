@@ -272,7 +272,7 @@ textarea {
     box.innerHTML = '';
     if (!history.length) {
       box.appendChild(renderMessage({ role: 'assistant', content:
-        '你好，我是 Mini-Lang 專家。你可以：\n\n- 問我任何關於 Mini-Lang 的問題，例如「為什麼只有 247 個字？」「『害怕』怎麼說？」\n- 請我把中文或英文翻成 Mini-Lang，或把 Mini-Lang 翻回中文、英文\n- 請我用 Mini-Lang 寫文章\n\n我寫的 Mini-Lang 會放在綠色框裡，網頁會逐字檢查是不是只用 247 字。' }));
+        '你好，我是 Mini-Lang 專家。你可以：\n\n- 問我任何關於 Mini-Lang 的問題，例如「為什麼只有 297 個字？」「『醫院』怎麼說？」\n- 請我把中文或英文翻成 Mini-Lang，或把 Mini-Lang 翻回中文、英文\n- 請我用 Mini-Lang 寫文章\n\n我寫的 Mini-Lang 會放在綠色框裡，網頁會逐字檢查是不是只用 297 字。' }));
     }
     history.forEach((m, i) => box.appendChild(renderMessage(m, i)));
     $('chat').scrollTop = $('chat').scrollHeight;

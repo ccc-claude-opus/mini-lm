@@ -43,15 +43,12 @@
 得	de5
 給	gei3
 對	dui4
-跟	gen1
 從	cong2
 到	dao4
 為	wei4
 因	yin1
 所	suo3
-如	ru2
 果	guo3
-但	dan4
 只	zhi3
 起	qi3
 比	bi3
@@ -69,6 +66,8 @@
 點	dian3
 塊	kuai4
 歲	sui4
+數	shu4
+量	liang4
 年	nian2
 月	yue4
 日	ri4
@@ -126,7 +125,6 @@
 見	jian4
 寫	xie3
 學	xue2
-習	xi2
 教	jiao1
 問	wen4
 叫	jiao4
@@ -153,12 +151,19 @@
 打	da3
 生	sheng1
 完	wan2
+動	dong4
+死	si3
+活	huo2
+笑	xiao4
+哭	ku1
+怕	pa4
+跳	tiao4
+唱	chang4
 大	da4
 小	xiao3
 多	duo1
 少	shao3
 長	chang2
-短	duan3
 高	gao1
 老	lao3
 好	hao3
@@ -169,8 +174,6 @@
 冷	leng3
 熱	re4
 難	nan2
-容	rong2
-易	yi4
 真	zhen1
 忙	mang2
 病	bing4
@@ -183,6 +186,11 @@
 色	se4
 樂	le4
 貴	gui4
+綠	lv4
+藍	lan2
+甜	tian2
+苦	ku3
+圓	yuan2
 人	ren2
 男	nan2
 女	nv3
@@ -232,9 +240,7 @@
 國	guo2
 文	wen2
 語	yu3
-言	yan2
 事	shi4
-情	qing2
 題	ti2
 工	gong1
 腦	nao3
@@ -242,10 +248,54 @@
 飛	fei1
 意	yi4
 思	si1
+聲	sheng1
+音	yin1
+光	guang1
+味	wei4
+海	hai3
+河	he2
+風	feng1
+雲	yun2
+雪	xue3
+冰	bing1
+星	xing1
+石	shi2
+土	tu3
+樹	shu4
+草	cao3
+空	kong1
+金	jin1
+鳥	niao3
+魚	yu2
+蟲	chong2
+馬	ma3
+牛	niu2
+豬	zhu1
+雞	ji1
+蛋	dan4
+腳	jiao3
+臉	lian3
+牙	ya2
+鼻	bi2
+髮	fa4
+血	xue4
+物	wu4
+球	qiu2
+紙	zhi3
+刀	dao1
+木	mu4
+城	cheng2
+法	fa3
+理	li3
+力	li4
+兒	er2
+歌	ge1
+畫	hua4
+詞	ci2
+句	ju4
 請	qing3
 謝	xie4
 迎	ying2
-係	xi4
 覺得	jue2 de5
 睡覺	shui4 jiao4
 得到	de2 dao4
@@ -266,9 +316,7 @@
 喜歡	xi3 huan5
 知道	zhi1 dao5
 時候	shi2 hou5
-關係	guan1 xi5
 衣服	yi1 fu5
-事情	shi4 qing5
 名字	ming2 zi5
 先生	xian1 sheng5
 身上	shen1 shang5
@@ -302,3 +350,26 @@
 後頭	hou4 tou5
 裡頭	li3 tou5
 外頭	wai4 tou5
+音樂	yin1 yue4
+有空	you3 kong4
+數一數	shu3 yi5 shu3
+數數	shu3 shu4
+量一量	liang2 yi5 liang2
+石頭	shi2 tou5
+木頭	mu4 tou5
+鼻子	bi2 zi5
+兒子	er2 zi5
+女兒	nv3 er2
+頭髮	tou2 fa5
+這兒	zhe4 er5
+哪兒	na3 er5
+那兒	na4 er5
+一會兒	yi2 hui4 er5
+蟲子	chong2 zi5
+刀子	dao1 zi5
+金子	jin1 zi5
+星星	xing1 xing5
+句子	ju4 zi5
+力氣	li4 qi5
+鳥兒	niao3 er5
+魚兒	yu2 er5
