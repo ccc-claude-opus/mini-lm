@@ -26,12 +26,17 @@ MODEL = 'z-ai/glm-5.3-flash'
 REASONING_EFFORT = 'low'
 MAX_TOKENS = 8192
 MAX_BODY = 200_000  # 一次對話最多約 20 萬字元
-MAX_TOOL_ROUNDS = 5  # 一次回答最多呼叫幾次檢查工具
+MAX_TOOL_ROUNDS = 5  # 一次回答最多呼叫幾次工具（檢查、查詞典）
+MAX_RELEVANT = 120   # 系統提示詞最多附上幾條「對話中出現的詞」
 
 sys.path.insert(0, str(WEB.parent / 'mini-lang'))
 from check import DOC, load_charset, unknown  # noqa: E402
 
-CHARSET = set(load_charset(DOC.read_text(encoding='utf-8')))
+
+
+def charset():
+    # 每次都重新讀字表，改了 mini-lang.md 不用重開伺服器
+    return set(load_charset(DOC.read_text(encoding='utf-8')))
 
 # 給模型用的工具：檢查 Mini-Lang 的文字，和 check.py 相同
 TOOLS = [{
@@ -46,6 +51,19 @@ TOOLS = [{
             'required': ['text'],
         },
     },
+}, {
+    'type': 'function',
+    'function': {
+        'name': 'lookup_word',
+        'description': '查 Mini-Lang 詞典：一般中文的詞在 Mini-Lang 怎麼說。可以一次查好幾個詞。'
+                       '回傳每個詞是否已經在字表內（可以直接寫），或詞典的標準說法（外來語會附上第一次出現時的說明）。'
+                       '寫作或翻譯時，想用字表外的詞就先查。',
+        'parameters': {
+            'type': 'object',
+            'properties': {'words': {'type': 'array', 'items': {'type': 'string'}, 'description': '要查的一般中文詞，例如 ["比賽", "球員"]'}},
+            'required': ['words'],
+        },
+    },
 }]
 
 
@@ -54,17 +72,21 @@ def section(path):
     return path.read_text(encoding='utf-8').split('\n---\n')[1].strip()
 
 
-def lexicon_appendix():
-    """整份詞典，一行一個：一般中文 → Mini-Lang（外來語附上第一次出現時的說明）。"""
-    lines = []
-    for path in sorted(glob.glob(str(LEXICON / '*.tsv'))):
-        with open(path, encoding='utf-8') as f:
-            for r in csv.DictReader(f, delimiter='\t'):
-                if r['中文'] == r['Mini-Lang']:
-                    continue  # 本詞不用查
-                note = f"（{r['說明']}）" if r['說明'] else ''
-                lines.append(f"{r['中文']} → {r['Mini-Lang']}{note}")
-    return '## 附錄：詞典（一般中文 → Mini-Lang）\n\n' + '\n'.join(lines)
+def entry_line(r):
+    """詞典的一行：一般中文 → Mini-Lang（外來語附上第一次出現時的說明）。"""
+    note = f"（{r['說明']}）" if r['說明'] else ''
+    return f"{r['中文']} → {r['Mini-Lang']}{note}"
+
+
+def relevant_lexicon(messages):
+    """只附上對話中出現的詞（使用者的訊息）。整份詞典約 1.5 萬字，大部分用不到；其他詞讓模型用 lookup_word 查。"""
+    text = '\n'.join(m['content'] for m in messages if m['role'] == 'user')
+    hits = [r for r in lexicon_rows() if r['中文'] != r['Mini-Lang'] and r['中文'] in text]
+    hits.sort(key=lambda r: -len(r['中文']))  # 長的詞優先（例如「沒關係」比「關係」重要）
+    if not hits:
+        return '## 相關詞典\n\n（使用者的訊息裡沒有詞典登記的詞。寫作時想用字表外的詞，用 lookup_word 查。）'
+    return ('## 相關詞典（使用者的訊息中出現的詞；其他詞用 lookup_word 查）\n\n'
+            + '\n'.join(entry_line(r) for r in hits[:MAX_RELEVANT]))
 
 
 def lexicon_rows():
@@ -77,7 +99,7 @@ def lexicon_rows():
 
 def check_minilang(text):
     """檢查工具：回傳 {ok, out_of_set: [{char, where}], suggestions: [{word, mini_lang}]}。"""
-    bad = unknown(text, CHARSET)
+    bad = unknown(text, charset())
     if not bad:
         return {'ok': True, 'message': '全部只用字表內的字，可以輸出。'}
     out = []
@@ -96,9 +118,31 @@ def check_minilang(text):
             'message': '請只改寫含有這些字的句子，改完再檢查一次。'}
 
 
-def system_prompt():
+def lookup_word(words):
+    """查詞典工具：回傳每個詞在 Mini-Lang 怎麼說。"""
+    cs = charset()
+    rows = lexicon_rows()
+    out = []
+    for w in [str(w).strip() for w in words if str(w).strip()][:20]:
+        if not unknown(w, cs):
+            out.append({'word': w, 'in_charset': True, 'mini_lang': w, 'message': '字表內就有，直接寫'})
+            continue
+        exact = [r for r in rows if r['中文'] == w]
+        if exact:
+            r = exact[0]
+            out.append({'word': w, 'mini_lang': r['Mini-Lang'], 'note': r['說明'], 'method': r['方式']})
+            continue
+        # 沒有完全相同的：找含有這個詞、或被這個詞包含的詞條
+        near = [r for r in rows if r['中文'] != r['Mini-Lang'] and (w in r['中文'] or r['中文'] in w)][:5]
+        out.append({'word': w, 'found': False,
+                    'similar': [{'word': r['中文'], 'mini_lang': r['Mini-Lang']} for r in near],
+                    'message': '詞典沒有這個詞；請依系統提示詞第 3 節，用描述或外來語說出來'})
+    return {'results': out}
+
+
+def system_prompt(messages):
     # 每次對話重新讀檔，改了提示詞或詞典不用重開伺服器
-    return '\n\n'.join([section(PROMPTS / 'system.md'), section(PROMPTS / 'expert.md'), lexicon_appendix()])
+    return '\n\n'.join([section(PROMPTS / 'system.md'), section(PROMPTS / 'expert.md'), relevant_lexicon(messages)])
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -135,7 +179,7 @@ class Handler(SimpleHTTPRequestHandler):
         if not key:
             return self.send_json({'error': '伺服器找不到環境變數 NVIDIA_API_KEY'}, 500)
 
-        convo = [{'role': 'system', 'content': system_prompt()}] + messages
+        convo = [{'role': 'system', 'content': system_prompt(messages)}] + messages
 
         # 給網頁的串流：每行一個 JSON，type 是 reasoning、content、tool、error 或 done
         self.send_response(200)
@@ -151,14 +195,22 @@ class Handler(SimpleHTTPRequestHandler):
                 convo.append({'role': 'assistant', 'content': '', 'tool_calls': calls})
                 for call in calls:
                     try:
-                        text = json.loads(call['function']['arguments'] or '{}').get('text', '')
+                        args = json.loads(call['function']['arguments'] or '{}')
                     except ValueError:
-                        text = ''
-                    result = check_minilang(text)
-                    self.send_event({'type': 'tool', 'ok': result['ok'],
-                                     'chars': [x['char'] for x in result.get('out_of_set', [])]})
+                        args = {}
+                    if call['function']['name'] == 'lookup_word':
+                        words = args.get('words') or []
+                        result = lookup_word(words if isinstance(words, list) else [words])
+                        self.send_event({'type': 'lookup', 'words': [x['word'] for x in result['results']]})
+                    else:
+                        result = check_minilang(args.get('text', ''))
+                        self.send_event({'type': 'tool', 'ok': result['ok'],
+                                         'chars': [x['char'] for x in result.get('out_of_set', [])]})
                     convo.append({'role': 'tool', 'tool_call_id': call['id'],
                                   'content': json.dumps(result, ensure_ascii=False)})
+            else:
+                # 工具次數用完了還沒寫出答案：不給工具，請它直接寫出最後的答案
+                self.stream_round(key, convo, tools=False)
             self.send_event({'type': 'done'})
         except urllib.error.HTTPError as e:
             self.send_event({'type': 'error', 'text': f'NVIDIA API 錯誤 {e.code}：{e.read().decode("utf-8", "replace")[:300]}'})
@@ -226,8 +278,8 @@ def main():
     args = p.parse_args()
     if not os.environ.get('NVIDIA_API_KEY'):
         print('⚠️  找不到環境變數 NVIDIA_API_KEY，請先 export NVIDIA_API_KEY=...', file=sys.stderr)
-    prompt = system_prompt()
-    print(f'系統提示詞 {len(prompt)} 字元（含詞典）；模型 {MODEL}，reasoning effort {REASONING_EFFORT}')
+    prompt = system_prompt([])
+    print(f'系統提示詞 {len(prompt)} 字元（詞典改成只附對話中出現的詞，其他用 lookup_word 查）；模型 {MODEL}，reasoning effort {REASONING_EFFORT}')
     print(f'打開 http://localhost:{args.port}/mini-lang-expert.html')
     ThreadingHTTPServer(('127.0.0.1', args.port), Handler).serve_forever()
 
