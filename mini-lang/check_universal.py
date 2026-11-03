@@ -1,4 +1,4 @@
-"""檢查通用 Mini-Lang：規格文件、範例與詞典是否只用到字表內的字，詞典格式是否正確。
+"""檢查通用 Mini-Lang：規格文件、範例、提示詞與詞典是否只用到字表內的字，詞典格式是否正確。
 
 用法：
     python check_universal.py             # 檢查 universal.md、examples.md 與 lexicon/*.tsv
@@ -15,6 +15,7 @@ from check import DOC, load_charset, snippets, unknown
 HERE = Path(__file__).parent
 SPEC = HERE / 'universal.md'
 EXAMPLES = HERE / 'examples.md'
+PROMPT = HERE / 'prompts' / 'system.md'
 LEXICON = sorted(glob.glob(str(HERE / 'lexicon' / '*.tsv')))
 COLUMNS = ['中文', 'Mini-Lang', '說明', '方式']
 METHODS = {'本詞', '組詞', '描述', '外來語'}
@@ -37,7 +38,7 @@ def main():
     charset = set(load_charset(DOC.read_text(encoding='utf-8')))
     ok = True
 
-    for doc in (SPEC, EXAMPLES):
+    for doc in (SPEC, EXAMPLES, PROMPT):
         n = 0
         for no, s in snippets(doc.read_text(encoding='utf-8')):
             n += 1
@@ -46,6 +47,13 @@ def main():
                 print(f"❌ {doc.name} 第 {no} 行用了字表外的字 {''.join(bad)}: {s}")
                 ok = False
         print(f'{doc.name}：檢查了 {n} 段例句')
+
+    # 提示詞裡的字表要和規格一模一樣
+    m = re.search(r'```text\n(.*?)```', PROMPT.read_text(encoding='utf-8'), re.S)
+    prompt_chars = ''.join(l.strip() for l in m.group(1).splitlines() if l.strip() and not l.startswith('#'))
+    if prompt_chars != load_charset(DOC.read_text(encoding='utf-8')):
+        print('❌ prompts/system.md 的字表和 mini-lang.md 不一樣，請重新複製附錄的字表')
+        ok = False
 
     rows = load_lexicon()
     seen, reverse = {}, {}
