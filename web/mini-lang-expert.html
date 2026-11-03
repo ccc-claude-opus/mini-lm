@@ -46,6 +46,9 @@ h1 { margin: 0; font-size: 1.35rem; }
 details.thinking { color: var(--muted); font-size: 0.85rem; margin-bottom: 6px; }
 details.thinking summary { cursor: pointer; }
 details.thinking div { white-space: pre-wrap; max-height: 240px; overflow-y: auto; }
+.tools { display: flex; flex-wrap: wrap; gap: 4px 12px; color: var(--muted); font-size: 0.82rem; margin-bottom: 6px; }
+.tools .ok { color: var(--accent); }
+.tools .warn { color: var(--bad-line); }
 .minilang { background: var(--mini); border: 1px solid var(--mini-line); border-radius: 10px; padding: 8px 12px; margin: 8px 0; }
 .minilang .text { font-size: 1.12rem; line-height: 1.9; white-space: pre-wrap; }
 .minilang .text.pinyin { line-height: 3.1; }
@@ -159,7 +162,8 @@ textarea {
   }
   function markdown(text, blocks) {
     const out = [];
-    const lines = text.split('\n');
+    // 模型有時會在 minilang 區塊外面多包一層 ````text，拿掉外層
+    const lines = text.split('\n').filter((l) => !/^\s*````+\s*[\w-]*\s*$/.test(l));
     let i = 0;
     while (i < lines.length) {
       const line = lines[i];
@@ -245,7 +249,12 @@ textarea {
     } else {
       const blocks = [];
       const thinking = m.reasoning ? `<details class="thinking"><summary>模型的思考過程</summary><div>${esc(m.reasoning)}</div></details>` : '';
-      bubble.innerHTML = thinking + markdown(m.content || '', blocks) + (m.error ? `<p class="error">${esc(m.error)}</p>` : '');
+      const drafts = m.draft ? `<details class="thinking"><summary>檢查前的草稿</summary><div>${esc(m.draft)}</div></details>` : '';
+      // 模型自己呼叫檢查工具的紀錄
+      const tools = (m.tools || []).length ? `<div class="tools">${m.tools.map((t, k) => (t.ok
+        ? `<span class="ok">🔍 第 ${k + 1} 次檢查：✓ 全部在字表內</span>`
+        : `<span class="warn">🔍 第 ${k + 1} 次檢查：✗ ${esc(t.chars.join('、'))}</span>`)).join('')}</div>` : '';
+      bubble.innerHTML = thinking + tools + drafts + markdown(m.content || '', blocks) + (m.error ? `<p class="error">${esc(m.error)}</p>` : '');
       bubble.querySelectorAll('.minilang').forEach((el) => {
         const text = blocks[Number(el.dataset.block)];
         el.innerHTML = miniBlockHTML(text);
@@ -305,6 +314,13 @@ textarea {
           if (msg.type === 'reasoning') { reply.reasoning += msg.text; $('status').textContent = '思考中…'; }
           if (msg.type === 'content') { reply.content += msg.text; $('status').textContent = '回答中…'; }
           if (msg.type === 'error') reply.error = msg.text;
+          if (msg.type === 'tool') {
+            // 檢查之前寫的內容是草稿，收起來；畫面只留檢查後的回答
+            reply.tools = (reply.tools || []).concat([{ ok: msg.ok, chars: msg.chars }]);
+            if (reply.content.trim()) reply.draft = (reply.draft ? reply.draft + '\n\n' : '') + reply.content;
+            reply.content = '';
+            $('status').textContent = msg.ok ? '檢查通過，整理答案中…' : `檢查發現字表外的字：${msg.chars.join('、')}，修改中…`;
+          }
         }
         // 每 150ms 重畫一次，避免太頻繁
         if (Date.now() - last > 150) {
