@@ -1,7 +1,7 @@
-"""檢查通用 Mini-Lang：規格文件的例句與詞典是否只用到 256 字，詞典格式是否正確。
+"""檢查通用 Mini-Lang：規格文件、範例與詞典是否只用到字表內的字，詞典格式是否正確。
 
 用法：
-    python check_universal.py             # 檢查 universal.md 與 lexicon/*.tsv
+    python check_universal.py             # 檢查 universal.md、examples.md 與 lexicon/*.tsv
     python check_universal.py --stats     # 另外列出各領域詞數與反譯時會撞在一起的說法
 """
 import csv
@@ -14,6 +14,7 @@ from check import DOC, load_charset, snippets, unknown
 
 HERE = Path(__file__).parent
 SPEC = HERE / 'universal.md'
+EXAMPLES = HERE / 'examples.md'
 LEXICON = sorted(glob.glob(str(HERE / 'lexicon' / '*.tsv')))
 COLUMNS = ['中文', 'Mini-Lang', '說明', '方式']
 METHODS = {'本詞', '組詞', '描述', '外來語'}
@@ -36,14 +37,15 @@ def main():
     charset = set(load_charset(DOC.read_text(encoding='utf-8')))
     ok = True
 
-    n = 0
-    for no, s in snippets(SPEC.read_text(encoding='utf-8')):
-        n += 1
-        bad = unknown(s, charset)
-        if bad:
-            print(f"❌ universal.md 第 {no} 行用了字表外的字 {''.join(bad)}: {s}")
-            ok = False
-    print(f'universal.md：檢查了 {n} 段例句')
+    for doc in (SPEC, EXAMPLES):
+        n = 0
+        for no, s in snippets(doc.read_text(encoding='utf-8')):
+            n += 1
+            bad = unknown(s, charset)
+            if bad:
+                print(f"❌ {doc.name} 第 {no} 行用了字表外的字 {''.join(bad)}: {s}")
+                ok = False
+        print(f'{doc.name}：檢查了 {n} 段例句')
 
     rows = load_lexicon()
     seen, reverse = {}, {}

@@ -422,20 +422,20 @@ Mini-Lang 本身就是中文，所以**就算不做任何還原，一般中文�
 
 ## 9. 詞典
 
-詞典放在 [lexicon/](lexicon/)，依領域分檔，目前共 1,213 條：
+詞典放在 [lexicon/](lexicon/)，依領域分檔，目前共 1,232 條：
 
 | 檔案 | 領域 | 條數 |
 |---|---|---:|
-| [grammar.tsv](lexicon/grammar.tsv) | 功能詞、量詞、代詞（第 5 節的替代說法） | 93 |
+| [grammar.tsv](lexicon/grammar.tsv) | 功能詞、量詞、代詞（第 5 節的替代說法） | 95 |
 | [mind.tsv](lexicon/mind.tsv) | 情感、思考、品德、抽象名詞、形容詞、副詞 | 212 |
 | [actions.tsv](lexicon/actions.tsv) | 字表外的常用動詞 | 195 |
 | [knowledge.tsv](lexicon/knowledge.tsv) | 學科、教育、科學、數學、電腦、媒體、藝術、運動 | 191 |
-| [life.tsv](lexicon/life.tsv) | 食物、衣物、家具、工具、建築、交通、身體、健康 | 175 |
-| [nature.tsv](lexicon/nature.tsv) | 動物、植物、天氣、地理、天文、材料、顏色 | 167 |
-| [people.tsv](lexicon/people.tsv) | 親屬、職業、社會、政治、法律、經濟、宗教、歷史 | 158 |
+| [life.tsv](lexicon/life.tsv) | 食物、衣物、家具、工具、建築、交通、身體、健康 | 181 |
+| [nature.tsv](lexicon/nature.tsv) | 動物、植物、天氣、地理、天文、材料、顏色 | 173 |
+| [people.tsv](lexicon/people.tsv) | 親屬、職業、社會、政治、法律、經濟、宗教、歷史 | 163 |
 | [places.tsv](lexicon/places.tsv) | 洲、國家、城市 | 22 |
 
-方式的分布：描述 602、外來語 263、組詞 247、本詞 101。外來語多半用在動植物、食物、器物、材料與地名；抽象概念和動作幾乎都能用描述或組詞說出來。
+方式的分布：描述 617、外來語 264、組詞 250、本詞 101。外來語多半用在動植物、食物、器物、材料與地名；抽象概念和動作幾乎都能用描述或組詞說出來。
 
 每行一個詞，用 tab 分隔：
 
@@ -481,7 +481,7 @@ python translate.py --to-zh "我家有一個 dog（會看家、會叫的小東�
 
 ## 11. 範例：翻過去，再翻回來
 
-兩段原創的短文。Mini-Lang 版由人依本文件的規則翻譯，反譯由 `translate.py --to-zh` 自動產生（只查詞典，不改句子結構）。
+兩段原創的短文。更多範例（新聞、科普、議論、寓言、說明、書信，以及從 Mini-Lang 翻回中文）見 [examples.md](examples.md)。Mini-Lang 版由人依本文件的規則翻譯，反譯由 `translate.py --to-zh` 自動產生（只查詞典，不改句子結構）。
 
 ### 範例一：新聞
 
