@@ -26,13 +26,9 @@ parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 rng = random.Random(args.seed)
 
-DIGITS = '一二三四五六七八九'
-
 def num(n):
-    """1–99 的中文數字。"""
-    tens, ones = divmod(n, 10)
-    s = ('' if tens <= 1 else DIGITS[tens - 1]) + ('十' if tens else '')
-    return s + (DIGITS[ones - 1] if ones else '')
+    """數字用阿拉伯數字（字表沒有「二三四五六七八九十」）。"""
+    return str(n)
 
 # ==========================================
 # 1. 人物與事實：預訓練學事實，微調學問答格式
@@ -61,7 +57,7 @@ for p in people:
     p['friend'] = rng.choice([q['name'] for q in people if q is not p])
 
 def count(k):
-    return '兩個' if k == 2 else num(k) + '個'
+    return num(k) + '個'
 
 ATTRS = ['age', 'job', 'home', 'food', 'drink', 'friend', 'kids']
 
@@ -255,10 +251,10 @@ if args.owners:
     owned_qa = [(owner_of_q[l[len('<Q>'):].split('<A>')[0]], l) for l in all_qa]
     with open(os.path.join(args.out_dir, 'owners.txt'), 'w', encoding='utf-8') as f:
         f.write(''.join(f'{n}\t{l}\n' for n, l in owned_facts + owned_bios + owned_qa))
-# 完整的 256 字（加上標點）放進詞表，讓詞表大小固定，不隨語料改變
+# 完整的字表、阿拉伯數字 0–9 與標點都放進詞表，讓詞表大小固定，不隨語料改變
 punct = sorted({c for c in ''.join(pretrain + all_qa) if c not in charset and not c.isascii()})
 with open(os.path.join(args.out_dir, 'charset.txt'), 'w', encoding='utf-8') as f:
-    f.write(''.join(sorted(charset)) + ''.join(punct) + '\n')
+    f.write(''.join(sorted(charset)) + '0123456789' + ''.join(punct) + '\n')
 
 print(f"✅ 人物 {len(people)} 位，事實 {len(facts)} 句，小傳 {len(bios)} 段，一般句子 {len(general)} 句，"
       f"文件例句 {len(examples)} 句，問答 {len(qa)} 組"

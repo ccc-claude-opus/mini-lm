@@ -14,7 +14,7 @@ mini-lm/
 ├── gen_minilang.py     依 ../mini-lang/mini-lang.md 產生語料 → corpus/minilang/
 ├── corpus/             語料（納入版本控制）
 │   ├── planets/        太陽系八大行星（大模型蒸餾）
-│   └── minilang/       Mini-Lang 256 字基礎中文
+│   └── minilang/       Mini-Lang 247 字基礎中文
 └── runs/               訓練輸出（不納入版本控制）
     └── <語料名稱>/      vocab.json、pretrain.pt、finetune.pt
 ```
@@ -27,7 +27,7 @@ mini-lm/
 |---|---|---|
 | `pretrain.txt` | 每行一句話 | 預訓練需要 |
 | `finetune.txt` | 每行一組 `<Q>問題<A>答案` | 微調需要 |
-| `charset.txt` | 一定要放進詞表的字元（例如 Mini-Lang 的完整 256 字） | 可選 |
+| `charset.txt` | 一定要放進詞表的字元（例如 Mini-Lang 的完整 247 字與數字 0–9） | 可選 |
 
 要加入新的語料，只要建立一個新目錄並放入這些檔案即可，不必改程式。
 
