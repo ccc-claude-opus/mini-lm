@@ -52,9 +52,14 @@ h1 { margin: 0; font-size: 1.6rem; letter-spacing: 0.02em; }
 h2 { margin: 0; font-size: 1rem; }
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 16px 0; }
-.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--panel); }
-.seg button { border: 0; background: transparent; color: var(--text); padding: 7px 14px; cursor: pointer; font: inherit; }
-.seg button.on { background: var(--accent); color: #fff; }
+.lang { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); }
+.lang select { color: var(--text); font-weight: 600; min-width: 8.5em; }
+button.primary { border: 0; background: var(--accent); color: #fff; border-radius: 8px; padding: 7px 14px; font: inherit; cursor: pointer; }
+button.primary:disabled { opacity: 0.6; cursor: progress; }
+.mt-box { background: var(--alt); border: 1px solid var(--alt-line); border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; }
+.mt-box p { margin: 0 0 8px; }
+.mt-box p:last-child { margin: 0; }
+.busy { color: var(--muted); font-size: 0.9rem; margin-bottom: 6px; }
 button.ghost, select {
   border: 1px solid var(--line); background: var(--panel); color: var(--text);
   border-radius: 8px; padding: 7px 12px; font: inherit; cursor: pointer;

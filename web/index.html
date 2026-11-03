@@ -9,16 +9,14 @@
 <body>
 <header>
   <h1>Mini-Lang 翻譯器</h1>
-  <p class="tagline">把一般中文改寫成只用 247 個漢字的 Mini-Lang，也能翻回來。</p>
+  <p class="tagline">在一般中文、英文和只用 247 個漢字的 Mini-Lang 之間翻譯。</p>
 </header>
 
 <main>
   <div class="toolbar">
-    <div class="seg" role="group" aria-label="翻譯方向">
-      <button id="dir-to-mini" data-dir="to-mini">中文 → Mini-Lang</button>
-      <button id="dir-to-zh" data-dir="to-zh">Mini-Lang → 中文</button>
-    </div>
-    <button id="swap" class="ghost" title="把結果放回輸入，換方向">⇄ 交換</button>
+    <label class="lang">從 <select id="src" aria-label="來源語言"></select></label>
+    <button id="swap" class="ghost" title="把結果放回輸入，換方向" aria-label="交換語言">⇄</button>
+    <label class="lang">翻成 <select id="dst" aria-label="目標語言"></select></label>
     <select id="examples" aria-label="範例">
       <option value="">載入範例…</option>
     </select>
@@ -42,6 +40,11 @@
         <div class="mini-label">Mini-Lang（拼音）</div>
         <div id="preview" class="output"></div>
       </div>
+      <div id="mt-box" class="mt-box" hidden>
+        <p id="mt-msg"></p>
+        <button id="mt-download" class="primary" hidden>下載翻譯模型</button>
+      </div>
+      <div id="busy" class="busy" hidden>翻譯中…</div>
       <div id="output" class="output" aria-live="polite"></div>
     </section>
   </div>
@@ -63,19 +66,22 @@
 
   <details class="about">
     <summary>這個翻譯器怎麼運作</summary>
-    <p>翻譯完全在瀏覽器中進行，不會把文章送到任何伺服器。中文 → Mini-Lang 依序做：</p>
+    <p>翻譯完全在瀏覽器中進行，不會把文章送到任何伺服器。</p>
+    <p><b>中文 ⇄ Mini-Lang</b> 依規則翻譯。中文 → Mini-Lang 依序做：</p>
     <ol>
       <li>中文數字換成阿拉伯數字（二十二歲 → 22歲）。</li>
       <li>數字後的量詞換成「個」（一隻狗 → 一個狗）。</li>
       <li>查詞典換詞（醫院 → 看病的地方、狗 → dog），英文外來語第一次出現時加上說明。</li>
       <li>需要改寫句子結構的詞（雖然、已經…）不自動換，只標出來並給建議。</li>
     </ol>
-    <p>這是依規則的翻譯：結果通常還要人讀一次、改通順。完整規則見 <a href="../mini-lang/universal.md">universal.md</a>，範例見 <a href="../mini-lang/examples.md">examples.md</a>。</p>
+    <p><b>英文</b>用瀏覽器內建的翻譯模型（桌面版 Chrome 138 以上），第一次使用時要先下載模型，之後在本機執行。英文和 Mini-Lang 之間經過中文：Mini-Lang → 中文 → English、English → 中文 → Mini-Lang。</p>
+    <p>依規則的翻譯：結果通常還要人讀一次、改通順。完整規則見 <a href="../mini-lang/universal.md">universal.md</a>，範例見 <a href="../mini-lang/examples.md">examples.md</a>。</p>
   </details>
 </main>
 
 <script src="data.js"></script>
 <script src="minilang.js"></script>
+<script src="mt.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
