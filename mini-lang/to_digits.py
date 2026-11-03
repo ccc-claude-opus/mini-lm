@@ -6,7 +6,7 @@
 * 多位數也換：一百 → 100、兩百多 → 200多、一千 → 1000。
 * 單獨的「一、兩」不動：一個、兩點、一樣。它們常是冠詞或固定說法，程式分不出是不是在計數。
 * 「第」後面一律用數字：第一次 → 第1次。
-* 週幾一律用數字：週一 → 週1、週六 → 週6（週日不變）。
+* 週幾一律用數字：週一 → 週1、星期六 → 週6（週日不變）。
 * 概數：兩三天 → 2到3天。
 * 固定說法另外處理（IDIOMS）。
 
@@ -43,6 +43,7 @@ def value(s):
 def convert(text):
     for a, b in IDIOMS.items():
         text = text.replace(a, b)
+    text = re.sub(r'(星期|禮拜)(?=[一二三四五六日天])', '週', text)
     text = WEEK.sub(lambda m: '週' + str(DIGIT[m.group(1)]), text)
     text = ORDINAL.sub(lambda m: '第' + str(DIGIT[m.group(1)]), text)
 
