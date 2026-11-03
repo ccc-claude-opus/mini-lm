@@ -16,8 +16,9 @@ HERE = Path(__file__).parent
 SPEC = HERE / 'universal.md'
 LEXICON = sorted(glob.glob(str(HERE / 'lexicon' / '*.tsv')))
 COLUMNS = ['中文', 'Mini-Lang', '說明', '方式']
-METHODS = {'本詞', '組詞', '描述', '音寫'}
-SOUND = re.compile(r'〔[^〕]*〕')
+METHODS = {'本詞', '組詞', '描述', '外來語'}
+LATIN = re.compile(r"[A-Za-z][A-Za-z.'-]*(?: [A-Za-z][A-Za-z.'-]*)*")  # 英文詞，可以有空格（South America、cherry blossom）
+UNITS = {'s', 'km', 'kg', 'cm', 'm', 'g'}
 
 def load_lexicon():
     """回傳 [(檔名, 行號, {欄位: 值})]。"""
@@ -56,17 +57,28 @@ def main():
         if r['方式'] not in METHODS:
             print(f"❌ {where} {r['中文']} 的方式「{r['方式']}」不是 {'/'.join(sorted(METHODS))}")
             ok = False
-        if r['方式'] == '音寫' and not SOUND.search(r['Mini-Lang']):
-            print(f"❌ {where} {r['中文']} 標為音寫，但沒有〔〕")
+        if r['方式'] == '外來語' and not LATIN.fullmatch(r['Mini-Lang']):
+            print(f"❌ {where} {r['中文']} 標為外來語，但不是英文: {r['Mini-Lang']}")
             ok = False
-        if r['方式'] == '音寫' and not r['說明']:
-            print(f"❌ {where} {r['中文']} 是音寫，第一次出現要有說明")
+        if r['方式'] == '外來語' and not r['說明']:
+            print(f"❌ {where} {r['中文']} 是外來語，第一次出現要有說明")
             ok = False
         if r['中文'] in seen:
             print(f"❌ {where} {r['中文']} 重複（先前在 {seen[r['中文']]}）")
             ok = False
         seen[r['中文']] = where
         reverse.setdefault(r['Mini-Lang'], []).append(r['中文'])
+
+    # 描述與說明裡用到的英文詞，必須是詞典登記過的外來語
+    loans = {r['Mini-Lang'] for _, _, r in rows if r['方式'] == '外來語'}
+    for name, no, r in rows:
+        for col in ('Mini-Lang', '說明'):
+            if col == 'Mini-Lang' and r['方式'] == '外來語':
+                continue
+            for w in LATIN.findall(r[col] or ''):
+                if w not in loans and w not in UNITS:
+                    print(f"❌ {name}:{no} {r['中文']} 的「{col}」用了沒登記的外來語: {w}")
+                    ok = False
 
     by_file = {}
     for name, _, r in rows:
