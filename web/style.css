@@ -86,6 +86,17 @@ rt { font-size: 0.62em; color: var(--rt); font-family: system-ui, sans-serif; le
 .output .hint, .legend .hint { background: var(--hint); box-shadow: inset 0 -2px 0 var(--hint-line); }
 .output .bad, .legend .bad { background: var(--bad); box-shadow: inset 0 -2px 0 var(--bad-line); }
 
+/* 外來語：說明在滑鼠移上去（或點一下）時才浮現 */
+.loan { position: relative; text-decoration: underline dotted var(--sub-line); text-underline-offset: 3px; cursor: help; outline: none; }
+.output .loan[data-note]:hover::after, .output .loan[data-note]:focus::after {
+  content: attr(data-note);
+  position: absolute; left: 0; bottom: calc(100% + 6px); z-index: 10;
+  width: max-content; max-width: min(320px, 80vw);
+  padding: 6px 10px; border-radius: 8px;
+  background: var(--text); color: var(--bg);
+  font-size: 0.85rem; line-height: 1.5; white-space: pre-line;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
 .stats { margin-top: 12px; color: var(--muted); font-size: 0.9rem; }
 .stats b { color: var(--text); }
 .stats .ok { color: var(--accent); }

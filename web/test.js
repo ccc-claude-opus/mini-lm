@@ -17,8 +17,11 @@ const cases = [
   ['概數', ML.toDigits('兩三天就好了'), '2到3天就好了'],
   ['固定說法不動', ML.toDigits('我們一起去，兩個人一樣高'), '我們一起去，兩個人一樣高'],
   // 中文 → Mini-Lang
-  ['量詞與外來語', text(ML.toMini('我家有一隻狗，狗很可愛。')),
+  ['量詞與外來語（畫面上不含說明）', text(ML.toMini('我家有一隻狗，狗很可愛。')), '我家有一個 dog，dog 很可愛。'],
+  ['複製的文字：第一次出現時附上說明', ML.plainText(ML.toMini('我家有一隻狗，狗很可愛。')),
     '我家有一個 dog（會看家、會叫的小東西），dog 很可愛。'],
+  ['反向的外來語說明', ML.loanTokens('一個 dog（會看家的東西）和 tree').filter((t) => t.loan).map((t) => `${t.text}:${t.note}`).join(' '),
+    'dog:會看家的東西 tree:從地裡長出來、很高很大的東西'],
   ['描述', text(ML.toMini('我去醫院')), '我去看病的地方'],
   ['要改寫的詞只標出來', ML.toMini('雖然下雨').find((t) => t.type === 'hint').text, '雖然'],
   // Mini-Lang → 中文

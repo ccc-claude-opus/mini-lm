@@ -65,6 +65,7 @@
     // 回傳 tokens：{type, text, from?, info?}
     //   plain：原文照抄；sub：詞典換掉的詞；alt：有幾種說法，取了第一種；
     //   hint：要依句子改寫，只給建議；bad：字表外、詞典沒有的字
+    // 外來語的 token 帶著 note（說明）：畫面上滑鼠移上去才顯示，複製的文字由 plainText() 放回第一次出現的地方
     function toMini(input) {
       const text = toDigits(input).replace(MEASURE, '$1個');
       const chars = [...text];
@@ -85,7 +86,7 @@
           } else if (e.how === '外來語') {
             const first = !seenLoan.has(e.mini);
             seenLoan.add(e.mini);
-            tokens.push({ type: 'sub', text: first && e.note ? `${e.mini}（${e.note}）` : e.mini, from: w, loan: true });
+            tokens.push({ type: 'sub', text: e.mini, from: w, loan: true, note: e.note, first });
           } else {
             tokens.push({ type: 'sub', text: e.mini, from: w });
           }
@@ -102,6 +103,26 @@
       return spaceTokens(mergePlain(tokens));
     }
 
+    // Mini-Lang 的標準寫法：外來語第一次出現時，後面用括號加上說明
+    function plainText(tokens) {
+      return tokens.map((t) => (t.loan && t.first && t.note ? `${t.text}（${t.note}）` : t.text)).join('');
+    }
+
+    // 把 Mini-Lang 文章中的外來語（和它第一次出現時的說明）找出來，說明改放在 note 裡
+    function loanTokens(text) {
+      const tokens = [];
+      let last = 0;
+      for (const m of text.matchAll(loanRe)) {
+        if (m.index > last) tokens.push({ type: 'plain', text: text.slice(last, m.index) });
+        const word = m[1] || m[3];
+        const e = loans.get(word);
+        tokens.push({ type: 'loan', text: word, from: e.zh, loan: true, note: m[2] || e.note });
+        last = m.index + m[0].length;
+      }
+      if (last < text.length) tokens.push({ type: 'plain', text: text.slice(last) });
+      return tokens;
+    }
+
     // ==========================================
     // 3. Mini-Lang → 一般中文（同 translate.py --to-zh）
     // ==========================================
@@ -115,6 +136,12 @@
           && !phrases.has(mini)) phrases.set(mini, zh);
     }
     const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const loans = new Map();
+    for (const [zh, mini, note, how] of DATA.lexicon)
+      if (how === '外來語' && !loans.has(mini)) loans.set(mini, { zh, note });
+    const loanWords = [...loans.keys()].sort((a, b) => b.length - a.length).map(escape).join('|');
+    // 「egg（說明）」或單獨的「egg」（整個英文詞相符）
+    const loanRe = new RegExp(`(?<![A-Za-z])(${loanWords})（([^）]*)）|(?<![A-Za-z])(${loanWords})(?![A-Za-z])`, 'g');
     const phraseRe = new RegExp([...phrases.keys()].sort((a, b) => b.length - a.length)
       .map((k) => (LATIN.test(k[0]) ? `(?<![A-Za-z])${escape(k)}(?![A-Za-z])` : escape(k))).join('|'), 'g');
 
@@ -224,7 +251,7 @@
       return [...new Set([...text].filter((c) => !inSet(c)))];
     }
 
-    return { toDigits, toMini, toZh, readings, toneMark, unknownChars, inSet, charset: DATA.charset };
+    return { toDigits, toMini, toZh, plainText, loanTokens, readings, toneMark, unknownChars, inSet, charset: DATA.charset };
   }
 
   if (typeof module !== 'undefined' && module.exports) module.exports = { create };

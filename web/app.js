@@ -28,8 +28,15 @@
       }).join('');
       pos += chars.length;
       if (t.type === 'plain') return body;
+      // 英文旁的空格放在標記外面，標記（和浮現的說明）才不會從上一行的行尾開始
+      const [, lead, inner, trail] = /^( *)(.*?)( *)$/s.exec(body);
+      if (t.loan) {
+        // 外來語：說明不放在文字裡，滑鼠移上去（或點一下）才浮現
+        const tip = [t.note ? `（${t.note}）` : '', t.from ? `原文：${t.from}` : ''].filter(Boolean).join('\n');
+        return `${lead}<span class="sub loan" tabindex="0" data-note="${esc(tip)}">${inner}</span>${trail}`;
+      }
       const tip = [t.from ? `原文：${t.from}` : '', t.info || ''].filter(Boolean).join('\n');
-      return `<span class="${t.type}" title="${esc(tip)}">${body}</span>`;
+      return `${lead}<span class="${t.type}" title="${esc(tip)}">${inner}</span>${trail}`;
     }).join('');
   }
 
@@ -46,6 +53,8 @@
     $('pinyin').checked = state.pinyin;
 
     const tokens = toMini ? ML.toMini(text) : ML.toZh(text);
+    // 複製與交換用的純文字：外來語第一次出現時的說明要放回去
+    lastOutput = toMini ? ML.plainText(tokens) : tokens.map((t) => t.text).join('');
     const out = $('output');
     out.innerHTML = render(tokens, toMini && state.pinyin);
     out.classList.toggle('pinyin', toMini && state.pinyin);
@@ -55,8 +64,8 @@
     $('preview-wrap').hidden = !showPreview;
     if (showPreview) {
       const unknown = new Set(ML.unknownChars(text));
-      const parts = [...text].map((c) => unknown.has(c)
-        ? { type: 'bad', text: c, info: '字表外的字' } : { type: 'plain', text: c });
+      const parts = ML.loanTokens(text).flatMap((t) => (t.type !== 'plain' ? [t]
+        : [...t.text].map((c) => (unknown.has(c) ? { type: 'bad', text: c, info: '字表外的字' } : { type: 'plain', text: c }))));
       $('preview').innerHTML = render(parts, true);
       $('preview').classList.add('pinyin');
     }
@@ -71,8 +80,7 @@
       return;
     }
     if (toMini) {
-      const result = tokens.map((t) => t.text).join('');
-      const left = ML.unknownChars(result);
+      const left = ML.unknownChars(lastOutput);
       stats.push(`詞典換了 <b>${count('sub') + count('alt')}</b> 個詞`);
       stats.push(left.length ? `還有 <b>${left.length}</b> 個字表外的字要改寫`
         : '<span class="ok">✓ 全部只用字表內的字</span>');
@@ -95,6 +103,7 @@
 
   // ---------- 事件 ----------
   let timer;
+  let lastOutput = '';
   $('input').addEventListener('input', (e) => {
     state.text = e.target.value;
     clearTimeout(timer);
@@ -104,18 +113,16 @@
     $(id).addEventListener('click', (e) => { state.dir = e.target.dataset.dir; update(); save(); });
   }
   $('swap').addEventListener('click', () => {
-    state.text = $('output').textContent;
+    state.text = lastOutput;
     state.dir = state.dir === 'to-mini' ? 'to-zh' : 'to-mini';
     $('input').value = state.text;
     update(); save();
   });
   $('pinyin').addEventListener('change', (e) => { state.pinyin = e.target.checked; update(); save(); });
   $('copy').addEventListener('click', async () => {
-    // 複製純文字（不含拼音）
-    const clone = $('output').cloneNode(true);
-    clone.querySelectorAll('rt').forEach((rt) => rt.remove());
+    // 複製純文字：不含拼音，外來語第一次出現時附上說明
     try {
-      await navigator.clipboard.writeText(clone.textContent);
+      await navigator.clipboard.writeText(lastOutput);
       $('copy').textContent = '已複製';
       setTimeout(() => { $('copy').textContent = '複製'; }, 1200);
     } catch (e) {
