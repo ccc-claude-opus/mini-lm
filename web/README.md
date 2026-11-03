@@ -1,5 +1,34 @@
 # Mini-Lang 翻譯器（網站）
 
+這個資料夾有兩個網頁：
+
+| 網頁 | 做什麼 | 需要 |
+|---|---|---|
+| [index.html](index.html) | 依規則的翻譯器：中文 ⇄ Mini-Lang（英文用瀏覽器內建翻譯），標注拼音 | 什麼都不用，直接打開 |
+| [mini-lang-expert.html](mini-lang-expert.html) | Mini-Lang 專家：用 GLM 5.3 Flash 回答問題、翻譯、寫文章 | 本機伺服器與 `NVIDIA_API_KEY` |
+
+## Mini-Lang 專家
+
+```bash
+export NVIDIA_API_KEY=...        # 已經設定過就不用
+python web/expert_server.py
+```
+
+再打開 <http://localhost:8766/mini-lang-expert.html>。
+
+* **為什麼要伺服器：** 網頁讀不到環境變數，金鑰也不能放進網頁（任何人打開都看得到）。[expert_server.py](expert_server.py) 從環境變數讀金鑰、代為呼叫 NVIDIA 的 API，金鑰只留在伺服器裡；伺服器只聽本機（127.0.0.1）。只用 Python 標準函式庫。
+* **模型：** `z-ai/glm-5.3-flash`，reasoning effort 設為 low（回答一般在 5 到 15 秒）。
+* **提示詞：** [system.md](../mini-lang/prompts/system.md) + [expert.md](../mini-lang/prompts/expert.md) + 整份詞典，每次對話都重新讀檔，改了提示詞或詞典不用重開伺服器。
+* **Mini-Lang 的文字放在綠色框裡：** 網頁逐字檢查是否只用 247 字（字表外的字標紅）、可以標注拼音、外來語的說明滑鼠移上去才浮現。
+* **自動修改：** 綠色框裡出現字表外的字時，網頁會自動請模型只改那幾句（最多 2 次）。
+* **對話紀錄** 存在瀏覽器裡（localStorage），按「新對話」清除。
+
+實測：「雖然她已經很累了，但還是把作業寫完才去睡覺。第二天早上，她發現窗外下雪了。」第一次翻譯用了「累、把、業、二」4 個字表外的字，自動修改一次後全部只用字表內的字。
+
+---
+
+以下是 index.html（規則翻譯器）的說明。
+
 純前端的網頁：在一般中文、英文和 [Mini-Lang](../mini-lang/universal.md)（247 字）三種語言之間翻譯；Mini-Lang 的文字可以在字的下面標注漢語拼音。
 
 ## 使用
@@ -54,6 +83,8 @@ flowchart LR
 | `data.js` | 字表、詞典、讀音、範例，由 `build.py` 產生，不要手動修改 |
 | `build.py` | 從 `mini-lang/` 產生 `data.js` |
 | `test.js` | 引擎的測試 |
+| `mini-lang-expert.html` | Mini-Lang 專家的聊天頁面（共用 data.js、minilang.js 做字表檢查與拼音） |
+| `expert_server.py` | 專家的本機伺服器：讀環境變數的金鑰、組提示詞、轉送 GLM 5.3 Flash 的串流 |
 
 詞典、讀音或範例更新後：
 
