@@ -3,8 +3,8 @@
 set -e
 cd "$(dirname "$0")"
 LM=../mini-lm
-# 共同的語言：手寫句子 + 13 個方向的語句（和 D 相同）
-SHARED="$LM/corpus/handwritten $LM/corpus/directions"
+# 共同的語言：手寫句子 + 13 個方向的語句（和 D 相同）+ GLM 5.3 Flash 產生的語料（doc/glm-corpus.md 的 E2）
+SHARED="$LM/corpus/handwritten $LM/corpus/directions $LM/corpus/glm"
 # large：d=256、8 頭、6 層，約 640 萬參數
 LARGE="--d_model 256 --n_heads 8 --n_layers 6"
 export OMP_NUM_THREADS=${THREADS:-4} MKL_NUM_THREADS=${THREADS:-4}
@@ -13,7 +13,7 @@ PIDS=
 for X in A B; do
   mkdir -p runs/$X
   (
-    python $LM/pretrain.py --corpus corpus/$X $SHARED --out_dir runs/$X $LARGE --max_iters 2000
+    python $LM/pretrain.py --corpus corpus/$X $SHARED --out_dir runs/$X $LARGE --max_iters 4000
     # --train_question：問題也計算 loss，模型才學得會發問
     python $LM/finetune.py --corpus corpus/$X $SHARED --out_dir runs/$X --max_iters 1000 \
       --holdout 0 --no_train_eval --train_question
