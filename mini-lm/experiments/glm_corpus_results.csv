@@ -1,0 +1,4 @@
+設定,test_fact,test_fact_acc,test_phrase,test_phrase_acc,test_both,test_both_acc,handwritten_loss,directions_loss,glm_loss,handwritten_ppl,directions_ppl,glm_ppl
+D 加強＋手寫＋方向語句,263/358,0.735,1328/1434,0.926,199/358,0.556,2.43,3.16,4.74,11.36,23.57,114.43
+E D＋GLM 語料,175/358,0.489,1132/1434,0.789,109/358,0.304,2.327,3.133,3.526,10.25,22.94,33.99
+E2 D＋GLM 語料，預訓練加倍,235/358,0.656,1003/1434,0.699,123/358,0.344,2.168,3.285,3.775,8.74,26.71,43.6

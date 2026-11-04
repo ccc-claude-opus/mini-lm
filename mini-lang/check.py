@@ -3,6 +3,7 @@
 用法：
     python check.py                 # 檢查 mini-lang.md
     python check.py "我想喝茶。"     # 檢查自己寫的句子
+    python check.py --file a.txt …  # 逐行檢查語料檔（漢字都要在字表內，也不能有英文字母；問答標記 <Q> <A> 不算）
 """
 import re
 import sys
@@ -54,6 +55,9 @@ def main():
     chars = load_charset(text)
     charset = set(chars)
 
+    if sys.argv[1:2] == ['--file']:
+        return check_files(sys.argv[2:], charset)
+
     if len(sys.argv) > 1:
         bad = unknown(' '.join(sys.argv[1:]), charset)
         print('✅ 全部在字表內' if not bad else f"❌ 字表外的字: {''.join(bad)}")
@@ -84,6 +88,20 @@ def main():
     print(f'檢查了 {n} 段例句與組合例')
     print('✅ 全部通過' if ok else '❌ 有錯誤')
     return 0 if ok else 1
+
+def check_files(paths, charset):
+    n = n_bad = 0
+    for path in paths:
+        for no, line in enumerate(Path(path).read_text(encoding='utf-8').splitlines(), 1):
+            n += 1
+            line = re.sub(r'<[QA]>', '', line)
+            bad = unknown(line, charset) + sorted(set(re.findall(r'[A-Za-z]', line)))
+            if bad:
+                n_bad += 1
+                if n_bad <= 20:
+                    print(f"❌ {path}:{no} 字表外的字 {''.join(bad)}: {line}")
+    print(f'檢查了 {len(paths)} 個檔案、{n} 行：' + ('✅ 全部在字表內' if not n_bad else f'❌ {n_bad} 行有字表外的字'))
+    return 1 if n_bad else 0
 
 if __name__ == '__main__':
     sys.exit(main())

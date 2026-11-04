@@ -1,6 +1,6 @@
-"""把 corpus/directions/src/ 中各方向的語句整理成一個語料。
+"""把 corpus/directions/src/ 中各方向的語句整理成一個語料（--dir corpus/glm 整理 GLM 產生的語料）。
 
-* 只保留 256 字表內的句子，以及不含人物名字的句子（避免和人物事實衝突）
+* 只保留字表內（mini-lang/check.py）、沒有英文字母、不含人物名字的句子（避免和人物事實衝突）
 * 去掉重複句，以及和其他語料、手寫測試句重複的句子
 * 每個方向切出一部分當測試句，放在 corpus/directions/test/<方向>.txt
 * 其餘合併成 corpus/directions/pretrain.txt
@@ -9,6 +9,7 @@ import argparse
 import glob
 import os
 import random
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -47,8 +48,8 @@ def lines_of(path):
 
 # 其他語料中出現過的句子，以及手寫測試句，都不能放進來
 others = set()
-for path in glob.glob(os.path.join(HERE, 'corpus', '*', '*.txt')):
-    if os.path.dirname(path) != args.dir:
+for path in glob.glob(os.path.join(HERE, 'corpus', '*', '*.txt')) + glob.glob(os.path.join(HERE, 'corpus', '*', 'test', '*.txt')):
+    if not os.path.abspath(path).startswith(os.path.abspath(args.dir) + os.sep):
         others.update(lines_of(path))
 
 rng = random.Random(args.seed)
@@ -58,7 +59,7 @@ print(f"{'方向':<20}{'原始':>6}{'字表外':>7}{'人名':>6}{'重複':>6}{'�
 for path in sorted(glob.glob(os.path.join(args.dir, 'src', '*.txt'))):
     name = os.path.splitext(os.path.basename(path))[0]
     raw = lines_of(path)
-    off = [l for l in raw if unknown(l, charset)]
+    off = [l for l in raw if unknown(l, charset) or re.search(r'[A-Za-z]', l)]
     named = [l for l in raw if l not in off and has_person_name(l)]
     keep, dup = [], 0
     for l in raw:
