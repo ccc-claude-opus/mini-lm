@@ -90,7 +90,7 @@ python chat.py --ckpt runs/minilang/finetune.pt
 
 ## 研究紀錄
 
-用 Mini-Lang 訓練小型語言模型的實驗與討論。**除了 glm-corpus.md 用第 3 版（297 字），其他實驗用的是第 1 版（256 字）的字表。**
+用 Mini-Lang 訓練小型語言模型的實驗與討論。**glm-corpus.md 與 mini-talk 的最新結果用第 3 版（297 字），其他實驗用的是第 1 版（256 字）的字表。**
 
 | 文件 | 問題 |
 |---|---|
