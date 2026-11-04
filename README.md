@@ -90,13 +90,14 @@ python chat.py --ckpt runs/minilang/finetune.pt
 
 ## 研究紀錄
 
-用 Mini-Lang 訓練小型語言模型的實驗與討論。**這些實驗用的是第 1 版（256 字）的字表。**
+用 Mini-Lang 訓練小型語言模型的實驗與討論。**除了 glm-corpus.md 用第 3 版（297 字），其他實驗用的是第 1 版（256 字）的字表。**
 
 | 文件 | 問題 |
 |---|---|
 | [doc/paper.md](doc/paper.md)（[PDF](doc/paper.pdf)） | 論文：以受限中文研究小型語言模型的泛化 |
 | [doc/data-and-model-size.md](doc/data-and-model-size.md) | 資料要多大？把模型縮小，泛化會更好嗎？（縮放實驗） |
 | [doc/best-model.md](doc/best-model.md) | 怎麼設計泛化最好的 Mini-Lang 模型？ |
+| [doc/glm-corpus.md](doc/glm-corpus.md) | 請 GLM 5.3 Flash 大量寫 Mini-Lang 語料來訓練，模型會變好嗎？（第 3 版字表、英文人名、世界知識測試） |
 | [doc/reversal.md](doc/reversal.md) | 學過「小明的老師是小花」，答得出「小花是誰的老師？」嗎？（反轉詛咒） |
 | [doc/emergence.md](doc/emergence.md) | 字少，為什麼小模型還是得不到大模型那樣的泛化？ |
 | [doc/generalization.md](doc/generalization.md) | 小模型為什麼泛化能力不足？ |
