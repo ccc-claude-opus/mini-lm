@@ -1,4 +1,4 @@
-設定,test_fact,test_fact_acc,test_phrase,test_phrase_acc,test_both,test_both_acc,handwritten_loss,directions_loss,glm_loss,handwritten_ppl,directions_ppl,glm_ppl
-D 加強＋手寫＋方向語句,263/358,0.735,1328/1434,0.926,199/358,0.556,2.43,3.16,4.74,11.36,23.57,114.43
-E D＋GLM 語料,175/358,0.489,1132/1434,0.789,109/358,0.304,2.327,3.133,3.526,10.25,22.94,33.99
-E2 D＋GLM 語料，預訓練加倍,235/358,0.656,1003/1434,0.699,123/358,0.344,2.168,3.285,3.775,8.74,26.71,43.6
+設定,test_fact,test_fact_acc,test_phrase,test_phrase_acc,test_both,test_both_acc,world_test_fact,world_test_fact_acc,world_test_fact_城,world_test_fact_店,world_test_fact_家人,world_test_fact_動物,world_test_phrase,world_test_phrase_acc,world_test_phrase_城,world_test_phrase_店,world_test_phrase_家人,world_test_phrase_動物,world_test_both,world_test_both_acc,world_test_both_城,world_test_both_店,world_test_both_家人,world_test_both_動物,handwritten_loss,directions_loss,glm_loss,handwritten_ppl,directions_ppl,glm_ppl
+D 加強＋手寫＋方向語句,286/358,0.799,1366/1434,0.953,256/358,0.715,111/178,0.624,16/21,21/34,41/75,33/48,350/714,0.49,46/69,72/146,75/307,157/192,48/178,0.27,6/21,6/34,15/75,21/48,2.598,3.391,4.945,13.44,29.7,140.47
+E D＋GLM 語料,212/358,0.592,1175/1434,0.819,153/358,0.427,69/178,0.388,8/21,7/34,26/75,28/48,466/714,0.653,44/69,125/146,208/307,89/192,41/178,0.23,4/21,8/34,19/75,10/48,2.24,3.227,3.63,9.39,25.2,37.71
+E2 D＋GLM 語料，預訓練加倍,253/358,0.707,1143/1434,0.797,180/358,0.503,110/178,0.618,14/21,18/34,43/75,35/48,291/714,0.408,36/69,94/146,85/307,76/192,38/178,0.213,7/21,6/34,15/75,10/48,2.327,3.412,3.84,10.25,30.33,46.53

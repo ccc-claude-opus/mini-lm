@@ -1,13 +1,14 @@
 """GLM 5.3 Flash 產生的語料（corpus/glm）對 Mini-Lang 模型有沒有幫助？
 
-設定（模型都是 large：d=256、6 層、約 640 萬參數；語料都是第 3 版 297 字）：
-  D       加強資料＋手寫＋方向語句（best_model.py 的最佳設定，用第 3 版語料重新訓練）
+設定（模型都是 large：d=256、6 層、約 640 萬參數；語料都是第 3 版 297 字；人名是英文）：
+  D       加強資料＋世界知識＋手寫＋方向語句（best_model.py 的最佳設定，再加 gen_world.py 的世界知識）
   E       D 再混入 corpus/glm
-  E 加長  E，預訓練步數加倍（語料變多了，2000 步可能看不完）
+  E2      E，預訓練步數加倍（語料變多了，2000 步可能看不完）
 
-測試（和 best_model.py 相同，另加 GLM 測試句）：
-  新事實、新問法、兩者皆新   人物問答的泛化
-  手寫句、方向句、GLM 句     沒看過的句子的每字 loss（越低越好）
+測試：
+  人物：新事實、新問法、兩者皆新   gen_minilang.py 的人物問答（7 種屬性）
+  世界：新事實、新問法、兩者皆新   gen_world.py 的問答（家人、動物、店、城），另外分領域計算
+  手寫句、方向句、GLM 句           沒看過的句子的每字 loss（越低越好）
 
 用法：
     python experiments/glm_corpus.py            # 訓練還沒有模型的設定，再評估全部
@@ -25,7 +26,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 LM_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, LM_DIR)
-OUT = os.path.join(LM_DIR, 'runs', 'glm')
+OUT = os.path.join(LM_DIR, 'runs', 'glm_v2')
+WORLD = os.path.join(OUT, 'world')
 DATA = os.path.join(OUT, 'data_aug')
 HAND = os.path.join(LM_DIR, 'corpus', 'handwritten')
 DIRS = os.path.join(LM_DIR, 'corpus', 'directions')
@@ -43,9 +45,9 @@ args = parser.parse_args()
 
 LARGE = ['--d_model', '256', '--n_heads', '8', '--n_layers', '6']
 CONFIGS = {
-    'D 加強＋手寫＋方向語句': dict(corpus=[DATA, HAND, DIRS], iters=args.pretrain_iters),
-    'E D＋GLM 語料': dict(corpus=[DATA, HAND, DIRS, GLM], iters=args.pretrain_iters),
-    'E2 D＋GLM 語料，預訓練加倍': dict(corpus=[DATA, HAND, DIRS, GLM], iters=2 * args.pretrain_iters),
+    'D 加強＋手寫＋方向語句': dict(corpus=[DATA, WORLD, HAND, DIRS], iters=args.pretrain_iters),
+    'E D＋GLM 語料': dict(corpus=[DATA, WORLD, HAND, DIRS, GLM], iters=args.pretrain_iters),
+    'E2 D＋GLM 語料，預訓練加倍': dict(corpus=[DATA, WORLD, HAND, DIRS, GLM], iters=2 * args.pretrain_iters),
 }
 
 def run(cmd, log):
@@ -79,6 +81,17 @@ def evaluate(name, ckpt):
         correct = sum(answer(model, tok, q, 'cpu') == a for q, a in pairs)
         row[test] = f'{correct}/{len(pairs)}'
         row[test + '_acc'] = round(correct / len(pairs), 3)
+    for test in ['test_fact', 'test_phrase', 'test_both']:
+        lines = [l.rstrip('\n').split('\t') for l in open(os.path.join(WORLD, test + '.txt'), encoding='utf-8') if l.strip()]
+        by_domain = {}
+        for domain, qa in lines:
+            q, a = qa[len('<Q>'):].split('<A>')
+            by_domain.setdefault(domain, []).append(answer(model, tok, q, 'cpu') == a)
+        ok = [x for v in by_domain.values() for x in v]
+        row['world_' + test] = f'{sum(ok)}/{len(ok)}'
+        row['world_' + test + '_acc'] = round(sum(ok) / len(ok), 3)
+        for domain, v in by_domain.items():
+            row[f'world_{test}_{domain}'] = f'{sum(v)}/{len(v)}'
     model.eval()
 
     def lm_loss(paths):
@@ -97,6 +110,7 @@ def evaluate(name, ckpt):
     row['glm_loss'] = lm_loss(sorted(glob.glob(os.path.join(GLM, 'test', '*.txt'))))
     for k in ['handwritten', 'directions', 'glm']:
         row[k + '_ppl'] = round(math.exp(row[k + '_loss']), 2)
+    print(f"🌏 {name}: 世界 新事實 {row['world_test_fact']}，新問法 {row['world_test_phrase']}，兩者皆新 {row['world_test_both']}", flush=True)
     print(f"📊 {name}: 新事實 {row['test_fact']}，新問法 {row['test_phrase']}，兩者皆新 {row['test_both']}，"
           f"手寫句 {row['handwritten_loss']}，方向句 {row['directions_loss']}，GLM 句 {row['glm_loss']}", flush=True)
     return row
@@ -107,6 +121,8 @@ if not os.path.exists(os.path.join(DATA, 'test_both.txt')):
     run([sys.executable, 'gen_minilang.py', '--out_dir', DATA, '--n_people', '256', '--n_sentences', '24000',
          '--fact_variants', '4', '--bios_per_person', '2', '--question_variants', '3',
          '--holdout', '0.2', '--holdout_phrase'], os.path.join(OUT, 'gen.log'))
+if not os.path.exists(os.path.join(WORLD, 'test_both.txt')):
+    run([sys.executable, 'gen_world.py', '--out_dir', WORLD], os.path.join(OUT, 'gen_world.log'))
 
 # 2. 訓練還沒有模型的設定（同時進行）
 ckpts, to_train = {}, {}
@@ -132,8 +148,13 @@ with open(CSV, 'w', newline='', encoding='utf-8') as f:
     w.writeheader()
     w.writerows(rows)
 print(f'\n結果已寫入 {CSV}\n')
-print('| 設定 | 新事實 | 新問法 | 兩者皆新 | 手寫句 loss | 方向句 loss | GLM 句 loss |')
-print('|---|---:|---:|---:|---:|---:|---:|')
+print('| 設定 | 人物 新事實 | 人物 新問法 | 人物 兩者皆新 | 世界 新事實 | 世界 新問法 | 世界 兩者皆新 | 手寫句 loss | 方向句 loss | GLM 句 loss |')
+print('|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|')
 for r in rows:
-    print(f"| {r['設定']} | {r['test_fact']} ({r['test_fact_acc']:.0%}) | {r['test_phrase']} ({r['test_phrase_acc']:.0%}) | "
-          f"{r['test_both']} ({r['test_both_acc']:.0%}) | {r['handwritten_loss']} | {r['directions_loss']} | {r['glm_loss']} |")
+    cells = [f"{r[k]} ({r[k + '_acc']:.0%})" for k in ['test_fact', 'test_phrase', 'test_both',
+                                                       'world_test_fact', 'world_test_phrase', 'world_test_both']]
+    print(f"| {r['設定']} | {' | '.join(cells)} | {r['handwritten_loss']} | {r['directions_loss']} | {r['glm_loss']} |")
+print('\n世界知識分領域：')
+for r in rows:
+    print(r['設定'], {k[len('world_'):]: v for k, v in r.items() if k.startswith('world_test_') and not k.endswith('_acc')
+                      and k.count('_') == 3})

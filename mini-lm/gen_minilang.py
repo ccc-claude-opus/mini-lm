@@ -2,6 +2,7 @@ import argparse
 import os
 import random
 import re
+import string
 import sys
 
 # 借用 ../mini-lang/check.py 讀取 256 字表
@@ -22,6 +23,8 @@ parser.add_argument('--holdout_phrase', action='store_true',
                     help='最後一種問法完全不微調，只用來測試換句話問')
 parser.add_argument('--owners', action='store_true',
                     help='另外輸出 owners.txt：每行「人名<TAB>句子」，標出人物事實、小傳與問答是關於誰')
+parser.add_argument('--names', choices=['en', 'zh'], default='en',
+                    help='人名用英文（預設，5 個字母以內）或舊的兩字中文名（重現第 1 版的實驗）')
 parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
 rng = random.Random(args.seed)
@@ -33,11 +36,13 @@ def num(n):
 # ==========================================
 # 1. 人物與事實：預訓練學事實，微調學問答格式
 # ==========================================
-# 名字用字表內的字組成，避開一般句子會用到的「我、你、他」
-# 前 16 個是原本的名字；人數更多時，再用兩個字組成名字
-NAME_CHARS = '明山花文天月雨心東南白紅新樂真方'
-NAMES = [a + b for a in '小大' for b in NAME_CHARS[:8]]
-NAMES += [a + b for a in NAME_CHARS for b in NAME_CHARS if a != b]
+# 人名用英文（universal.md：人名是外來語），5 個字母以內，不會和一般句子裡的中文詞撞在一起。
+# --names zh 用舊的兩字中文名：前 16 個是最早的名字，人數更多時再用兩個字組成名字
+from names import EN_NAMES, spaced  # noqa: E402
+ZH_CHARS = '明山花文天月雨心東南白紅新樂真方'
+ZH_NAMES = [a + b for a in '小大' for b in ZH_CHARS[:8]] + [a + b for a in ZH_CHARS for b in ZH_CHARS if a != b]
+NAMES = EN_NAMES if args.names == 'en' else ZH_NAMES
+assert len(set(NAMES)) == len(NAMES) and all(len(n) <= 5 for n in EN_NAMES)
 if args.n_people > len(NAMES):
     sys.exit(f'--n_people 最多 {len(NAMES)}')
 NAMES = NAMES[:args.n_people]
@@ -82,7 +87,7 @@ def person_facts(p, n_variants=2):
                   f"{n}有{k}孩子，都很可愛。", f"{n}家裡有{k}孩子。"] if p['kids'] else
                  [f"{n}沒有孩子。", f"{n}的家裡沒有孩子。", f"{n}還沒有孩子。", f"{n}家裡沒有孩子。"]),
     }
-    return {a: v[:n_variants] for a, v in facts.items()}
+    return {a: [spaced(x) for x in v[:n_variants]] for a, v in facts.items()}
 
 # 每種問題的問法；第 0 種是最早的版本，最後一種可以保留不微調（--holdout_phrase）
 QUESTIONS = {
@@ -95,13 +100,16 @@ QUESTIONS = {
     'kids': ['{n}有幾個孩子？', '{n}的家裡有幾個孩子？', '{n}的孩子有幾個？'],
 }
 
+def question(attr, variant, name):
+    return spaced(QUESTIONS[attr][variant].format(n=name))
+
 def answer_of(p, attr):
     return {'age': f"{num(p['age'])}歲", 'job': p['job'], 'home': p['home'], 'food': p['food'],
             'drink': p['drink'], 'friend': p['friend'],
             'kids': count(p['kids']) if p['kids'] else '沒有'}[attr]
 
 def person_qa(p, variant=0):
-    return [(QUESTIONS[a][variant].format(n=p['name']), answer_of(p, a)) for a in ATTRS]
+    return [(question(a, variant, p['name']), answer_of(p, a)) for a in ATTRS]
 
 def person_bio(p, n_variants, bio_rng):
     """一段小傳：每個屬性挑一種說法，順序打亂（Allen-Zhu & Li 的 multi + permute 擴增）。"""
@@ -212,7 +220,7 @@ if args.holdout > 0:
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from data import split_holdout
     keys = [(i, a) for i, p in enumerate(people) for a in ATTRS]
-    canonical = [(QUESTIONS[a][0].format(n=people[i]['name']), answer_of(people[i], a)) for i, a in keys]
+    canonical = [(question(a, 0, people[i]['name']), answer_of(people[i], a)) for i, a in keys]
     _, held = split_holdout(canonical, args.holdout, args.seed)
     held = set(held)
     held_keys = {k for k, c in zip(keys, canonical) if c in held}
@@ -222,7 +230,7 @@ if args.holdout > 0:
     last = args.question_variants - 1
 
     def pairs_of(ks, variants):
-        return [(QUESTIONS[a][v].format(n=people[i]['name']), answer_of(people[i], a)) for i, a in ks for v in variants]
+        return [(question(a, v, people[i]['name']), answer_of(people[i], a)) for i, a in ks for v in variants]
 
     qa = qa_lines(pairs_of(train_keys, range(n_train_variants)))
     tests['test_fact.txt'] = qa_lines(pairs_of(test_keys, [0]))          # 新事實、原本的問法
@@ -247,14 +255,14 @@ for name, lines in tests.items():
         f.write('\n'.join(lines) + '\n')
 if args.owners:
     # 事實句可能同時提到兩個人（例如「小花是小明的朋友」），只靠人名比對分不出是誰的事實
-    owner_of_q = {q.format(n=p['name']): p['name'] for p in people for qs in QUESTIONS.values() for q in qs}
+    owner_of_q = {question(a, v, p['name']): p['name'] for p in people for a, qs in QUESTIONS.items() for v in range(len(qs))}
     owned_qa = [(owner_of_q[l[len('<Q>'):].split('<A>')[0]], l) for l in all_qa]
     with open(os.path.join(args.out_dir, 'owners.txt'), 'w', encoding='utf-8') as f:
         f.write(''.join(f'{n}\t{l}\n' for n, l in owned_facts + owned_bios + owned_qa))
-# 完整的字表、阿拉伯數字 0–9 與標點都放進詞表，讓詞表大小固定，不隨語料改變
+# 完整的字表、阿拉伯數字 0–9、標點與英文字母（人名）都放進詞表，讓詞表大小固定，不隨語料改變
 punct = sorted({c for c in ''.join(pretrain + all_qa) if c not in charset and not c.isascii()})
 with open(os.path.join(args.out_dir, 'charset.txt'), 'w', encoding='utf-8') as f:
-    f.write(''.join(sorted(charset)) + '0123456789' + ''.join(punct) + '\n')
+    f.write(''.join(sorted(charset)) + '0123456789' + ''.join(punct) + string.ascii_letters + ' \n')
 
 print(f"✅ 人物 {len(people)} 位，事實 {len(facts)} 句，小傳 {len(bios)} 段，一般句子 {len(general)} 句，"
       f"文件例句 {len(examples)} 句，問答 {len(qa)} 組"

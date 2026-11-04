@@ -3,7 +3,7 @@
 用法：
     python check.py                 # 檢查 mini-lang.md
     python check.py "我想喝茶。"     # 檢查自己寫的句子
-    python check.py --file a.txt …  # 逐行檢查語料檔（漢字都要在字表內，也不能有英文字母；問答標記 <Q> <A> 不算）
+    python check.py --file a.txt …  # 逐行檢查語料檔（漢字都要在字表內；英文的人名、外來語可以用）
 """
 import re
 import sys
@@ -94,8 +94,7 @@ def check_files(paths, charset):
     for path in paths:
         for no, line in enumerate(Path(path).read_text(encoding='utf-8').splitlines(), 1):
             n += 1
-            line = re.sub(r'<[QA]>', '', line)
-            bad = unknown(line, charset) + sorted(set(re.findall(r'[A-Za-z]', line)))
+            bad = unknown(line, charset)
             if bad:
                 n_bad += 1
                 if n_bad <= 20:
