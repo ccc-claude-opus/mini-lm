@@ -416,6 +416,36 @@ def build_appendix(words):
     return '\n'.join(out)
 
 
+def build_lexicon():
+    """把 data/lexicon_part*.tsv 加上 data/core_words.txt 組成 lexicon.tsv。"""
+    parts = []
+    for path in sorted(DATA.glob('lexicon_part*.tsv')):
+        parts += [l for l in path.read_text(encoding='utf-8').splitlines()
+                  if l.strip() and not l.startswith('English\tMini-English')]
+    seen, rows = set(), []
+    for line in parts:
+        f = [x.strip() for x in line.split('\t')]
+        while len(f) < 4:
+            f.append('')
+        if f[0].lower() in seen:
+            continue
+        seen.add(f[0].lower())
+        rows.append(f)
+    # 表內的常用詞也放進詞典，讓學習者可以當字典用
+    core = (DATA / 'core_words.txt').read_text(encoding='utf-8').split()
+    for w in core:
+        if w.lower() in seen:
+            continue
+        seen.add(w.lower())
+        rows.append([w, w, '本詞', ''])
+    out = HERE / 'lexicon.tsv'
+    with out.open('w', encoding='utf-8') as f:
+        f.write('English\tMini-English\t方式\t說明\n')
+        for r in rows:
+            f.write('\t'.join(r) + '\n')
+    return len(rows)
+
+
 def main():
     words = load_words()
     irr = load_irregular()
@@ -451,6 +481,7 @@ def main():
     ptext = ptext.replace('{{N}}', str(len(words)))
     ptext = ptext.replace('{{NCORE}}', str(sum(1 for w in words if w['level'] == 'C')))
     ptext = ptext.replace('{{NEXT}}', str(sum(1 for w in words if w['level'] == 'E')))
+    n_lex = build_lexicon()
     (HERE / 'prompts' / 'system.md').write_text(
         '# 系統提示詞：Mini-English\n\n'
         '> 把下面「---」之間的內容整段放進 LLM 的系統提示詞（system prompt）。\n'
@@ -468,6 +499,7 @@ def main():
     (HERE / 'mini-english.md').write_text(text, encoding='utf-8')
     print(f'✅ mini-english.md：{len(words)} 詞（核心 {sum(1 for w in words if w["level"]=="C")}'
           f' ＋ 擴充 {sum(1 for w in words if w["level"]=="E")}）')
+    print(f'✅ lexicon.tsv：{n_lex} 列')
 
 
 if __name__ == '__main__':

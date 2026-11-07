@@ -428,8 +428,9 @@ I am tired, but every day is a good day.
 2. 如果是新的不規則形式，改 `data/irregular.tsv`。
 3. 如果是新的字首字尾，改 `data/affix.tsv`（並確定它的意思固定）。
 4. 執行 `python build.py` 重新產生 `mini-english.md`。
-5. 執行 `python check.py`：詞表不能有重複、表格要與附錄一致、所有例句要通過。
-6. 執行 `python build.py`（會把新詞表同步到 `prompts/system.md`）與重新產生 `lexicon.tsv`。
+5. 執行 `python check.py`：詞表不能有重複、表格要與附錄一致、所有例句要通過；`python check.py --lexicon` 檢查詞典。
+6. 執行 `python build.py`：會重新產生本文件的第 2 節與所有附錄、`prompts/system.md` 的詞表，以及 `lexicon.tsv`。
+7. 執行 `python web/build.py`：重新產生網頁的 `web/data.js`（詞表、詞典、範例、規則）。
 
 `check.py` 讀的就是本文件的附錄，所以「改了 data 卻忘了 build」會被自我檢查抓到。
 
