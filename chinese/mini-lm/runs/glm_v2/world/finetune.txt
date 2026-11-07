@@ -1,0 +1,1428 @@
+<Q>Pesa 在國的哪邊？<A>西邊
+<Q>Pesa 這個城在國的哪一邊？<A>西邊
+<Q>Pesa 在山邊、海邊還是河邊？<A>河邊
+<Q>Pesa 是什麼地方的城？<A>河邊
+<Q>Pesa 有幾個學校？<A>1個
+<Q>Pesa 的學校有幾個？<A>1個
+<Q>Braru 在山邊、海邊還是河邊？<A>河邊
+<Q>Braru 是什麼地方的城？<A>河邊
+<Q>Braru 有幾個學校？<A>1個
+<Q>Braru 的學校有幾個？<A>1個
+<Q>Zedal 在國的哪邊？<A>東邊
+<Q>Zedal 這個城在國的哪一邊？<A>東邊
+<Q>Zedal 在山邊、海邊還是河邊？<A>山邊
+<Q>Zedal 是什麼地方的城？<A>山邊
+<Q>Zedal 有幾個學校？<A>5個
+<Q>Zedal 的學校有幾個？<A>5個
+<Q>Talar 在國的哪邊？<A>北邊
+<Q>Talar 這個城在國的哪一邊？<A>北邊
+<Q>Talar 有幾個學校？<A>3個
+<Q>Talar 的學校有幾個？<A>3個
+<Q>Tages 在國的哪邊？<A>南邊
+<Q>Tages 這個城在國的哪一邊？<A>南邊
+<Q>Tages 在山邊、海邊還是河邊？<A>河邊
+<Q>Tages 是什麼地方的城？<A>河邊
+<Q>Tages 有幾個學校？<A>3個
+<Q>Tages 的學校有幾個？<A>3個
+<Q>Salar 在國的哪邊？<A>北邊
+<Q>Salar 這個城在國的哪一邊？<A>北邊
+<Q>Salar 在山邊、海邊還是河邊？<A>山邊
+<Q>Salar 是什麼地方的城？<A>山邊
+<Q>Hiter 在國的哪邊？<A>北邊
+<Q>Hiter 這個城在國的哪一邊？<A>北邊
+<Q>Hiter 在山邊、海邊還是河邊？<A>海邊
+<Q>Hiter 是什麼地方的城？<A>海邊
+<Q>Gunum 在國的哪邊？<A>北邊
+<Q>Gunum 這個城在國的哪一邊？<A>北邊
+<Q>Pradu 在山邊、海邊還是河邊？<A>山邊
+<Q>Pradu 是什麼地方的城？<A>山邊
+<Q>Pradu 有幾個學校？<A>3個
+<Q>Pradu 的學校有幾個？<A>3個
+<Q>Wutil 在國的哪邊？<A>南邊
+<Q>Wutil 這個城在國的哪一邊？<A>南邊
+<Q>Drori 在國的哪邊？<A>東邊
+<Q>Drori 這個城在國的哪一邊？<A>東邊
+<Q>Drori 在山邊、海邊還是河邊？<A>山邊
+<Q>Drori 是什麼地方的城？<A>山邊
+<Q>Drori 有幾個學校？<A>5個
+<Q>Drori 的學校有幾個？<A>5個
+<Q>Jefun 在國的哪邊？<A>南邊
+<Q>Jefun 這個城在國的哪一邊？<A>南邊
+<Q>Jefun 在山邊、海邊還是河邊？<A>山邊
+<Q>Jefun 是什麼地方的城？<A>山邊
+<Q>Jefun 有幾個學校？<A>5個
+<Q>Jefun 的學校有幾個？<A>5個
+<Q>Zopon 在國的哪邊？<A>東邊
+<Q>Zopon 這個城在國的哪一邊？<A>東邊
+<Q>Zopon 在山邊、海邊還是河邊？<A>河邊
+<Q>Zopon 是什麼地方的城？<A>河邊
+<Q>Zopon 有幾個學校？<A>3個
+<Q>Zopon 的學校有幾個？<A>3個
+<Q>Jihol 在國的哪邊？<A>東邊
+<Q>Jihol 這個城在國的哪一邊？<A>東邊
+<Q>Jihol 在山邊、海邊還是河邊？<A>河邊
+<Q>Jihol 是什麼地方的城？<A>河邊
+<Q>Jihol 有幾個學校？<A>3個
+<Q>Jihol 的學校有幾個？<A>3個
+<Q>Dapis 在國的哪邊？<A>南邊
+<Q>Dapis 這個城在國的哪一邊？<A>南邊
+<Q>Dapis 在山邊、海邊還是河邊？<A>山邊
+<Q>Dapis 是什麼地方的城？<A>山邊
+<Q>Dapis 有幾個學校？<A>3個
+<Q>Dapis 的學校有幾個？<A>3個
+<Q>Ruwum 在國的哪邊？<A>西邊
+<Q>Ruwum 這個城在國的哪一邊？<A>西邊
+<Q>Ruwum 有幾個學校？<A>5個
+<Q>Ruwum 的學校有幾個？<A>5個
+<Q>Vafil 在國的哪邊？<A>南邊
+<Q>Vafil 這個城在國的哪一邊？<A>南邊
+<Q>Vafil 有幾個學校？<A>2個
+<Q>Vafil 的學校有幾個？<A>2個
+<Q>Ravi 在國的哪邊？<A>西邊
+<Q>Ravi 這個城在國的哪一邊？<A>西邊
+<Q>Ravi 在山邊、海邊還是河邊？<A>山邊
+<Q>Ravi 是什麼地方的城？<A>山邊
+<Q>Ravi 有幾個學校？<A>4個
+<Q>Ravi 的學校有幾個？<A>4個
+<Q>Frawa 在國的哪邊？<A>西邊
+<Q>Frawa 這個城在國的哪一邊？<A>西邊
+<Q>Frawa 有幾個學校？<A>5個
+<Q>Frawa 的學校有幾個？<A>5個
+<Q>Sofel 在山邊、海邊還是河邊？<A>海邊
+<Q>Sofel 是什麼地方的城？<A>海邊
+<Q>Sofel 有幾個學校？<A>1個
+<Q>Sofel 的學校有幾個？<A>1個
+<Q>Sumem 在山邊、海邊還是河邊？<A>海邊
+<Q>Sumem 是什麼地方的城？<A>海邊
+<Q>Tumon 在山邊、海邊還是河邊？<A>山邊
+<Q>Tumon 是什麼地方的城？<A>山邊
+<Q>Tumon 有幾個學校？<A>5個
+<Q>Tumon 的學校有幾個？<A>5個
+<Q>Krole 在國的哪邊？<A>南邊
+<Q>Krole 這個城在國的哪一邊？<A>南邊
+<Q>Jele 在國的哪邊？<A>南邊
+<Q>Jele 這個城在國的哪一邊？<A>南邊
+<Q>Jele 有幾個學校？<A>2個
+<Q>Jele 的學校有幾個？<A>2個
+<Q>Wujin 在國的哪邊？<A>東邊
+<Q>Wujin 這個城在國的哪一邊？<A>東邊
+<Q>Wujin 在山邊、海邊還是河邊？<A>山邊
+<Q>Wujin 是什麼地方的城？<A>山邊
+<Q>Wujin 有幾個學校？<A>4個
+<Q>Wujin 的學校有幾個？<A>4個
+<Q>Betun 在國的哪邊？<A>西邊
+<Q>Betun 這個城在國的哪一邊？<A>西邊
+<Q>Betun 在山邊、海邊還是河邊？<A>海邊
+<Q>Betun 是什麼地方的城？<A>海邊
+<Q>Betun 有幾個學校？<A>2個
+<Q>Betun 的學校有幾個？<A>2個
+<Q>Zudom 在國的哪邊？<A>北邊
+<Q>Zudom 這個城在國的哪一邊？<A>北邊
+<Q>Zudom 在山邊、海邊還是河邊？<A>河邊
+<Q>Zudom 是什麼地方的城？<A>河邊
+<Q>Sawo 在國的哪邊？<A>東邊
+<Q>Sawo 這個城在國的哪一邊？<A>東邊
+<Q>Sawo 在山邊、海邊還是河邊？<A>海邊
+<Q>Sawo 是什麼地方的城？<A>海邊
+<Q>Sawo 有幾個學校？<A>3個
+<Q>Sawo 的學校有幾個？<A>3個
+<Q>Kako 在國的哪邊？<A>東邊
+<Q>Kako 這個城在國的哪一邊？<A>東邊
+<Q>Kako 在山邊、海邊還是河邊？<A>河邊
+<Q>Kako 是什麼地方的城？<A>河邊
+<Q>Gida 在國的哪邊？<A>北邊
+<Q>Gida 這個城在國的哪一邊？<A>北邊
+<Q>Gida 在山邊、海邊還是河邊？<A>河邊
+<Q>Gida 是什麼地方的城？<A>河邊
+<Q>Gida 有幾個學校？<A>2個
+<Q>Gida 的學校有幾個？<A>2個
+<Q>Weti 這個店賣什麼？<A>刀
+<Q>Weti 店裡賣的是什麼？<A>刀
+<Q>Weti 這個店幾點開門？<A>6點
+<Q>Weti 店每天幾點開門？<A>6點
+<Q>Feje 這個店賣什麼？<A>衣服
+<Q>Feje 店裡賣的是什麼？<A>衣服
+<Q>Feje 這個店在哪個城？<A>Gunum
+<Q>Feje 店開在哪裡？<A>Gunum
+<Q>Feje 這個店幾點開門？<A>7點
+<Q>Feje 店每天幾點開門？<A>7點
+<Q>Huver 這個店賣什麼？<A>茶
+<Q>Huver 店裡賣的是什麼？<A>茶
+<Q>Huver 這個店在哪個城？<A>Jele
+<Q>Huver 店開在哪裡？<A>Jele
+<Q>Kebi 這個店賣什麼？<A>刀
+<Q>Kebi 店裡賣的是什麼？<A>刀
+<Q>Kebi 這個店在哪個城？<A>Sawo
+<Q>Kebi 店開在哪裡？<A>Sawo
+<Q>Kebi 這個店幾點開門？<A>9點
+<Q>Kebi 店每天幾點開門？<A>9點
+<Q>Nulun 這個店在哪個城？<A>Ruwum
+<Q>Nulun 店開在哪裡？<A>Ruwum
+<Q>Nulun 這個店幾點開門？<A>8點
+<Q>Nulun 店每天幾點開門？<A>8點
+<Q>Mute 這個店幾點開門？<A>7點
+<Q>Mute 店每天幾點開門？<A>7點
+<Q>Zohu 這個店在哪個城？<A>Sofel
+<Q>Zohu 店開在哪裡？<A>Sofel
+<Q>Zohu 這個店幾點開門？<A>7點
+<Q>Zohu 店每天幾點開門？<A>7點
+<Q>Zubom 這個店賣什麼？<A>書
+<Q>Zubom 店裡賣的是什麼？<A>書
+<Q>Zubom 這個店在哪個城？<A>Pradu
+<Q>Zubom 店開在哪裡？<A>Pradu
+<Q>Jube 這個店賣什麼？<A>雞蛋
+<Q>Jube 店裡賣的是什麼？<A>雞蛋
+<Q>Jube 這個店在哪個城？<A>Frawa
+<Q>Jube 店開在哪裡？<A>Frawa
+<Q>Jube 這個店幾點開門？<A>7點
+<Q>Jube 店每天幾點開門？<A>7點
+<Q>Hogu 這個店賣什麼？<A>水果
+<Q>Hogu 店裡賣的是什麼？<A>水果
+<Q>Hogu 這個店在哪個城？<A>Ruwum
+<Q>Hogu 店開在哪裡？<A>Ruwum
+<Q>Hogu 這個店幾點開門？<A>6點
+<Q>Hogu 店每天幾點開門？<A>6點
+<Q>Puwar 這個店賣什麼？<A>刀
+<Q>Puwar 店裡賣的是什麼？<A>刀
+<Q>Puwar 這個店在哪個城？<A>Pradu
+<Q>Puwar 店開在哪裡？<A>Pradu
+<Q>Puwar 這個店幾點開門？<A>6點
+<Q>Puwar 店每天幾點開門？<A>6點
+<Q>Deki 這個店賣什麼？<A>茶
+<Q>Deki 店裡賣的是什麼？<A>茶
+<Q>Deki 這個店在哪個城？<A>Tumon
+<Q>Deki 店開在哪裡？<A>Tumon
+<Q>Deki 這個店幾點開門？<A>9點
+<Q>Deki 店每天幾點開門？<A>9點
+<Q>Stavu 這個店賣什麼？<A>衣服
+<Q>Stavu 店裡賣的是什麼？<A>衣服
+<Q>Stavu 這個店在哪個城？<A>Krole
+<Q>Stavu 店開在哪裡？<A>Krole
+<Q>Stavu 這個店幾點開門？<A>10點
+<Q>Stavu 店每天幾點開門？<A>10點
+<Q>Zukil 這個店賣什麼？<A>衣服
+<Q>Zukil 店裡賣的是什麼？<A>衣服
+<Q>Zukil 這個店在哪個城？<A>Dapis
+<Q>Zukil 店開在哪裡？<A>Dapis
+<Q>Zukil 這個店幾點開門？<A>9點
+<Q>Zukil 店每天幾點開門？<A>9點
+<Q>Zuwu 這個店賣什麼？<A>刀
+<Q>Zuwu 店裡賣的是什麼？<A>刀
+<Q>Zuwu 這個店在哪個城？<A>Wujin
+<Q>Zuwu 店開在哪裡？<A>Wujin
+<Q>Zuwu 這個店幾點開門？<A>6點
+<Q>Zuwu 店每天幾點開門？<A>6點
+<Q>Prumu 這個店賣什麼？<A>球
+<Q>Prumu 店裡賣的是什麼？<A>球
+<Q>Prumu 這個店在哪個城？<A>Hiter
+<Q>Prumu 店開在哪裡？<A>Hiter
+<Q>Vetal 這個店賣什麼？<A>菜
+<Q>Vetal 店裡賣的是什麼？<A>菜
+<Q>Vetal 這個店在哪個城？<A>Gida
+<Q>Vetal 店開在哪裡？<A>Gida
+<Q>Vetal 這個店幾點開門？<A>9點
+<Q>Vetal 店每天幾點開門？<A>9點
+<Q>Vifel 這個店在哪個城？<A>Wutil
+<Q>Vifel 店開在哪裡？<A>Wutil
+<Q>Vifel 這個店幾點開門？<A>9點
+<Q>Vifel 店每天幾點開門？<A>9點
+<Q>Fenam 這個店賣什麼？<A>菜
+<Q>Fenam 店裡賣的是什麼？<A>菜
+<Q>Hihi 這個店賣什麼？<A>刀
+<Q>Hihi 店裡賣的是什麼？<A>刀
+<Q>Hihi 這個店幾點開門？<A>9點
+<Q>Hihi 店每天幾點開門？<A>9點
+<Q>Vegol 這個店賣什麼？<A>茶
+<Q>Vegol 店裡賣的是什麼？<A>茶
+<Q>Vegol 這個店在哪個城？<A>Gida
+<Q>Vegol 店開在哪裡？<A>Gida
+<Q>Vegol 這個店幾點開門？<A>7點
+<Q>Vegol 店每天幾點開門？<A>7點
+<Q>Jejor 這個店賣什麼？<A>菜
+<Q>Jejor 店裡賣的是什麼？<A>菜
+<Q>Jejor 這個店幾點開門？<A>6點
+<Q>Jejor 店每天幾點開門？<A>6點
+<Q>Siten 這個店賣什麼？<A>肉
+<Q>Siten 店裡賣的是什麼？<A>肉
+<Q>Siten 這個店在哪個城？<A>Jele
+<Q>Siten 店開在哪裡？<A>Jele
+<Q>Siten 這個店幾點開門？<A>10點
+<Q>Siten 店每天幾點開門？<A>10點
+<Q>Paran 這個店賣什麼？<A>衣服
+<Q>Paran 店裡賣的是什麼？<A>衣服
+<Q>Paran 這個店在哪個城？<A>Jefun
+<Q>Paran 店開在哪裡？<A>Jefun
+<Q>Punu 這個店賣什麼？<A>雞蛋
+<Q>Punu 店裡賣的是什麼？<A>雞蛋
+<Q>Punu 這個店在哪個城？<A>Zudom
+<Q>Punu 店開在哪裡？<A>Zudom
+<Q>Punu 這個店幾點開門？<A>10點
+<Q>Punu 店每天幾點開門？<A>10點
+<Q>Gegan 這個店賣什麼？<A>衣服
+<Q>Gegan 店裡賣的是什麼？<A>衣服
+<Q>Gegan 這個店在哪個城？<A>Kako
+<Q>Gegan 店開在哪裡？<A>Kako
+<Q>Gegan 這個店幾點開門？<A>6點
+<Q>Gegan 店每天幾點開門？<A>6點
+<Q>Majim 這個店賣什麼？<A>書
+<Q>Majim 店裡賣的是什麼？<A>書
+<Q>Majim 這個店在哪個城？<A>Gunum
+<Q>Majim 店開在哪裡？<A>Gunum
+<Q>Majim 這個店幾點開門？<A>9點
+<Q>Majim 店每天幾點開門？<A>9點
+<Q>Homo 這個店賣什麼？<A>刀
+<Q>Homo 店裡賣的是什麼？<A>刀
+<Q>Homo 這個店在哪個城？<A>Zopon
+<Q>Homo 店開在哪裡？<A>Zopon
+<Q>Homo 這個店幾點開門？<A>6點
+<Q>Homo 店每天幾點開門？<A>6點
+<Q>Bruwi 這個店賣什麼？<A>肉
+<Q>Bruwi 店裡賣的是什麼？<A>肉
+<Q>Bruwi 這個店在哪個城？<A>Pesa
+<Q>Bruwi 店開在哪裡？<A>Pesa
+<Q>Bruwi 這個店幾點開門？<A>9點
+<Q>Bruwi 店每天幾點開門？<A>9點
+<Q>Majo 這個店在哪個城？<A>Zopon
+<Q>Majo 店開在哪裡？<A>Zopon
+<Q>Majo 這個店幾點開門？<A>8點
+<Q>Majo 店每天幾點開門？<A>8點
+<Q>Mafi 這個店賣什麼？<A>肉
+<Q>Mafi 店裡賣的是什麼？<A>肉
+<Q>Mafi 這個店在哪個城？<A>Jihol
+<Q>Mafi 店開在哪裡？<A>Jihol
+<Q>Mafi 這個店幾點開門？<A>8點
+<Q>Mafi 店每天幾點開門？<A>8點
+<Q>Gobir 這個店賣什麼？<A>紙
+<Q>Gobir 店裡賣的是什麼？<A>紙
+<Q>Gobir 這個店在哪個城？<A>Drori
+<Q>Gobir 店開在哪裡？<A>Drori
+<Q>Gobir 這個店幾點開門？<A>6點
+<Q>Gobir 店每天幾點開門？<A>6點
+<Q>Tihar 這個店賣什麼？<A>書
+<Q>Tihar 店裡賣的是什麼？<A>書
+<Q>Tihar 這個店在哪個城？<A>Pesa
+<Q>Tihar 店開在哪裡？<A>Pesa
+<Q>Tihar 這個店幾點開門？<A>8點
+<Q>Tihar 店每天幾點開門？<A>8點
+<Q>Dekis 這個店在哪個城？<A>Zudom
+<Q>Dekis 店開在哪裡？<A>Zudom
+<Q>Dekis 這個店幾點開門？<A>9點
+<Q>Dekis 店每天幾點開門？<A>9點
+<Q>Nukil 這個店賣什麼？<A>菜
+<Q>Nukil 店裡賣的是什麼？<A>菜
+<Q>Nukil 這個店幾點開門？<A>7點
+<Q>Nukil 店每天幾點開門？<A>7點
+<Q>Zemim 這個店賣什麼？<A>水果
+<Q>Zemim 店裡賣的是什麼？<A>水果
+<Q>Zemim 這個店在哪個城？<A>Kako
+<Q>Zemim 店開在哪裡？<A>Kako
+<Q>Zemim 這個店幾點開門？<A>8點
+<Q>Zemim 店每天幾點開門？<A>8點
+<Q>Bida 這個店在哪個城？<A>Jefun
+<Q>Bida 店開在哪裡？<A>Jefun
+<Q>Bida 這個店幾點開門？<A>6點
+<Q>Bida 店每天幾點開門？<A>6點
+<Q>Logos 這個店賣什麼？<A>紙
+<Q>Logos 店裡賣的是什麼？<A>紙
+<Q>Logos 這個店在哪個城？<A>Zopon
+<Q>Logos 店開在哪裡？<A>Zopon
+<Q>Wusun 這個店賣什麼？<A>菜
+<Q>Wusun 店裡賣的是什麼？<A>菜
+<Q>Wusun 這個店在哪個城？<A>Jefun
+<Q>Wusun 店開在哪裡？<A>Jefun
+<Q>Wusun 這個店幾點開門？<A>9點
+<Q>Wusun 店每天幾點開門？<A>9點
+<Q>Preli 這個店賣什麼？<A>衣服
+<Q>Preli 店裡賣的是什麼？<A>衣服
+<Q>Preli 這個店在哪個城？<A>Sawo
+<Q>Preli 店開在哪裡？<A>Sawo
+<Q>Presi 這個店賣什麼？<A>衣服
+<Q>Presi 店裡賣的是什麼？<A>衣服
+<Q>Presi 這個店在哪個城？<A>Talar
+<Q>Presi 店開在哪裡？<A>Talar
+<Q>Presi 這個店幾點開門？<A>6點
+<Q>Presi 店每天幾點開門？<A>6點
+<Q>Hafil 這個店賣什麼？<A>衣服
+<Q>Hafil 店裡賣的是什麼？<A>衣服
+<Q>Hafil 這個店在哪個城？<A>Sumem
+<Q>Hafil 店開在哪裡？<A>Sumem
+<Q>Hafil 這個店幾點開門？<A>7點
+<Q>Hafil 店每天幾點開門？<A>7點
+<Q>Jafom 這個店賣什麼？<A>茶
+<Q>Jafom 店裡賣的是什麼？<A>茶
+<Q>Jafom 這個店在哪個城？<A>Pradu
+<Q>Jafom 店開在哪裡？<A>Pradu
+<Q>Jafom 這個店幾點開門？<A>9點
+<Q>Jafom 店每天幾點開門？<A>9點
+<Q>Zili 這個店賣什麼？<A>球
+<Q>Zili 店裡賣的是什麼？<A>球
+<Q>Zili 這個店在哪個城？<A>Drori
+<Q>Zili 店開在哪裡？<A>Drori
+<Q>Vejil 這個店賣什麼？<A>書
+<Q>Vejil 店裡賣的是什麼？<A>書
+<Q>Vejil 這個店幾點開門？<A>9點
+<Q>Vejil 店每天幾點開門？<A>9點
+<Q>Birir 這個店在哪個城？<A>Betun
+<Q>Birir 店開在哪裡？<A>Betun
+<Q>Birir 這個店幾點開門？<A>9點
+<Q>Birir 店每天幾點開門？<A>9點
+<Q>Pedi 這個店賣什麼？<A>球
+<Q>Pedi 店裡賣的是什麼？<A>球
+<Q>Pedi 這個店在哪個城？<A>Ravi
+<Q>Pedi 店開在哪裡？<A>Ravi
+<Q>Rebil 這個店在哪個城？<A>Braru
+<Q>Rebil 店開在哪裡？<A>Braru
+<Q>Rebil 這個店幾點開門？<A>9點
+<Q>Rebil 店每天幾點開門？<A>9點
+<Q>Fomus 這個店賣什麼？<A>刀
+<Q>Fomus 店裡賣的是什麼？<A>刀
+<Q>Fomus 這個店幾點開門？<A>7點
+<Q>Fomus 店每天幾點開門？<A>7點
+<Q>Keban 這個店賣什麼？<A>衣服
+<Q>Keban 店裡賣的是什麼？<A>衣服
+<Q>Keban 這個店在哪個城？<A>Ruwum
+<Q>Keban 店開在哪裡？<A>Ruwum
+<Q>Fesu 這個店幾點開門？<A>7點
+<Q>Fesu 店每天幾點開門？<A>7點
+<Q>Sanis 這個店賣什麼？<A>刀
+<Q>Sanis 店裡賣的是什麼？<A>刀
+<Q>Sanis 這個店在哪個城？<A>Jihol
+<Q>Sanis 店開在哪裡？<A>Jihol
+<Q>Sanis 這個店幾點開門？<A>8點
+<Q>Sanis 店每天幾點開門？<A>8點
+<Q>Lahul 這個店在哪個城？<A>Wutil
+<Q>Lahul 店開在哪裡？<A>Wutil
+<Q>Prutu 這個店在哪個城？<A>Zopon
+<Q>Prutu 店開在哪裡？<A>Zopon
+<Q>Prutu 這個店幾點開門？<A>7點
+<Q>Prutu 店每天幾點開門？<A>7點
+<Q>Zubum 這個店賣什麼？<A>衣服
+<Q>Zubum 店裡賣的是什麼？<A>衣服
+<Q>Zubum 這個店在哪個城？<A>Ruwum
+<Q>Zubum 店開在哪裡？<A>Ruwum
+<Q>Zubum 這個店幾點開門？<A>10點
+<Q>Zubum 店每天幾點開門？<A>10點
+<Q>Prefa 這個店賣什麼？<A>紙
+<Q>Prefa 店裡賣的是什麼？<A>紙
+<Q>Prefa 這個店在哪個城？<A>Talar
+<Q>Prefa 店開在哪裡？<A>Talar
+<Q>Higom 這個店賣什麼？<A>肉
+<Q>Higom 店裡賣的是什麼？<A>肉
+<Q>Higom 這個店在哪個城？<A>Zedal
+<Q>Higom 店開在哪裡？<A>Zedal
+<Q>Higom 這個店幾點開門？<A>7點
+<Q>Higom 店每天幾點開門？<A>7點
+<Q>Vudas 這個店賣什麼？<A>球
+<Q>Vudas 店裡賣的是什麼？<A>球
+<Q>Vudas 這個店在哪個城？<A>Kako
+<Q>Vudas 店開在哪裡？<A>Kako
+<Q>Vudas 這個店幾點開門？<A>9點
+<Q>Vudas 店每天幾點開門？<A>9點
+<Q>Brewi 這個店賣什麼？<A>球
+<Q>Brewi 店裡賣的是什麼？<A>球
+<Q>Brewi 這個店在哪個城？<A>Gunum
+<Q>Brewi 店開在哪裡？<A>Gunum
+<Q>Vafu 這個店賣什麼？<A>書
+<Q>Vafu 店裡賣的是什麼？<A>書
+<Q>Vafu 這個店在哪個城？<A>Wujin
+<Q>Vafu 店開在哪裡？<A>Wujin
+<Q>Vafu 這個店幾點開門？<A>9點
+<Q>Vafu 店每天幾點開門？<A>9點
+<Q>Jifi 的先生是誰？<A>Teke
+<Q>誰是 Jifi 的先生？<A>Teke
+<Q>Teke 有幾個孩子？<A>2個
+<Q>Teke 家有幾個孩子？<A>2個
+<Q>Jifi 有幾個孩子？<A>2個
+<Q>Jifi 家有幾個孩子？<A>2個
+<Q>Mukas 的爸爸是誰？<A>Teke
+<Q>誰是 Mukas 的爸爸？<A>Teke
+<Q>Mukas 的媽媽是誰？<A>Jifi
+<Q>誰是 Mukas 的媽媽？<A>Jifi
+<Q>Mukas 的姐姐是誰？<A>Totu
+<Q>誰是 Mukas 的姐姐？<A>Totu
+<Q>Totu 的爸爸是誰？<A>Teke
+<Q>誰是 Totu 的爸爸？<A>Teke
+<Q>Totu 的弟弟是誰？<A>Mukas
+<Q>誰是 Totu 的弟弟？<A>Mukas
+<Q>Mures 的太太是誰？<A>Zukan
+<Q>誰是 Mures 的太太？<A>Zukan
+<Q>Zukan 的先生是誰？<A>Mures
+<Q>誰是 Zukan 的先生？<A>Mures
+<Q>Zukan 有幾個孩子？<A>1個
+<Q>Zukan 家有幾個孩子？<A>1個
+<Q>Sovon 的爸爸是誰？<A>Mures
+<Q>誰是 Sovon 的爸爸？<A>Mures
+<Q>Sovon 的媽媽是誰？<A>Zukan
+<Q>誰是 Sovon 的媽媽？<A>Zukan
+<Q>Bedos 的太太是誰？<A>Stowa
+<Q>誰是 Bedos 的太太？<A>Stowa
+<Q>Stowa 的先生是誰？<A>Bedos
+<Q>誰是 Stowa 的先生？<A>Bedos
+<Q>Bedos 有幾個孩子？<A>2個
+<Q>Bedos 家有幾個孩子？<A>2個
+<Q>Stowa 有幾個孩子？<A>2個
+<Q>Stowa 家有幾個孩子？<A>2個
+<Q>Zovem 的爸爸是誰？<A>Bedos
+<Q>誰是 Zovem 的爸爸？<A>Bedos
+<Q>Zovem 的媽媽是誰？<A>Stowa
+<Q>誰是 Zovem 的媽媽？<A>Stowa
+<Q>Zovem 的姐姐是誰？<A>Geher
+<Q>誰是 Zovem 的姐姐？<A>Geher
+<Q>Geher 的爸爸是誰？<A>Bedos
+<Q>誰是 Geher 的爸爸？<A>Bedos
+<Q>Geher 的媽媽是誰？<A>Stowa
+<Q>誰是 Geher 的媽媽？<A>Stowa
+<Q>Geher 的妹妹是誰？<A>Zovem
+<Q>誰是 Geher 的妹妹？<A>Zovem
+<Q>Daher 的太太是誰？<A>Dihir
+<Q>誰是 Daher 的太太？<A>Dihir
+<Q>Dihir 的先生是誰？<A>Daher
+<Q>誰是 Dihir 的先生？<A>Daher
+<Q>Daher 有幾個孩子？<A>3個
+<Q>Daher 家有幾個孩子？<A>3個
+<Q>Tagan 的爸爸是誰？<A>Daher
+<Q>誰是 Tagan 的爸爸？<A>Daher
+<Q>Tagan 的媽媽是誰？<A>Dihir
+<Q>誰是 Tagan 的媽媽？<A>Dihir
+<Q>Tagan 的弟弟是誰？<A>Zukon
+<Q>誰是 Tagan 的弟弟？<A>Zukon
+<Q>Tagan 的妹妹是誰？<A>Lubar
+<Q>誰是 Tagan 的妹妹？<A>Lubar
+<Q>Zukon 的爸爸是誰？<A>Daher
+<Q>誰是 Zukon 的爸爸？<A>Daher
+<Q>Zukon 的媽媽是誰？<A>Dihir
+<Q>誰是 Zukon 的媽媽？<A>Dihir
+<Q>Zukon 的哥哥是誰？<A>Tagan
+<Q>誰是 Zukon 的哥哥？<A>Tagan
+<Q>Zukon 的妹妹是誰？<A>Lubar
+<Q>誰是 Zukon 的妹妹？<A>Lubar
+<Q>Lubar 的爸爸是誰？<A>Daher
+<Q>誰是 Lubar 的爸爸？<A>Daher
+<Q>Lubar 的媽媽是誰？<A>Dihir
+<Q>誰是 Lubar 的媽媽？<A>Dihir
+<Q>Wulu 的太太是誰？<A>Bona
+<Q>誰是 Wulu 的太太？<A>Bona
+<Q>Bona 的先生是誰？<A>Wulu
+<Q>誰是 Bona 的先生？<A>Wulu
+<Q>Wulu 有幾個孩子？<A>1個
+<Q>Wulu 家有幾個孩子？<A>1個
+<Q>Bona 有幾個孩子？<A>1個
+<Q>Bona 家有幾個孩子？<A>1個
+<Q>Wofi 的爸爸是誰？<A>Wulu
+<Q>誰是 Wofi 的爸爸？<A>Wulu
+<Q>Wofi 的媽媽是誰？<A>Bona
+<Q>誰是 Wofi 的媽媽？<A>Bona
+<Q>Lodis 的太太是誰？<A>Tise
+<Q>誰是 Lodis 的太太？<A>Tise
+<Q>Tise 的先生是誰？<A>Lodis
+<Q>誰是 Tise 的先生？<A>Lodis
+<Q>Tise 有幾個孩子？<A>2個
+<Q>Tise 家有幾個孩子？<A>2個
+<Q>Kikel 的爸爸是誰？<A>Lodis
+<Q>誰是 Kikel 的爸爸？<A>Lodis
+<Q>Kikel 的媽媽是誰？<A>Tise
+<Q>誰是 Kikel 的媽媽？<A>Tise
+<Q>Kikel 的姐姐是誰？<A>Linar
+<Q>誰是 Kikel 的姐姐？<A>Linar
+<Q>Linar 的爸爸是誰？<A>Lodis
+<Q>誰是 Linar 的爸爸？<A>Lodis
+<Q>Linar 的弟弟是誰？<A>Kikel
+<Q>誰是 Linar 的弟弟？<A>Kikel
+<Q>Taho 的太太是誰？<A>Kaho
+<Q>誰是 Taho 的太太？<A>Kaho
+<Q>Kaho 的先生是誰？<A>Taho
+<Q>誰是 Kaho 的先生？<A>Taho
+<Q>Taho 有幾個孩子？<A>3個
+<Q>Taho 家有幾個孩子？<A>3個
+<Q>Desos 的爸爸是誰？<A>Taho
+<Q>誰是 Desos 的爸爸？<A>Taho
+<Q>Desos 的媽媽是誰？<A>Kaho
+<Q>誰是 Desos 的媽媽？<A>Kaho
+<Q>Desos 的妹妹是誰？<A>Pafen
+<Q>誰是 Desos 的妹妹？<A>Pafen
+<Q>Desos 的弟弟是誰？<A>Kevan
+<Q>誰是 Desos 的弟弟？<A>Kevan
+<Q>Pafen 的爸爸是誰？<A>Taho
+<Q>誰是 Pafen 的爸爸？<A>Taho
+<Q>Pafen 的媽媽是誰？<A>Kaho
+<Q>誰是 Pafen 的媽媽？<A>Kaho
+<Q>Pafen 的姐姐是誰？<A>Desos
+<Q>誰是 Pafen 的姐姐？<A>Desos
+<Q>Pafen 的弟弟是誰？<A>Kevan
+<Q>誰是 Pafen 的弟弟？<A>Kevan
+<Q>Kevan 的爸爸是誰？<A>Taho
+<Q>誰是 Kevan 的爸爸？<A>Taho
+<Q>Kevan 的媽媽是誰？<A>Kaho
+<Q>誰是 Kevan 的媽媽？<A>Kaho
+<Q>Takon 的先生是誰？<A>Baman
+<Q>誰是 Takon 的先生？<A>Baman
+<Q>Baman 有幾個孩子？<A>2個
+<Q>Baman 家有幾個孩子？<A>2個
+<Q>Takon 有幾個孩子？<A>2個
+<Q>Takon 家有幾個孩子？<A>2個
+<Q>Tado 的爸爸是誰？<A>Baman
+<Q>誰是 Tado 的爸爸？<A>Baman
+<Q>Tado 的弟弟是誰？<A>Ruven
+<Q>誰是 Tado 的弟弟？<A>Ruven
+<Q>Ruven 的爸爸是誰？<A>Baman
+<Q>誰是 Ruven 的爸爸？<A>Baman
+<Q>Ruven 的媽媽是誰？<A>Takon
+<Q>誰是 Ruven 的媽媽？<A>Takon
+<Q>Ruven 的哥哥是誰？<A>Tado
+<Q>誰是 Ruven 的哥哥？<A>Tado
+<Q>Lodo 的太太是誰？<A>Vadi
+<Q>誰是 Lodo 的太太？<A>Vadi
+<Q>Vadi 的先生是誰？<A>Lodo
+<Q>誰是 Vadi 的先生？<A>Lodo
+<Q>Lodo 有幾個孩子？<A>3個
+<Q>Lodo 家有幾個孩子？<A>3個
+<Q>Fupin 的爸爸是誰？<A>Lodo
+<Q>誰是 Fupin 的爸爸？<A>Lodo
+<Q>Fupin 的媽媽是誰？<A>Vadi
+<Q>誰是 Fupin 的媽媽？<A>Vadi
+<Q>Fupin 的姐姐是誰？<A>Pudis
+<Q>誰是 Fupin 的姐姐？<A>Pudis
+<Q>Pudis 的爸爸是誰？<A>Lodo
+<Q>誰是 Pudis 的爸爸？<A>Lodo
+<Q>Pudis 的媽媽是誰？<A>Vadi
+<Q>誰是 Pudis 的媽媽？<A>Vadi
+<Q>Primi 的爸爸是誰？<A>Lodo
+<Q>誰是 Primi 的爸爸？<A>Lodo
+<Q>Primi 的媽媽是誰？<A>Vadi
+<Q>誰是 Primi 的媽媽？<A>Vadi
+<Q>Begos 的太太是誰？<A>Vomom
+<Q>誰是 Begos 的太太？<A>Vomom
+<Q>Vomom 的先生是誰？<A>Begos
+<Q>誰是 Vomom 的先生？<A>Begos
+<Q>Begos 有幾個孩子？<A>2個
+<Q>Begos 家有幾個孩子？<A>2個
+<Q>Vomom 有幾個孩子？<A>2個
+<Q>Vomom 家有幾個孩子？<A>2個
+<Q>Hojam 的媽媽是誰？<A>Vomom
+<Q>誰是 Hojam 的媽媽？<A>Vomom
+<Q>Hojam 的哥哥是誰？<A>Trihu
+<Q>誰是 Hojam 的哥哥？<A>Trihu
+<Q>Trihu 的媽媽是誰？<A>Vomom
+<Q>誰是 Trihu 的媽媽？<A>Vomom
+<Q>Jetas 的太太是誰？<A>Dopel
+<Q>誰是 Jetas 的太太？<A>Dopel
+<Q>Dopel 的先生是誰？<A>Jetas
+<Q>誰是 Dopel 的先生？<A>Jetas
+<Q>Jetas 有幾個孩子？<A>1個
+<Q>Jetas 家有幾個孩子？<A>1個
+<Q>Dopel 有幾個孩子？<A>1個
+<Q>Dopel 家有幾個孩子？<A>1個
+<Q>Fife 的媽媽是誰？<A>Dopel
+<Q>誰是 Fife 的媽媽？<A>Dopel
+<Q>Velel 的太太是誰？<A>Vulum
+<Q>誰是 Velel 的太太？<A>Vulum
+<Q>Vulum 的先生是誰？<A>Velel
+<Q>誰是 Vulum 的先生？<A>Velel
+<Q>Velel 有幾個孩子？<A>3個
+<Q>Velel 家有幾個孩子？<A>3個
+<Q>Vulum 有幾個孩子？<A>3個
+<Q>Vulum 家有幾個孩子？<A>3個
+<Q>Meve 的爸爸是誰？<A>Velel
+<Q>誰是 Meve 的爸爸？<A>Velel
+<Q>Meve 的媽媽是誰？<A>Vulum
+<Q>誰是 Meve 的媽媽？<A>Vulum
+<Q>Lehir 的爸爸是誰？<A>Velel
+<Q>誰是 Lehir 的爸爸？<A>Velel
+<Q>Lehir 的媽媽是誰？<A>Vulum
+<Q>誰是 Lehir 的媽媽？<A>Vulum
+<Q>Kifon 的姐姐是誰？<A>Meve
+<Q>誰是 Kifon 的姐姐？<A>Meve
+<Q>Kifon 的妹妹是誰？<A>Lehir
+<Q>誰是 Kifon 的妹妹？<A>Lehir
+<Q>Bolon 的太太是誰？<A>Dila
+<Q>誰是 Bolon 的太太？<A>Dila
+<Q>Dila 的先生是誰？<A>Bolon
+<Q>誰是 Dila 的先生？<A>Bolon
+<Q>Bolon 有幾個孩子？<A>1個
+<Q>Bolon 家有幾個孩子？<A>1個
+<Q>Dila 有幾個孩子？<A>1個
+<Q>Dila 家有幾個孩子？<A>1個
+<Q>Zevun 的爸爸是誰？<A>Bolon
+<Q>誰是 Zevun 的爸爸？<A>Bolon
+<Q>Zevun 的媽媽是誰？<A>Dila
+<Q>誰是 Zevun 的媽媽？<A>Dila
+<Q>Bare 的太太是誰？<A>Riha
+<Q>誰是 Bare 的太太？<A>Riha
+<Q>Bare 有幾個孩子？<A>2個
+<Q>Bare 家有幾個孩子？<A>2個
+<Q>Riha 有幾個孩子？<A>2個
+<Q>Riha 家有幾個孩子？<A>2個
+<Q>Dukam 的爸爸是誰？<A>Bare
+<Q>誰是 Dukam 的爸爸？<A>Bare
+<Q>Dukam 的媽媽是誰？<A>Riha
+<Q>誰是 Dukam 的媽媽？<A>Riha
+<Q>Dukam 的哥哥是誰？<A>Porer
+<Q>誰是 Dukam 的哥哥？<A>Porer
+<Q>Porer 的爸爸是誰？<A>Bare
+<Q>誰是 Porer 的爸爸？<A>Bare
+<Q>Porer 的媽媽是誰？<A>Riha
+<Q>誰是 Porer 的媽媽？<A>Riha
+<Q>Porer 的弟弟是誰？<A>Dukam
+<Q>誰是 Porer 的弟弟？<A>Dukam
+<Q>Brofo 的太太是誰？<A>Suhu
+<Q>誰是 Brofo 的太太？<A>Suhu
+<Q>Suhu 的先生是誰？<A>Brofo
+<Q>誰是 Suhu 的先生？<A>Brofo
+<Q>Brofo 有幾個孩子？<A>3個
+<Q>Brofo 家有幾個孩子？<A>3個
+<Q>Suhu 有幾個孩子？<A>3個
+<Q>Suhu 家有幾個孩子？<A>3個
+<Q>Jomon 的媽媽是誰？<A>Suhu
+<Q>誰是 Jomon 的媽媽？<A>Suhu
+<Q>Jomon 的妹妹是誰？<A>Sebo
+<Q>誰是 Jomon 的妹妹？<A>Sebo
+<Q>Bikos 的爸爸是誰？<A>Brofo
+<Q>誰是 Bikos 的爸爸？<A>Brofo
+<Q>Bikos 的媽媽是誰？<A>Suhu
+<Q>誰是 Bikos 的媽媽？<A>Suhu
+<Q>Bikos 的哥哥是誰？<A>Jomon
+<Q>誰是 Bikos 的哥哥？<A>Jomon
+<Q>Bikos 的妹妹是誰？<A>Sebo
+<Q>誰是 Bikos 的妹妹？<A>Sebo
+<Q>Sebo 的爸爸是誰？<A>Brofo
+<Q>誰是 Sebo 的爸爸？<A>Brofo
+<Q>Sebo 的媽媽是誰？<A>Suhu
+<Q>誰是 Sebo 的媽媽？<A>Suhu
+<Q>Steha 的太太是誰？<A>Neja
+<Q>誰是 Steha 的太太？<A>Neja
+<Q>Neja 的先生是誰？<A>Steha
+<Q>誰是 Neja 的先生？<A>Steha
+<Q>Steha 有幾個孩子？<A>2個
+<Q>Steha 家有幾個孩子？<A>2個
+<Q>Wenem 的爸爸是誰？<A>Steha
+<Q>誰是 Wenem 的爸爸？<A>Steha
+<Q>Wenem 的媽媽是誰？<A>Neja
+<Q>誰是 Wenem 的媽媽？<A>Neja
+<Q>Wenem 的哥哥是誰？<A>Dopar
+<Q>誰是 Wenem 的哥哥？<A>Dopar
+<Q>Dopar 的爸爸是誰？<A>Steha
+<Q>誰是 Dopar 的爸爸？<A>Steha
+<Q>Dopar 的媽媽是誰？<A>Neja
+<Q>誰是 Dopar 的媽媽？<A>Neja
+<Q>Dopar 的妹妹是誰？<A>Wenem
+<Q>誰是 Dopar 的妹妹？<A>Wenem
+<Q>Kasu 的太太是誰？<A>Sige
+<Q>誰是 Kasu 的太太？<A>Sige
+<Q>Sige 的先生是誰？<A>Kasu
+<Q>誰是 Sige 的先生？<A>Kasu
+<Q>Kasu 有幾個孩子？<A>3個
+<Q>Kasu 家有幾個孩子？<A>3個
+<Q>Sige 有幾個孩子？<A>3個
+<Q>Sige 家有幾個孩子？<A>3個
+<Q>Kadi 的爸爸是誰？<A>Kasu
+<Q>誰是 Kadi 的爸爸？<A>Kasu
+<Q>Kadi 的哥哥是誰？<A>Suvum
+<Q>誰是 Kadi 的哥哥？<A>Suvum
+<Q>Suvum 的爸爸是誰？<A>Kasu
+<Q>誰是 Suvum 的爸爸？<A>Kasu
+<Q>Suvum 的媽媽是誰？<A>Sige
+<Q>誰是 Suvum 的媽媽？<A>Sige
+<Q>Losil 的爸爸是誰？<A>Kasu
+<Q>誰是 Losil 的爸爸？<A>Kasu
+<Q>Losil 的媽媽是誰？<A>Sige
+<Q>誰是 Losil 的媽媽？<A>Sige
+<Q>Losil 的妹妹是誰？<A>Kadi
+<Q>誰是 Losil 的妹妹？<A>Kadi
+<Q>Losil 的哥哥是誰？<A>Suvum
+<Q>誰是 Losil 的哥哥？<A>Suvum
+<Q>Lovem 的太太是誰？<A>Woga
+<Q>誰是 Lovem 的太太？<A>Woga
+<Q>Woga 的先生是誰？<A>Lovem
+<Q>誰是 Woga 的先生？<A>Lovem
+<Q>Lovem 有幾個孩子？<A>2個
+<Q>Lovem 家有幾個孩子？<A>2個
+<Q>Woga 有幾個孩子？<A>2個
+<Q>Woga 家有幾個孩子？<A>2個
+<Q>Tifor 的爸爸是誰？<A>Lovem
+<Q>誰是 Tifor 的爸爸？<A>Lovem
+<Q>Tifor 的媽媽是誰？<A>Woga
+<Q>誰是 Tifor 的媽媽？<A>Woga
+<Q>Tifor 的姐姐是誰？<A>Zade
+<Q>誰是 Tifor 的姐姐？<A>Zade
+<Q>Zade 的妹妹是誰？<A>Tifor
+<Q>誰是 Zade 的妹妹？<A>Tifor
+<Q>Fase 的太太是誰？<A>Fuge
+<Q>誰是 Fase 的太太？<A>Fuge
+<Q>Fuge 的先生是誰？<A>Fase
+<Q>誰是 Fuge 的先生？<A>Fase
+<Q>Fase 有幾個孩子？<A>2個
+<Q>Fase 家有幾個孩子？<A>2個
+<Q>Fuge 有幾個孩子？<A>2個
+<Q>Fuge 家有幾個孩子？<A>2個
+<Q>Nelam 的媽媽是誰？<A>Fuge
+<Q>誰是 Nelam 的媽媽？<A>Fuge
+<Q>Nelam 的姐姐是誰？<A>Rumen
+<Q>誰是 Nelam 的姐姐？<A>Rumen
+<Q>Rumen 的媽媽是誰？<A>Fuge
+<Q>誰是 Rumen 的媽媽？<A>Fuge
+<Q>Mulin 的先生是誰？<A>Hiwer
+<Q>誰是 Mulin 的先生？<A>Hiwer
+<Q>Mulin 有幾個孩子？<A>1個
+<Q>Mulin 家有幾個孩子？<A>1個
+<Q>Keses 的爸爸是誰？<A>Hiwer
+<Q>誰是 Keses 的爸爸？<A>Hiwer
+<Q>Keses 的媽媽是誰？<A>Mulin
+<Q>誰是 Keses 的媽媽？<A>Mulin
+<Q>Poji 的太太是誰？<A>Vugir
+<Q>誰是 Poji 的太太？<A>Vugir
+<Q>Poji 有幾個孩子？<A>3個
+<Q>Poji 家有幾個孩子？<A>3個
+<Q>Vugir 有幾個孩子？<A>3個
+<Q>Vugir 家有幾個孩子？<A>3個
+<Q>Foler 的爸爸是誰？<A>Poji
+<Q>誰是 Foler 的爸爸？<A>Poji
+<Q>Foler 的媽媽是誰？<A>Vugir
+<Q>誰是 Foler 的媽媽？<A>Vugir
+<Q>Foler 的妹妹是誰？<A>Nupas
+<Q>誰是 Foler 的妹妹？<A>Nupas
+<Q>Nupas 的爸爸是誰？<A>Poji
+<Q>誰是 Nupas 的爸爸？<A>Poji
+<Q>Nupas 的媽媽是誰？<A>Vugir
+<Q>誰是 Nupas 的媽媽？<A>Vugir
+<Q>Nupas 的姐姐是誰？<A>Foler
+<Q>誰是 Nupas 的姐姐？<A>Foler
+<Q>Nupas 的哥哥是誰？<A>Dehir
+<Q>誰是 Nupas 的哥哥？<A>Dehir
+<Q>Dehir 的爸爸是誰？<A>Poji
+<Q>誰是 Dehir 的爸爸？<A>Poji
+<Q>Dehir 的媽媽是誰？<A>Vugir
+<Q>誰是 Dehir 的媽媽？<A>Vugir
+<Q>Dehir 的姐姐是誰？<A>Foler
+<Q>誰是 Dehir 的姐姐？<A>Foler
+<Q>Dehir 的妹妹是誰？<A>Nupas
+<Q>誰是 Dehir 的妹妹？<A>Nupas
+<Q>Fraba 的太太是誰？<A>Rulor
+<Q>誰是 Fraba 的太太？<A>Rulor
+<Q>Rulor 的先生是誰？<A>Fraba
+<Q>誰是 Rulor 的先生？<A>Fraba
+<Q>Fraba 有幾個孩子？<A>2個
+<Q>Fraba 家有幾個孩子？<A>2個
+<Q>Weham 的媽媽是誰？<A>Rulor
+<Q>誰是 Weham 的媽媽？<A>Rulor
+<Q>Weham 的妹妹是誰？<A>Leva
+<Q>誰是 Weham 的妹妹？<A>Leva
+<Q>Leva 的爸爸是誰？<A>Fraba
+<Q>誰是 Leva 的爸爸？<A>Fraba
+<Q>Leva 的媽媽是誰？<A>Rulor
+<Q>誰是 Leva 的媽媽？<A>Rulor
+<Q>Sibas 的太太是誰？<A>Trole
+<Q>誰是 Sibas 的太太？<A>Trole
+<Q>Sibas 有幾個孩子？<A>1個
+<Q>Sibas 家有幾個孩子？<A>1個
+<Q>Trole 有幾個孩子？<A>1個
+<Q>Trole 家有幾個孩子？<A>1個
+<Q>Dubo 的爸爸是誰？<A>Sibas
+<Q>誰是 Dubo 的爸爸？<A>Sibas
+<Q>Dubo 的媽媽是誰？<A>Trole
+<Q>誰是 Dubo 的媽媽？<A>Trole
+<Q>Kreho 的太太是誰？<A>Zutu
+<Q>誰是 Kreho 的太太？<A>Zutu
+<Q>Zutu 的先生是誰？<A>Kreho
+<Q>誰是 Zutu 的先生？<A>Kreho
+<Q>Zutu 有幾個孩子？<A>3個
+<Q>Zutu 家有幾個孩子？<A>3個
+<Q>Wubom 的爸爸是誰？<A>Kreho
+<Q>誰是 Wubom 的爸爸？<A>Kreho
+<Q>Wubom 的媽媽是誰？<A>Zutu
+<Q>誰是 Wubom 的媽媽？<A>Zutu
+<Q>Tofo 的爸爸是誰？<A>Kreho
+<Q>誰是 Tofo 的爸爸？<A>Kreho
+<Q>Tofo 的哥哥是誰？<A>Wubom
+<Q>誰是 Tofo 的哥哥？<A>Wubom
+<Q>Kaben 的太太是誰？<A>Leji
+<Q>誰是 Kaben 的太太？<A>Leji
+<Q>Leji 的先生是誰？<A>Kaben
+<Q>誰是 Leji 的先生？<A>Kaben
+<Q>Kaben 有幾個孩子？<A>2個
+<Q>Kaben 家有幾個孩子？<A>2個
+<Q>Pulom 的爸爸是誰？<A>Kaben
+<Q>誰是 Pulom 的爸爸？<A>Kaben
+<Q>Pulom 的姐姐是誰？<A>Zabos
+<Q>誰是 Pulom 的姐姐？<A>Zabos
+<Q>Zabos 的弟弟是誰？<A>Pulom
+<Q>誰是 Zabos 的弟弟？<A>Pulom
+<Q>Frufu 的太太是誰？<A>Haba
+<Q>誰是 Frufu 的太太？<A>Haba
+<Q>Haba 的先生是誰？<A>Frufu
+<Q>誰是 Haba 的先生？<A>Frufu
+<Q>Haba 有幾個孩子？<A>3個
+<Q>Haba 家有幾個孩子？<A>3個
+<Q>Jiha 的爸爸是誰？<A>Frufu
+<Q>誰是 Jiha 的爸爸？<A>Frufu
+<Q>Jiha 的媽媽是誰？<A>Haba
+<Q>誰是 Jiha 的媽媽？<A>Haba
+<Q>Jiha 的妹妹是誰？<A>Dedas
+<Q>誰是 Jiha 的妹妹？<A>Dedas
+<Q>Jiha 的姐姐是誰？<A>Darem
+<Q>誰是 Jiha 的姐姐？<A>Darem
+<Q>Dedas 的爸爸是誰？<A>Frufu
+<Q>誰是 Dedas 的爸爸？<A>Frufu
+<Q>Dedas 的媽媽是誰？<A>Haba
+<Q>誰是 Dedas 的媽媽？<A>Haba
+<Q>Darem 的爸爸是誰？<A>Frufu
+<Q>誰是 Darem 的爸爸？<A>Frufu
+<Q>Darem 的媽媽是誰？<A>Haba
+<Q>誰是 Darem 的媽媽？<A>Haba
+<Q>Proge 的太太是誰？<A>Kadam
+<Q>誰是 Proge 的太太？<A>Kadam
+<Q>Kadam 的先生是誰？<A>Proge
+<Q>誰是 Kadam 的先生？<A>Proge
+<Q>Proge 有幾個孩子？<A>3個
+<Q>Proge 家有幾個孩子？<A>3個
+<Q>Fiwa 的爸爸是誰？<A>Proge
+<Q>誰是 Fiwa 的爸爸？<A>Proge
+<Q>Genin 的媽媽是誰？<A>Kadam
+<Q>誰是 Genin 的媽媽？<A>Kadam
+<Q>Genin 的姐姐是誰？<A>Tibin
+<Q>誰是 Genin 的姐姐？<A>Tibin
+<Q>Tibin 的爸爸是誰？<A>Proge
+<Q>誰是 Tibin 的爸爸？<A>Proge
+<Q>Tibin 的媽媽是誰？<A>Kadam
+<Q>誰是 Tibin 的媽媽？<A>Kadam
+<Q>Zaros 的太太是誰？<A>Dukar
+<Q>誰是 Zaros 的太太？<A>Dukar
+<Q>Dukar 的先生是誰？<A>Zaros
+<Q>誰是 Dukar 的先生？<A>Zaros
+<Q>Zaros 有幾個孩子？<A>2個
+<Q>Zaros 家有幾個孩子？<A>2個
+<Q>Dukar 有幾個孩子？<A>2個
+<Q>Dukar 家有幾個孩子？<A>2個
+<Q>Jobu 的爸爸是誰？<A>Zaros
+<Q>誰是 Jobu 的爸爸？<A>Zaros
+<Q>Jobu 的媽媽是誰？<A>Dukar
+<Q>誰是 Jobu 的媽媽？<A>Dukar
+<Q>Jobu 的妹妹是誰？<A>Nabil
+<Q>誰是 Jobu 的妹妹？<A>Nabil
+<Q>Nabil 的爸爸是誰？<A>Zaros
+<Q>誰是 Nabil 的爸爸？<A>Zaros
+<Q>Nabil 的媽媽是誰？<A>Dukar
+<Q>誰是 Nabil 的媽媽？<A>Dukar
+<Q>Nabil 的哥哥是誰？<A>Jobu
+<Q>誰是 Nabil 的哥哥？<A>Jobu
+<Q>Wurun 的太太是誰？<A>Lojas
+<Q>誰是 Wurun 的太太？<A>Lojas
+<Q>Wurun 有幾個孩子？<A>1個
+<Q>Wurun 家有幾個孩子？<A>1個
+<Q>Lojas 有幾個孩子？<A>1個
+<Q>Lojas 家有幾個孩子？<A>1個
+<Q>Wugin 的媽媽是誰？<A>Lojas
+<Q>誰是 Wugin 的媽媽？<A>Lojas
+<Q>Kimor 有幾個孩子？<A>1個
+<Q>Kimor 家有幾個孩子？<A>1個
+<Q>Zesel 有幾個孩子？<A>1個
+<Q>Zesel 家有幾個孩子？<A>1個
+<Q>Puhos 的爸爸是誰？<A>Kimor
+<Q>誰是 Puhos 的爸爸？<A>Kimor
+<Q>Puhos 的媽媽是誰？<A>Zesel
+<Q>誰是 Puhos 的媽媽？<A>Zesel
+<Q>Jovir 的太太是誰？<A>Lepos
+<Q>誰是 Jovir 的太太？<A>Lepos
+<Q>Lepos 的先生是誰？<A>Jovir
+<Q>誰是 Lepos 的先生？<A>Jovir
+<Q>Jovir 有幾個孩子？<A>3個
+<Q>Jovir 家有幾個孩子？<A>3個
+<Q>Lepos 有幾個孩子？<A>3個
+<Q>Lepos 家有幾個孩子？<A>3個
+<Q>Lukin 的爸爸是誰？<A>Jovir
+<Q>誰是 Lukin 的爸爸？<A>Jovir
+<Q>Lukin 的哥哥是誰？<A>Stuhe
+<Q>誰是 Lukin 的哥哥？<A>Stuhe
+<Q>Lukin 的妹妹是誰？<A>Trire
+<Q>誰是 Lukin 的妹妹？<A>Trire
+<Q>Stuhe 的爸爸是誰？<A>Jovir
+<Q>誰是 Stuhe 的爸爸？<A>Jovir
+<Q>Stuhe 的媽媽是誰？<A>Lepos
+<Q>誰是 Stuhe 的媽媽？<A>Lepos
+<Q>Krako 的太太是誰？<A>Hinon
+<Q>誰是 Krako 的太太？<A>Hinon
+<Q>Hinon 的先生是誰？<A>Krako
+<Q>誰是 Hinon 的先生？<A>Krako
+<Q>Gamel 的爸爸是誰？<A>Krako
+<Q>誰是 Gamel 的爸爸？<A>Krako
+<Q>Gamel 的媽媽是誰？<A>Hinon
+<Q>誰是 Gamel 的媽媽？<A>Hinon
+<Q>Solus 有幾個孩子？<A>3個
+<Q>Solus 家有幾個孩子？<A>3個
+<Q>Tutes 的爸爸是誰？<A>Solus
+<Q>誰是 Tutes 的爸爸？<A>Solus
+<Q>Tutes 的媽媽是誰？<A>Noben
+<Q>誰是 Tutes 的媽媽？<A>Noben
+<Q>Tutes 的妹妹是誰？<A>Gotin
+<Q>誰是 Tutes 的妹妹？<A>Gotin
+<Q>Tutes 的姐姐是誰？<A>Semol
+<Q>誰是 Tutes 的姐姐？<A>Semol
+<Q>Gotin 的爸爸是誰？<A>Solus
+<Q>誰是 Gotin 的爸爸？<A>Solus
+<Q>Gotin 的媽媽是誰？<A>Noben
+<Q>誰是 Gotin 的媽媽？<A>Noben
+<Q>Gotin 的姐姐是誰？<A>Semol
+<Q>誰是 Gotin 的姐姐？<A>Semol
+<Q>Semol 的爸爸是誰？<A>Solus
+<Q>誰是 Semol 的爸爸？<A>Solus
+<Q>Semol 的媽媽是誰？<A>Noben
+<Q>誰是 Semol 的媽媽？<A>Noben
+<Q>Semol 的弟弟是誰？<A>Tutes
+<Q>誰是 Semol 的弟弟？<A>Tutes
+<Q>Jibom 的太太是誰？<A>Wadir
+<Q>誰是 Jibom 的太太？<A>Wadir
+<Q>Wadir 的先生是誰？<A>Jibom
+<Q>誰是 Wadir 的先生？<A>Jibom
+<Q>Jibom 有幾個孩子？<A>1個
+<Q>Jibom 家有幾個孩子？<A>1個
+<Q>Wadir 有幾個孩子？<A>1個
+<Q>Wadir 家有幾個孩子？<A>1個
+<Q>Jeram 的爸爸是誰？<A>Jibom
+<Q>誰是 Jeram 的爸爸？<A>Jibom
+<Q>Jeram 的媽媽是誰？<A>Wadir
+<Q>誰是 Jeram 的媽媽？<A>Wadir
+<Q>Kobir 的太太是誰？<A>Poves
+<Q>誰是 Kobir 的太太？<A>Poves
+<Q>Kobir 有幾個孩子？<A>1個
+<Q>Kobir 家有幾個孩子？<A>1個
+<Q>Poves 有幾個孩子？<A>1個
+<Q>Poves 家有幾個孩子？<A>1個
+<Q>Sugun 的爸爸是誰？<A>Kobir
+<Q>誰是 Sugun 的爸爸？<A>Kobir
+<Q>Sugun 的媽媽是誰？<A>Poves
+<Q>誰是 Sugun 的媽媽？<A>Poves
+<Q>Mosa 的太太是誰？<A>Fotir
+<Q>誰是 Mosa 的太太？<A>Fotir
+<Q>Fotir 的先生是誰？<A>Mosa
+<Q>誰是 Fotir 的先生？<A>Mosa
+<Q>Fotir 有幾個孩子？<A>2個
+<Q>Fotir 家有幾個孩子？<A>2個
+<Q>Genor 的爸爸是誰？<A>Mosa
+<Q>誰是 Genor 的爸爸？<A>Mosa
+<Q>Genor 的媽媽是誰？<A>Fotir
+<Q>誰是 Genor 的媽媽？<A>Fotir
+<Q>Genor 的哥哥是誰？<A>Love
+<Q>誰是 Genor 的哥哥？<A>Love
+<Q>Love 的爸爸是誰？<A>Mosa
+<Q>誰是 Love 的爸爸？<A>Mosa
+<Q>Lerol 的太太是誰？<A>Nuhon
+<Q>誰是 Lerol 的太太？<A>Nuhon
+<Q>Nuhon 的先生是誰？<A>Lerol
+<Q>誰是 Nuhon 的先生？<A>Lerol
+<Q>Lerol 有幾個孩子？<A>1個
+<Q>Lerol 家有幾個孩子？<A>1個
+<Q>Nuhon 有幾個孩子？<A>1個
+<Q>Nuhon 家有幾個孩子？<A>1個
+<Q>Momos 的爸爸是誰？<A>Lerol
+<Q>誰是 Momos 的爸爸？<A>Lerol
+<Q>Momos 的媽媽是誰？<A>Nuhon
+<Q>誰是 Momos 的媽媽？<A>Nuhon
+<Q>Niwol 的太太是誰？<A>Safun
+<Q>誰是 Niwol 的太太？<A>Safun
+<Q>Safun 有幾個孩子？<A>1個
+<Q>Safun 家有幾個孩子？<A>1個
+<Q>Ziba 的媽媽是誰？<A>Safun
+<Q>誰是 Ziba 的媽媽？<A>Safun
+<Q>Levim 的先生是誰？<A>Nigu
+<Q>誰是 Levim 的先生？<A>Nigu
+<Q>Nigu 有幾個孩子？<A>1個
+<Q>Nigu 家有幾個孩子？<A>1個
+<Q>Levim 有幾個孩子？<A>1個
+<Q>Levim 家有幾個孩子？<A>1個
+<Q>Kojus 的爸爸是誰？<A>Nigu
+<Q>誰是 Kojus 的爸爸？<A>Nigu
+<Q>Kojus 的媽媽是誰？<A>Levim
+<Q>誰是 Kojus 的媽媽？<A>Levim
+<Q>Funel 的太太是誰？<A>Gugil
+<Q>誰是 Funel 的太太？<A>Gugil
+<Q>Gugil 的先生是誰？<A>Funel
+<Q>誰是 Gugil 的先生？<A>Funel
+<Q>Funel 有幾個孩子？<A>1個
+<Q>Funel 家有幾個孩子？<A>1個
+<Q>Howu 的爸爸是誰？<A>Funel
+<Q>誰是 Howu 的爸爸？<A>Funel
+<Q>Howu 的媽媽是誰？<A>Gugil
+<Q>誰是 Howu 的媽媽？<A>Gugil
+<Q>Prolo 幾歲？<A>4歲
+<Q>Prolo 今年幾歲？<A>4歲
+<Q>Prolo 是誰家的？<A>Nelam
+<Q>誰家有 Prolo？<A>Nelam
+<Q>Powim 是什麼色的？<A>紅色
+<Q>Powim 身上是什麼色的？<A>紅色
+<Q>Powim 幾歲？<A>11歲
+<Q>Powim 今年幾歲？<A>11歲
+<Q>Powim 是誰家的？<A>Pafen
+<Q>誰家有 Powim？<A>Pafen
+<Q>Vitos 是什麼色的？<A>金色
+<Q>Vitos 身上是什麼色的？<A>金色
+<Q>Vitos 幾歲？<A>6歲
+<Q>Vitos 今年幾歲？<A>6歲
+<Q>Vitos 是誰家的？<A>Kasu
+<Q>誰家有 Vitos？<A>Kasu
+<Q>Fera 是什麼動物？<A>雞
+<Q>Fera 這個動物是什麼？<A>雞
+<Q>Fera 是什麼色的？<A>白色
+<Q>Fera 身上是什麼色的？<A>白色
+<Q>Fera 是誰家的？<A>Lepos
+<Q>誰家有 Fera？<A>Lepos
+<Q>Woha 是什麼動物？<A>雞
+<Q>Woha 這個動物是什麼？<A>雞
+<Q>Woha 是什麼色的？<A>黑色
+<Q>Woha 身上是什麼色的？<A>黑色
+<Q>Woha 幾歲？<A>8歲
+<Q>Woha 今年幾歲？<A>8歲
+<Q>Woha 是誰家的？<A>Steha
+<Q>誰家有 Woha？<A>Steha
+<Q>Prohi 是什麼動物？<A>馬
+<Q>Prohi 這個動物是什麼？<A>馬
+<Q>Prohi 是什麼色的？<A>白色
+<Q>Prohi 身上是什麼色的？<A>白色
+<Q>Prohi 幾歲？<A>8歲
+<Q>Prohi 今年幾歲？<A>8歲
+<Q>Prohi 是誰家的？<A>Bolon
+<Q>誰家有 Prohi？<A>Bolon
+<Q>Pomu 是什麼動物？<A>牛
+<Q>Pomu 這個動物是什麼？<A>牛
+<Q>Pomu 是什麼色的？<A>黑色
+<Q>Pomu 身上是什麼色的？<A>黑色
+<Q>Pomu 幾歲？<A>4歲
+<Q>Pomu 今年幾歲？<A>4歲
+<Q>Pomu 是誰家的？<A>Lodis
+<Q>誰家有 Pomu？<A>Lodis
+<Q>Nirol 是什麼動物？<A>鳥
+<Q>Nirol 這個動物是什麼？<A>鳥
+<Q>Nirol 是什麼色的？<A>金色
+<Q>Nirol 身上是什麼色的？<A>金色
+<Q>Nirol 幾歲？<A>12歲
+<Q>Nirol 今年幾歲？<A>12歲
+<Q>Pumun 是什麼動物？<A>雞
+<Q>Pumun 這個動物是什麼？<A>雞
+<Q>Pumun 是什麼色的？<A>白色
+<Q>Pumun 身上是什麼色的？<A>白色
+<Q>Pumun 幾歲？<A>7歲
+<Q>Pumun 今年幾歲？<A>7歲
+<Q>Pumun 是誰家的？<A>Zukan
+<Q>誰家有 Pumun？<A>Zukan
+<Q>Kogi 是什麼動物？<A>魚
+<Q>Kogi 這個動物是什麼？<A>魚
+<Q>Kogi 幾歲？<A>8歲
+<Q>Kogi 今年幾歲？<A>8歲
+<Q>Kogi 是誰家的？<A>Fraba
+<Q>誰家有 Kogi？<A>Fraba
+<Q>Pihus 是什麼色的？<A>黑色
+<Q>Pihus 身上是什麼色的？<A>黑色
+<Q>Pihus 是誰家的？<A>Takon
+<Q>誰家有 Pihus？<A>Takon
+<Q>Fasul 是什麼動物？<A>魚
+<Q>Fasul 這個動物是什麼？<A>魚
+<Q>Fasul 是什麼色的？<A>金色
+<Q>Fasul 身上是什麼色的？<A>金色
+<Q>Fasul 幾歲？<A>3歲
+<Q>Fasul 今年幾歲？<A>3歲
+<Q>Gadem 是什麼色的？<A>白色
+<Q>Gadem 身上是什麼色的？<A>白色
+<Q>Gadem 幾歲？<A>3歲
+<Q>Gadem 今年幾歲？<A>3歲
+<Q>Gadem 是誰家的？<A>Nabil
+<Q>誰家有 Gadem？<A>Nabil
+<Q>Wudur 是什麼色的？<A>黑色
+<Q>Wudur 身上是什麼色的？<A>黑色
+<Q>Wudur 幾歲？<A>8歲
+<Q>Wudur 今年幾歲？<A>8歲
+<Q>Wudur 是誰家的？<A>Vomom
+<Q>誰家有 Wudur？<A>Vomom
+<Q>Fedos 是什麼動物？<A>豬
+<Q>Fedos 這個動物是什麼？<A>豬
+<Q>Fedos 幾歲？<A>7歲
+<Q>Fedos 今年幾歲？<A>7歲
+<Q>Dogan 是什麼動物？<A>馬
+<Q>Dogan 這個動物是什麼？<A>馬
+<Q>Dogan 幾歲？<A>5歲
+<Q>Dogan 今年幾歲？<A>5歲
+<Q>Dogan 是誰家的？<A>Nuhon
+<Q>誰家有 Dogan？<A>Nuhon
+<Q>Himi 是什麼動物？<A>豬
+<Q>Himi 這個動物是什麼？<A>豬
+<Q>Himi 是什麼色的？<A>金色
+<Q>Himi 身上是什麼色的？<A>金色
+<Q>Himi 是誰家的？<A>Sige
+<Q>誰家有 Himi？<A>Sige
+<Q>Tapal 是什麼色的？<A>白色
+<Q>Tapal 身上是什麼色的？<A>白色
+<Q>Tapal 幾歲？<A>6歲
+<Q>Tapal 今年幾歲？<A>6歲
+<Q>Tapal 是誰家的？<A>Wurun
+<Q>誰家有 Tapal？<A>Wurun
+<Q>Zagor 是什麼動物？<A>雞
+<Q>Zagor 這個動物是什麼？<A>雞
+<Q>Zagor 是什麼色的？<A>白色
+<Q>Zagor 身上是什麼色的？<A>白色
+<Q>Zagor 幾歲？<A>3歲
+<Q>Zagor 今年幾歲？<A>3歲
+<Q>Zagor 是誰家的？<A>Noben
+<Q>誰家有 Zagor？<A>Noben
+<Q>Prova 是什麼動物？<A>牛
+<Q>Prova 這個動物是什麼？<A>牛
+<Q>Prova 是什麼色的？<A>黑色
+<Q>Prova 身上是什麼色的？<A>黑色
+<Q>Prova 幾歲？<A>9歲
+<Q>Prova 今年幾歲？<A>9歲
+<Q>Prova 是誰家的？<A>Jovir
+<Q>誰家有 Prova？<A>Jovir
+<Q>Tugas 是什麼動物？<A>豬
+<Q>Tugas 這個動物是什麼？<A>豬
+<Q>Tugas 幾歲？<A>5歲
+<Q>Tugas 今年幾歲？<A>5歲
+<Q>Tugas 是誰家的？<A>Zevun
+<Q>誰家有 Tugas？<A>Zevun
+<Q>Wehal 是什麼動物？<A>豬
+<Q>Wehal 這個動物是什麼？<A>豬
+<Q>Wehal 幾歲？<A>5歲
+<Q>Wehal 今年幾歲？<A>5歲
+<Q>Baga 是什麼色的？<A>白色
+<Q>Baga 身上是什麼色的？<A>白色
+<Q>Baga 幾歲？<A>7歲
+<Q>Baga 今年幾歲？<A>7歲
+<Q>Baga 是誰家的？<A>Fase
+<Q>誰家有 Baga？<A>Fase
+<Q>Gewan 是什麼動物？<A>雞
+<Q>Gewan 這個動物是什麼？<A>雞
+<Q>Gewan 是什麼色的？<A>黑色
+<Q>Gewan 身上是什麼色的？<A>黑色
+<Q>Gewan 幾歲？<A>1歲
+<Q>Gewan 今年幾歲？<A>1歲
+<Q>Gewan 是誰家的？<A>Fuge
+<Q>誰家有 Gewan？<A>Fuge
+<Q>Brovi 是什麼動物？<A>馬
+<Q>Brovi 這個動物是什麼？<A>馬
+<Q>Brovi 是什麼色的？<A>白色
+<Q>Brovi 身上是什麼色的？<A>白色
+<Q>Brovi 幾歲？<A>8歲
+<Q>Brovi 今年幾歲？<A>8歲
+<Q>Brovi 是誰家的？<A>Gamel
+<Q>誰家有 Brovi？<A>Gamel
+<Q>Praba 是誰家的？<A>Teke
+<Q>誰家有 Praba？<A>Teke
+<Q>Nujor 是什麼動物？<A>鳥
+<Q>Nujor 這個動物是什麼？<A>鳥
+<Q>Nujor 是什麼色的？<A>金色
+<Q>Nujor 身上是什麼色的？<A>金色
+<Q>Nujor 幾歲？<A>3歲
+<Q>Nujor 今年幾歲？<A>3歲
+<Q>Nujor 是誰家的？<A>Dubo
+<Q>誰家有 Nujor？<A>Dubo
+<Q>Dirus 是什麼動物？<A>雞
+<Q>Dirus 這個動物是什麼？<A>雞
+<Q>Dirus 是什麼色的？<A>白色
+<Q>Dirus 身上是什麼色的？<A>白色
+<Q>Dirus 幾歲？<A>7歲
+<Q>Dirus 今年幾歲？<A>7歲
+<Q>Dirus 是誰家的？<A>Porer
+<Q>誰家有 Dirus？<A>Porer
+<Q>Vojem 是什麼動物？<A>豬
+<Q>Vojem 這個動物是什麼？<A>豬
+<Q>Vojem 是什麼色的？<A>黑色
+<Q>Vojem 身上是什麼色的？<A>黑色
+<Q>Vojem 幾歲？<A>3歲
+<Q>Vojem 今年幾歲？<A>3歲
+<Q>Vojem 是誰家的？<A>Meve
+<Q>誰家有 Vojem？<A>Meve
+<Q>Gijol 是什麼動物？<A>鳥
+<Q>Gijol 這個動物是什麼？<A>鳥
+<Q>Gijol 是什麼色的？<A>黑色
+<Q>Gijol 身上是什麼色的？<A>黑色
+<Q>Gijol 幾歲？<A>12歲
+<Q>Gijol 今年幾歲？<A>12歲
+<Q>Gijol 是誰家的？<A>Velel
+<Q>誰家有 Gijol？<A>Velel
+<Q>Somun 是什麼動物？<A>馬
+<Q>Somun 這個動物是什麼？<A>馬
+<Q>Somun 是什麼色的？<A>白色
+<Q>Somun 身上是什麼色的？<A>白色
+<Q>Somun 幾歲？<A>2歲
+<Q>Somun 今年幾歲？<A>2歲
+<Q>Somun 是誰家的？<A>Gugil
+<Q>誰家有 Somun？<A>Gugil
+<Q>Nidus 是什麼動物？<A>魚
+<Q>Nidus 這個動物是什麼？<A>魚
+<Q>Nidus 是什麼色的？<A>紅色
+<Q>Nidus 身上是什麼色的？<A>紅色
+<Q>Nidus 幾歲？<A>5歲
+<Q>Nidus 今年幾歲？<A>5歲
+<Q>Nidus 是誰家的？<A>Velel
+<Q>誰家有 Nidus？<A>Velel
+<Q>Benul 幾歲？<A>10歲
+<Q>Benul 今年幾歲？<A>10歲
+<Q>Benul 是誰家的？<A>Bolon
+<Q>誰家有 Benul？<A>Bolon
+<Q>Losor 是什麼動物？<A>鳥
+<Q>Losor 這個動物是什麼？<A>鳥
+<Q>Losor 是什麼色的？<A>金色
+<Q>Losor 身上是什麼色的？<A>金色
+<Q>Losor 幾歲？<A>4歲
+<Q>Losor 今年幾歲？<A>4歲
+<Q>Bimil 幾歲？<A>12歲
+<Q>Bimil 今年幾歲？<A>12歲
+<Q>Bimil 是誰家的？<A>Zukon
+<Q>誰家有 Bimil？<A>Zukon
+<Q>Judim 是什麼動物？<A>鳥
+<Q>Judim 這個動物是什麼？<A>鳥
+<Q>Judim 是什麼色的？<A>金色
+<Q>Judim 身上是什麼色的？<A>金色
+<Q>Judim 是誰家的？<A>Tifor
+<Q>誰家有 Judim？<A>Tifor
+<Q>Huhim 是什麼動物？<A>魚
+<Q>Huhim 這個動物是什麼？<A>魚
+<Q>Huhim 是什麼色的？<A>紅色
+<Q>Huhim 身上是什麼色的？<A>紅色
+<Q>Huhim 是誰家的？<A>Totu
+<Q>誰家有 Huhim？<A>Totu
+<Q>Broru 是什麼色的？<A>紅色
+<Q>Broru 身上是什麼色的？<A>紅色
+<Q>Broru 幾歲？<A>3歲
+<Q>Broru 今年幾歲？<A>3歲
+<Q>Broru 是誰家的？<A>Suvum
+<Q>誰家有 Broru？<A>Suvum
+<Q>Bruwo 是什麼動物？<A>馬
+<Q>Bruwo 這個動物是什麼？<A>馬
+<Q>Bruwo 是什麼色的？<A>黑色
+<Q>Bruwo 身上是什麼色的？<A>黑色
+<Q>Bruwo 幾歲？<A>10歲
+<Q>Bruwo 今年幾歲？<A>10歲
+<Q>Bruwo 是誰家的？<A>Kreho
+<Q>誰家有 Bruwo？<A>Kreho
+<Q>Stenu 是什麼色的？<A>黑色
+<Q>Stenu 身上是什麼色的？<A>黑色
+<Q>Stenu 是誰家的？<A>Nanas
+<Q>誰家有 Stenu？<A>Nanas
+<Q>Fura 是什麼動物？<A>鳥
+<Q>Fura 這個動物是什麼？<A>鳥
+<Q>Fura 是什麼色的？<A>白色
+<Q>Fura 身上是什麼色的？<A>白色
+<Q>Fura 幾歲？<A>6歲
+<Q>Fura 今年幾歲？<A>6歲
+<Q>Sumun 是什麼動物？<A>雞
+<Q>Sumun 這個動物是什麼？<A>雞
+<Q>Sumun 是什麼色的？<A>白色
+<Q>Sumun 身上是什麼色的？<A>白色
+<Q>Sumun 幾歲？<A>2歲
+<Q>Sumun 今年幾歲？<A>2歲
+<Q>Sumun 是誰家的？<A>Trole
+<Q>誰家有 Sumun？<A>Trole
+<Q>Wuke 是什麼動物？<A>魚
+<Q>Wuke 這個動物是什麼？<A>魚
+<Q>Wuke 是什麼色的？<A>黑色
+<Q>Wuke 身上是什麼色的？<A>黑色
+<Q>Wuke 幾歲？<A>6歲
+<Q>Wuke 今年幾歲？<A>6歲
+<Q>Wuke 是誰家的？<A>Tofo
+<Q>誰家有 Wuke？<A>Tofo
+<Q>Kajin 是什麼動物？<A>鳥
+<Q>Kajin 這個動物是什麼？<A>鳥
+<Q>Kajin 是什麼色的？<A>白色
+<Q>Kajin 身上是什麼色的？<A>白色
+<Q>Kajin 幾歲？<A>5歲
+<Q>Kajin 今年幾歲？<A>5歲
+<Q>Kajin 是誰家的？<A>Kevan
+<Q>誰家有 Kajin？<A>Kevan
+<Q>Zelal 是什麼色的？<A>紅色
+<Q>Zelal 身上是什麼色的？<A>紅色
+<Q>Zelal 幾歲？<A>8歲
+<Q>Zelal 今年幾歲？<A>8歲
+<Q>Zelal 是誰家的？<A>Noben
+<Q>誰家有 Zelal？<A>Noben
+<Q>Rarom 是什麼動物？<A>牛
+<Q>Rarom 這個動物是什麼？<A>牛
+<Q>Rarom 是什麼色的？<A>黑色
+<Q>Rarom 身上是什麼色的？<A>黑色
+<Q>Rarom 幾歲？<A>1歲
+<Q>Rarom 今年幾歲？<A>1歲
+<Q>Rarom 是誰家的？<A>Neja
+<Q>誰家有 Rarom？<A>Neja
+<Q>Fepu 是什麼動物？<A>牛
+<Q>Fepu 這個動物是什麼？<A>牛
+<Q>Fepu 是什麼色的？<A>黑色
+<Q>Fepu 身上是什麼色的？<A>黑色
+<Q>Fepu 幾歲？<A>10歲
+<Q>Fepu 今年幾歲？<A>10歲
+<Q>Fepu 是誰家的？<A>Meve
+<Q>誰家有 Fepu？<A>Meve
+<Q>Riba 是什麼動物？<A>馬
+<Q>Riba 這個動物是什麼？<A>馬
+<Q>Riba 是什麼色的？<A>白色
+<Q>Riba 身上是什麼色的？<A>白色
+<Q>Riba 幾歲？<A>5歲
+<Q>Riba 今年幾歲？<A>5歲
+<Q>Riba 是誰家的？<A>Dopar
+<Q>誰家有 Riba？<A>Dopar
+<Q>Kuwur 幾歲？<A>1歲
+<Q>Kuwur 今年幾歲？<A>1歲
+<Q>Kuwur 是誰家的？<A>Kaho
+<Q>誰家有 Kuwur？<A>Kaho
+<Q>Kimo 是什麼動物？<A>魚
+<Q>Kimo 這個動物是什麼？<A>魚
+<Q>Kimo 是什麼色的？<A>黑色
+<Q>Kimo 身上是什麼色的？<A>黑色
+<Q>Kimo 幾歲？<A>5歲
+<Q>Kimo 今年幾歲？<A>5歲
+<Q>Vuhim 是什麼動物？<A>鳥
+<Q>Vuhim 這個動物是什麼？<A>鳥
+<Q>Vuhim 是什麼色的？<A>紅色
+<Q>Vuhim 身上是什麼色的？<A>紅色
+<Q>Vuhim 幾歲？<A>9歲
+<Q>Vuhim 今年幾歲？<A>9歲
+<Q>Dikel 是什麼動物？<A>魚
+<Q>Dikel 這個動物是什麼？<A>魚
+<Q>Dikel 是什麼色的？<A>紅色
+<Q>Dikel 身上是什麼色的？<A>紅色
+<Q>Dikel 幾歲？<A>2歲
+<Q>Dikel 今年幾歲？<A>2歲
+<Q>Dikel 是誰家的？<A>Leva
+<Q>誰家有 Dikel？<A>Leva
+<Q>Fadar 是誰家的？<A>Losil
+<Q>誰家有 Fadar？<A>Losil
+<Q>Rowam 是什麼動物？<A>牛
+<Q>Rowam 這個動物是什麼？<A>牛
+<Q>Rowam 是什麼色的？<A>紅色
+<Q>Rowam 身上是什麼色的？<A>紅色
+<Q>Rowam 幾歲？<A>8歲
+<Q>Rowam 今年幾歲？<A>8歲
+<Q>Rowam 是誰家的？<A>Safun
+<Q>誰家有 Rowam？<A>Safun
+<Q>Pulas 是什麼動物？<A>鳥
+<Q>Pulas 這個動物是什麼？<A>鳥
+<Q>Pulas 是什麼色的？<A>金色
+<Q>Pulas 身上是什麼色的？<A>金色
+<Q>Pulas 幾歲？<A>2歲
+<Q>Pulas 今年幾歲？<A>2歲
+<Q>Zojom 是什麼色的？<A>紅色
+<Q>Zojom 身上是什麼色的？<A>紅色
+<Q>Zojom 幾歲？<A>3歲
+<Q>Zojom 今年幾歲？<A>3歲
+<Q>Zojom 是誰家的？<A>Kobir
+<Q>誰家有 Zojom？<A>Kobir
+<Q>Jile 是什麼動物？<A>鳥
+<Q>Jile 這個動物是什麼？<A>鳥
+<Q>Jile 幾歲？<A>4歲
+<Q>Jile 今年幾歲？<A>4歲
+<Q>Jile 是誰家的？<A>Begos
+<Q>誰家有 Jile？<A>Begos
+<Q>Dirar 是什麼動物？<A>魚
+<Q>Dirar 這個動物是什麼？<A>魚
+<Q>Dirar 是什麼色的？<A>紅色
+<Q>Dirar 身上是什麼色的？<A>紅色
+<Q>Dirar 幾歲？<A>12歲
+<Q>Dirar 今年幾歲？<A>12歲
+<Q>Dirar 是誰家的？<A>Zabos
+<Q>誰家有 Dirar？<A>Zabos
+<Q>Bamus 是什麼動物？<A>馬
+<Q>Bamus 這個動物是什麼？<A>馬
+<Q>Bamus 是什麼色的？<A>白色
+<Q>Bamus 身上是什麼色的？<A>白色
+<Q>Bamus 幾歲？<A>11歲
+<Q>Bamus 今年幾歲？<A>11歲
+<Q>Troda 是什麼動物？<A>魚
+<Q>Troda 這個動物是什麼？<A>魚
+<Q>Troda 是什麼色的？<A>紅色
+<Q>Troda 身上是什麼色的？<A>紅色
+<Q>Troda 幾歲？<A>10歲
+<Q>Troda 今年幾歲？<A>10歲

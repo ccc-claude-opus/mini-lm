@@ -1,0 +1,2983 @@
+Pesa 在國的西邊。
+Pesa 是國西邊的一個城。
+國的西邊有一個城叫 Pesa。
+Pesa 在河邊。
+Pesa 是河邊的一個城。
+住在 Pesa 的人每天都可以去河邊玩。
+Pesa 有1個學校。
+Pesa 這個城裡有1個學校。
+Pesa 的學校有1個。
+Braru 在國的南邊。
+Braru 是國南邊的一個城。
+國的南邊有一個城叫 Braru。
+Braru 在河邊。
+Braru 是河邊的一個城。
+住在 Braru 的人每天都可以去河邊玩。
+Braru 有1個學校。
+Braru 這個城裡有1個學校。
+Braru 的學校有1個。
+Zedal 在國的東邊。
+Zedal 是國東邊的一個城。
+國的東邊有一個城叫 Zedal。
+Zedal 在山邊。
+Zedal 是山邊的一個城。
+住在 Zedal 的人每天都可以去山邊玩。
+Zedal 有5個學校。
+Zedal 這個城裡有5個學校。
+Zedal 的學校有5個。
+Talar 在國的北邊。
+Talar 是國北邊的一個城。
+國的北邊有一個城叫 Talar。
+Talar 在山邊。
+Talar 是山邊的一個城。
+住在 Talar 的人每天都可以去山邊玩。
+Talar 有3個學校。
+Talar 這個城裡有3個學校。
+Talar 的學校有3個。
+Tages 在國的南邊。
+Tages 是國南邊的一個城。
+國的南邊有一個城叫 Tages。
+Tages 在河邊。
+Tages 是河邊的一個城。
+住在 Tages 的人每天都可以去河邊玩。
+Tages 有3個學校。
+Tages 這個城裡有3個學校。
+Tages 的學校有3個。
+Salar 在國的北邊。
+Salar 是國北邊的一個城。
+國的北邊有一個城叫 Salar。
+Salar 在山邊。
+Salar 是山邊的一個城。
+住在 Salar 的人每天都可以去山邊玩。
+Salar 有1個學校。
+Salar 這個城裡有1個學校。
+Salar 的學校有1個。
+Hiter 在國的北邊。
+Hiter 是國北邊的一個城。
+國的北邊有一個城叫 Hiter。
+Hiter 在海邊。
+Hiter 是海邊的一個城。
+住在 Hiter 的人每天都可以去海邊玩。
+Hiter 有4個學校。
+Hiter 這個城裡有4個學校。
+Hiter 的學校有4個。
+Gunum 在國的北邊。
+Gunum 是國北邊的一個城。
+國的北邊有一個城叫 Gunum。
+Gunum 在海邊。
+Gunum 是海邊的一個城。
+住在 Gunum 的人每天都可以去海邊玩。
+Gunum 有1個學校。
+Gunum 這個城裡有1個學校。
+Gunum 的學校有1個。
+Pradu 在國的西邊。
+Pradu 是國西邊的一個城。
+國的西邊有一個城叫 Pradu。
+Pradu 在山邊。
+Pradu 是山邊的一個城。
+住在 Pradu 的人每天都可以去山邊玩。
+Pradu 有3個學校。
+Pradu 這個城裡有3個學校。
+Pradu 的學校有3個。
+Wutil 在國的南邊。
+Wutil 是國南邊的一個城。
+國的南邊有一個城叫 Wutil。
+Wutil 在海邊。
+Wutil 是海邊的一個城。
+住在 Wutil 的人每天都可以去海邊玩。
+Wutil 有2個學校。
+Wutil 這個城裡有2個學校。
+Wutil 的學校有2個。
+Drori 在國的東邊。
+Drori 是國東邊的一個城。
+國的東邊有一個城叫 Drori。
+Drori 在山邊。
+Drori 是山邊的一個城。
+住在 Drori 的人每天都可以去山邊玩。
+Drori 有5個學校。
+Drori 這個城裡有5個學校。
+Drori 的學校有5個。
+Jefun 在國的南邊。
+Jefun 是國南邊的一個城。
+國的南邊有一個城叫 Jefun。
+Jefun 在山邊。
+Jefun 是山邊的一個城。
+住在 Jefun 的人每天都可以去山邊玩。
+Jefun 有5個學校。
+Jefun 這個城裡有5個學校。
+Jefun 的學校有5個。
+Zopon 在國的東邊。
+Zopon 是國東邊的一個城。
+國的東邊有一個城叫 Zopon。
+Zopon 在河邊。
+Zopon 是河邊的一個城。
+住在 Zopon 的人每天都可以去河邊玩。
+Zopon 有3個學校。
+Zopon 這個城裡有3個學校。
+Zopon 的學校有3個。
+Jihol 在國的東邊。
+Jihol 是國東邊的一個城。
+國的東邊有一個城叫 Jihol。
+Jihol 在河邊。
+Jihol 是河邊的一個城。
+住在 Jihol 的人每天都可以去河邊玩。
+Jihol 有3個學校。
+Jihol 這個城裡有3個學校。
+Jihol 的學校有3個。
+Dapis 在國的南邊。
+Dapis 是國南邊的一個城。
+國的南邊有一個城叫 Dapis。
+Dapis 在山邊。
+Dapis 是山邊的一個城。
+住在 Dapis 的人每天都可以去山邊玩。
+Dapis 有3個學校。
+Dapis 這個城裡有3個學校。
+Dapis 的學校有3個。
+Ruwum 在國的西邊。
+Ruwum 是國西邊的一個城。
+國的西邊有一個城叫 Ruwum。
+Ruwum 在河邊。
+Ruwum 是河邊的一個城。
+住在 Ruwum 的人每天都可以去河邊玩。
+Ruwum 有5個學校。
+Ruwum 這個城裡有5個學校。
+Ruwum 的學校有5個。
+Vafil 在國的南邊。
+Vafil 是國南邊的一個城。
+國的南邊有一個城叫 Vafil。
+Vafil 在河邊。
+Vafil 是河邊的一個城。
+住在 Vafil 的人每天都可以去河邊玩。
+Vafil 有2個學校。
+Vafil 這個城裡有2個學校。
+Vafil 的學校有2個。
+Ravi 在國的西邊。
+Ravi 是國西邊的一個城。
+國的西邊有一個城叫 Ravi。
+Ravi 在山邊。
+Ravi 是山邊的一個城。
+住在 Ravi 的人每天都可以去山邊玩。
+Ravi 有4個學校。
+Ravi 這個城裡有4個學校。
+Ravi 的學校有4個。
+Frawa 在國的西邊。
+Frawa 是國西邊的一個城。
+國的西邊有一個城叫 Frawa。
+Frawa 在山邊。
+Frawa 是山邊的一個城。
+住在 Frawa 的人每天都可以去山邊玩。
+Frawa 有5個學校。
+Frawa 這個城裡有5個學校。
+Frawa 的學校有5個。
+Sofel 在國的北邊。
+Sofel 是國北邊的一個城。
+國的北邊有一個城叫 Sofel。
+Sofel 在海邊。
+Sofel 是海邊的一個城。
+住在 Sofel 的人每天都可以去海邊玩。
+Sofel 有1個學校。
+Sofel 這個城裡有1個學校。
+Sofel 的學校有1個。
+Sumem 在國的東邊。
+Sumem 是國東邊的一個城。
+國的東邊有一個城叫 Sumem。
+Sumem 在海邊。
+Sumem 是海邊的一個城。
+住在 Sumem 的人每天都可以去海邊玩。
+Sumem 有4個學校。
+Sumem 這個城裡有4個學校。
+Sumem 的學校有4個。
+Tumon 在國的南邊。
+Tumon 是國南邊的一個城。
+國的南邊有一個城叫 Tumon。
+Tumon 在山邊。
+Tumon 是山邊的一個城。
+住在 Tumon 的人每天都可以去山邊玩。
+Tumon 有5個學校。
+Tumon 這個城裡有5個學校。
+Tumon 的學校有5個。
+Krole 在國的南邊。
+Krole 是國南邊的一個城。
+國的南邊有一個城叫 Krole。
+Krole 在海邊。
+Krole 是海邊的一個城。
+住在 Krole 的人每天都可以去海邊玩。
+Krole 有3個學校。
+Krole 這個城裡有3個學校。
+Krole 的學校有3個。
+Jele 在國的南邊。
+Jele 是國南邊的一個城。
+國的南邊有一個城叫 Jele。
+Jele 在山邊。
+Jele 是山邊的一個城。
+住在 Jele 的人每天都可以去山邊玩。
+Jele 有2個學校。
+Jele 這個城裡有2個學校。
+Jele 的學校有2個。
+Wujin 在國的東邊。
+Wujin 是國東邊的一個城。
+國的東邊有一個城叫 Wujin。
+Wujin 在山邊。
+Wujin 是山邊的一個城。
+住在 Wujin 的人每天都可以去山邊玩。
+Wujin 有4個學校。
+Wujin 這個城裡有4個學校。
+Wujin 的學校有4個。
+Betun 在國的西邊。
+Betun 是國西邊的一個城。
+國的西邊有一個城叫 Betun。
+Betun 在海邊。
+Betun 是海邊的一個城。
+住在 Betun 的人每天都可以去海邊玩。
+Betun 有2個學校。
+Betun 這個城裡有2個學校。
+Betun 的學校有2個。
+Zudom 在國的北邊。
+Zudom 是國北邊的一個城。
+國的北邊有一個城叫 Zudom。
+Zudom 在河邊。
+Zudom 是河邊的一個城。
+住在 Zudom 的人每天都可以去河邊玩。
+Zudom 有5個學校。
+Zudom 這個城裡有5個學校。
+Zudom 的學校有5個。
+Sawo 在國的東邊。
+Sawo 是國東邊的一個城。
+國的東邊有一個城叫 Sawo。
+Sawo 在海邊。
+Sawo 是海邊的一個城。
+住在 Sawo 的人每天都可以去海邊玩。
+Sawo 有3個學校。
+Sawo 這個城裡有3個學校。
+Sawo 的學校有3個。
+Kako 在國的東邊。
+Kako 是國東邊的一個城。
+國的東邊有一個城叫 Kako。
+Kako 在河邊。
+Kako 是河邊的一個城。
+住在 Kako 的人每天都可以去河邊玩。
+Kako 有1個學校。
+Kako 這個城裡有1個學校。
+Kako 的學校有1個。
+Gida 在國的北邊。
+Gida 是國北邊的一個城。
+國的北邊有一個城叫 Gida。
+Gida 在河邊。
+Gida 是河邊的一個城。
+住在 Gida 的人每天都可以去河邊玩。
+Gida 有2個學校。
+Gida 這個城裡有2個學校。
+Gida 的學校有2個。
+Weti 這個店賣刀。
+Weti 店裡賣的是刀。
+要買刀，可以去 Weti 這個店。
+Weti 這個店在 Pradu。
+Weti 店開在 Pradu。
+Pradu 有一個店叫 Weti。
+Weti 這個店早上6點開門。
+Weti 店每天6點開門。
+每天早上6點，Weti 這個店就開門了。
+Feje 這個店賣衣服。
+Feje 店裡賣的是衣服。
+要買衣服，可以去 Feje 這個店。
+Feje 這個店在 Gunum。
+Feje 店開在 Gunum。
+Gunum 有一個店叫 Feje。
+Feje 這個店早上7點開門。
+Feje 店每天7點開門。
+每天早上7點，Feje 這個店就開門了。
+Huver 這個店賣茶。
+Huver 店裡賣的是茶。
+要買茶，可以去 Huver 這個店。
+Huver 這個店在 Jele。
+Huver 店開在 Jele。
+Jele 有一個店叫 Huver。
+Huver 這個店早上9點開門。
+Huver 店每天9點開門。
+每天早上9點，Huver 這個店就開門了。
+Kebi 這個店賣刀。
+Kebi 店裡賣的是刀。
+要買刀，可以去 Kebi 這個店。
+Kebi 這個店在 Sawo。
+Kebi 店開在 Sawo。
+Sawo 有一個店叫 Kebi。
+Kebi 這個店早上9點開門。
+Kebi 店每天9點開門。
+每天早上9點，Kebi 這個店就開門了。
+Nulun 這個店賣菜。
+Nulun 店裡賣的是菜。
+要買菜，可以去 Nulun 這個店。
+Nulun 這個店在 Ruwum。
+Nulun 店開在 Ruwum。
+Ruwum 有一個店叫 Nulun。
+Nulun 這個店早上8點開門。
+Nulun 店每天8點開門。
+每天早上8點，Nulun 這個店就開門了。
+Mute 這個店賣水果。
+Mute 店裡賣的是水果。
+要買水果，可以去 Mute 這個店。
+Mute 這個店在 Sofel。
+Mute 店開在 Sofel。
+Sofel 有一個店叫 Mute。
+Mute 這個店早上7點開門。
+Mute 店每天7點開門。
+每天早上7點，Mute 這個店就開門了。
+Zohu 這個店賣菜。
+Zohu 店裡賣的是菜。
+要買菜，可以去 Zohu 這個店。
+Zohu 這個店在 Sofel。
+Zohu 店開在 Sofel。
+Sofel 有一個店叫 Zohu。
+Zohu 這個店早上7點開門。
+Zohu 店每天7點開門。
+每天早上7點，Zohu 這個店就開門了。
+Zubom 這個店賣書。
+Zubom 店裡賣的是書。
+要買書，可以去 Zubom 這個店。
+Zubom 這個店在 Pradu。
+Zubom 店開在 Pradu。
+Pradu 有一個店叫 Zubom。
+Zubom 這個店早上8點開門。
+Zubom 店每天8點開門。
+每天早上8點，Zubom 這個店就開門了。
+Jube 這個店賣雞蛋。
+Jube 店裡賣的是雞蛋。
+要買雞蛋，可以去 Jube 這個店。
+Jube 這個店在 Frawa。
+Jube 店開在 Frawa。
+Frawa 有一個店叫 Jube。
+Jube 這個店早上7點開門。
+Jube 店每天7點開門。
+每天早上7點，Jube 這個店就開門了。
+Hogu 這個店賣水果。
+Hogu 店裡賣的是水果。
+要買水果，可以去 Hogu 這個店。
+Hogu 這個店在 Ruwum。
+Hogu 店開在 Ruwum。
+Ruwum 有一個店叫 Hogu。
+Hogu 這個店早上6點開門。
+Hogu 店每天6點開門。
+每天早上6點，Hogu 這個店就開門了。
+Puwar 這個店賣刀。
+Puwar 店裡賣的是刀。
+要買刀，可以去 Puwar 這個店。
+Puwar 這個店在 Pradu。
+Puwar 店開在 Pradu。
+Pradu 有一個店叫 Puwar。
+Puwar 這個店早上6點開門。
+Puwar 店每天6點開門。
+每天早上6點，Puwar 這個店就開門了。
+Deki 這個店賣茶。
+Deki 店裡賣的是茶。
+要買茶，可以去 Deki 這個店。
+Deki 這個店在 Tumon。
+Deki 店開在 Tumon。
+Tumon 有一個店叫 Deki。
+Deki 這個店早上9點開門。
+Deki 店每天9點開門。
+每天早上9點，Deki 這個店就開門了。
+Stavu 這個店賣衣服。
+Stavu 店裡賣的是衣服。
+要買衣服，可以去 Stavu 這個店。
+Stavu 這個店在 Krole。
+Stavu 店開在 Krole。
+Krole 有一個店叫 Stavu。
+Stavu 這個店早上10點開門。
+Stavu 店每天10點開門。
+每天早上10點，Stavu 這個店就開門了。
+Zukil 這個店賣衣服。
+Zukil 店裡賣的是衣服。
+要買衣服，可以去 Zukil 這個店。
+Zukil 這個店在 Dapis。
+Zukil 店開在 Dapis。
+Dapis 有一個店叫 Zukil。
+Zukil 這個店早上9點開門。
+Zukil 店每天9點開門。
+每天早上9點，Zukil 這個店就開門了。
+Zuwu 這個店賣刀。
+Zuwu 店裡賣的是刀。
+要買刀，可以去 Zuwu 這個店。
+Zuwu 這個店在 Wujin。
+Zuwu 店開在 Wujin。
+Wujin 有一個店叫 Zuwu。
+Zuwu 這個店早上6點開門。
+Zuwu 店每天6點開門。
+每天早上6點，Zuwu 這個店就開門了。
+Prumu 這個店賣球。
+Prumu 店裡賣的是球。
+要買球，可以去 Prumu 這個店。
+Prumu 這個店在 Hiter。
+Prumu 店開在 Hiter。
+Hiter 有一個店叫 Prumu。
+Prumu 這個店早上8點開門。
+Prumu 店每天8點開門。
+每天早上8點，Prumu 這個店就開門了。
+Vetal 這個店賣菜。
+Vetal 店裡賣的是菜。
+要買菜，可以去 Vetal 這個店。
+Vetal 這個店在 Gida。
+Vetal 店開在 Gida。
+Gida 有一個店叫 Vetal。
+Vetal 這個店早上9點開門。
+Vetal 店每天9點開門。
+每天早上9點，Vetal 這個店就開門了。
+Vifel 這個店賣水果。
+Vifel 店裡賣的是水果。
+要買水果，可以去 Vifel 這個店。
+Vifel 這個店在 Wutil。
+Vifel 店開在 Wutil。
+Wutil 有一個店叫 Vifel。
+Vifel 這個店早上9點開門。
+Vifel 店每天9點開門。
+每天早上9點，Vifel 這個店就開門了。
+Fenam 這個店賣菜。
+Fenam 店裡賣的是菜。
+要買菜，可以去 Fenam 這個店。
+Fenam 這個店在 Zudom。
+Fenam 店開在 Zudom。
+Zudom 有一個店叫 Fenam。
+Fenam 這個店早上10點開門。
+Fenam 店每天10點開門。
+每天早上10點，Fenam 這個店就開門了。
+Hihi 這個店賣刀。
+Hihi 店裡賣的是刀。
+要買刀，可以去 Hihi 這個店。
+Hihi 這個店在 Pradu。
+Hihi 店開在 Pradu。
+Pradu 有一個店叫 Hihi。
+Hihi 這個店早上9點開門。
+Hihi 店每天9點開門。
+每天早上9點，Hihi 這個店就開門了。
+Vegol 這個店賣茶。
+Vegol 店裡賣的是茶。
+要買茶，可以去 Vegol 這個店。
+Vegol 這個店在 Gida。
+Vegol 店開在 Gida。
+Gida 有一個店叫 Vegol。
+Vegol 這個店早上7點開門。
+Vegol 店每天7點開門。
+每天早上7點，Vegol 這個店就開門了。
+Jejor 這個店賣菜。
+Jejor 店裡賣的是菜。
+要買菜，可以去 Jejor 這個店。
+Jejor 這個店在 Frawa。
+Jejor 店開在 Frawa。
+Frawa 有一個店叫 Jejor。
+Jejor 這個店早上6點開門。
+Jejor 店每天6點開門。
+每天早上6點，Jejor 這個店就開門了。
+Siten 這個店賣肉。
+Siten 店裡賣的是肉。
+要買肉，可以去 Siten 這個店。
+Siten 這個店在 Jele。
+Siten 店開在 Jele。
+Jele 有一個店叫 Siten。
+Siten 這個店早上10點開門。
+Siten 店每天10點開門。
+每天早上10點，Siten 這個店就開門了。
+Paran 這個店賣衣服。
+Paran 店裡賣的是衣服。
+要買衣服，可以去 Paran 這個店。
+Paran 這個店在 Jefun。
+Paran 店開在 Jefun。
+Jefun 有一個店叫 Paran。
+Paran 這個店早上7點開門。
+Paran 店每天7點開門。
+每天早上7點，Paran 這個店就開門了。
+Punu 這個店賣雞蛋。
+Punu 店裡賣的是雞蛋。
+要買雞蛋，可以去 Punu 這個店。
+Punu 這個店在 Zudom。
+Punu 店開在 Zudom。
+Zudom 有一個店叫 Punu。
+Punu 這個店早上10點開門。
+Punu 店每天10點開門。
+每天早上10點，Punu 這個店就開門了。
+Gegan 這個店賣衣服。
+Gegan 店裡賣的是衣服。
+要買衣服，可以去 Gegan 這個店。
+Gegan 這個店在 Kako。
+Gegan 店開在 Kako。
+Kako 有一個店叫 Gegan。
+Gegan 這個店早上6點開門。
+Gegan 店每天6點開門。
+每天早上6點，Gegan 這個店就開門了。
+Majim 這個店賣書。
+Majim 店裡賣的是書。
+要買書，可以去 Majim 這個店。
+Majim 這個店在 Gunum。
+Majim 店開在 Gunum。
+Gunum 有一個店叫 Majim。
+Majim 這個店早上9點開門。
+Majim 店每天9點開門。
+每天早上9點，Majim 這個店就開門了。
+Homo 這個店賣刀。
+Homo 店裡賣的是刀。
+要買刀，可以去 Homo 這個店。
+Homo 這個店在 Zopon。
+Homo 店開在 Zopon。
+Zopon 有一個店叫 Homo。
+Homo 這個店早上6點開門。
+Homo 店每天6點開門。
+每天早上6點，Homo 這個店就開門了。
+Bruwi 這個店賣肉。
+Bruwi 店裡賣的是肉。
+要買肉，可以去 Bruwi 這個店。
+Bruwi 這個店在 Pesa。
+Bruwi 店開在 Pesa。
+Pesa 有一個店叫 Bruwi。
+Bruwi 這個店早上9點開門。
+Bruwi 店每天9點開門。
+每天早上9點，Bruwi 這個店就開門了。
+Majo 這個店賣刀。
+Majo 店裡賣的是刀。
+要買刀，可以去 Majo 這個店。
+Majo 這個店在 Zopon。
+Majo 店開在 Zopon。
+Zopon 有一個店叫 Majo。
+Majo 這個店早上8點開門。
+Majo 店每天8點開門。
+每天早上8點，Majo 這個店就開門了。
+Mafi 這個店賣肉。
+Mafi 店裡賣的是肉。
+要買肉，可以去 Mafi 這個店。
+Mafi 這個店在 Jihol。
+Mafi 店開在 Jihol。
+Jihol 有一個店叫 Mafi。
+Mafi 這個店早上8點開門。
+Mafi 店每天8點開門。
+每天早上8點，Mafi 這個店就開門了。
+Gobir 這個店賣紙。
+Gobir 店裡賣的是紙。
+要買紙，可以去 Gobir 這個店。
+Gobir 這個店在 Drori。
+Gobir 店開在 Drori。
+Drori 有一個店叫 Gobir。
+Gobir 這個店早上6點開門。
+Gobir 店每天6點開門。
+每天早上6點，Gobir 這個店就開門了。
+Tihar 這個店賣書。
+Tihar 店裡賣的是書。
+要買書，可以去 Tihar 這個店。
+Tihar 這個店在 Pesa。
+Tihar 店開在 Pesa。
+Pesa 有一個店叫 Tihar。
+Tihar 這個店早上8點開門。
+Tihar 店每天8點開門。
+每天早上8點，Tihar 這個店就開門了。
+Dekis 這個店賣書。
+Dekis 店裡賣的是書。
+要買書，可以去 Dekis 這個店。
+Dekis 這個店在 Zudom。
+Dekis 店開在 Zudom。
+Zudom 有一個店叫 Dekis。
+Dekis 這個店早上9點開門。
+Dekis 店每天9點開門。
+每天早上9點，Dekis 這個店就開門了。
+Nukil 這個店賣菜。
+Nukil 店裡賣的是菜。
+要買菜，可以去 Nukil 這個店。
+Nukil 這個店在 Gida。
+Nukil 店開在 Gida。
+Gida 有一個店叫 Nukil。
+Nukil 這個店早上7點開門。
+Nukil 店每天7點開門。
+每天早上7點，Nukil 這個店就開門了。
+Zemim 這個店賣水果。
+Zemim 店裡賣的是水果。
+要買水果，可以去 Zemim 這個店。
+Zemim 這個店在 Kako。
+Zemim 店開在 Kako。
+Kako 有一個店叫 Zemim。
+Zemim 這個店早上8點開門。
+Zemim 店每天8點開門。
+每天早上8點，Zemim 這個店就開門了。
+Bida 這個店賣衣服。
+Bida 店裡賣的是衣服。
+要買衣服，可以去 Bida 這個店。
+Bida 這個店在 Jefun。
+Bida 店開在 Jefun。
+Jefun 有一個店叫 Bida。
+Bida 這個店早上6點開門。
+Bida 店每天6點開門。
+每天早上6點，Bida 這個店就開門了。
+Logos 這個店賣紙。
+Logos 店裡賣的是紙。
+要買紙，可以去 Logos 這個店。
+Logos 這個店在 Zopon。
+Logos 店開在 Zopon。
+Zopon 有一個店叫 Logos。
+Logos 這個店早上10點開門。
+Logos 店每天10點開門。
+每天早上10點，Logos 這個店就開門了。
+Wusun 這個店賣菜。
+Wusun 店裡賣的是菜。
+要買菜，可以去 Wusun 這個店。
+Wusun 這個店在 Jefun。
+Wusun 店開在 Jefun。
+Jefun 有一個店叫 Wusun。
+Wusun 這個店早上9點開門。
+Wusun 店每天9點開門。
+每天早上9點，Wusun 這個店就開門了。
+Preli 這個店賣衣服。
+Preli 店裡賣的是衣服。
+要買衣服，可以去 Preli 這個店。
+Preli 這個店在 Sawo。
+Preli 店開在 Sawo。
+Sawo 有一個店叫 Preli。
+Preli 這個店早上6點開門。
+Preli 店每天6點開門。
+每天早上6點，Preli 這個店就開門了。
+Presi 這個店賣衣服。
+Presi 店裡賣的是衣服。
+要買衣服，可以去 Presi 這個店。
+Presi 這個店在 Talar。
+Presi 店開在 Talar。
+Talar 有一個店叫 Presi。
+Presi 這個店早上6點開門。
+Presi 店每天6點開門。
+每天早上6點，Presi 這個店就開門了。
+Hafil 這個店賣衣服。
+Hafil 店裡賣的是衣服。
+要買衣服，可以去 Hafil 這個店。
+Hafil 這個店在 Sumem。
+Hafil 店開在 Sumem。
+Sumem 有一個店叫 Hafil。
+Hafil 這個店早上7點開門。
+Hafil 店每天7點開門。
+每天早上7點，Hafil 這個店就開門了。
+Jafom 這個店賣茶。
+Jafom 店裡賣的是茶。
+要買茶，可以去 Jafom 這個店。
+Jafom 這個店在 Pradu。
+Jafom 店開在 Pradu。
+Pradu 有一個店叫 Jafom。
+Jafom 這個店早上9點開門。
+Jafom 店每天9點開門。
+每天早上9點，Jafom 這個店就開門了。
+Zili 這個店賣球。
+Zili 店裡賣的是球。
+要買球，可以去 Zili 這個店。
+Zili 這個店在 Drori。
+Zili 店開在 Drori。
+Drori 有一個店叫 Zili。
+Zili 這個店早上7點開門。
+Zili 店每天7點開門。
+每天早上7點，Zili 這個店就開門了。
+Vejil 這個店賣書。
+Vejil 店裡賣的是書。
+要買書，可以去 Vejil 這個店。
+Vejil 這個店在 Betun。
+Vejil 店開在 Betun。
+Betun 有一個店叫 Vejil。
+Vejil 這個店早上9點開門。
+Vejil 店每天9點開門。
+每天早上9點，Vejil 這個店就開門了。
+Birir 這個店賣水果。
+Birir 店裡賣的是水果。
+要買水果，可以去 Birir 這個店。
+Birir 這個店在 Betun。
+Birir 店開在 Betun。
+Betun 有一個店叫 Birir。
+Birir 這個店早上9點開門。
+Birir 店每天9點開門。
+每天早上9點，Birir 這個店就開門了。
+Pedi 這個店賣球。
+Pedi 店裡賣的是球。
+要買球，可以去 Pedi 這個店。
+Pedi 這個店在 Ravi。
+Pedi 店開在 Ravi。
+Ravi 有一個店叫 Pedi。
+Pedi 這個店早上7點開門。
+Pedi 店每天7點開門。
+每天早上7點，Pedi 這個店就開門了。
+Rebil 這個店賣菜。
+Rebil 店裡賣的是菜。
+要買菜，可以去 Rebil 這個店。
+Rebil 這個店在 Braru。
+Rebil 店開在 Braru。
+Braru 有一個店叫 Rebil。
+Rebil 這個店早上9點開門。
+Rebil 店每天9點開門。
+每天早上9點，Rebil 這個店就開門了。
+Fomus 這個店賣刀。
+Fomus 店裡賣的是刀。
+要買刀，可以去 Fomus 這個店。
+Fomus 這個店在 Sofel。
+Fomus 店開在 Sofel。
+Sofel 有一個店叫 Fomus。
+Fomus 這個店早上7點開門。
+Fomus 店每天7點開門。
+每天早上7點，Fomus 這個店就開門了。
+Keban 這個店賣衣服。
+Keban 店裡賣的是衣服。
+要買衣服，可以去 Keban 這個店。
+Keban 這個店在 Ruwum。
+Keban 店開在 Ruwum。
+Ruwum 有一個店叫 Keban。
+Keban 這個店早上6點開門。
+Keban 店每天6點開門。
+每天早上6點，Keban 這個店就開門了。
+Fesu 這個店賣球。
+Fesu 店裡賣的是球。
+要買球，可以去 Fesu 這個店。
+Fesu 這個店在 Tages。
+Fesu 店開在 Tages。
+Tages 有一個店叫 Fesu。
+Fesu 這個店早上7點開門。
+Fesu 店每天7點開門。
+每天早上7點，Fesu 這個店就開門了。
+Sanis 這個店賣刀。
+Sanis 店裡賣的是刀。
+要買刀，可以去 Sanis 這個店。
+Sanis 這個店在 Jihol。
+Sanis 店開在 Jihol。
+Jihol 有一個店叫 Sanis。
+Sanis 這個店早上8點開門。
+Sanis 店每天8點開門。
+每天早上8點，Sanis 這個店就開門了。
+Lahul 這個店賣衣服。
+Lahul 店裡賣的是衣服。
+要買衣服，可以去 Lahul 這個店。
+Lahul 這個店在 Wutil。
+Lahul 店開在 Wutil。
+Wutil 有一個店叫 Lahul。
+Lahul 這個店早上8點開門。
+Lahul 店每天8點開門。
+每天早上8點，Lahul 這個店就開門了。
+Prutu 這個店賣衣服。
+Prutu 店裡賣的是衣服。
+要買衣服，可以去 Prutu 這個店。
+Prutu 這個店在 Zopon。
+Prutu 店開在 Zopon。
+Zopon 有一個店叫 Prutu。
+Prutu 這個店早上7點開門。
+Prutu 店每天7點開門。
+每天早上7點，Prutu 這個店就開門了。
+Zubum 這個店賣衣服。
+Zubum 店裡賣的是衣服。
+要買衣服，可以去 Zubum 這個店。
+Zubum 這個店在 Ruwum。
+Zubum 店開在 Ruwum。
+Ruwum 有一個店叫 Zubum。
+Zubum 這個店早上10點開門。
+Zubum 店每天10點開門。
+每天早上10點，Zubum 這個店就開門了。
+Prefa 這個店賣紙。
+Prefa 店裡賣的是紙。
+要買紙，可以去 Prefa 這個店。
+Prefa 這個店在 Talar。
+Prefa 店開在 Talar。
+Talar 有一個店叫 Prefa。
+Prefa 這個店早上7點開門。
+Prefa 店每天7點開門。
+每天早上7點，Prefa 這個店就開門了。
+Higom 這個店賣肉。
+Higom 店裡賣的是肉。
+要買肉，可以去 Higom 這個店。
+Higom 這個店在 Zedal。
+Higom 店開在 Zedal。
+Zedal 有一個店叫 Higom。
+Higom 這個店早上7點開門。
+Higom 店每天7點開門。
+每天早上7點，Higom 這個店就開門了。
+Vudas 這個店賣球。
+Vudas 店裡賣的是球。
+要買球，可以去 Vudas 這個店。
+Vudas 這個店在 Kako。
+Vudas 店開在 Kako。
+Kako 有一個店叫 Vudas。
+Vudas 這個店早上9點開門。
+Vudas 店每天9點開門。
+每天早上9點，Vudas 這個店就開門了。
+Brewi 這個店賣球。
+Brewi 店裡賣的是球。
+要買球，可以去 Brewi 這個店。
+Brewi 這個店在 Gunum。
+Brewi 店開在 Gunum。
+Gunum 有一個店叫 Brewi。
+Brewi 這個店早上9點開門。
+Brewi 店每天9點開門。
+每天早上9點，Brewi 這個店就開門了。
+Vafu 這個店賣書。
+Vafu 店裡賣的是書。
+要買書，可以去 Vafu 這個店。
+Vafu 這個店在 Wujin。
+Vafu 店開在 Wujin。
+Wujin 有一個店叫 Vafu。
+Vafu 這個店早上9點開門。
+Vafu 店每天9點開門。
+每天早上9點，Vafu 這個店就開門了。
+Teke 的太太是 Jifi。
+Jifi 是 Teke 的太太。
+Teke 和他的太太 Jifi 住在一起。
+Jifi 的先生是 Teke。
+Teke 是 Jifi 的先生。
+Jifi 和他的先生 Teke 住在一起。
+Teke 有2個孩子。
+Teke 家有2個孩子。
+Teke 的孩子有2個。
+Jifi 有2個孩子。
+Jifi 家有2個孩子。
+Jifi 的孩子有2個。
+Mukas 的爸爸是 Teke。
+Teke 是 Mukas 的爸爸。
+Mukas 和他的爸爸 Teke 一起去河邊走走。
+Mukas 的媽媽是 Jifi。
+Jifi 是 Mukas 的媽媽。
+Mukas 和他的媽媽 Jifi 一起去河邊走走。
+Mukas 的姐姐是 Totu。
+Totu 是 Mukas 的姐姐。
+Mukas 有一個姐姐叫 Totu。
+Totu 的爸爸是 Teke。
+Teke 是 Totu 的爸爸。
+Totu 和他的爸爸 Teke 一起去河邊走走。
+Totu 的媽媽是 Jifi。
+Jifi 是 Totu 的媽媽。
+Totu 和他的媽媽 Jifi 一起去河邊走走。
+Totu 的弟弟是 Mukas。
+Mukas 是 Totu 的弟弟。
+Totu 有一個弟弟叫 Mukas。
+Mures 的太太是 Zukan。
+Zukan 是 Mures 的太太。
+Mures 和他的太太 Zukan 住在一起。
+Zukan 的先生是 Mures。
+Mures 是 Zukan 的先生。
+Zukan 和他的先生 Mures 住在一起。
+Mures 有1個孩子。
+Mures 家有1個孩子。
+Mures 的孩子有1個。
+Zukan 有1個孩子。
+Zukan 家有1個孩子。
+Zukan 的孩子有1個。
+Sovon 的爸爸是 Mures。
+Mures 是 Sovon 的爸爸。
+Sovon 和他的爸爸 Mures 一起去河邊走走。
+Sovon 的媽媽是 Zukan。
+Zukan 是 Sovon 的媽媽。
+Sovon 和他的媽媽 Zukan 一起去河邊走走。
+Bedos 的太太是 Stowa。
+Stowa 是 Bedos 的太太。
+Bedos 和他的太太 Stowa 住在一起。
+Stowa 的先生是 Bedos。
+Bedos 是 Stowa 的先生。
+Stowa 和他的先生 Bedos 住在一起。
+Bedos 有2個孩子。
+Bedos 家有2個孩子。
+Bedos 的孩子有2個。
+Stowa 有2個孩子。
+Stowa 家有2個孩子。
+Stowa 的孩子有2個。
+Zovem 的爸爸是 Bedos。
+Bedos 是 Zovem 的爸爸。
+Zovem 和他的爸爸 Bedos 一起去河邊走走。
+Zovem 的媽媽是 Stowa。
+Stowa 是 Zovem 的媽媽。
+Zovem 和他的媽媽 Stowa 一起去河邊走走。
+Zovem 的姐姐是 Geher。
+Geher 是 Zovem 的姐姐。
+Zovem 有一個姐姐叫 Geher。
+Geher 的爸爸是 Bedos。
+Bedos 是 Geher 的爸爸。
+Geher 和他的爸爸 Bedos 一起去河邊走走。
+Geher 的媽媽是 Stowa。
+Stowa 是 Geher 的媽媽。
+Geher 和他的媽媽 Stowa 一起去河邊走走。
+Geher 的妹妹是 Zovem。
+Zovem 是 Geher 的妹妹。
+Geher 有一個妹妹叫 Zovem。
+Daher 的太太是 Dihir。
+Dihir 是 Daher 的太太。
+Daher 和他的太太 Dihir 住在一起。
+Dihir 的先生是 Daher。
+Daher 是 Dihir 的先生。
+Dihir 和他的先生 Daher 住在一起。
+Daher 有3個孩子。
+Daher 家有3個孩子。
+Daher 的孩子有3個。
+Dihir 有3個孩子。
+Dihir 家有3個孩子。
+Dihir 的孩子有3個。
+Tagan 的爸爸是 Daher。
+Daher 是 Tagan 的爸爸。
+Tagan 和他的爸爸 Daher 一起去河邊走走。
+Tagan 的媽媽是 Dihir。
+Dihir 是 Tagan 的媽媽。
+Tagan 和他的媽媽 Dihir 一起去河邊走走。
+Tagan 的弟弟是 Zukon。
+Zukon 是 Tagan 的弟弟。
+Tagan 有一個弟弟叫 Zukon。
+Tagan 的妹妹是 Lubar。
+Lubar 是 Tagan 的妹妹。
+Tagan 有一個妹妹叫 Lubar。
+Zukon 的爸爸是 Daher。
+Daher 是 Zukon 的爸爸。
+Zukon 和他的爸爸 Daher 一起去河邊走走。
+Zukon 的媽媽是 Dihir。
+Dihir 是 Zukon 的媽媽。
+Zukon 和他的媽媽 Dihir 一起去河邊走走。
+Zukon 的哥哥是 Tagan。
+Tagan 是 Zukon 的哥哥。
+Zukon 有一個哥哥叫 Tagan。
+Zukon 的妹妹是 Lubar。
+Lubar 是 Zukon 的妹妹。
+Zukon 有一個妹妹叫 Lubar。
+Lubar 的爸爸是 Daher。
+Daher 是 Lubar 的爸爸。
+Lubar 和他的爸爸 Daher 一起去河邊走走。
+Lubar 的媽媽是 Dihir。
+Dihir 是 Lubar 的媽媽。
+Lubar 和他的媽媽 Dihir 一起去河邊走走。
+Wulu 的太太是 Bona。
+Bona 是 Wulu 的太太。
+Wulu 和他的太太 Bona 住在一起。
+Bona 的先生是 Wulu。
+Wulu 是 Bona 的先生。
+Bona 和他的先生 Wulu 住在一起。
+Wulu 有1個孩子。
+Wulu 家有1個孩子。
+Wulu 的孩子有1個。
+Bona 有1個孩子。
+Bona 家有1個孩子。
+Bona 的孩子有1個。
+Wofi 的爸爸是 Wulu。
+Wulu 是 Wofi 的爸爸。
+Wofi 和他的爸爸 Wulu 一起去河邊走走。
+Wofi 的媽媽是 Bona。
+Bona 是 Wofi 的媽媽。
+Wofi 和他的媽媽 Bona 一起去河邊走走。
+Lodis 的太太是 Tise。
+Tise 是 Lodis 的太太。
+Lodis 和他的太太 Tise 住在一起。
+Tise 的先生是 Lodis。
+Lodis 是 Tise 的先生。
+Tise 和他的先生 Lodis 住在一起。
+Lodis 有2個孩子。
+Lodis 家有2個孩子。
+Lodis 的孩子有2個。
+Tise 有2個孩子。
+Tise 家有2個孩子。
+Tise 的孩子有2個。
+Kikel 的爸爸是 Lodis。
+Lodis 是 Kikel 的爸爸。
+Kikel 和他的爸爸 Lodis 一起去河邊走走。
+Kikel 的媽媽是 Tise。
+Tise 是 Kikel 的媽媽。
+Kikel 和他的媽媽 Tise 一起去河邊走走。
+Kikel 的姐姐是 Linar。
+Linar 是 Kikel 的姐姐。
+Kikel 有一個姐姐叫 Linar。
+Linar 的爸爸是 Lodis。
+Lodis 是 Linar 的爸爸。
+Linar 和他的爸爸 Lodis 一起去河邊走走。
+Linar 的媽媽是 Tise。
+Tise 是 Linar 的媽媽。
+Linar 和他的媽媽 Tise 一起去河邊走走。
+Linar 的弟弟是 Kikel。
+Kikel 是 Linar 的弟弟。
+Linar 有一個弟弟叫 Kikel。
+Taho 的太太是 Kaho。
+Kaho 是 Taho 的太太。
+Taho 和他的太太 Kaho 住在一起。
+Kaho 的先生是 Taho。
+Taho 是 Kaho 的先生。
+Kaho 和他的先生 Taho 住在一起。
+Taho 有3個孩子。
+Taho 家有3個孩子。
+Taho 的孩子有3個。
+Kaho 有3個孩子。
+Kaho 家有3個孩子。
+Kaho 的孩子有3個。
+Desos 的爸爸是 Taho。
+Taho 是 Desos 的爸爸。
+Desos 和他的爸爸 Taho 一起去河邊走走。
+Desos 的媽媽是 Kaho。
+Kaho 是 Desos 的媽媽。
+Desos 和他的媽媽 Kaho 一起去河邊走走。
+Desos 的妹妹是 Pafen。
+Pafen 是 Desos 的妹妹。
+Desos 有一個妹妹叫 Pafen。
+Desos 的弟弟是 Kevan。
+Kevan 是 Desos 的弟弟。
+Desos 有一個弟弟叫 Kevan。
+Pafen 的爸爸是 Taho。
+Taho 是 Pafen 的爸爸。
+Pafen 和他的爸爸 Taho 一起去河邊走走。
+Pafen 的媽媽是 Kaho。
+Kaho 是 Pafen 的媽媽。
+Pafen 和他的媽媽 Kaho 一起去河邊走走。
+Pafen 的姐姐是 Desos。
+Desos 是 Pafen 的姐姐。
+Pafen 有一個姐姐叫 Desos。
+Pafen 的弟弟是 Kevan。
+Kevan 是 Pafen 的弟弟。
+Pafen 有一個弟弟叫 Kevan。
+Kevan 的爸爸是 Taho。
+Taho 是 Kevan 的爸爸。
+Kevan 和他的爸爸 Taho 一起去河邊走走。
+Kevan 的媽媽是 Kaho。
+Kaho 是 Kevan 的媽媽。
+Kevan 和他的媽媽 Kaho 一起去河邊走走。
+Baman 的太太是 Takon。
+Takon 是 Baman 的太太。
+Baman 和他的太太 Takon 住在一起。
+Takon 的先生是 Baman。
+Baman 是 Takon 的先生。
+Takon 和他的先生 Baman 住在一起。
+Baman 有2個孩子。
+Baman 家有2個孩子。
+Baman 的孩子有2個。
+Takon 有2個孩子。
+Takon 家有2個孩子。
+Takon 的孩子有2個。
+Tado 的爸爸是 Baman。
+Baman 是 Tado 的爸爸。
+Tado 和他的爸爸 Baman 一起去河邊走走。
+Tado 的媽媽是 Takon。
+Takon 是 Tado 的媽媽。
+Tado 和他的媽媽 Takon 一起去河邊走走。
+Tado 的弟弟是 Ruven。
+Ruven 是 Tado 的弟弟。
+Tado 有一個弟弟叫 Ruven。
+Ruven 的爸爸是 Baman。
+Baman 是 Ruven 的爸爸。
+Ruven 和他的爸爸 Baman 一起去河邊走走。
+Ruven 的媽媽是 Takon。
+Takon 是 Ruven 的媽媽。
+Ruven 和他的媽媽 Takon 一起去河邊走走。
+Ruven 的哥哥是 Tado。
+Tado 是 Ruven 的哥哥。
+Ruven 有一個哥哥叫 Tado。
+Lodo 的太太是 Vadi。
+Vadi 是 Lodo 的太太。
+Lodo 和他的太太 Vadi 住在一起。
+Vadi 的先生是 Lodo。
+Lodo 是 Vadi 的先生。
+Vadi 和他的先生 Lodo 住在一起。
+Lodo 有3個孩子。
+Lodo 家有3個孩子。
+Lodo 的孩子有3個。
+Vadi 有3個孩子。
+Vadi 家有3個孩子。
+Vadi 的孩子有3個。
+Fupin 的爸爸是 Lodo。
+Lodo 是 Fupin 的爸爸。
+Fupin 和他的爸爸 Lodo 一起去河邊走走。
+Fupin 的媽媽是 Vadi。
+Vadi 是 Fupin 的媽媽。
+Fupin 和他的媽媽 Vadi 一起去河邊走走。
+Fupin 的姐姐是 Pudis。
+Pudis 是 Fupin 的姐姐。
+Fupin 有一個姐姐叫 Pudis。
+Fupin 的妹妹是 Primi。
+Primi 是 Fupin 的妹妹。
+Fupin 有一個妹妹叫 Primi。
+Pudis 的爸爸是 Lodo。
+Lodo 是 Pudis 的爸爸。
+Pudis 和他的爸爸 Lodo 一起去河邊走走。
+Pudis 的媽媽是 Vadi。
+Vadi 是 Pudis 的媽媽。
+Pudis 和他的媽媽 Vadi 一起去河邊走走。
+Primi 的爸爸是 Lodo。
+Lodo 是 Primi 的爸爸。
+Primi 和他的爸爸 Lodo 一起去河邊走走。
+Primi 的媽媽是 Vadi。
+Vadi 是 Primi 的媽媽。
+Primi 和他的媽媽 Vadi 一起去河邊走走。
+Begos 的太太是 Vomom。
+Vomom 是 Begos 的太太。
+Begos 和他的太太 Vomom 住在一起。
+Vomom 的先生是 Begos。
+Begos 是 Vomom 的先生。
+Vomom 和他的先生 Begos 住在一起。
+Begos 有2個孩子。
+Begos 家有2個孩子。
+Begos 的孩子有2個。
+Vomom 有2個孩子。
+Vomom 家有2個孩子。
+Vomom 的孩子有2個。
+Hojam 的爸爸是 Begos。
+Begos 是 Hojam 的爸爸。
+Hojam 和他的爸爸 Begos 一起去河邊走走。
+Hojam 的媽媽是 Vomom。
+Vomom 是 Hojam 的媽媽。
+Hojam 和他的媽媽 Vomom 一起去河邊走走。
+Hojam 的哥哥是 Trihu。
+Trihu 是 Hojam 的哥哥。
+Hojam 有一個哥哥叫 Trihu。
+Trihu 的爸爸是 Begos。
+Begos 是 Trihu 的爸爸。
+Trihu 和他的爸爸 Begos 一起去河邊走走。
+Trihu 的媽媽是 Vomom。
+Vomom 是 Trihu 的媽媽。
+Trihu 和他的媽媽 Vomom 一起去河邊走走。
+Trihu 的弟弟是 Hojam。
+Hojam 是 Trihu 的弟弟。
+Trihu 有一個弟弟叫 Hojam。
+Jetas 的太太是 Dopel。
+Dopel 是 Jetas 的太太。
+Jetas 和他的太太 Dopel 住在一起。
+Dopel 的先生是 Jetas。
+Jetas 是 Dopel 的先生。
+Dopel 和他的先生 Jetas 住在一起。
+Jetas 有1個孩子。
+Jetas 家有1個孩子。
+Jetas 的孩子有1個。
+Dopel 有1個孩子。
+Dopel 家有1個孩子。
+Dopel 的孩子有1個。
+Fife 的爸爸是 Jetas。
+Jetas 是 Fife 的爸爸。
+Fife 和他的爸爸 Jetas 一起去河邊走走。
+Fife 的媽媽是 Dopel。
+Dopel 是 Fife 的媽媽。
+Fife 和他的媽媽 Dopel 一起去河邊走走。
+Velel 的太太是 Vulum。
+Vulum 是 Velel 的太太。
+Velel 和他的太太 Vulum 住在一起。
+Vulum 的先生是 Velel。
+Velel 是 Vulum 的先生。
+Vulum 和他的先生 Velel 住在一起。
+Velel 有3個孩子。
+Velel 家有3個孩子。
+Velel 的孩子有3個。
+Vulum 有3個孩子。
+Vulum 家有3個孩子。
+Vulum 的孩子有3個。
+Meve 的爸爸是 Velel。
+Velel 是 Meve 的爸爸。
+Meve 和他的爸爸 Velel 一起去河邊走走。
+Meve 的媽媽是 Vulum。
+Vulum 是 Meve 的媽媽。
+Meve 和他的媽媽 Vulum 一起去河邊走走。
+Lehir 的爸爸是 Velel。
+Velel 是 Lehir 的爸爸。
+Lehir 和他的爸爸 Velel 一起去河邊走走。
+Lehir 的媽媽是 Vulum。
+Vulum 是 Lehir 的媽媽。
+Lehir 和他的媽媽 Vulum 一起去河邊走走。
+Kifon 的爸爸是 Velel。
+Velel 是 Kifon 的爸爸。
+Kifon 和他的爸爸 Velel 一起去河邊走走。
+Kifon 的媽媽是 Vulum。
+Vulum 是 Kifon 的媽媽。
+Kifon 和他的媽媽 Vulum 一起去河邊走走。
+Kifon 的姐姐是 Meve。
+Meve 是 Kifon 的姐姐。
+Kifon 有一個姐姐叫 Meve。
+Kifon 的妹妹是 Lehir。
+Lehir 是 Kifon 的妹妹。
+Kifon 有一個妹妹叫 Lehir。
+Bolon 的太太是 Dila。
+Dila 是 Bolon 的太太。
+Bolon 和他的太太 Dila 住在一起。
+Dila 的先生是 Bolon。
+Bolon 是 Dila 的先生。
+Dila 和他的先生 Bolon 住在一起。
+Bolon 有1個孩子。
+Bolon 家有1個孩子。
+Bolon 的孩子有1個。
+Dila 有1個孩子。
+Dila 家有1個孩子。
+Dila 的孩子有1個。
+Zevun 的爸爸是 Bolon。
+Bolon 是 Zevun 的爸爸。
+Zevun 和他的爸爸 Bolon 一起去河邊走走。
+Zevun 的媽媽是 Dila。
+Dila 是 Zevun 的媽媽。
+Zevun 和他的媽媽 Dila 一起去河邊走走。
+Bare 的太太是 Riha。
+Riha 是 Bare 的太太。
+Bare 和他的太太 Riha 住在一起。
+Riha 的先生是 Bare。
+Bare 是 Riha 的先生。
+Riha 和他的先生 Bare 住在一起。
+Bare 有2個孩子。
+Bare 家有2個孩子。
+Bare 的孩子有2個。
+Riha 有2個孩子。
+Riha 家有2個孩子。
+Riha 的孩子有2個。
+Dukam 的爸爸是 Bare。
+Bare 是 Dukam 的爸爸。
+Dukam 和他的爸爸 Bare 一起去河邊走走。
+Dukam 的媽媽是 Riha。
+Riha 是 Dukam 的媽媽。
+Dukam 和他的媽媽 Riha 一起去河邊走走。
+Dukam 的哥哥是 Porer。
+Porer 是 Dukam 的哥哥。
+Dukam 有一個哥哥叫 Porer。
+Porer 的爸爸是 Bare。
+Bare 是 Porer 的爸爸。
+Porer 和他的爸爸 Bare 一起去河邊走走。
+Porer 的媽媽是 Riha。
+Riha 是 Porer 的媽媽。
+Porer 和他的媽媽 Riha 一起去河邊走走。
+Porer 的弟弟是 Dukam。
+Dukam 是 Porer 的弟弟。
+Porer 有一個弟弟叫 Dukam。
+Brofo 的太太是 Suhu。
+Suhu 是 Brofo 的太太。
+Brofo 和他的太太 Suhu 住在一起。
+Suhu 的先生是 Brofo。
+Brofo 是 Suhu 的先生。
+Suhu 和他的先生 Brofo 住在一起。
+Brofo 有3個孩子。
+Brofo 家有3個孩子。
+Brofo 的孩子有3個。
+Suhu 有3個孩子。
+Suhu 家有3個孩子。
+Suhu 的孩子有3個。
+Jomon 的爸爸是 Brofo。
+Brofo 是 Jomon 的爸爸。
+Jomon 和他的爸爸 Brofo 一起去河邊走走。
+Jomon 的媽媽是 Suhu。
+Suhu 是 Jomon 的媽媽。
+Jomon 和他的媽媽 Suhu 一起去河邊走走。
+Jomon 的弟弟是 Bikos。
+Bikos 是 Jomon 的弟弟。
+Jomon 有一個弟弟叫 Bikos。
+Jomon 的妹妹是 Sebo。
+Sebo 是 Jomon 的妹妹。
+Jomon 有一個妹妹叫 Sebo。
+Bikos 的爸爸是 Brofo。
+Brofo 是 Bikos 的爸爸。
+Bikos 和他的爸爸 Brofo 一起去河邊走走。
+Bikos 的媽媽是 Suhu。
+Suhu 是 Bikos 的媽媽。
+Bikos 和他的媽媽 Suhu 一起去河邊走走。
+Bikos 的哥哥是 Jomon。
+Jomon 是 Bikos 的哥哥。
+Bikos 有一個哥哥叫 Jomon。
+Bikos 的妹妹是 Sebo。
+Sebo 是 Bikos 的妹妹。
+Bikos 有一個妹妹叫 Sebo。
+Sebo 的爸爸是 Brofo。
+Brofo 是 Sebo 的爸爸。
+Sebo 和他的爸爸 Brofo 一起去河邊走走。
+Sebo 的媽媽是 Suhu。
+Suhu 是 Sebo 的媽媽。
+Sebo 和他的媽媽 Suhu 一起去河邊走走。
+Steha 的太太是 Neja。
+Neja 是 Steha 的太太。
+Steha 和他的太太 Neja 住在一起。
+Neja 的先生是 Steha。
+Steha 是 Neja 的先生。
+Neja 和他的先生 Steha 住在一起。
+Steha 有2個孩子。
+Steha 家有2個孩子。
+Steha 的孩子有2個。
+Neja 有2個孩子。
+Neja 家有2個孩子。
+Neja 的孩子有2個。
+Wenem 的爸爸是 Steha。
+Steha 是 Wenem 的爸爸。
+Wenem 和他的爸爸 Steha 一起去河邊走走。
+Wenem 的媽媽是 Neja。
+Neja 是 Wenem 的媽媽。
+Wenem 和他的媽媽 Neja 一起去河邊走走。
+Wenem 的哥哥是 Dopar。
+Dopar 是 Wenem 的哥哥。
+Wenem 有一個哥哥叫 Dopar。
+Dopar 的爸爸是 Steha。
+Steha 是 Dopar 的爸爸。
+Dopar 和他的爸爸 Steha 一起去河邊走走。
+Dopar 的媽媽是 Neja。
+Neja 是 Dopar 的媽媽。
+Dopar 和他的媽媽 Neja 一起去河邊走走。
+Dopar 的妹妹是 Wenem。
+Wenem 是 Dopar 的妹妹。
+Dopar 有一個妹妹叫 Wenem。
+Kasu 的太太是 Sige。
+Sige 是 Kasu 的太太。
+Kasu 和他的太太 Sige 住在一起。
+Sige 的先生是 Kasu。
+Kasu 是 Sige 的先生。
+Sige 和他的先生 Kasu 住在一起。
+Kasu 有3個孩子。
+Kasu 家有3個孩子。
+Kasu 的孩子有3個。
+Sige 有3個孩子。
+Sige 家有3個孩子。
+Sige 的孩子有3個。
+Kadi 的爸爸是 Kasu。
+Kasu 是 Kadi 的爸爸。
+Kadi 和他的爸爸 Kasu 一起去河邊走走。
+Kadi 的媽媽是 Sige。
+Sige 是 Kadi 的媽媽。
+Kadi 和他的媽媽 Sige 一起去河邊走走。
+Kadi 的哥哥是 Suvum。
+Suvum 是 Kadi 的哥哥。
+Kadi 有一個哥哥叫 Suvum。
+Kadi 的姐姐是 Losil。
+Losil 是 Kadi 的姐姐。
+Kadi 有一個姐姐叫 Losil。
+Suvum 的爸爸是 Kasu。
+Kasu 是 Suvum 的爸爸。
+Suvum 和他的爸爸 Kasu 一起去河邊走走。
+Suvum 的媽媽是 Sige。
+Sige 是 Suvum 的媽媽。
+Suvum 和他的媽媽 Sige 一起去河邊走走。
+Losil 的爸爸是 Kasu。
+Kasu 是 Losil 的爸爸。
+Losil 和他的爸爸 Kasu 一起去河邊走走。
+Losil 的媽媽是 Sige。
+Sige 是 Losil 的媽媽。
+Losil 和他的媽媽 Sige 一起去河邊走走。
+Losil 的妹妹是 Kadi。
+Kadi 是 Losil 的妹妹。
+Losil 有一個妹妹叫 Kadi。
+Losil 的哥哥是 Suvum。
+Suvum 是 Losil 的哥哥。
+Losil 有一個哥哥叫 Suvum。
+Lovem 的太太是 Woga。
+Woga 是 Lovem 的太太。
+Lovem 和他的太太 Woga 住在一起。
+Woga 的先生是 Lovem。
+Lovem 是 Woga 的先生。
+Woga 和他的先生 Lovem 住在一起。
+Lovem 有2個孩子。
+Lovem 家有2個孩子。
+Lovem 的孩子有2個。
+Woga 有2個孩子。
+Woga 家有2個孩子。
+Woga 的孩子有2個。
+Tifor 的爸爸是 Lovem。
+Lovem 是 Tifor 的爸爸。
+Tifor 和他的爸爸 Lovem 一起去河邊走走。
+Tifor 的媽媽是 Woga。
+Woga 是 Tifor 的媽媽。
+Tifor 和他的媽媽 Woga 一起去河邊走走。
+Tifor 的姐姐是 Zade。
+Zade 是 Tifor 的姐姐。
+Tifor 有一個姐姐叫 Zade。
+Zade 的爸爸是 Lovem。
+Lovem 是 Zade 的爸爸。
+Zade 和他的爸爸 Lovem 一起去河邊走走。
+Zade 的媽媽是 Woga。
+Woga 是 Zade 的媽媽。
+Zade 和他的媽媽 Woga 一起去河邊走走。
+Zade 的妹妹是 Tifor。
+Tifor 是 Zade 的妹妹。
+Zade 有一個妹妹叫 Tifor。
+Fase 的太太是 Fuge。
+Fuge 是 Fase 的太太。
+Fase 和他的太太 Fuge 住在一起。
+Fuge 的先生是 Fase。
+Fase 是 Fuge 的先生。
+Fuge 和他的先生 Fase 住在一起。
+Fase 有2個孩子。
+Fase 家有2個孩子。
+Fase 的孩子有2個。
+Fuge 有2個孩子。
+Fuge 家有2個孩子。
+Fuge 的孩子有2個。
+Nelam 的爸爸是 Fase。
+Fase 是 Nelam 的爸爸。
+Nelam 和他的爸爸 Fase 一起去河邊走走。
+Nelam 的媽媽是 Fuge。
+Fuge 是 Nelam 的媽媽。
+Nelam 和他的媽媽 Fuge 一起去河邊走走。
+Nelam 的姐姐是 Rumen。
+Rumen 是 Nelam 的姐姐。
+Nelam 有一個姐姐叫 Rumen。
+Rumen 的爸爸是 Fase。
+Fase 是 Rumen 的爸爸。
+Rumen 和他的爸爸 Fase 一起去河邊走走。
+Rumen 的媽媽是 Fuge。
+Fuge 是 Rumen 的媽媽。
+Rumen 和他的媽媽 Fuge 一起去河邊走走。
+Rumen 的妹妹是 Nelam。
+Nelam 是 Rumen 的妹妹。
+Rumen 有一個妹妹叫 Nelam。
+Hiwer 的太太是 Mulin。
+Mulin 是 Hiwer 的太太。
+Hiwer 和他的太太 Mulin 住在一起。
+Mulin 的先生是 Hiwer。
+Hiwer 是 Mulin 的先生。
+Mulin 和他的先生 Hiwer 住在一起。
+Hiwer 有1個孩子。
+Hiwer 家有1個孩子。
+Hiwer 的孩子有1個。
+Mulin 有1個孩子。
+Mulin 家有1個孩子。
+Mulin 的孩子有1個。
+Keses 的爸爸是 Hiwer。
+Hiwer 是 Keses 的爸爸。
+Keses 和他的爸爸 Hiwer 一起去河邊走走。
+Keses 的媽媽是 Mulin。
+Mulin 是 Keses 的媽媽。
+Keses 和他的媽媽 Mulin 一起去河邊走走。
+Poji 的太太是 Vugir。
+Vugir 是 Poji 的太太。
+Poji 和他的太太 Vugir 住在一起。
+Vugir 的先生是 Poji。
+Poji 是 Vugir 的先生。
+Vugir 和他的先生 Poji 住在一起。
+Poji 有3個孩子。
+Poji 家有3個孩子。
+Poji 的孩子有3個。
+Vugir 有3個孩子。
+Vugir 家有3個孩子。
+Vugir 的孩子有3個。
+Foler 的爸爸是 Poji。
+Poji 是 Foler 的爸爸。
+Foler 和他的爸爸 Poji 一起去河邊走走。
+Foler 的媽媽是 Vugir。
+Vugir 是 Foler 的媽媽。
+Foler 和他的媽媽 Vugir 一起去河邊走走。
+Foler 的妹妹是 Nupas。
+Nupas 是 Foler 的妹妹。
+Foler 有一個妹妹叫 Nupas。
+Foler 的弟弟是 Dehir。
+Dehir 是 Foler 的弟弟。
+Foler 有一個弟弟叫 Dehir。
+Nupas 的爸爸是 Poji。
+Poji 是 Nupas 的爸爸。
+Nupas 和他的爸爸 Poji 一起去河邊走走。
+Nupas 的媽媽是 Vugir。
+Vugir 是 Nupas 的媽媽。
+Nupas 和他的媽媽 Vugir 一起去河邊走走。
+Nupas 的姐姐是 Foler。
+Foler 是 Nupas 的姐姐。
+Nupas 有一個姐姐叫 Foler。
+Nupas 的哥哥是 Dehir。
+Dehir 是 Nupas 的哥哥。
+Nupas 有一個哥哥叫 Dehir。
+Dehir 的爸爸是 Poji。
+Poji 是 Dehir 的爸爸。
+Dehir 和他的爸爸 Poji 一起去河邊走走。
+Dehir 的媽媽是 Vugir。
+Vugir 是 Dehir 的媽媽。
+Dehir 和他的媽媽 Vugir 一起去河邊走走。
+Dehir 的姐姐是 Foler。
+Foler 是 Dehir 的姐姐。
+Dehir 有一個姐姐叫 Foler。
+Dehir 的妹妹是 Nupas。
+Nupas 是 Dehir 的妹妹。
+Dehir 有一個妹妹叫 Nupas。
+Fraba 的太太是 Rulor。
+Rulor 是 Fraba 的太太。
+Fraba 和他的太太 Rulor 住在一起。
+Rulor 的先生是 Fraba。
+Fraba 是 Rulor 的先生。
+Rulor 和他的先生 Fraba 住在一起。
+Fraba 有2個孩子。
+Fraba 家有2個孩子。
+Fraba 的孩子有2個。
+Rulor 有2個孩子。
+Rulor 家有2個孩子。
+Rulor 的孩子有2個。
+Weham 的爸爸是 Fraba。
+Fraba 是 Weham 的爸爸。
+Weham 和他的爸爸 Fraba 一起去河邊走走。
+Weham 的媽媽是 Rulor。
+Rulor 是 Weham 的媽媽。
+Weham 和他的媽媽 Rulor 一起去河邊走走。
+Weham 的妹妹是 Leva。
+Leva 是 Weham 的妹妹。
+Weham 有一個妹妹叫 Leva。
+Leva 的爸爸是 Fraba。
+Fraba 是 Leva 的爸爸。
+Leva 和他的爸爸 Fraba 一起去河邊走走。
+Leva 的媽媽是 Rulor。
+Rulor 是 Leva 的媽媽。
+Leva 和他的媽媽 Rulor 一起去河邊走走。
+Leva 的姐姐是 Weham。
+Weham 是 Leva 的姐姐。
+Leva 有一個姐姐叫 Weham。
+Sibas 的太太是 Trole。
+Trole 是 Sibas 的太太。
+Sibas 和他的太太 Trole 住在一起。
+Trole 的先生是 Sibas。
+Sibas 是 Trole 的先生。
+Trole 和他的先生 Sibas 住在一起。
+Sibas 有1個孩子。
+Sibas 家有1個孩子。
+Sibas 的孩子有1個。
+Trole 有1個孩子。
+Trole 家有1個孩子。
+Trole 的孩子有1個。
+Dubo 的爸爸是 Sibas。
+Sibas 是 Dubo 的爸爸。
+Dubo 和他的爸爸 Sibas 一起去河邊走走。
+Dubo 的媽媽是 Trole。
+Trole 是 Dubo 的媽媽。
+Dubo 和他的媽媽 Trole 一起去河邊走走。
+Kreho 的太太是 Zutu。
+Zutu 是 Kreho 的太太。
+Kreho 和他的太太 Zutu 住在一起。
+Zutu 的先生是 Kreho。
+Kreho 是 Zutu 的先生。
+Zutu 和他的先生 Kreho 住在一起。
+Kreho 有3個孩子。
+Kreho 家有3個孩子。
+Kreho 的孩子有3個。
+Zutu 有3個孩子。
+Zutu 家有3個孩子。
+Zutu 的孩子有3個。
+Nanas 的爸爸是 Kreho。
+Kreho 是 Nanas 的爸爸。
+Nanas 和他的爸爸 Kreho 一起去河邊走走。
+Nanas 的媽媽是 Zutu。
+Zutu 是 Nanas 的媽媽。
+Nanas 和他的媽媽 Zutu 一起去河邊走走。
+Wubom 的爸爸是 Kreho。
+Kreho 是 Wubom 的爸爸。
+Wubom 和他的爸爸 Kreho 一起去河邊走走。
+Wubom 的媽媽是 Zutu。
+Zutu 是 Wubom 的媽媽。
+Wubom 和他的媽媽 Zutu 一起去河邊走走。
+Tofo 的爸爸是 Kreho。
+Kreho 是 Tofo 的爸爸。
+Tofo 和他的爸爸 Kreho 一起去河邊走走。
+Tofo 的媽媽是 Zutu。
+Zutu 是 Tofo 的媽媽。
+Tofo 和他的媽媽 Zutu 一起去河邊走走。
+Tofo 的弟弟是 Nanas。
+Nanas 是 Tofo 的弟弟。
+Tofo 有一個弟弟叫 Nanas。
+Tofo 的哥哥是 Wubom。
+Wubom 是 Tofo 的哥哥。
+Tofo 有一個哥哥叫 Wubom。
+Kaben 的太太是 Leji。
+Leji 是 Kaben 的太太。
+Kaben 和他的太太 Leji 住在一起。
+Leji 的先生是 Kaben。
+Kaben 是 Leji 的先生。
+Leji 和他的先生 Kaben 住在一起。
+Kaben 有2個孩子。
+Kaben 家有2個孩子。
+Kaben 的孩子有2個。
+Leji 有2個孩子。
+Leji 家有2個孩子。
+Leji 的孩子有2個。
+Pulom 的爸爸是 Kaben。
+Kaben 是 Pulom 的爸爸。
+Pulom 和他的爸爸 Kaben 一起去河邊走走。
+Pulom 的媽媽是 Leji。
+Leji 是 Pulom 的媽媽。
+Pulom 和他的媽媽 Leji 一起去河邊走走。
+Pulom 的姐姐是 Zabos。
+Zabos 是 Pulom 的姐姐。
+Pulom 有一個姐姐叫 Zabos。
+Zabos 的爸爸是 Kaben。
+Kaben 是 Zabos 的爸爸。
+Zabos 和他的爸爸 Kaben 一起去河邊走走。
+Zabos 的媽媽是 Leji。
+Leji 是 Zabos 的媽媽。
+Zabos 和他的媽媽 Leji 一起去河邊走走。
+Zabos 的弟弟是 Pulom。
+Pulom 是 Zabos 的弟弟。
+Zabos 有一個弟弟叫 Pulom。
+Frufu 的太太是 Haba。
+Haba 是 Frufu 的太太。
+Frufu 和他的太太 Haba 住在一起。
+Haba 的先生是 Frufu。
+Frufu 是 Haba 的先生。
+Haba 和他的先生 Frufu 住在一起。
+Frufu 有3個孩子。
+Frufu 家有3個孩子。
+Frufu 的孩子有3個。
+Haba 有3個孩子。
+Haba 家有3個孩子。
+Haba 的孩子有3個。
+Jiha 的爸爸是 Frufu。
+Frufu 是 Jiha 的爸爸。
+Jiha 和他的爸爸 Frufu 一起去河邊走走。
+Jiha 的媽媽是 Haba。
+Haba 是 Jiha 的媽媽。
+Jiha 和他的媽媽 Haba 一起去河邊走走。
+Jiha 的妹妹是 Dedas。
+Dedas 是 Jiha 的妹妹。
+Jiha 有一個妹妹叫 Dedas。
+Jiha 的姐姐是 Darem。
+Darem 是 Jiha 的姐姐。
+Jiha 有一個姐姐叫 Darem。
+Dedas 的爸爸是 Frufu。
+Frufu 是 Dedas 的爸爸。
+Dedas 和他的爸爸 Frufu 一起去河邊走走。
+Dedas 的媽媽是 Haba。
+Haba 是 Dedas 的媽媽。
+Dedas 和他的媽媽 Haba 一起去河邊走走。
+Darem 的爸爸是 Frufu。
+Frufu 是 Darem 的爸爸。
+Darem 和他的爸爸 Frufu 一起去河邊走走。
+Darem 的媽媽是 Haba。
+Haba 是 Darem 的媽媽。
+Darem 和他的媽媽 Haba 一起去河邊走走。
+Proge 的太太是 Kadam。
+Kadam 是 Proge 的太太。
+Proge 和他的太太 Kadam 住在一起。
+Kadam 的先生是 Proge。
+Proge 是 Kadam 的先生。
+Kadam 和他的先生 Proge 住在一起。
+Proge 有3個孩子。
+Proge 家有3個孩子。
+Proge 的孩子有3個。
+Kadam 有3個孩子。
+Kadam 家有3個孩子。
+Kadam 的孩子有3個。
+Fiwa 的爸爸是 Proge。
+Proge 是 Fiwa 的爸爸。
+Fiwa 和他的爸爸 Proge 一起去河邊走走。
+Fiwa 的媽媽是 Kadam。
+Kadam 是 Fiwa 的媽媽。
+Fiwa 和他的媽媽 Kadam 一起去河邊走走。
+Genin 的爸爸是 Proge。
+Proge 是 Genin 的爸爸。
+Genin 和他的爸爸 Proge 一起去河邊走走。
+Genin 的媽媽是 Kadam。
+Kadam 是 Genin 的媽媽。
+Genin 和他的媽媽 Kadam 一起去河邊走走。
+Genin 的妹妹是 Fiwa。
+Fiwa 是 Genin 的妹妹。
+Genin 有一個妹妹叫 Fiwa。
+Genin 的姐姐是 Tibin。
+Tibin 是 Genin 的姐姐。
+Genin 有一個姐姐叫 Tibin。
+Tibin 的爸爸是 Proge。
+Proge 是 Tibin 的爸爸。
+Tibin 和他的爸爸 Proge 一起去河邊走走。
+Tibin 的媽媽是 Kadam。
+Kadam 是 Tibin 的媽媽。
+Tibin 和他的媽媽 Kadam 一起去河邊走走。
+Zaros 的太太是 Dukar。
+Dukar 是 Zaros 的太太。
+Zaros 和他的太太 Dukar 住在一起。
+Dukar 的先生是 Zaros。
+Zaros 是 Dukar 的先生。
+Dukar 和他的先生 Zaros 住在一起。
+Zaros 有2個孩子。
+Zaros 家有2個孩子。
+Zaros 的孩子有2個。
+Dukar 有2個孩子。
+Dukar 家有2個孩子。
+Dukar 的孩子有2個。
+Jobu 的爸爸是 Zaros。
+Zaros 是 Jobu 的爸爸。
+Jobu 和他的爸爸 Zaros 一起去河邊走走。
+Jobu 的媽媽是 Dukar。
+Dukar 是 Jobu 的媽媽。
+Jobu 和他的媽媽 Dukar 一起去河邊走走。
+Jobu 的妹妹是 Nabil。
+Nabil 是 Jobu 的妹妹。
+Jobu 有一個妹妹叫 Nabil。
+Nabil 的爸爸是 Zaros。
+Zaros 是 Nabil 的爸爸。
+Nabil 和他的爸爸 Zaros 一起去河邊走走。
+Nabil 的媽媽是 Dukar。
+Dukar 是 Nabil 的媽媽。
+Nabil 和他的媽媽 Dukar 一起去河邊走走。
+Nabil 的哥哥是 Jobu。
+Jobu 是 Nabil 的哥哥。
+Nabil 有一個哥哥叫 Jobu。
+Wurun 的太太是 Lojas。
+Lojas 是 Wurun 的太太。
+Wurun 和他的太太 Lojas 住在一起。
+Lojas 的先生是 Wurun。
+Wurun 是 Lojas 的先生。
+Lojas 和他的先生 Wurun 住在一起。
+Wurun 有1個孩子。
+Wurun 家有1個孩子。
+Wurun 的孩子有1個。
+Lojas 有1個孩子。
+Lojas 家有1個孩子。
+Lojas 的孩子有1個。
+Wugin 的爸爸是 Wurun。
+Wurun 是 Wugin 的爸爸。
+Wugin 和他的爸爸 Wurun 一起去河邊走走。
+Wugin 的媽媽是 Lojas。
+Lojas 是 Wugin 的媽媽。
+Wugin 和他的媽媽 Lojas 一起去河邊走走。
+Kimor 的太太是 Zesel。
+Zesel 是 Kimor 的太太。
+Kimor 和他的太太 Zesel 住在一起。
+Zesel 的先生是 Kimor。
+Kimor 是 Zesel 的先生。
+Zesel 和他的先生 Kimor 住在一起。
+Kimor 有1個孩子。
+Kimor 家有1個孩子。
+Kimor 的孩子有1個。
+Zesel 有1個孩子。
+Zesel 家有1個孩子。
+Zesel 的孩子有1個。
+Puhos 的爸爸是 Kimor。
+Kimor 是 Puhos 的爸爸。
+Puhos 和他的爸爸 Kimor 一起去河邊走走。
+Puhos 的媽媽是 Zesel。
+Zesel 是 Puhos 的媽媽。
+Puhos 和他的媽媽 Zesel 一起去河邊走走。
+Jovir 的太太是 Lepos。
+Lepos 是 Jovir 的太太。
+Jovir 和他的太太 Lepos 住在一起。
+Lepos 的先生是 Jovir。
+Jovir 是 Lepos 的先生。
+Lepos 和他的先生 Jovir 住在一起。
+Jovir 有3個孩子。
+Jovir 家有3個孩子。
+Jovir 的孩子有3個。
+Lepos 有3個孩子。
+Lepos 家有3個孩子。
+Lepos 的孩子有3個。
+Lukin 的爸爸是 Jovir。
+Jovir 是 Lukin 的爸爸。
+Lukin 和他的爸爸 Jovir 一起去河邊走走。
+Lukin 的媽媽是 Lepos。
+Lepos 是 Lukin 的媽媽。
+Lukin 和他的媽媽 Lepos 一起去河邊走走。
+Lukin 的哥哥是 Stuhe。
+Stuhe 是 Lukin 的哥哥。
+Lukin 有一個哥哥叫 Stuhe。
+Lukin 的妹妹是 Trire。
+Trire 是 Lukin 的妹妹。
+Lukin 有一個妹妹叫 Trire。
+Stuhe 的爸爸是 Jovir。
+Jovir 是 Stuhe 的爸爸。
+Stuhe 和他的爸爸 Jovir 一起去河邊走走。
+Stuhe 的媽媽是 Lepos。
+Lepos 是 Stuhe 的媽媽。
+Stuhe 和他的媽媽 Lepos 一起去河邊走走。
+Stuhe 的弟弟是 Lukin。
+Lukin 是 Stuhe 的弟弟。
+Stuhe 有一個弟弟叫 Lukin。
+Stuhe 的妹妹是 Trire。
+Trire 是 Stuhe 的妹妹。
+Stuhe 有一個妹妹叫 Trire。
+Trire 的爸爸是 Jovir。
+Jovir 是 Trire 的爸爸。
+Trire 和他的爸爸 Jovir 一起去河邊走走。
+Trire 的媽媽是 Lepos。
+Lepos 是 Trire 的媽媽。
+Trire 和他的媽媽 Lepos 一起去河邊走走。
+Krako 的太太是 Hinon。
+Hinon 是 Krako 的太太。
+Krako 和他的太太 Hinon 住在一起。
+Hinon 的先生是 Krako。
+Krako 是 Hinon 的先生。
+Hinon 和他的先生 Krako 住在一起。
+Krako 有1個孩子。
+Krako 家有1個孩子。
+Krako 的孩子有1個。
+Hinon 有1個孩子。
+Hinon 家有1個孩子。
+Hinon 的孩子有1個。
+Gamel 的爸爸是 Krako。
+Krako 是 Gamel 的爸爸。
+Gamel 和他的爸爸 Krako 一起去河邊走走。
+Gamel 的媽媽是 Hinon。
+Hinon 是 Gamel 的媽媽。
+Gamel 和他的媽媽 Hinon 一起去河邊走走。
+Solus 的太太是 Noben。
+Noben 是 Solus 的太太。
+Solus 和他的太太 Noben 住在一起。
+Noben 的先生是 Solus。
+Solus 是 Noben 的先生。
+Noben 和他的先生 Solus 住在一起。
+Solus 有3個孩子。
+Solus 家有3個孩子。
+Solus 的孩子有3個。
+Noben 有3個孩子。
+Noben 家有3個孩子。
+Noben 的孩子有3個。
+Tutes 的爸爸是 Solus。
+Solus 是 Tutes 的爸爸。
+Tutes 和他的爸爸 Solus 一起去河邊走走。
+Tutes 的媽媽是 Noben。
+Noben 是 Tutes 的媽媽。
+Tutes 和他的媽媽 Noben 一起去河邊走走。
+Tutes 的妹妹是 Gotin。
+Gotin 是 Tutes 的妹妹。
+Tutes 有一個妹妹叫 Gotin。
+Tutes 的姐姐是 Semol。
+Semol 是 Tutes 的姐姐。
+Tutes 有一個姐姐叫 Semol。
+Gotin 的爸爸是 Solus。
+Solus 是 Gotin 的爸爸。
+Gotin 和他的爸爸 Solus 一起去河邊走走。
+Gotin 的媽媽是 Noben。
+Noben 是 Gotin 的媽媽。
+Gotin 和他的媽媽 Noben 一起去河邊走走。
+Gotin 的哥哥是 Tutes。
+Tutes 是 Gotin 的哥哥。
+Gotin 有一個哥哥叫 Tutes。
+Gotin 的姐姐是 Semol。
+Semol 是 Gotin 的姐姐。
+Gotin 有一個姐姐叫 Semol。
+Semol 的爸爸是 Solus。
+Solus 是 Semol 的爸爸。
+Semol 和他的爸爸 Solus 一起去河邊走走。
+Semol 的媽媽是 Noben。
+Noben 是 Semol 的媽媽。
+Semol 和他的媽媽 Noben 一起去河邊走走。
+Semol 的弟弟是 Tutes。
+Tutes 是 Semol 的弟弟。
+Semol 有一個弟弟叫 Tutes。
+Semol 的妹妹是 Gotin。
+Gotin 是 Semol 的妹妹。
+Semol 有一個妹妹叫 Gotin。
+Jibom 的太太是 Wadir。
+Wadir 是 Jibom 的太太。
+Jibom 和他的太太 Wadir 住在一起。
+Wadir 的先生是 Jibom。
+Jibom 是 Wadir 的先生。
+Wadir 和他的先生 Jibom 住在一起。
+Jibom 有1個孩子。
+Jibom 家有1個孩子。
+Jibom 的孩子有1個。
+Wadir 有1個孩子。
+Wadir 家有1個孩子。
+Wadir 的孩子有1個。
+Jeram 的爸爸是 Jibom。
+Jibom 是 Jeram 的爸爸。
+Jeram 和他的爸爸 Jibom 一起去河邊走走。
+Jeram 的媽媽是 Wadir。
+Wadir 是 Jeram 的媽媽。
+Jeram 和他的媽媽 Wadir 一起去河邊走走。
+Kobir 的太太是 Poves。
+Poves 是 Kobir 的太太。
+Kobir 和他的太太 Poves 住在一起。
+Poves 的先生是 Kobir。
+Kobir 是 Poves 的先生。
+Poves 和他的先生 Kobir 住在一起。
+Kobir 有1個孩子。
+Kobir 家有1個孩子。
+Kobir 的孩子有1個。
+Poves 有1個孩子。
+Poves 家有1個孩子。
+Poves 的孩子有1個。
+Sugun 的爸爸是 Kobir。
+Kobir 是 Sugun 的爸爸。
+Sugun 和他的爸爸 Kobir 一起去河邊走走。
+Sugun 的媽媽是 Poves。
+Poves 是 Sugun 的媽媽。
+Sugun 和他的媽媽 Poves 一起去河邊走走。
+Mosa 的太太是 Fotir。
+Fotir 是 Mosa 的太太。
+Mosa 和他的太太 Fotir 住在一起。
+Fotir 的先生是 Mosa。
+Mosa 是 Fotir 的先生。
+Fotir 和他的先生 Mosa 住在一起。
+Mosa 有2個孩子。
+Mosa 家有2個孩子。
+Mosa 的孩子有2個。
+Fotir 有2個孩子。
+Fotir 家有2個孩子。
+Fotir 的孩子有2個。
+Genor 的爸爸是 Mosa。
+Mosa 是 Genor 的爸爸。
+Genor 和他的爸爸 Mosa 一起去河邊走走。
+Genor 的媽媽是 Fotir。
+Fotir 是 Genor 的媽媽。
+Genor 和他的媽媽 Fotir 一起去河邊走走。
+Genor 的哥哥是 Love。
+Love 是 Genor 的哥哥。
+Genor 有一個哥哥叫 Love。
+Love 的爸爸是 Mosa。
+Mosa 是 Love 的爸爸。
+Love 和他的爸爸 Mosa 一起去河邊走走。
+Love 的媽媽是 Fotir。
+Fotir 是 Love 的媽媽。
+Love 和他的媽媽 Fotir 一起去河邊走走。
+Love 的弟弟是 Genor。
+Genor 是 Love 的弟弟。
+Love 有一個弟弟叫 Genor。
+Lerol 的太太是 Nuhon。
+Nuhon 是 Lerol 的太太。
+Lerol 和他的太太 Nuhon 住在一起。
+Nuhon 的先生是 Lerol。
+Lerol 是 Nuhon 的先生。
+Nuhon 和他的先生 Lerol 住在一起。
+Lerol 有1個孩子。
+Lerol 家有1個孩子。
+Lerol 的孩子有1個。
+Nuhon 有1個孩子。
+Nuhon 家有1個孩子。
+Nuhon 的孩子有1個。
+Momos 的爸爸是 Lerol。
+Lerol 是 Momos 的爸爸。
+Momos 和他的爸爸 Lerol 一起去河邊走走。
+Momos 的媽媽是 Nuhon。
+Nuhon 是 Momos 的媽媽。
+Momos 和他的媽媽 Nuhon 一起去河邊走走。
+Niwol 的太太是 Safun。
+Safun 是 Niwol 的太太。
+Niwol 和他的太太 Safun 住在一起。
+Safun 的先生是 Niwol。
+Niwol 是 Safun 的先生。
+Safun 和他的先生 Niwol 住在一起。
+Niwol 有1個孩子。
+Niwol 家有1個孩子。
+Niwol 的孩子有1個。
+Safun 有1個孩子。
+Safun 家有1個孩子。
+Safun 的孩子有1個。
+Ziba 的爸爸是 Niwol。
+Niwol 是 Ziba 的爸爸。
+Ziba 和他的爸爸 Niwol 一起去河邊走走。
+Ziba 的媽媽是 Safun。
+Safun 是 Ziba 的媽媽。
+Ziba 和他的媽媽 Safun 一起去河邊走走。
+Nigu 的太太是 Levim。
+Levim 是 Nigu 的太太。
+Nigu 和他的太太 Levim 住在一起。
+Levim 的先生是 Nigu。
+Nigu 是 Levim 的先生。
+Levim 和他的先生 Nigu 住在一起。
+Nigu 有1個孩子。
+Nigu 家有1個孩子。
+Nigu 的孩子有1個。
+Levim 有1個孩子。
+Levim 家有1個孩子。
+Levim 的孩子有1個。
+Kojus 的爸爸是 Nigu。
+Nigu 是 Kojus 的爸爸。
+Kojus 和他的爸爸 Nigu 一起去河邊走走。
+Kojus 的媽媽是 Levim。
+Levim 是 Kojus 的媽媽。
+Kojus 和他的媽媽 Levim 一起去河邊走走。
+Funel 的太太是 Gugil。
+Gugil 是 Funel 的太太。
+Funel 和他的太太 Gugil 住在一起。
+Gugil 的先生是 Funel。
+Funel 是 Gugil 的先生。
+Gugil 和他的先生 Funel 住在一起。
+Funel 有1個孩子。
+Funel 家有1個孩子。
+Funel 的孩子有1個。
+Gugil 有1個孩子。
+Gugil 家有1個孩子。
+Gugil 的孩子有1個。
+Howu 的爸爸是 Funel。
+Funel 是 Howu 的爸爸。
+Howu 和他的爸爸 Funel 一起去河邊走走。
+Howu 的媽媽是 Gugil。
+Gugil 是 Howu 的媽媽。
+Howu 和他的媽媽 Gugil 一起去河邊走走。
+Prolo 是一個豬。
+Prolo 這個動物是豬。
+大家都知道 Prolo 是豬。
+Prolo 是白色的。
+Prolo 身上是白色的。
+Prolo 的身體是白色的。
+Prolo 今年4歲。
+Prolo 4歲了。
+Prolo 是一個4歲的豬。
+Prolo 是 Nelam 家的。
+Nelam 家有一個動物叫 Prolo。
+Nelam 每天都和 Prolo 一起玩。
+Powim 是一個鳥。
+Powim 這個動物是鳥。
+大家都知道 Powim 是鳥。
+Powim 是紅色的。
+Powim 身上是紅色的。
+Powim 的身體是紅色的。
+Powim 今年11歲。
+Powim 11歲了。
+Powim 是一個11歲的鳥。
+Powim 是 Pafen 家的。
+Pafen 家有一個動物叫 Powim。
+Pafen 每天都和 Powim 一起玩。
+Vitos 是一個雞。
+Vitos 這個動物是雞。
+大家都知道 Vitos 是雞。
+Vitos 是金色的。
+Vitos 身上是金色的。
+Vitos 的身體是金色的。
+Vitos 今年6歲。
+Vitos 6歲了。
+Vitos 是一個6歲的雞。
+Vitos 是 Kasu 家的。
+Kasu 家有一個動物叫 Vitos。
+Kasu 每天都和 Vitos 一起玩。
+Fera 是一個雞。
+Fera 這個動物是雞。
+大家都知道 Fera 是雞。
+Fera 是白色的。
+Fera 身上是白色的。
+Fera 的身體是白色的。
+Fera 今年6歲。
+Fera 6歲了。
+Fera 是一個6歲的雞。
+Fera 是 Lepos 家的。
+Lepos 家有一個動物叫 Fera。
+Lepos 每天都和 Fera 一起玩。
+Woha 是一個雞。
+Woha 這個動物是雞。
+大家都知道 Woha 是雞。
+Woha 是黑色的。
+Woha 身上是黑色的。
+Woha 的身體是黑色的。
+Woha 今年8歲。
+Woha 8歲了。
+Woha 是一個8歲的雞。
+Woha 是 Steha 家的。
+Steha 家有一個動物叫 Woha。
+Steha 每天都和 Woha 一起玩。
+Prohi 是一個馬。
+Prohi 這個動物是馬。
+大家都知道 Prohi 是馬。
+Prohi 是白色的。
+Prohi 身上是白色的。
+Prohi 的身體是白色的。
+Prohi 今年8歲。
+Prohi 8歲了。
+Prohi 是一個8歲的馬。
+Prohi 是 Bolon 家的。
+Bolon 家有一個動物叫 Prohi。
+Bolon 每天都和 Prohi 一起玩。
+Pomu 是一個牛。
+Pomu 這個動物是牛。
+大家都知道 Pomu 是牛。
+Pomu 是黑色的。
+Pomu 身上是黑色的。
+Pomu 的身體是黑色的。
+Pomu 今年4歲。
+Pomu 4歲了。
+Pomu 是一個4歲的牛。
+Pomu 是 Lodis 家的。
+Lodis 家有一個動物叫 Pomu。
+Lodis 每天都和 Pomu 一起玩。
+Nirol 是一個鳥。
+Nirol 這個動物是鳥。
+大家都知道 Nirol 是鳥。
+Nirol 是金色的。
+Nirol 身上是金色的。
+Nirol 的身體是金色的。
+Nirol 今年12歲。
+Nirol 12歲了。
+Nirol 是一個12歲的鳥。
+Nirol 是 Pudis 家的。
+Pudis 家有一個動物叫 Nirol。
+Pudis 每天都和 Nirol 一起玩。
+Pumun 是一個雞。
+Pumun 這個動物是雞。
+大家都知道 Pumun 是雞。
+Pumun 是白色的。
+Pumun 身上是白色的。
+Pumun 的身體是白色的。
+Pumun 今年7歲。
+Pumun 7歲了。
+Pumun 是一個7歲的雞。
+Pumun 是 Zukan 家的。
+Zukan 家有一個動物叫 Pumun。
+Zukan 每天都和 Pumun 一起玩。
+Kogi 是一個魚。
+Kogi 這個動物是魚。
+大家都知道 Kogi 是魚。
+Kogi 是白色的。
+Kogi 身上是白色的。
+Kogi 的身體是白色的。
+Kogi 今年8歲。
+Kogi 8歲了。
+Kogi 是一個8歲的魚。
+Kogi 是 Fraba 家的。
+Fraba 家有一個動物叫 Kogi。
+Fraba 每天都和 Kogi 一起玩。
+Pihus 是一個豬。
+Pihus 這個動物是豬。
+大家都知道 Pihus 是豬。
+Pihus 是黑色的。
+Pihus 身上是黑色的。
+Pihus 的身體是黑色的。
+Pihus 今年8歲。
+Pihus 8歲了。
+Pihus 是一個8歲的豬。
+Pihus 是 Takon 家的。
+Takon 家有一個動物叫 Pihus。
+Takon 每天都和 Pihus 一起玩。
+Fasul 是一個魚。
+Fasul 這個動物是魚。
+大家都知道 Fasul 是魚。
+Fasul 是金色的。
+Fasul 身上是金色的。
+Fasul 的身體是金色的。
+Fasul 今年3歲。
+Fasul 3歲了。
+Fasul 是一個3歲的魚。
+Fasul 是 Nupas 家的。
+Nupas 家有一個動物叫 Fasul。
+Nupas 每天都和 Fasul 一起玩。
+Gadem 是一個馬。
+Gadem 這個動物是馬。
+大家都知道 Gadem 是馬。
+Gadem 是白色的。
+Gadem 身上是白色的。
+Gadem 的身體是白色的。
+Gadem 今年3歲。
+Gadem 3歲了。
+Gadem 是一個3歲的馬。
+Gadem 是 Nabil 家的。
+Nabil 家有一個動物叫 Gadem。
+Nabil 每天都和 Gadem 一起玩。
+Wudur 是一個鳥。
+Wudur 這個動物是鳥。
+大家都知道 Wudur 是鳥。
+Wudur 是黑色的。
+Wudur 身上是黑色的。
+Wudur 的身體是黑色的。
+Wudur 今年8歲。
+Wudur 8歲了。
+Wudur 是一個8歲的鳥。
+Wudur 是 Vomom 家的。
+Vomom 家有一個動物叫 Wudur。
+Vomom 每天都和 Wudur 一起玩。
+Fedos 是一個豬。
+Fedos 這個動物是豬。
+大家都知道 Fedos 是豬。
+Fedos 是紅色的。
+Fedos 身上是紅色的。
+Fedos 的身體是紅色的。
+Fedos 今年7歲。
+Fedos 7歲了。
+Fedos 是一個7歲的豬。
+Fedos 是 Wenem 家的。
+Wenem 家有一個動物叫 Fedos。
+Wenem 每天都和 Fedos 一起玩。
+Dogan 是一個馬。
+Dogan 這個動物是馬。
+大家都知道 Dogan 是馬。
+Dogan 是白色的。
+Dogan 身上是白色的。
+Dogan 的身體是白色的。
+Dogan 今年5歲。
+Dogan 5歲了。
+Dogan 是一個5歲的馬。
+Dogan 是 Nuhon 家的。
+Nuhon 家有一個動物叫 Dogan。
+Nuhon 每天都和 Dogan 一起玩。
+Himi 是一個豬。
+Himi 這個動物是豬。
+大家都知道 Himi 是豬。
+Himi 是金色的。
+Himi 身上是金色的。
+Himi 的身體是金色的。
+Himi 今年3歲。
+Himi 3歲了。
+Himi 是一個3歲的豬。
+Himi 是 Sige 家的。
+Sige 家有一個動物叫 Himi。
+Sige 每天都和 Himi 一起玩。
+Tapal 是一個雞。
+Tapal 這個動物是雞。
+大家都知道 Tapal 是雞。
+Tapal 是白色的。
+Tapal 身上是白色的。
+Tapal 的身體是白色的。
+Tapal 今年6歲。
+Tapal 6歲了。
+Tapal 是一個6歲的雞。
+Tapal 是 Wurun 家的。
+Wurun 家有一個動物叫 Tapal。
+Wurun 每天都和 Tapal 一起玩。
+Zagor 是一個雞。
+Zagor 這個動物是雞。
+大家都知道 Zagor 是雞。
+Zagor 是白色的。
+Zagor 身上是白色的。
+Zagor 的身體是白色的。
+Zagor 今年3歲。
+Zagor 3歲了。
+Zagor 是一個3歲的雞。
+Zagor 是 Noben 家的。
+Noben 家有一個動物叫 Zagor。
+Noben 每天都和 Zagor 一起玩。
+Prova 是一個牛。
+Prova 這個動物是牛。
+大家都知道 Prova 是牛。
+Prova 是黑色的。
+Prova 身上是黑色的。
+Prova 的身體是黑色的。
+Prova 今年9歲。
+Prova 9歲了。
+Prova 是一個9歲的牛。
+Prova 是 Jovir 家的。
+Jovir 家有一個動物叫 Prova。
+Jovir 每天都和 Prova 一起玩。
+Tugas 是一個豬。
+Tugas 這個動物是豬。
+大家都知道 Tugas 是豬。
+Tugas 是白色的。
+Tugas 身上是白色的。
+Tugas 的身體是白色的。
+Tugas 今年5歲。
+Tugas 5歲了。
+Tugas 是一個5歲的豬。
+Tugas 是 Zevun 家的。
+Zevun 家有一個動物叫 Tugas。
+Zevun 每天都和 Tugas 一起玩。
+Wehal 是一個豬。
+Wehal 這個動物是豬。
+大家都知道 Wehal 是豬。
+Wehal 是紅色的。
+Wehal 身上是紅色的。
+Wehal 的身體是紅色的。
+Wehal 今年5歲。
+Wehal 5歲了。
+Wehal 是一個5歲的豬。
+Wehal 是 Steha 家的。
+Steha 家有一個動物叫 Wehal。
+Steha 每天都和 Wehal 一起玩。
+Baga 是一個馬。
+Baga 這個動物是馬。
+大家都知道 Baga 是馬。
+Baga 是白色的。
+Baga 身上是白色的。
+Baga 的身體是白色的。
+Baga 今年7歲。
+Baga 7歲了。
+Baga 是一個7歲的馬。
+Baga 是 Fase 家的。
+Fase 家有一個動物叫 Baga。
+Fase 每天都和 Baga 一起玩。
+Gewan 是一個雞。
+Gewan 這個動物是雞。
+大家都知道 Gewan 是雞。
+Gewan 是黑色的。
+Gewan 身上是黑色的。
+Gewan 的身體是黑色的。
+Gewan 今年1歲。
+Gewan 1歲了。
+Gewan 是一個1歲的雞。
+Gewan 是 Fuge 家的。
+Fuge 家有一個動物叫 Gewan。
+Fuge 每天都和 Gewan 一起玩。
+Brovi 是一個馬。
+Brovi 這個動物是馬。
+大家都知道 Brovi 是馬。
+Brovi 是白色的。
+Brovi 身上是白色的。
+Brovi 的身體是白色的。
+Brovi 今年8歲。
+Brovi 8歲了。
+Brovi 是一個8歲的馬。
+Brovi 是 Gamel 家的。
+Gamel 家有一個動物叫 Brovi。
+Gamel 每天都和 Brovi 一起玩。
+Praba 是一個豬。
+Praba 這個動物是豬。
+大家都知道 Praba 是豬。
+Praba 是黑色的。
+Praba 身上是黑色的。
+Praba 的身體是黑色的。
+Praba 今年8歲。
+Praba 8歲了。
+Praba 是一個8歲的豬。
+Praba 是 Teke 家的。
+Teke 家有一個動物叫 Praba。
+Teke 每天都和 Praba 一起玩。
+Nujor 是一個鳥。
+Nujor 這個動物是鳥。
+大家都知道 Nujor 是鳥。
+Nujor 是金色的。
+Nujor 身上是金色的。
+Nujor 的身體是金色的。
+Nujor 今年3歲。
+Nujor 3歲了。
+Nujor 是一個3歲的鳥。
+Nujor 是 Dubo 家的。
+Dubo 家有一個動物叫 Nujor。
+Dubo 每天都和 Nujor 一起玩。
+Dirus 是一個雞。
+Dirus 這個動物是雞。
+大家都知道 Dirus 是雞。
+Dirus 是白色的。
+Dirus 身上是白色的。
+Dirus 的身體是白色的。
+Dirus 今年7歲。
+Dirus 7歲了。
+Dirus 是一個7歲的雞。
+Dirus 是 Porer 家的。
+Porer 家有一個動物叫 Dirus。
+Porer 每天都和 Dirus 一起玩。
+Vojem 是一個豬。
+Vojem 這個動物是豬。
+大家都知道 Vojem 是豬。
+Vojem 是黑色的。
+Vojem 身上是黑色的。
+Vojem 的身體是黑色的。
+Vojem 今年3歲。
+Vojem 3歲了。
+Vojem 是一個3歲的豬。
+Vojem 是 Meve 家的。
+Meve 家有一個動物叫 Vojem。
+Meve 每天都和 Vojem 一起玩。
+Gijol 是一個鳥。
+Gijol 這個動物是鳥。
+大家都知道 Gijol 是鳥。
+Gijol 是黑色的。
+Gijol 身上是黑色的。
+Gijol 的身體是黑色的。
+Gijol 今年12歲。
+Gijol 12歲了。
+Gijol 是一個12歲的鳥。
+Gijol 是 Velel 家的。
+Velel 家有一個動物叫 Gijol。
+Velel 每天都和 Gijol 一起玩。
+Somun 是一個馬。
+Somun 這個動物是馬。
+大家都知道 Somun 是馬。
+Somun 是白色的。
+Somun 身上是白色的。
+Somun 的身體是白色的。
+Somun 今年2歲。
+Somun 2歲了。
+Somun 是一個2歲的馬。
+Somun 是 Gugil 家的。
+Gugil 家有一個動物叫 Somun。
+Gugil 每天都和 Somun 一起玩。
+Nidus 是一個魚。
+Nidus 這個動物是魚。
+大家都知道 Nidus 是魚。
+Nidus 是紅色的。
+Nidus 身上是紅色的。
+Nidus 的身體是紅色的。
+Nidus 今年5歲。
+Nidus 5歲了。
+Nidus 是一個5歲的魚。
+Nidus 是 Velel 家的。
+Velel 家有一個動物叫 Nidus。
+Velel 每天都和 Nidus 一起玩。
+Benul 是一個馬。
+Benul 這個動物是馬。
+大家都知道 Benul 是馬。
+Benul 是黑色的。
+Benul 身上是黑色的。
+Benul 的身體是黑色的。
+Benul 今年10歲。
+Benul 10歲了。
+Benul 是一個10歲的馬。
+Benul 是 Bolon 家的。
+Bolon 家有一個動物叫 Benul。
+Bolon 每天都和 Benul 一起玩。
+Losor 是一個鳥。
+Losor 這個動物是鳥。
+大家都知道 Losor 是鳥。
+Losor 是金色的。
+Losor 身上是金色的。
+Losor 的身體是金色的。
+Losor 今年4歲。
+Losor 4歲了。
+Losor 是一個4歲的鳥。
+Losor 是 Mukas 家的。
+Mukas 家有一個動物叫 Losor。
+Mukas 每天都和 Losor 一起玩。
+Bimil 是一個牛。
+Bimil 這個動物是牛。
+大家都知道 Bimil 是牛。
+Bimil 是紅色的。
+Bimil 身上是紅色的。
+Bimil 的身體是紅色的。
+Bimil 今年12歲。
+Bimil 12歲了。
+Bimil 是一個12歲的牛。
+Bimil 是 Zukon 家的。
+Zukon 家有一個動物叫 Bimil。
+Zukon 每天都和 Bimil 一起玩。
+Judim 是一個鳥。
+Judim 這個動物是鳥。
+大家都知道 Judim 是鳥。
+Judim 是金色的。
+Judim 身上是金色的。
+Judim 的身體是金色的。
+Judim 今年6歲。
+Judim 6歲了。
+Judim 是一個6歲的鳥。
+Judim 是 Tifor 家的。
+Tifor 家有一個動物叫 Judim。
+Tifor 每天都和 Judim 一起玩。
+Huhim 是一個魚。
+Huhim 這個動物是魚。
+大家都知道 Huhim 是魚。
+Huhim 是紅色的。
+Huhim 身上是紅色的。
+Huhim 的身體是紅色的。
+Huhim 今年2歲。
+Huhim 2歲了。
+Huhim 是一個2歲的魚。
+Huhim 是 Totu 家的。
+Totu 家有一個動物叫 Huhim。
+Totu 每天都和 Huhim 一起玩。
+Broru 是一個雞。
+Broru 這個動物是雞。
+大家都知道 Broru 是雞。
+Broru 是紅色的。
+Broru 身上是紅色的。
+Broru 的身體是紅色的。
+Broru 今年3歲。
+Broru 3歲了。
+Broru 是一個3歲的雞。
+Broru 是 Suvum 家的。
+Suvum 家有一個動物叫 Broru。
+Suvum 每天都和 Broru 一起玩。
+Bruwo 是一個馬。
+Bruwo 這個動物是馬。
+大家都知道 Bruwo 是馬。
+Bruwo 是黑色的。
+Bruwo 身上是黑色的。
+Bruwo 的身體是黑色的。
+Bruwo 今年10歲。
+Bruwo 10歲了。
+Bruwo 是一個10歲的馬。
+Bruwo 是 Kreho 家的。
+Kreho 家有一個動物叫 Bruwo。
+Kreho 每天都和 Bruwo 一起玩。
+Stenu 是一個牛。
+Stenu 這個動物是牛。
+大家都知道 Stenu 是牛。
+Stenu 是黑色的。
+Stenu 身上是黑色的。
+Stenu 的身體是黑色的。
+Stenu 今年12歲。
+Stenu 12歲了。
+Stenu 是一個12歲的牛。
+Stenu 是 Nanas 家的。
+Nanas 家有一個動物叫 Stenu。
+Nanas 每天都和 Stenu 一起玩。
+Fura 是一個鳥。
+Fura 這個動物是鳥。
+大家都知道 Fura 是鳥。
+Fura 是白色的。
+Fura 身上是白色的。
+Fura 的身體是白色的。
+Fura 今年6歲。
+Fura 6歲了。
+Fura 是一個6歲的鳥。
+Fura 是 Gotin 家的。
+Gotin 家有一個動物叫 Fura。
+Gotin 每天都和 Fura 一起玩。
+Sumun 是一個雞。
+Sumun 這個動物是雞。
+大家都知道 Sumun 是雞。
+Sumun 是白色的。
+Sumun 身上是白色的。
+Sumun 的身體是白色的。
+Sumun 今年2歲。
+Sumun 2歲了。
+Sumun 是一個2歲的雞。
+Sumun 是 Trole 家的。
+Trole 家有一個動物叫 Sumun。
+Trole 每天都和 Sumun 一起玩。
+Wuke 是一個魚。
+Wuke 這個動物是魚。
+大家都知道 Wuke 是魚。
+Wuke 是黑色的。
+Wuke 身上是黑色的。
+Wuke 的身體是黑色的。
+Wuke 今年6歲。
+Wuke 6歲了。
+Wuke 是一個6歲的魚。
+Wuke 是 Tofo 家的。
+Tofo 家有一個動物叫 Wuke。
+Tofo 每天都和 Wuke 一起玩。
+Kajin 是一個鳥。
+Kajin 這個動物是鳥。
+大家都知道 Kajin 是鳥。
+Kajin 是白色的。
+Kajin 身上是白色的。
+Kajin 的身體是白色的。
+Kajin 今年5歲。
+Kajin 5歲了。
+Kajin 是一個5歲的鳥。
+Kajin 是 Kevan 家的。
+Kevan 家有一個動物叫 Kajin。
+Kevan 每天都和 Kajin 一起玩。
+Zelal 是一個魚。
+Zelal 這個動物是魚。
+大家都知道 Zelal 是魚。
+Zelal 是紅色的。
+Zelal 身上是紅色的。
+Zelal 的身體是紅色的。
+Zelal 今年8歲。
+Zelal 8歲了。
+Zelal 是一個8歲的魚。
+Zelal 是 Noben 家的。
+Noben 家有一個動物叫 Zelal。
+Noben 每天都和 Zelal 一起玩。
+Rarom 是一個牛。
+Rarom 這個動物是牛。
+大家都知道 Rarom 是牛。
+Rarom 是黑色的。
+Rarom 身上是黑色的。
+Rarom 的身體是黑色的。
+Rarom 今年1歲。
+Rarom 1歲了。
+Rarom 是一個1歲的牛。
+Rarom 是 Neja 家的。
+Neja 家有一個動物叫 Rarom。
+Neja 每天都和 Rarom 一起玩。
+Fepu 是一個牛。
+Fepu 這個動物是牛。
+大家都知道 Fepu 是牛。
+Fepu 是黑色的。
+Fepu 身上是黑色的。
+Fepu 的身體是黑色的。
+Fepu 今年10歲。
+Fepu 10歲了。
+Fepu 是一個10歲的牛。
+Fepu 是 Meve 家的。
+Meve 家有一個動物叫 Fepu。
+Meve 每天都和 Fepu 一起玩。
+Riba 是一個馬。
+Riba 這個動物是馬。
+大家都知道 Riba 是馬。
+Riba 是白色的。
+Riba 身上是白色的。
+Riba 的身體是白色的。
+Riba 今年5歲。
+Riba 5歲了。
+Riba 是一個5歲的馬。
+Riba 是 Dopar 家的。
+Dopar 家有一個動物叫 Riba。
+Dopar 每天都和 Riba 一起玩。
+Kuwur 是一個鳥。
+Kuwur 這個動物是鳥。
+大家都知道 Kuwur 是鳥。
+Kuwur 是白色的。
+Kuwur 身上是白色的。
+Kuwur 的身體是白色的。
+Kuwur 今年1歲。
+Kuwur 1歲了。
+Kuwur 是一個1歲的鳥。
+Kuwur 是 Kaho 家的。
+Kaho 家有一個動物叫 Kuwur。
+Kaho 每天都和 Kuwur 一起玩。
+Kimo 是一個魚。
+Kimo 這個動物是魚。
+大家都知道 Kimo 是魚。
+Kimo 是黑色的。
+Kimo 身上是黑色的。
+Kimo 的身體是黑色的。
+Kimo 今年5歲。
+Kimo 5歲了。
+Kimo 是一個5歲的魚。
+Kimo 是 Mures 家的。
+Mures 家有一個動物叫 Kimo。
+Mures 每天都和 Kimo 一起玩。
+Vuhim 是一個鳥。
+Vuhim 這個動物是鳥。
+大家都知道 Vuhim 是鳥。
+Vuhim 是紅色的。
+Vuhim 身上是紅色的。
+Vuhim 的身體是紅色的。
+Vuhim 今年9歲。
+Vuhim 9歲了。
+Vuhim 是一個9歲的鳥。
+Vuhim 是 Steha 家的。
+Steha 家有一個動物叫 Vuhim。
+Steha 每天都和 Vuhim 一起玩。
+Dikel 是一個魚。
+Dikel 這個動物是魚。
+大家都知道 Dikel 是魚。
+Dikel 是紅色的。
+Dikel 身上是紅色的。
+Dikel 的身體是紅色的。
+Dikel 今年2歲。
+Dikel 2歲了。
+Dikel 是一個2歲的魚。
+Dikel 是 Leva 家的。
+Leva 家有一個動物叫 Dikel。
+Leva 每天都和 Dikel 一起玩。
+Fadar 是一個牛。
+Fadar 這個動物是牛。
+大家都知道 Fadar 是牛。
+Fadar 是黑色的。
+Fadar 身上是黑色的。
+Fadar 的身體是黑色的。
+Fadar 今年1歲。
+Fadar 1歲了。
+Fadar 是一個1歲的牛。
+Fadar 是 Losil 家的。
+Losil 家有一個動物叫 Fadar。
+Losil 每天都和 Fadar 一起玩。
+Rowam 是一個牛。
+Rowam 這個動物是牛。
+大家都知道 Rowam 是牛。
+Rowam 是紅色的。
+Rowam 身上是紅色的。
+Rowam 的身體是紅色的。
+Rowam 今年8歲。
+Rowam 8歲了。
+Rowam 是一個8歲的牛。
+Rowam 是 Safun 家的。
+Safun 家有一個動物叫 Rowam。
+Safun 每天都和 Rowam 一起玩。
+Pulas 是一個鳥。
+Pulas 這個動物是鳥。
+大家都知道 Pulas 是鳥。
+Pulas 是金色的。
+Pulas 身上是金色的。
+Pulas 的身體是金色的。
+Pulas 今年2歲。
+Pulas 2歲了。
+Pulas 是一個2歲的鳥。
+Pulas 是 Ruven 家的。
+Ruven 家有一個動物叫 Pulas。
+Ruven 每天都和 Pulas 一起玩。
+Zojom 是一個牛。
+Zojom 這個動物是牛。
+大家都知道 Zojom 是牛。
+Zojom 是紅色的。
+Zojom 身上是紅色的。
+Zojom 的身體是紅色的。
+Zojom 今年3歲。
+Zojom 3歲了。
+Zojom 是一個3歲的牛。
+Zojom 是 Kobir 家的。
+Kobir 家有一個動物叫 Zojom。
+Kobir 每天都和 Zojom 一起玩。
+Jile 是一個鳥。
+Jile 這個動物是鳥。
+大家都知道 Jile 是鳥。
+Jile 是黑色的。
+Jile 身上是黑色的。
+Jile 的身體是黑色的。
+Jile 今年4歲。
+Jile 4歲了。
+Jile 是一個4歲的鳥。
+Jile 是 Begos 家的。
+Begos 家有一個動物叫 Jile。
+Begos 每天都和 Jile 一起玩。
+Dirar 是一個魚。
+Dirar 這個動物是魚。
+大家都知道 Dirar 是魚。
+Dirar 是紅色的。
+Dirar 身上是紅色的。
+Dirar 的身體是紅色的。
+Dirar 今年12歲。
+Dirar 12歲了。
+Dirar 是一個12歲的魚。
+Dirar 是 Zabos 家的。
+Zabos 家有一個動物叫 Dirar。
+Zabos 每天都和 Dirar 一起玩。
+Bamus 是一個馬。
+Bamus 這個動物是馬。
+大家都知道 Bamus 是馬。
+Bamus 是白色的。
+Bamus 身上是白色的。
+Bamus 的身體是白色的。
+Bamus 今年11歲。
+Bamus 11歲了。
+Bamus 是一個11歲的馬。
+Bamus 是 Leji 家的。
+Leji 家有一個動物叫 Bamus。
+Leji 每天都和 Bamus 一起玩。
+Troda 是一個魚。
+Troda 這個動物是魚。
+大家都知道 Troda 是魚。
+Troda 是紅色的。
+Troda 身上是紅色的。
+Troda 的身體是紅色的。
+Troda 今年10歲。
+Troda 10歲了。
+Troda 是一個10歲的魚。
+Troda 是 Funel 家的。
+Funel 家有一個動物叫 Troda。
+Funel 每天都和 Troda 一起玩。
+Pesa 這個城裡有1個學校。Pesa 在河邊。國的西邊有一個城叫 Pesa。
+Braru 是國南邊的一個城。Braru 有1個學校。Braru 是河邊的一個城。
+Zedal 是山邊的一個城。國的東邊有一個城叫 Zedal。Zedal 這個城裡有5個學校。
+Talar 是國北邊的一個城。住在 Talar 的人每天都可以去山邊玩。Talar 有3個學校。
+Tages 是河邊的一個城。Tages 在國的南邊。Tages 的學校有3個。
+Salar 在山邊。Salar 的學校有1個。Salar 是國北邊的一個城。
+Hiter 是海邊的一個城。Hiter 是國北邊的一個城。Hiter 有4個學校。
+Gunum 在國的北邊。Gunum 這個城裡有1個學校。Gunum 在海邊。
+Pradu 有3個學校。Pradu 在山邊。國的西邊有一個城叫 Pradu。
+住在 Wutil 的人每天都可以去海邊玩。國的南邊有一個城叫 Wutil。Wutil 這個城裡有2個學校。
+Drori 在山邊。Drori 這個城裡有5個學校。國的東邊有一個城叫 Drori。
+Jefun 有5個學校。Jefun 是國南邊的一個城。Jefun 在山邊。
+Zopon 是河邊的一個城。Zopon 的學校有3個。Zopon 是國東邊的一個城。
+Jihol 的學校有3個。Jihol 在國的東邊。住在 Jihol 的人每天都可以去河邊玩。
+Dapis 的學校有3個。住在 Dapis 的人每天都可以去山邊玩。Dapis 是國南邊的一個城。
+Ruwum 在國的西邊。Ruwum 有5個學校。住在 Ruwum 的人每天都可以去河邊玩。
+Vafil 是河邊的一個城。Vafil 這個城裡有2個學校。國的南邊有一個城叫 Vafil。
+Ravi 這個城裡有4個學校。國的西邊有一個城叫 Ravi。住在 Ravi 的人每天都可以去山邊玩。
+國的西邊有一個城叫 Frawa。Frawa 是山邊的一個城。Frawa 有5個學校。
+Sofel 是國北邊的一個城。住在 Sofel 的人每天都可以去海邊玩。Sofel 這個城裡有1個學校。
+Sumem 有4個學校。Sumem 是海邊的一個城。Sumem 是國東邊的一個城。
+Tumon 在國的南邊。Tumon 在山邊。Tumon 的學校有5個。
+Krole 有3個學校。國的南邊有一個城叫 Krole。Krole 是海邊的一個城。
+Jele 在國的南邊。Jele 的學校有2個。Jele 是山邊的一個城。
+Wujin 有4個學校。Wujin 是國東邊的一個城。Wujin 是山邊的一個城。
+Betun 的學校有2個。Betun 在海邊。Betun 在國的西邊。
+Zudom 是國北邊的一個城。住在 Zudom 的人每天都可以去河邊玩。Zudom 有5個學校。
+Sawo 是海邊的一個城。Sawo 的學校有3個。Sawo 是國東邊的一個城。
+國的東邊有一個城叫 Kako。Kako 有1個學校。住在 Kako 的人每天都可以去河邊玩。
+Gida 是河邊的一個城。國的北邊有一個城叫 Gida。Gida 有2個學校。
+Pradu 有一個店叫 Weti。要買刀，可以去 Weti 這個店。Weti 店每天6點開門。
+Feje 店每天7點開門。要買衣服，可以去 Feje 這個店。Gunum 有一個店叫 Feje。
+Huver 這個店早上9點開門。Huver 店裡賣的是茶。Huver 這個店在 Jele。
+每天早上9點，Kebi 這個店就開門了。Kebi 店開在 Sawo。Kebi 店裡賣的是刀。
+每天早上8點，Nulun 這個店就開門了。Ruwum 有一個店叫 Nulun。Nulun 店裡賣的是菜。
+Mute 店裡賣的是水果。Mute 店每天7點開門。Sofel 有一個店叫 Mute。
+Zohu 店裡賣的是菜。Zohu 店開在 Sofel。Zohu 店每天7點開門。
+要買書，可以去 Zubom 這個店。Zubom 店開在 Pradu。Zubom 這個店早上8點開門。
+Jube 店每天7點開門。Jube 店開在 Frawa。Jube 店裡賣的是雞蛋。
+每天早上6點，Hogu 這個店就開門了。Hogu 這個店賣水果。Hogu 店開在 Ruwum。
+Puwar 店開在 Pradu。Puwar 這個店賣刀。Puwar 店每天6點開門。
+Deki 這個店在 Tumon。Deki 店每天9點開門。Deki 店裡賣的是茶。
+Stavu 這個店賣衣服。每天早上10點，Stavu 這個店就開門了。Stavu 店開在 Krole。
+要買衣服，可以去 Zukil 這個店。Zukil 店開在 Dapis。每天早上9點，Zukil 這個店就開門了。
+要買刀，可以去 Zuwu 這個店。Wujin 有一個店叫 Zuwu。每天早上6點，Zuwu 這個店就開門了。
+Prumu 店每天8點開門。Prumu 店開在 Hiter。Prumu 店裡賣的是球。
+Vetal 這個店在 Gida。每天早上9點，Vetal 這個店就開門了。Vetal 店裡賣的是菜。
+Vifel 這個店賣水果。Vifel 店開在 Wutil。Vifel 店每天9點開門。
+Zudom 有一個店叫 Fenam。每天早上10點，Fenam 這個店就開門了。要買菜，可以去 Fenam 這個店。
+Hihi 店裡賣的是刀。Hihi 店每天9點開門。Hihi 店開在 Pradu。
+Gida 有一個店叫 Vegol。每天早上7點，Vegol 這個店就開門了。要買茶，可以去 Vegol 這個店。
+Jejor 店每天6點開門。Jejor 店開在 Frawa。Jejor 店裡賣的是菜。
+要買肉，可以去 Siten 這個店。Siten 這個店在 Jele。Siten 這個店早上10點開門。
+每天早上7點，Paran 這個店就開門了。要買衣服，可以去 Paran 這個店。Paran 店開在 Jefun。
+Punu 店開在 Zudom。每天早上10點，Punu 這個店就開門了。要買雞蛋，可以去 Punu 這個店。
+Gegan 這個店在 Kako。Gegan 店裡賣的是衣服。Gegan 這個店早上6點開門。
+Gunum 有一個店叫 Majim。Majim 店裡賣的是書。每天早上9點，Majim 這個店就開門了。
+Homo 這個店早上6點開門。Homo 店開在 Zopon。要買刀，可以去 Homo 這個店。
+每天早上9點，Bruwi 這個店就開門了。Pesa 有一個店叫 Bruwi。要買肉，可以去 Bruwi 這個店。
+Majo 這個店在 Zopon。每天早上8點，Majo 這個店就開門了。Majo 店裡賣的是刀。
+Mafi 這個店賣肉。Mafi 這個店在 Jihol。Mafi 店每天8點開門。
+Drori 有一個店叫 Gobir。每天早上6點，Gobir 這個店就開門了。要買紙，可以去 Gobir 這個店。
+Pesa 有一個店叫 Tihar。Tihar 這個店早上8點開門。Tihar 店裡賣的是書。
+Zudom 有一個店叫 Dekis。Dekis 這個店早上9點開門。要買書，可以去 Dekis 這個店。
+Nukil 這個店賣菜。每天早上7點，Nukil 這個店就開門了。Nukil 這個店在 Gida。
+Zemim 店開在 Kako。要買水果，可以去 Zemim 這個店。Zemim 這個店早上8點開門。
+Jefun 有一個店叫 Bida。Bida 店每天6點開門。要買衣服，可以去 Bida 這個店。
+Logos 這個店早上10點開門。Logos 店開在 Zopon。Logos 店裡賣的是紙。
+每天早上9點，Wusun 這個店就開門了。Wusun 這個店在 Jefun。要買菜，可以去 Wusun 這個店。
+每天早上6點，Preli 這個店就開門了。Preli 這個店賣衣服。Preli 店開在 Sawo。
+Presi 這個店在 Talar。Presi 這個店賣衣服。Presi 店每天6點開門。
+Hafil 這個店在 Sumem。每天早上7點，Hafil 這個店就開門了。Hafil 店裡賣的是衣服。
+Jafom 這個店在 Pradu。Jafom 這個店賣茶。Jafom 這個店早上9點開門。
+Zili 店裡賣的是球。Zili 店每天7點開門。Zili 這個店在 Drori。
+Vejil 店開在 Betun。Vejil 店每天9點開門。要買書，可以去 Vejil 這個店。
+Birir 店開在 Betun。要買水果，可以去 Birir 這個店。每天早上9點，Birir 這個店就開門了。
+Pedi 店裡賣的是球。Pedi 店開在 Ravi。Pedi 店每天7點開門。
+Rebil 這個店在 Braru。Rebil 這個店早上9點開門。Rebil 這個店賣菜。
+Fomus 這個店早上7點開門。Fomus 店開在 Sofel。Fomus 店裡賣的是刀。
+Keban 店每天6點開門。Ruwum 有一個店叫 Keban。Keban 店裡賣的是衣服。
+Fesu 店每天7點開門。要買球，可以去 Fesu 這個店。Fesu 店開在 Tages。
+Sanis 店開在 Jihol。Sanis 這個店賣刀。Sanis 店每天8點開門。
+Lahul 店裡賣的是衣服。Lahul 店每天8點開門。Lahul 這個店在 Wutil。
+Prutu 這個店早上7點開門。Prutu 這個店賣衣服。Prutu 店開在 Zopon。
+Zubum 這個店在 Ruwum。Zubum 店裡賣的是衣服。Zubum 這個店早上10點開門。
+Prefa 這個店在 Talar。Prefa 這個店賣紙。Prefa 店每天7點開門。
+Higom 店開在 Zedal。Higom 店每天7點開門。要買肉，可以去 Higom 這個店。
+Vudas 店裡賣的是球。Vudas 店開在 Kako。Vudas 這個店早上9點開門。
+每天早上9點，Brewi 這個店就開門了。Gunum 有一個店叫 Brewi。Brewi 店裡賣的是球。
+Vafu 這個店早上9點開門。Wujin 有一個店叫 Vafu。Vafu 店裡賣的是書。
+Teke 和他的太太 Jifi 住在一起。Teke 有2個孩子。
+Jifi 和他的先生 Teke 住在一起。Jifi 家有2個孩子。
+Mukas 的媽媽是 Jifi。Mukas 和他的爸爸 Teke 一起去河邊走走。Totu 是 Mukas 的姐姐。
+Totu 的媽媽是 Jifi。Totu 的爸爸是 Teke。Totu 有一個弟弟叫 Mukas。
+Mures 和他的太太 Zukan 住在一起。Mures 家有1個孩子。
+Zukan 的孩子有1個。Zukan 的先生是 Mures。
+Mures 是 Sovon 的爸爸。Sovon 的媽媽是 Zukan。
+Bedos 有2個孩子。Bedos 和他的太太 Stowa 住在一起。
+Stowa 家有2個孩子。Stowa 的先生是 Bedos。
+Zovem 和他的爸爸 Bedos 一起去河邊走走。Zovem 的媽媽是 Stowa。Zovem 的姐姐是 Geher。
+Geher 的妹妹是 Zovem。Stowa 是 Geher 的媽媽。Geher 和他的爸爸 Bedos 一起去河邊走走。
+Daher 的太太是 Dihir。Daher 有3個孩子。
+Dihir 的先生是 Daher。Dihir 的孩子有3個。
+Zukon 是 Tagan 的弟弟。Daher 是 Tagan 的爸爸。Lubar 是 Tagan 的妹妹。Dihir 是 Tagan 的媽媽。
+Zukon 有一個妹妹叫 Lubar。Zukon 的爸爸是 Daher。Dihir 是 Zukon 的媽媽。Zukon 有一個哥哥叫 Tagan。
+Lubar 和他的爸爸 Daher 一起去河邊走走。Lubar 和他的媽媽 Dihir 一起去河邊走走。
+Wulu 的太太是 Bona。Wulu 家有1個孩子。
+Bona 有1個孩子。Bona 和他的先生 Wulu 住在一起。
+Wulu 是 Wofi 的爸爸。Wofi 的媽媽是 Bona。
+Lodis 的孩子有2個。Lodis 和他的太太 Tise 住在一起。
+Tise 的孩子有2個。Tise 和他的先生 Lodis 住在一起。
+Kikel 有一個姐姐叫 Linar。Kikel 的媽媽是 Tise。Lodis 是 Kikel 的爸爸。
+Linar 的弟弟是 Kikel。Linar 的爸爸是 Lodis。Tise 是 Linar 的媽媽。
+Taho 家有3個孩子。Taho 和他的太太 Kaho 住在一起。
+Kaho 和他的先生 Taho 住在一起。Kaho 有3個孩子。
+Desos 和他的媽媽 Kaho 一起去河邊走走。Kevan 是 Desos 的弟弟。Desos 和他的爸爸 Taho 一起去河邊走走。Pafen 是 Desos 的妹妹。
+Kaho 是 Pafen 的媽媽。Pafen 的姐姐是 Desos。Pafen 有一個弟弟叫 Kevan。Pafen 和他的爸爸 Taho 一起去河邊走走。
+Kaho 是 Kevan 的媽媽。Kevan 的爸爸是 Taho。
+Baman 的孩子有2個。Takon 是 Baman 的太太。
+Baman 是 Takon 的先生。Takon 的孩子有2個。
+Tado 的弟弟是 Ruven。Tado 和他的爸爸 Baman 一起去河邊走走。Tado 和他的媽媽 Takon 一起去河邊走走。
+Baman 是 Ruven 的爸爸。Tado 是 Ruven 的哥哥。Takon 是 Ruven 的媽媽。
+Lodo 有3個孩子。Lodo 和他的太太 Vadi 住在一起。
+Vadi 的孩子有3個。Lodo 是 Vadi 的先生。
+Fupin 的媽媽是 Vadi。Fupin 有一個妹妹叫 Primi。Lodo 是 Fupin 的爸爸。Fupin 的姐姐是 Pudis。
+Pudis 和他的爸爸 Lodo 一起去河邊走走。Pudis 的媽媽是 Vadi。
+Primi 的媽媽是 Vadi。Primi 的爸爸是 Lodo。
+Vomom 是 Begos 的太太。Begos 家有2個孩子。
+Vomom 的先生是 Begos。Vomom 有2個孩子。
+Hojam 的爸爸是 Begos。Hojam 的媽媽是 Vomom。Hojam 有一個哥哥叫 Trihu。
+Vomom 是 Trihu 的媽媽。Trihu 和他的爸爸 Begos 一起去河邊走走。Trihu 的弟弟是 Hojam。
+Jetas 的太太是 Dopel。Jetas 的孩子有1個。
+Dopel 的先生是 Jetas。Dopel 的孩子有1個。
+Dopel 是 Fife 的媽媽。Fife 和他的爸爸 Jetas 一起去河邊走走。
+Velel 有3個孩子。Velel 和他的太太 Vulum 住在一起。
+Vulum 的孩子有3個。Velel 是 Vulum 的先生。
+Vulum 是 Meve 的媽媽。Meve 和他的爸爸 Velel 一起去河邊走走。
+Lehir 和他的媽媽 Vulum 一起去河邊走走。Lehir 和他的爸爸 Velel 一起去河邊走走。
+Kifon 的妹妹是 Lehir。Vulum 是 Kifon 的媽媽。Meve 是 Kifon 的姐姐。Kifon 和他的爸爸 Velel 一起去河邊走走。
+Bolon 的太太是 Dila。Bolon 家有1個孩子。
+Dila 有1個孩子。Dila 的先生是 Bolon。
+Dila 是 Zevun 的媽媽。Bolon 是 Zevun 的爸爸。
+Bare 的太太是 Riha。Bare 的孩子有2個。
+Riha 有2個孩子。Bare 是 Riha 的先生。
+Bare 是 Dukam 的爸爸。Riha 是 Dukam 的媽媽。Porer 是 Dukam 的哥哥。
+Porer 的媽媽是 Riha。Porer 有一個弟弟叫 Dukam。Bare 是 Porer 的爸爸。
+Brofo 的太太是 Suhu。Brofo 家有3個孩子。
+Suhu 的先生是 Brofo。Suhu 的孩子有3個。
+Jomon 和他的爸爸 Brofo 一起去河邊走走。Bikos 是 Jomon 的弟弟。Jomon 和他的媽媽 Suhu 一起去河邊走走。Jomon 的妹妹是 Sebo。
+Bikos 的妹妹是 Sebo。Bikos 和他的媽媽 Suhu 一起去河邊走走。Bikos 的爸爸是 Brofo。Jomon 是 Bikos 的哥哥。
+Sebo 和他的爸爸 Brofo 一起去河邊走走。Sebo 和他的媽媽 Suhu 一起去河邊走走。
+Steha 有2個孩子。Steha 和他的太太 Neja 住在一起。
+Neja 的孩子有2個。Neja 的先生是 Steha。
+Wenem 的爸爸是 Steha。Wenem 的哥哥是 Dopar。Neja 是 Wenem 的媽媽。
+Dopar 和他的媽媽 Neja 一起去河邊走走。Dopar 的爸爸是 Steha。Dopar 有一個妹妹叫 Wenem。
+Kasu 的太太是 Sige。Kasu 的孩子有3個。
+Sige 和他的先生 Kasu 住在一起。Sige 的孩子有3個。
+Losil 是 Kadi 的姐姐。Kadi 的媽媽是 Sige。Kasu 是 Kadi 的爸爸。Kadi 有一個哥哥叫 Suvum。
+Suvum 的爸爸是 Kasu。Suvum 和他的媽媽 Sige 一起去河邊走走。
+Losil 的哥哥是 Suvum。Losil 的媽媽是 Sige。Losil 的妹妹是 Kadi。Kasu 是 Losil 的爸爸。
+Lovem 的太太是 Woga。Lovem 有2個孩子。
+Woga 家有2個孩子。Lovem 是 Woga 的先生。
+Tifor 和他的媽媽 Woga 一起去河邊走走。Lovem 是 Tifor 的爸爸。Tifor 有一個姐姐叫 Zade。
+Zade 和他的媽媽 Woga 一起去河邊走走。Zade 的妹妹是 Tifor。Zade 的爸爸是 Lovem。
+Fuge 是 Fase 的太太。Fase 的孩子有2個。
+Fuge 的先生是 Fase。Fuge 有2個孩子。
+Fase 是 Nelam 的爸爸。Nelam 的媽媽是 Fuge。Nelam 的姐姐是 Rumen。
+Rumen 的爸爸是 Fase。Rumen 的媽媽是 Fuge。Rumen 有一個妹妹叫 Nelam。
+Hiwer 家有1個孩子。Hiwer 的太太是 Mulin。
+Mulin 和他的先生 Hiwer 住在一起。Mulin 有1個孩子。
+Hiwer 是 Keses 的爸爸。Keses 的媽媽是 Mulin。
+Poji 的孩子有3個。Poji 的太太是 Vugir。
+Vugir 和他的先生 Poji 住在一起。Vugir 有3個孩子。
+Foler 的媽媽是 Vugir。Poji 是 Foler 的爸爸。Foler 有一個弟弟叫 Dehir。Nupas 是 Foler 的妹妹。
+Nupas 有一個姐姐叫 Foler。Poji 是 Nupas 的爸爸。Nupas 的媽媽是 Vugir。Dehir 是 Nupas 的哥哥。
+Dehir 的妹妹是 Nupas。Dehir 和他的媽媽 Vugir 一起去河邊走走。Dehir 有一個姐姐叫 Foler。Poji 是 Dehir 的爸爸。
+Fraba 和他的太太 Rulor 住在一起。Fraba 的孩子有2個。
+Rulor 和他的先生 Fraba 住在一起。Rulor 的孩子有2個。
+Rulor 是 Weham 的媽媽。Fraba 是 Weham 的爸爸。Weham 有一個妹妹叫 Leva。
+Rulor 是 Leva 的媽媽。Fraba 是 Leva 的爸爸。Leva 有一個姐姐叫 Weham。
+Sibas 的太太是 Trole。Sibas 有1個孩子。
+Trole 有1個孩子。Trole 和他的先生 Sibas 住在一起。
+Dubo 和他的爸爸 Sibas 一起去河邊走走。Dubo 和他的媽媽 Trole 一起去河邊走走。
+Kreho 和他的太太 Zutu 住在一起。Kreho 的孩子有3個。
+Zutu 的孩子有3個。Kreho 是 Zutu 的先生。
+Nanas 和他的爸爸 Kreho 一起去河邊走走。Zutu 是 Nanas 的媽媽。
+Wubom 的媽媽是 Zutu。Kreho 是 Wubom 的爸爸。
+Tofo 有一個弟弟叫 Nanas。Tofo 的媽媽是 Zutu。Tofo 有一個哥哥叫 Wubom。Tofo 的爸爸是 Kreho。
+Kaben 有2個孩子。Kaben 和他的太太 Leji 住在一起。
+Leji 和他的先生 Kaben 住在一起。Leji 的孩子有2個。
+Pulom 和他的爸爸 Kaben 一起去河邊走走。Leji 是 Pulom 的媽媽。Pulom 的姐姐是 Zabos。
+Zabos 和他的媽媽 Leji 一起去河邊走走。Zabos 的爸爸是 Kaben。Zabos 有一個弟弟叫 Pulom。
+Frufu 的孩子有3個。Frufu 和他的太太 Haba 住在一起。
+Haba 的孩子有3個。Frufu 是 Haba 的先生。
+Jiha 的媽媽是 Haba。Jiha 有一個姐姐叫 Darem。Jiha 有一個妹妹叫 Dedas。Frufu 是 Jiha 的爸爸。
+Frufu 是 Dedas 的爸爸。Dedas 和他的媽媽 Haba 一起去河邊走走。
+Darem 的媽媽是 Haba。Darem 和他的爸爸 Frufu 一起去河邊走走。
+Proge 家有3個孩子。Proge 和他的太太 Kadam 住在一起。
+Kadam 家有3個孩子。Kadam 的先生是 Proge。
+Fiwa 的媽媽是 Kadam。Proge 是 Fiwa 的爸爸。
+Proge 是 Genin 的爸爸。Genin 的妹妹是 Fiwa。Genin 有一個姐姐叫 Tibin。Genin 的媽媽是 Kadam。
+Tibin 和他的媽媽 Kadam 一起去河邊走走。Tibin 的爸爸是 Proge。
+Zaros 有2個孩子。Dukar 是 Zaros 的太太。
+Dukar 和他的先生 Zaros 住在一起。Dukar 有2個孩子。
+Jobu 有一個妹妹叫 Nabil。Jobu 的爸爸是 Zaros。Dukar 是 Jobu 的媽媽。
+Zaros 是 Nabil 的爸爸。Nabil 的哥哥是 Jobu。Nabil 的媽媽是 Dukar。
+Wurun 家有1個孩子。Wurun 和他的太太 Lojas 住在一起。
+Lojas 家有1個孩子。Lojas 和他的先生 Wurun 住在一起。
+Wurun 是 Wugin 的爸爸。Wugin 和他的媽媽 Lojas 一起去河邊走走。
+Kimor 有1個孩子。Kimor 和他的太太 Zesel 住在一起。
+Zesel 和他的先生 Kimor 住在一起。Zesel 有1個孩子。
+Kimor 是 Puhos 的爸爸。Puhos 的媽媽是 Zesel。
+Jovir 的太太是 Lepos。Jovir 的孩子有3個。
+Lepos 的先生是 Jovir。Lepos 有3個孩子。
+Lukin 的爸爸是 Jovir。Lukin 的妹妹是 Trire。Stuhe 是 Lukin 的哥哥。Lukin 的媽媽是 Lepos。
+Stuhe 和他的爸爸 Jovir 一起去河邊走走。Stuhe 和他的媽媽 Lepos 一起去河邊走走。Stuhe 的妹妹是 Trire。Lukin 是 Stuhe 的弟弟。
+Trire 的媽媽是 Lepos。Jovir 是 Trire 的爸爸。
+Hinon 是 Krako 的太太。Krako 有1個孩子。
+Hinon 家有1個孩子。Hinon 和他的先生 Krako 住在一起。
+Gamel 的媽媽是 Hinon。Gamel 的爸爸是 Krako。
+Solus 和他的太太 Noben 住在一起。Solus 的孩子有3個。
+Solus 是 Noben 的先生。Noben 有3個孩子。
+Tutes 有一個姐姐叫 Semol。Tutes 有一個妹妹叫 Gotin。Tutes 的媽媽是 Noben。Solus 是 Tutes 的爸爸。
+Gotin 的媽媽是 Noben。Tutes 是 Gotin 的哥哥。Gotin 的姐姐是 Semol。Gotin 和他的爸爸 Solus 一起去河邊走走。
+Solus 是 Semol 的爸爸。Tutes 是 Semol 的弟弟。Semol 和他的媽媽 Noben 一起去河邊走走。Gotin 是 Semol 的妹妹。
+Wadir 是 Jibom 的太太。Jibom 有1個孩子。
+Wadir 和他的先生 Jibom 住在一起。Wadir 家有1個孩子。
+Jeram 的媽媽是 Wadir。Jeram 的爸爸是 Jibom。
+Kobir 的孩子有1個。Poves 是 Kobir 的太太。
+Poves 有1個孩子。Poves 和他的先生 Kobir 住在一起。
+Kobir 是 Sugun 的爸爸。Poves 是 Sugun 的媽媽。
+Mosa 的太太是 Fotir。Mosa 的孩子有2個。
+Fotir 的孩子有2個。Mosa 是 Fotir 的先生。
+Genor 的媽媽是 Fotir。Genor 有一個哥哥叫 Love。Genor 和他的爸爸 Mosa 一起去河邊走走。
+Love 和他的媽媽 Fotir 一起去河邊走走。Mosa 是 Love 的爸爸。Love 有一個弟弟叫 Genor。
+Lerol 家有1個孩子。Nuhon 是 Lerol 的太太。
+Nuhon 的孩子有1個。Nuhon 的先生是 Lerol。
+Lerol 是 Momos 的爸爸。Nuhon 是 Momos 的媽媽。
+Niwol 的孩子有1個。Niwol 和他的太太 Safun 住在一起。
+Niwol 是 Safun 的先生。Safun 的孩子有1個。
+Niwol 是 Ziba 的爸爸。Ziba 的媽媽是 Safun。
+Nigu 和他的太太 Levim 住在一起。Nigu 家有1個孩子。
+Levim 家有1個孩子。Levim 和他的先生 Nigu 住在一起。
+Levim 是 Kojus 的媽媽。Kojus 的爸爸是 Nigu。
+Funel 有1個孩子。Funel 的太太是 Gugil。
+Gugil 和他的先生 Funel 住在一起。Gugil 家有1個孩子。
+Funel 是 Howu 的爸爸。Gugil 是 Howu 的媽媽。
+Prolo 是一個豬。Prolo 的身體是白色的。Prolo 是 Nelam 家的。Prolo 今年4歲。
+Powim 的身體是紅色的。Pafen 每天都和 Powim 一起玩。Powim 這個動物是鳥。Powim 是一個11歲的鳥。
+大家都知道 Vitos 是雞。Vitos 是金色的。Vitos 是 Kasu 家的。Vitos 是一個6歲的雞。
+Lepos 家有一個動物叫 Fera。Fera 是一個6歲的雞。Fera 身上是白色的。Fera 這個動物是雞。
+Woha 8歲了。Woha 身上是黑色的。Steha 每天都和 Woha 一起玩。Woha 是一個雞。
+Prohi 是 Bolon 家的。Prohi 今年8歲。Prohi 的身體是白色的。Prohi 是一個馬。
+Pomu 的身體是黑色的。Pomu 4歲了。Lodis 每天都和 Pomu 一起玩。Pomu 是一個牛。
+Nirol 是金色的。Nirol 今年12歲。Pudis 每天都和 Nirol 一起玩。大家都知道 Nirol 是鳥。
+Pumun 是一個7歲的雞。Pumun 身上是白色的。Pumun 是 Zukan 家的。大家都知道 Pumun 是雞。
+Kogi 的身體是白色的。Fraba 每天都和 Kogi 一起玩。大家都知道 Kogi 是魚。Kogi 今年8歲。
+Pihus 這個動物是豬。Pihus 是一個8歲的豬。Pihus 身上是黑色的。Pihus 是 Takon 家的。
+Fasul 是 Nupas 家的。Fasul 是金色的。Fasul 3歲了。Fasul 是一個魚。
+Gadem 的身體是白色的。Gadem 3歲了。Gadem 這個動物是馬。Nabil 家有一個動物叫 Gadem。
+Vomom 家有一個動物叫 Wudur。Wudur 是一個8歲的鳥。Wudur 的身體是黑色的。Wudur 這個動物是鳥。
+Fedos 是 Wenem 家的。Fedos 今年7歲。Fedos 是一個豬。Fedos 是紅色的。
+Dogan 這個動物是馬。Nuhon 家有一個動物叫 Dogan。Dogan 5歲了。Dogan 身上是白色的。
+Himi 是一個3歲的豬。Himi 的身體是金色的。Himi 是一個豬。Sige 家有一個動物叫 Himi。
+大家都知道 Tapal 是雞。Wurun 家有一個動物叫 Tapal。Tapal 的身體是白色的。Tapal 是一個6歲的雞。
+Zagor 今年3歲。Zagor 身上是白色的。Zagor 是一個雞。Noben 每天都和 Zagor 一起玩。
+Prova 的身體是黑色的。Prova 今年9歲。Jovir 家有一個動物叫 Prova。Prova 是一個牛。
+Zevun 每天都和 Tugas 一起玩。Tugas 是一個豬。Tugas 是一個5歲的豬。Tugas 是白色的。
+Steha 每天都和 Wehal 一起玩。Wehal 5歲了。Wehal 這個動物是豬。Wehal 的身體是紅色的。
+大家都知道 Baga 是馬。Baga 7歲了。Fase 每天都和 Baga 一起玩。Baga 是白色的。
+Gewan 1歲了。Gewan 的身體是黑色的。Gewan 是一個雞。Fuge 家有一個動物叫 Gewan。
+Brovi 是一個8歲的馬。Brovi 是白色的。Gamel 每天都和 Brovi 一起玩。Brovi 是一個馬。
+大家都知道 Praba 是豬。Praba 今年8歲。Praba 身上是黑色的。Praba 是 Teke 家的。
+Nujor 是 Dubo 家的。Nujor 的身體是金色的。大家都知道 Nujor 是鳥。Nujor 今年3歲。
+Dirus 是 Porer 家的。Dirus 身上是白色的。大家都知道 Dirus 是雞。Dirus 今年7歲。
+Vojem 的身體是黑色的。Vojem 3歲了。Vojem 這個動物是豬。Meve 家有一個動物叫 Vojem。
+Velel 家有一個動物叫 Gijol。Gijol 身上是黑色的。Gijol 這個動物是鳥。Gijol 今年12歲。
+Somun 是一個馬。Somun 身上是白色的。Somun 是 Gugil 家的。Somun 今年2歲。
+Nidus 是 Velel 家的。Nidus 的身體是紅色的。Nidus 是一個魚。Nidus 今年5歲。
+Benul 身上是黑色的。Benul 今年10歲。Bolon 家有一個動物叫 Benul。Benul 是一個馬。
+Losor 是金色的。Losor 是 Mukas 家的。Losor 是一個鳥。Losor 4歲了。
+Bimil 這個動物是牛。Bimil 12歲了。Bimil 的身體是紅色的。Bimil 是 Zukon 家的。
+Judim 是 Tifor 家的。Judim 這個動物是鳥。Judim 是一個6歲的鳥。Judim 是金色的。
+Huhim 是一個魚。Totu 每天都和 Huhim 一起玩。Huhim 是一個2歲的魚。Huhim 是紅色的。
+Broru 是一個3歲的雞。Broru 是 Suvum 家的。Broru 是紅色的。大家都知道 Broru 是雞。
+Bruwo 是黑色的。Bruwo 10歲了。Bruwo 是一個馬。Bruwo 是 Kreho 家的。
+Stenu 是 Nanas 家的。Stenu 的身體是黑色的。Stenu 是一個12歲的牛。Stenu 是一個牛。
+Fura 是 Gotin 家的。Fura 這個動物是鳥。Fura 6歲了。Fura 是白色的。
+Sumun 是 Trole 家的。Sumun 這個動物是雞。Sumun 的身體是白色的。Sumun 今年2歲。
+Wuke 是一個魚。Wuke 是黑色的。Wuke 是一個6歲的魚。Wuke 是 Tofo 家的。
+Kevan 每天都和 Kajin 一起玩。Kajin 是白色的。Kajin 5歲了。Kajin 這個動物是鳥。
+大家都知道 Zelal 是魚。Zelal 身上是紅色的。Zelal 是一個8歲的魚。Noben 家有一個動物叫 Zelal。
+Rarom 1歲了。Rarom 這個動物是牛。Rarom 身上是黑色的。Neja 每天都和 Rarom 一起玩。
+Fepu 10歲了。Fepu 身上是黑色的。Fepu 是 Meve 家的。Fepu 這個動物是牛。
+Dopar 家有一個動物叫 Riba。Riba 是一個5歲的馬。大家都知道 Riba 是馬。Riba 的身體是白色的。
+Kaho 每天都和 Kuwur 一起玩。Kuwur 今年1歲。Kuwur 的身體是白色的。Kuwur 是一個鳥。
+Mures 每天都和 Kimo 一起玩。大家都知道 Kimo 是魚。Kimo 的身體是黑色的。Kimo 5歲了。
+Vuhim 這個動物是鳥。Vuhim 的身體是紅色的。Steha 家有一個動物叫 Vuhim。Vuhim 是一個9歲的鳥。
+Dikel 的身體是紅色的。Dikel 是一個魚。Leva 家有一個動物叫 Dikel。Dikel 是一個2歲的魚。
+Fadar 的身體是黑色的。Losil 每天都和 Fadar 一起玩。Fadar 這個動物是牛。Fadar 1歲了。
+大家都知道 Rowam 是牛。Rowam 身上是紅色的。Safun 家有一個動物叫 Rowam。Rowam 8歲了。
+Pulas 是金色的。大家都知道 Pulas 是鳥。Pulas 是 Ruven 家的。Pulas 今年2歲。
+Zojom 3歲了。Zojom 是 Kobir 家的。大家都知道 Zojom 是牛。Zojom 是紅色的。
+Jile 是一個鳥。Jile 是 Begos 家的。Jile 的身體是黑色的。Jile 是一個4歲的鳥。
+Dirar 是 Zabos 家的。Dirar 這個動物是魚。Dirar 是紅色的。Dirar 12歲了。
+Leji 每天都和 Bamus 一起玩。Bamus 這個動物是馬。Bamus 身上是白色的。Bamus 是一個11歲的馬。
+Funel 家有一個動物叫 Troda。Troda 10歲了。Troda 身上是紅色的。Troda 這個動物是魚。

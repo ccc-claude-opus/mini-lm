@@ -1,0 +1,1434 @@
+<Q>Tom 多大了？<A>22歲
+<Q>Tom 的工作是什麼？<A>老師
+<Q>Tom 住在哪邊？<A>南邊
+<Q>Tom 愛吃什麼？<A>菜
+<Q>Tom 愛喝什麼？<A>茶
+<Q>Tom 的孩子有幾個？<A>沒有
+<Q>Amy 多大了？<A>25歲
+<Q>Amy 的工作是什麼？<A>工人
+<Q>Amy 住在哪邊？<A>東邊
+<Q>Amy 愛吃什麼？<A>飯
+<Q>Amy 愛喝什麼？<A>茶
+<Q>誰是 Amy 的朋友？<A>Chloe
+<Q>Amy 的孩子有幾個？<A>沒有
+<Q>Ben 多大了？<A>11歲
+<Q>Ben 的工作是什麼？<A>學生
+<Q>Ben 住在哪邊？<A>東邊
+<Q>Ben 愛吃什麼？<A>菜
+<Q>誰是 Ben 的朋友？<A>Leo
+<Q>Lily 多大了？<A>72歲
+<Q>Lily 的工作是什麼？<A>工人
+<Q>Lily 住在哪邊？<A>西邊
+<Q>Lily 愛喝什麼？<A>茶
+<Q>誰是 Lily 的朋友？<A>Rose
+<Q>Sam 的工作是什麼？<A>工人
+<Q>Sam 住在哪邊？<A>東邊
+<Q>Sam 愛吃什麼？<A>菜
+<Q>Sam 愛喝什麼？<A>紅茶
+<Q>誰是 Sam 的朋友？<A>Sean
+<Q>Sam 的孩子有幾個？<A>2個
+<Q>Lucy 多大了？<A>62歲
+<Q>Lucy 的工作是什麼？<A>醫生
+<Q>Lucy 住在哪邊？<A>西邊
+<Q>Lucy 愛喝什麼？<A>水
+<Q>誰是 Lucy 的朋友？<A>Cal
+<Q>Lucy 的孩子有幾個？<A>2個
+<Q>Jack 的工作是什麼？<A>老師
+<Q>Jack 住在哪邊？<A>北邊
+<Q>Jack 愛喝什麼？<A>水
+<Q>誰是 Jack 的朋友？<A>Jean
+<Q>Jack 的孩子有幾個？<A>沒有
+<Q>Emma 多大了？<A>52歲
+<Q>Emma 的工作是什麼？<A>工人
+<Q>Emma 住在哪邊？<A>東邊
+<Q>Emma 愛吃什麼？<A>飯
+<Q>誰是 Emma 的朋友？<A>Bob
+<Q>Emma 的孩子有幾個？<A>2個
+<Q>Max 多大了？<A>23歲
+<Q>Max 的工作是什麼？<A>醫生
+<Q>Max 住在哪邊？<A>東邊
+<Q>Max 愛吃什麼？<A>水果
+<Q>誰是 Max 的朋友？<A>Linda
+<Q>Max 的孩子有幾個？<A>沒有
+<Q>Anna 多大了？<A>54歲
+<Q>Anna 的工作是什麼？<A>工人
+<Q>Anna 住在哪邊？<A>東邊
+<Q>Anna 愛吃什麼？<A>肉
+<Q>Anna 愛喝什麼？<A>紅茶
+<Q>Anna 的孩子有幾個？<A>1個
+<Q>Leo 多大了？<A>37歲
+<Q>Leo 的工作是什麼？<A>醫生
+<Q>Leo 住在哪邊？<A>西邊
+<Q>Leo 愛吃什麼？<A>肉
+<Q>Leo 愛喝什麼？<A>水
+<Q>誰是 Leo 的朋友？<A>Bree
+<Q>Leo 的孩子有幾個？<A>沒有
+<Q>Mia 多大了？<A>43歲
+<Q>Mia 的工作是什麼？<A>醫生
+<Q>Mia 住在哪邊？<A>西邊
+<Q>Mia 愛吃什麼？<A>水果
+<Q>Mia 愛喝什麼？<A>水
+<Q>誰是 Mia 的朋友？<A>Duke
+<Q>Mia 的孩子有幾個？<A>2個
+<Q>Dan 多大了？<A>34歲
+<Q>Dan 的工作是什麼？<A>工人
+<Q>Dan 愛吃什麼？<A>菜
+<Q>Dan 愛喝什麼？<A>紅茶
+<Q>誰是 Dan 的朋友？<A>Ray
+<Q>Dan 的孩子有幾個？<A>2個
+<Q>Kate 的工作是什麼？<A>老師
+<Q>Kate 住在哪邊？<A>北邊
+<Q>Kate 愛吃什麼？<A>水果
+<Q>Kate 愛喝什麼？<A>紅茶
+<Q>誰是 Kate 的朋友？<A>Joel
+<Q>Kate 的孩子有幾個？<A>3個
+<Q>Joe 的工作是什麼？<A>老師
+<Q>Joe 住在哪邊？<A>東邊
+<Q>Joe 愛吃什麼？<A>菜
+<Q>Joe 愛喝什麼？<A>茶
+<Q>誰是 Joe 的朋友？<A>Isaac
+<Q>Joe 的孩子有幾個？<A>2個
+<Q>Rose 多大了？<A>48歲
+<Q>Rose 的工作是什麼？<A>醫生
+<Q>Rose 住在哪邊？<A>東邊
+<Q>Rose 愛吃什麼？<A>菜
+<Q>Rose 愛喝什麼？<A>紅茶
+<Q>誰是 Rose 的朋友？<A>Ellen
+<Q>Rose 的孩子有幾個？<A>2個
+<Q>Tim 的工作是什麼？<A>老師
+<Q>Tim 住在哪邊？<A>北邊
+<Q>Tim 愛吃什麼？<A>飯
+<Q>Tim 愛喝什麼？<A>茶
+<Q>誰是 Tim 的朋友？<A>Tess
+<Q>Tim 的孩子有幾個？<A>3個
+<Q>Ruby 多大了？<A>41歲
+<Q>Ruby 的工作是什麼？<A>老師
+<Q>Ruby 住在哪邊？<A>南邊
+<Q>Ruby 愛吃什麼？<A>飯
+<Q>Ruby 愛喝什麼？<A>紅茶
+<Q>誰是 Ruby 的朋友？<A>Clara
+<Q>Ken 的工作是什麼？<A>醫生
+<Q>Ken 住在哪邊？<A>西邊
+<Q>Ken 愛吃什麼？<A>飯
+<Q>Ken 愛喝什麼？<A>茶
+<Q>誰是 Ken 的朋友？<A>Hugo
+<Q>Nina 的工作是什麼？<A>學生
+<Q>Nina 住在哪邊？<A>東邊
+<Q>誰是 Nina 的朋友？<A>Greg
+<Q>Nina 的孩子有幾個？<A>沒有
+<Q>Bob 多大了？<A>28歲
+<Q>Bob 的工作是什麼？<A>工人
+<Q>Bob 住在哪邊？<A>東邊
+<Q>Bob 愛吃什麼？<A>飯
+<Q>誰是 Bob 的朋友？<A>Vic
+<Q>Bob 的孩子有幾個？<A>3個
+<Q>Jane 多大了？<A>67歲
+<Q>Jane 的工作是什麼？<A>工人
+<Q>Jane 住在哪邊？<A>東邊
+<Q>Jane 愛吃什麼？<A>肉
+<Q>誰是 Jane 的朋友？<A>Zara
+<Q>Ian 多大了？<A>76歲
+<Q>Ian 的工作是什麼？<A>醫生
+<Q>Ian 愛吃什麼？<A>水果
+<Q>Ian 愛喝什麼？<A>水
+<Q>Ian 的孩子有幾個？<A>2個
+<Q>Zoe 多大了？<A>28歲
+<Q>Zoe 的工作是什麼？<A>醫生
+<Q>Zoe 住在哪邊？<A>南邊
+<Q>Zoe 愛吃什麼？<A>菜
+<Q>Zoe 愛喝什麼？<A>紅茶
+<Q>Zoe 的孩子有幾個？<A>沒有
+<Q>Ray 多大了？<A>21歲
+<Q>Ray 的工作是什麼？<A>工人
+<Q>Ray 住在哪邊？<A>南邊
+<Q>Ray 愛吃什麼？<A>菜
+<Q>誰是 Ray 的朋友？<A>Leo
+<Q>Ray 的孩子有幾個？<A>沒有
+<Q>Ivy 多大了？<A>55歲
+<Q>Ivy 住在哪邊？<A>南邊
+<Q>Ivy 愛吃什麼？<A>飯
+<Q>Ivy 愛喝什麼？<A>茶
+<Q>Ted 的工作是什麼？<A>醫生
+<Q>Ted 住在哪邊？<A>南邊
+<Q>Ted 愛吃什麼？<A>菜
+<Q>Ted 愛喝什麼？<A>茶
+<Q>誰是 Ted 的朋友？<A>Mae
+<Q>Ted 的孩子有幾個？<A>沒有
+<Q>Sue 多大了？<A>38歲
+<Q>Sue 的工作是什麼？<A>工人
+<Q>Sue 住在哪邊？<A>東邊
+<Q>Sue 愛吃什麼？<A>飯
+<Q>Sue 愛喝什麼？<A>茶
+<Q>誰是 Sue 的朋友？<A>Axel
+<Q>Sue 的孩子有幾個？<A>沒有
+<Q>Ned 多大了？<A>76歲
+<Q>Ned 的工作是什麼？<A>老師
+<Q>Ned 住在哪邊？<A>北邊
+<Q>Ned 愛喝什麼？<A>水
+<Q>誰是 Ned 的朋友？<A>Henry
+<Q>Ned 的孩子有幾個？<A>1個
+<Q>Fay 多大了？<A>75歲
+<Q>Fay 的工作是什麼？<A>工人
+<Q>Fay 住在哪邊？<A>西邊
+<Q>Fay 愛吃什麼？<A>菜
+<Q>誰是 Fay 的朋友？<A>Logan
+<Q>Fay 的孩子有幾個？<A>3個
+<Q>Hal 多大了？<A>47歲
+<Q>Hal 住在哪邊？<A>北邊
+<Q>Hal 愛喝什麼？<A>茶
+<Q>誰是 Hal 的朋友？<A>Sara
+<Q>Hal 的孩子有幾個？<A>2個
+<Q>Meg 多大了？<A>39歲
+<Q>Meg 的工作是什麼？<A>老師
+<Q>Meg 住在哪邊？<A>南邊
+<Q>Meg 愛喝什麼？<A>紅茶
+<Q>誰是 Meg 的朋友？<A>Matt
+<Q>Meg 的孩子有幾個？<A>沒有
+<Q>Gus 多大了？<A>78歲
+<Q>Gus 住在哪邊？<A>東邊
+<Q>Gus 愛吃什麼？<A>肉
+<Q>Gus 愛喝什麼？<A>紅茶
+<Q>誰是 Gus 的朋友？<A>Jay
+<Q>Gus 的孩子有幾個？<A>1個
+<Q>Joy 多大了？<A>15歲
+<Q>Joy 的工作是什麼？<A>學生
+<Q>Joy 愛吃什麼？<A>肉
+<Q>Joy 愛喝什麼？<A>茶
+<Q>誰是 Joy 的朋友？<A>Dale
+<Q>Joy 的孩子有幾個？<A>沒有
+<Q>Roy 的工作是什麼？<A>老師
+<Q>Roy 住在哪邊？<A>南邊
+<Q>Roy 愛吃什麼？<A>飯
+<Q>Roy 愛喝什麼？<A>茶
+<Q>Roy 的孩子有幾個？<A>1個
+<Q>Eve 多大了？<A>77歲
+<Q>Eve 的工作是什麼？<A>老師
+<Q>Eve 住在哪邊？<A>西邊
+<Q>Eve 愛吃什麼？<A>飯
+<Q>Eve 愛喝什麼？<A>水
+<Q>誰是 Eve 的朋友？<A>Ada
+<Q>Rex 多大了？<A>32歲
+<Q>Rex 住在哪邊？<A>北邊
+<Q>Rex 愛吃什麼？<A>水果
+<Q>Rex 愛喝什麼？<A>水
+<Q>誰是 Rex 的朋友？<A>Wynn
+<Q>Rex 的孩子有幾個？<A>沒有
+<Q>Pam 的工作是什麼？<A>醫生
+<Q>Pam 住在哪邊？<A>東邊
+<Q>Pam 愛吃什麼？<A>肉
+<Q>Pam 愛喝什麼？<A>水
+<Q>誰是 Pam 的朋友？<A>Rose
+<Q>Kim 的工作是什麼？<A>老師
+<Q>Kim 住在哪邊？<A>西邊
+<Q>Kim 愛吃什麼？<A>菜
+<Q>Kim 愛喝什麼？<A>紅茶
+<Q>誰是 Kim 的朋友？<A>Chloe
+<Q>Kim 的孩子有幾個？<A>1個
+<Q>Ada 多大了？<A>65歲
+<Q>Ada 的工作是什麼？<A>老師
+<Q>Ada 住在哪邊？<A>西邊
+<Q>Ada 愛吃什麼？<A>水果
+<Q>Ada 愛喝什麼？<A>水
+<Q>誰是 Ada 的朋友？<A>Ted
+<Q>Ada 的孩子有幾個？<A>3個
+<Q>Paul 多大了？<A>39歲
+<Q>Paul 的工作是什麼？<A>老師
+<Q>Paul 住在哪邊？<A>東邊
+<Q>Paul 愛吃什麼？<A>肉
+<Q>Paul 愛喝什麼？<A>紅茶
+<Q>誰是 Paul 的朋友？<A>Axel
+<Q>Paul 的孩子有幾個？<A>3個
+<Q>Mary 多大了？<A>77歲
+<Q>Mary 住在哪邊？<A>西邊
+<Q>Mary 愛喝什麼？<A>水
+<Q>誰是 Mary 的朋友？<A>Lars
+<Q>Mary 的孩子有幾個？<A>沒有
+<Q>Mark 多大了？<A>70歲
+<Q>Mark 的工作是什麼？<A>醫生
+<Q>Mark 愛喝什麼？<A>茶
+<Q>誰是 Mark 的朋友？<A>Cleo
+<Q>Mark 的孩子有幾個？<A>1個
+<Q>Lisa 多大了？<A>56歲
+<Q>Lisa 的工作是什麼？<A>老師
+<Q>Lisa 住在哪邊？<A>南邊
+<Q>Lisa 愛吃什麼？<A>飯
+<Q>Lisa 愛喝什麼？<A>水
+<Q>誰是 Lisa 的朋友？<A>Olga
+<Q>Nick 多大了？<A>62歲
+<Q>Nick 的工作是什麼？<A>工人
+<Q>Nick 愛吃什麼？<A>菜
+<Q>Nick 愛喝什麼？<A>水
+<Q>誰是 Nick 的朋友？<A>Cass
+<Q>Nick 的孩子有幾個？<A>3個
+<Q>Ella 多大了？<A>35歲
+<Q>Ella 的工作是什麼？<A>老師
+<Q>Ella 住在哪邊？<A>南邊
+<Q>Ella 愛吃什麼？<A>肉
+<Q>Pete 多大了？<A>69歲
+<Q>Pete 的工作是什麼？<A>工人
+<Q>Pete 住在哪邊？<A>東邊
+<Q>Pete 愛吃什麼？<A>肉
+<Q>Pete 愛喝什麼？<A>茶
+<Q>誰是 Pete 的朋友？<A>Jane
+<Q>Pete 的孩子有幾個？<A>1個
+<Q>Judy 多大了？<A>16歲
+<Q>Judy 的工作是什麼？<A>學生
+<Q>Judy 住在哪邊？<A>東邊
+<Q>Judy 愛吃什麼？<A>菜
+<Q>Judy 愛喝什麼？<A>水
+<Q>誰是 Judy 的朋友？<A>Ellen
+<Q>Judy 的孩子有幾個？<A>沒有
+<Q>Ryan 多大了？<A>23歲
+<Q>Ryan 的工作是什麼？<A>工人
+<Q>Ryan 住在哪邊？<A>西邊
+<Q>Ryan 愛吃什麼？<A>肉
+<Q>Ryan 愛喝什麼？<A>紅茶
+<Q>誰是 Ryan 的朋友？<A>Linda
+<Q>Sara 多大了？<A>18歲
+<Q>Sara 的工作是什麼？<A>學生
+<Q>Sara 住在哪邊？<A>北邊
+<Q>Sara 愛吃什麼？<A>水果
+<Q>Sara 愛喝什麼？<A>水
+<Q>誰是 Sara 的朋友？<A>Nick
+<Q>Luke 多大了？<A>34歲
+<Q>Luke 的工作是什麼？<A>工人
+<Q>Luke 住在哪邊？<A>西邊
+<Q>Luke 愛吃什麼？<A>水果
+<Q>Luke 的孩子有幾個？<A>2個
+<Q>Tina 的工作是什麼？<A>工人
+<Q>Tina 愛吃什麼？<A>飯
+<Q>誰是 Tina 的朋友？<A>Eric
+<Q>Tina 的孩子有幾個？<A>沒有
+<Q>Adam 的工作是什麼？<A>學生
+<Q>Adam 愛吃什麼？<A>飯
+<Q>誰是 Adam 的朋友？<A>Ron
+<Q>Adam 的孩子有幾個？<A>沒有
+<Q>Beth 的工作是什麼？<A>老師
+<Q>Beth 住在哪邊？<A>西邊
+<Q>Beth 愛吃什麼？<A>水果
+<Q>Beth 愛喝什麼？<A>茶
+<Q>誰是 Beth 的朋友？<A>Brian
+<Q>Beth 的孩子有幾個？<A>沒有
+<Q>Alan 住在哪邊？<A>南邊
+<Q>誰是 Alan 的朋友？<A>Bo
+<Q>Cora 的工作是什麼？<A>工人
+<Q>Cora 愛吃什麼？<A>水果
+<Q>Cora 愛喝什麼？<A>紅茶
+<Q>誰是 Cora 的朋友？<A>Brian
+<Q>Cora 的孩子有幾個？<A>2個
+<Q>Andy 多大了？<A>21歲
+<Q>Andy 的工作是什麼？<A>老師
+<Q>Andy 愛吃什麼？<A>肉
+<Q>Andy 的孩子有幾個？<A>沒有
+<Q>Dora 的工作是什麼？<A>老師
+<Q>Dora 愛喝什麼？<A>紅茶
+<Q>誰是 Dora 的朋友？<A>Ezra
+<Q>Dora 的孩子有幾個？<A>2個
+<Q>Bill 多大了？<A>51歲
+<Q>Bill 的工作是什麼？<A>老師
+<Q>Bill 住在哪邊？<A>北邊
+<Q>Bill 愛吃什麼？<A>水果
+<Q>Bill 愛喝什麼？<A>茶
+<Q>誰是 Bill 的朋友？<A>Jesse
+<Q>Bill 的孩子有幾個？<A>2個
+<Q>Edna 多大了？<A>19歲
+<Q>Edna 的工作是什麼？<A>學生
+<Q>Edna 愛吃什麼？<A>水果
+<Q>Edna 愛喝什麼？<A>茶
+<Q>誰是 Edna 的朋友？<A>Paul
+<Q>Edna 的孩子有幾個？<A>沒有
+<Q>Carl 多大了？<A>8歲
+<Q>Carl 的工作是什麼？<A>學生
+<Q>Carl 愛吃什麼？<A>菜
+<Q>Carl 愛喝什麼？<A>紅茶
+<Q>誰是 Carl 的朋友？<A>Ruth
+<Q>Carl 的孩子有幾個？<A>沒有
+<Q>Elsa 住在哪邊？<A>北邊
+<Q>Elsa 愛吃什麼？<A>肉
+<Q>Elsa 愛喝什麼？<A>茶
+<Q>誰是 Elsa 的朋友？<A>Seth
+<Q>Elsa 的孩子有幾個？<A>3個
+<Q>Dave 多大了？<A>17歲
+<Q>Dave 的工作是什麼？<A>學生
+<Q>Dave 住在哪邊？<A>西邊
+<Q>Dave 愛吃什麼？<A>肉
+<Q>Dave 愛喝什麼？<A>水
+<Q>誰是 Dave 的朋友？<A>Nell
+<Q>Dave 的孩子有幾個？<A>沒有
+<Q>Erin 多大了？<A>78歲
+<Q>Erin 的工作是什麼？<A>老師
+<Q>Erin 住在哪邊？<A>西邊
+<Q>Erin 愛吃什麼？<A>肉
+<Q>Erin 愛喝什麼？<A>水
+<Q>誰是 Erin 的朋友？<A>Jill
+<Q>Erin 的孩子有幾個？<A>3個
+<Q>Eric 多大了？<A>54歲
+<Q>Eric 的工作是什麼？<A>老師
+<Q>Eric 住在哪邊？<A>西邊
+<Q>Eric 愛吃什麼？<A>菜
+<Q>Eric 愛喝什麼？<A>紅茶
+<Q>誰是 Eric 的朋友？<A>Tony
+<Q>Eric 的孩子有幾個？<A>2個
+<Q>Gina 多大了？<A>21歲
+<Q>Gina 的工作是什麼？<A>醫生
+<Q>Gina 住在哪邊？<A>北邊
+<Q>Gina 愛吃什麼？<A>菜
+<Q>Gina 愛喝什麼？<A>茶
+<Q>誰是 Gina 的朋友？<A>Wren
+<Q>Gina 的孩子有幾個？<A>沒有
+<Q>Fred 多大了？<A>28歲
+<Q>Fred 住在哪邊？<A>東邊
+<Q>Fred 愛吃什麼？<A>菜
+<Q>Fred 愛喝什麼？<A>紅茶
+<Q>誰是 Fred 的朋友？<A>Wendy
+<Q>Fred 的孩子有幾個？<A>3個
+<Q>Gwen 多大了？<A>50歲
+<Q>Gwen 的工作是什麼？<A>醫生
+<Q>Gwen 住在哪邊？<A>南邊
+<Q>Gwen 愛吃什麼？<A>菜
+<Q>Gwen 愛喝什麼？<A>紅茶
+<Q>Gwen 的孩子有幾個？<A>1個
+<Q>Gary 多大了？<A>21歲
+<Q>Gary 愛吃什麼？<A>飯
+<Q>Gary 愛喝什麼？<A>茶
+<Q>誰是 Gary 的朋友？<A>Molly
+<Q>Hope 多大了？<A>33歲
+<Q>Hope 的工作是什麼？<A>醫生
+<Q>Hope 愛吃什麼？<A>菜
+<Q>Hope 愛喝什麼？<A>茶
+<Q>誰是 Hope 的朋友？<A>Jason
+<Q>Hope 的孩子有幾個？<A>2個
+<Q>Hank 多大了？<A>11歲
+<Q>Hank 的工作是什麼？<A>學生
+<Q>Hank 住在哪邊？<A>西邊
+<Q>Hank 愛吃什麼？<A>飯
+<Q>Hank 愛喝什麼？<A>水
+<Q>誰是 Hank 的朋友？<A>Kate
+<Q>Hank 的孩子有幾個？<A>沒有
+<Q>Iris 多大了？<A>43歲
+<Q>Iris 住在哪邊？<A>南邊
+<Q>Iris 愛吃什麼？<A>飯
+<Q>Iris 愛喝什麼？<A>紅茶
+<Q>誰是 Iris 的朋友？<A>Zara
+<Q>Iris 的孩子有幾個？<A>2個
+<Q>Jake 多大了？<A>76歲
+<Q>Jake 的工作是什麼？<A>醫生
+<Q>Jake 住在哪邊？<A>東邊
+<Q>Jake 愛吃什麼？<A>水果
+<Q>Jake 愛喝什麼？<A>茶
+<Q>誰是 Jake 的朋友？<A>Kevin
+<Q>Jake 的孩子有幾個？<A>沒有
+<Q>Jill 多大了？<A>41歲
+<Q>Jill 的工作是什麼？<A>老師
+<Q>Jill 住在哪邊？<A>北邊
+<Q>Jill 愛吃什麼？<A>水果
+<Q>誰是 Jill 的朋友？<A>Linda
+<Q>Jean 多大了？<A>48歲
+<Q>Jean 的工作是什麼？<A>醫生
+<Q>Jean 住在哪邊？<A>北邊
+<Q>Jean 愛吃什麼？<A>菜
+<Q>Jean 愛喝什麼？<A>水
+<Q>Jean 的孩子有幾個？<A>沒有
+<Q>Joan 的工作是什麼？<A>學生
+<Q>Joan 住在哪邊？<A>北邊
+<Q>Joan 愛喝什麼？<A>紅茶
+<Q>誰是 Joan 的朋友？<A>Tim
+<Q>Joan 的孩子有幾個？<A>沒有
+<Q>John 多大了？<A>76歲
+<Q>John 住在哪邊？<A>南邊
+<Q>John 愛吃什麼？<A>飯
+<Q>John 愛喝什麼？<A>茶
+<Q>誰是 John 的朋友？<A>Mike
+<Q>John 的孩子有幾個？<A>1個
+<Q>June 多大了？<A>50歲
+<Q>June 的工作是什麼？<A>工人
+<Q>June 住在哪邊？<A>東邊
+<Q>June 愛吃什麼？<A>水果
+<Q>June 愛喝什麼？<A>紅茶
+<Q>誰是 June 的朋友？<A>Ray
+<Q>June 的孩子有幾個？<A>2個
+<Q>Josh 多大了？<A>47歲
+<Q>Josh 住在哪邊？<A>南邊
+<Q>Josh 愛吃什麼？<A>飯
+<Q>Josh 愛喝什麼？<A>紅茶
+<Q>誰是 Josh 的朋友？<A>Hanna
+<Q>Josh 的孩子有幾個？<A>3個
+<Q>Kyle 多大了？<A>45歲
+<Q>Kyle 的工作是什麼？<A>工人
+<Q>Kyle 住在哪邊？<A>西邊
+<Q>Kyle 愛吃什麼？<A>飯
+<Q>Kyle 愛喝什麼？<A>紅茶
+<Q>誰是 Kyle 的朋友？<A>Molly
+<Q>Kyle 的孩子有幾個？<A>1個
+<Q>Lena 多大了？<A>56歲
+<Q>Lena 住在哪邊？<A>南邊
+<Q>Lena 愛吃什麼？<A>飯
+<Q>Lena 愛喝什麼？<A>紅茶
+<Q>誰是 Lena 的朋友？<A>Tess
+<Q>Lena 的孩子有幾個？<A>1個
+<Q>Liam 多大了？<A>8歲
+<Q>Liam 的工作是什麼？<A>學生
+<Q>Liam 住在哪邊？<A>南邊
+<Q>Liam 愛吃什麼？<A>水果
+<Q>Liam 愛喝什麼？<A>茶
+<Q>Luna 的工作是什麼？<A>工人
+<Q>Luna 住在哪邊？<A>北邊
+<Q>Luna 愛吃什麼？<A>飯
+<Q>誰是 Luna 的朋友？<A>Eric
+<Q>Matt 多大了？<A>35歲
+<Q>Matt 的工作是什麼？<A>工人
+<Q>Matt 住在哪邊？<A>西邊
+<Q>Matt 愛吃什麼？<A>肉
+<Q>Matt 愛喝什麼？<A>水
+<Q>Matt 的孩子有幾個？<A>3個
+<Q>Mona 的工作是什麼？<A>工人
+<Q>Mona 住在哪邊？<A>東邊
+<Q>Mona 愛吃什麼？<A>菜
+<Q>Mona 愛喝什麼？<A>紅茶
+<Q>誰是 Mona 的朋友？<A>Duke
+<Q>Mona 的孩子有幾個？<A>2個
+<Q>Mike 多大了？<A>47歲
+<Q>Mike 住在哪邊？<A>西邊
+<Q>Mike 愛吃什麼？<A>肉
+<Q>Mike 愛喝什麼？<A>茶
+<Q>誰是 Mike 的朋友？<A>Louis
+<Q>Mike 的孩子有幾個？<A>1個
+<Q>Nora 多大了？<A>39歲
+<Q>Nora 的工作是什麼？<A>醫生
+<Q>Nora 住在哪邊？<A>北邊
+<Q>Nora 愛吃什麼？<A>飯
+<Q>誰是 Nora 的朋友？<A>Yale
+<Q>Nora 的孩子有幾個？<A>沒有
+<Q>Nate 多大了？<A>32歲
+<Q>Nate 的工作是什麼？<A>工人
+<Q>Nate 住在哪邊？<A>北邊
+<Q>Nate 愛吃什麼？<A>飯
+<Q>Nate 愛喝什麼？<A>茶
+<Q>誰是 Nate 的朋友？<A>Mae
+<Q>Nate 的孩子有幾個？<A>3個
+<Q>Olga 多大了？<A>26歲
+<Q>Olga 的工作是什麼？<A>工人
+<Q>Olga 住在哪邊？<A>東邊
+<Q>Olga 愛吃什麼？<A>飯
+<Q>Olga 愛喝什麼？<A>茶
+<Q>Olga 的孩子有幾個？<A>沒有
+<Q>Noah 多大了？<A>30歲
+<Q>Noah 的工作是什麼？<A>工人
+<Q>Noah 住在哪邊？<A>東邊
+<Q>Noah 愛喝什麼？<A>茶
+<Q>Noah 的孩子有幾個？<A>3個
+<Q>Owen 多大了？<A>66歲
+<Q>Owen 的工作是什麼？<A>老師
+<Q>Owen 住在哪邊？<A>南邊
+<Q>Owen 愛吃什麼？<A>飯
+<Q>誰是 Owen 的朋友？<A>Kim
+<Q>Owen 的孩子有幾個？<A>3個
+<Q>Phil 多大了？<A>72歲
+<Q>Phil 的工作是什麼？<A>醫生
+<Q>Phil 愛吃什麼？<A>飯
+<Q>誰是 Phil 的朋友？<A>Mike
+<Q>Phil 的孩子有幾個？<A>3個
+<Q>Rita 多大了？<A>41歲
+<Q>Rita 的工作是什麼？<A>老師
+<Q>Rita 住在哪邊？<A>北邊
+<Q>Rita 愛吃什麼？<A>菜
+<Q>誰是 Rita 的朋友？<A>Bob
+<Q>Rita 的孩子有幾個？<A>2個
+<Q>Rob 的工作是什麼？<A>老師
+<Q>Rob 住在哪邊？<A>西邊
+<Q>Rob 愛吃什麼？<A>水果
+<Q>Rob 愛喝什麼？<A>水
+<Q>Ruth 的工作是什麼？<A>工人
+<Q>Ruth 住在哪邊？<A>西邊
+<Q>Ruth 愛吃什麼？<A>菜
+<Q>Ruth 愛喝什麼？<A>茶
+<Q>誰是 Ruth 的朋友？<A>Lydia
+<Q>Ruth 的孩子有幾個？<A>沒有
+<Q>Sean 住在哪邊？<A>西邊
+<Q>Sean 愛吃什麼？<A>肉
+<Q>Sean 愛喝什麼？<A>水
+<Q>誰是 Sean 的朋友？<A>Rex
+<Q>Seth 多大了？<A>60歲
+<Q>Seth 的工作是什麼？<A>醫生
+<Q>Seth 住在哪邊？<A>北邊
+<Q>Seth 愛吃什麼？<A>肉
+<Q>Seth 愛喝什麼？<A>茶
+<Q>誰是 Seth 的朋友？<A>Nell
+<Q>Seth 的孩子有幾個？<A>3個
+<Q>Tara 多大了？<A>61歲
+<Q>Tara 的工作是什麼？<A>醫生
+<Q>Tara 住在哪邊？<A>北邊
+<Q>Tara 愛吃什麼？<A>飯
+<Q>Tara 愛喝什麼？<A>茶
+<Q>誰是 Tara 的朋友？<A>Noah
+<Q>Toby 多大了？<A>53歲
+<Q>Toby 的工作是什麼？<A>醫生
+<Q>Toby 住在哪邊？<A>北邊
+<Q>Toby 愛吃什麼？<A>菜
+<Q>Toby 愛喝什麼？<A>水
+<Q>誰是 Toby 的朋友？<A>Kyle
+<Q>Toby 的孩子有幾個？<A>3個
+<Q>Tess 的工作是什麼？<A>醫生
+<Q>Tess 住在哪邊？<A>北邊
+<Q>Tess 愛吃什麼？<A>肉
+<Q>Tess 愛喝什麼？<A>水
+<Q>誰是 Tess 的朋友？<A>Yves
+<Q>Tony 住在哪邊？<A>西邊
+<Q>Tony 愛吃什麼？<A>飯
+<Q>Tony 愛喝什麼？<A>茶
+<Q>誰是 Tony 的朋友？<A>Lori
+<Q>Tony 的孩子有幾個？<A>3個
+<Q>Uma 多大了？<A>76歲
+<Q>Uma 的工作是什麼？<A>老師
+<Q>Uma 愛吃什麼？<A>肉
+<Q>Uma 愛喝什麼？<A>紅茶
+<Q>Uma 的孩子有幾個？<A>3個
+<Q>Troy 多大了？<A>62歲
+<Q>Troy 的工作是什麼？<A>老師
+<Q>Troy 住在哪邊？<A>西邊
+<Q>Troy 愛吃什麼？<A>肉
+<Q>Troy 愛喝什麼？<A>水
+<Q>誰是 Troy 的朋友？<A>Lydia
+<Q>Troy 的孩子有幾個？<A>3個
+<Q>Vera 住在哪邊？<A>北邊
+<Q>Vera 愛吃什麼？<A>水果
+<Q>Vera 愛喝什麼？<A>水
+<Q>Vera 的孩子有幾個？<A>1個
+<Q>Will 多大了？<A>56歲
+<Q>Will 的工作是什麼？<A>醫生
+<Q>Will 愛喝什麼？<A>水
+<Q>Will 的孩子有幾個？<A>3個
+<Q>Wren 多大了？<A>10歲
+<Q>Wren 住在哪邊？<A>東邊
+<Q>Wren 愛吃什麼？<A>水果
+<Q>Wren 愛喝什麼？<A>茶
+<Q>誰是 Wren 的朋友？<A>Isaac
+<Q>Wren 的孩子有幾個？<A>沒有
+<Q>Abby 的工作是什麼？<A>學生
+<Q>Abby 愛吃什麼？<A>肉
+<Q>Abby 愛喝什麼？<A>茶
+<Q>誰是 Abby 的朋友？<A>Ron
+<Q>Alex 多大了？<A>33歲
+<Q>Alex 愛吃什麼？<A>菜
+<Q>Alex 愛喝什麼？<A>水
+<Q>Alex 的孩子有幾個？<A>1個
+<Q>Alice 多大了？<A>22歲
+<Q>Alice 的工作是什麼？<A>工人
+<Q>Alice 住在哪邊？<A>西邊
+<Q>Alice 愛喝什麼？<A>紅茶
+<Q>誰是 Alice 的朋友？<A>Jane
+<Q>Alice 的孩子有幾個？<A>沒有
+<Q>Ava 多大了？<A>40歲
+<Q>Ava 的工作是什麼？<A>醫生
+<Q>Ava 住在哪邊？<A>東邊
+<Q>Ava 愛吃什麼？<A>菜
+<Q>誰是 Ava 的朋友？<A>Kyle
+<Q>Ava 的孩子有幾個？<A>1個
+<Q>Bart 多大了？<A>21歲
+<Q>Bart 住在哪邊？<A>東邊
+<Q>Bart 愛吃什麼？<A>水果
+<Q>Bart 愛喝什麼？<A>紅茶
+<Q>誰是 Bart 的朋友？<A>Harry
+<Q>Bart 的孩子有幾個？<A>沒有
+<Q>Bea 多大了？<A>56歲
+<Q>Bea 的工作是什麼？<A>醫生
+<Q>Bea 住在哪邊？<A>東邊
+<Q>Bea 愛吃什麼？<A>菜
+<Q>Bea 愛喝什麼？<A>茶
+<Q>誰是 Bea 的朋友？<A>Seth
+<Q>Bea 的孩子有幾個？<A>1個
+<Q>Brad 多大了？<A>46歲
+<Q>Brad 住在哪邊？<A>東邊
+<Q>Brad 愛吃什麼？<A>水果
+<Q>Brad 愛喝什麼？<A>紅茶
+<Q>Brian 多大了？<A>62歲
+<Q>Brian 愛吃什麼？<A>水果
+<Q>誰是 Brian 的朋友？<A>Zara
+<Q>Brian 的孩子有幾個？<A>2個
+<Q>Carol 多大了？<A>61歲
+<Q>Carol 的工作是什麼？<A>醫生
+<Q>Carol 的孩子有幾個？<A>沒有
+<Q>Chad 多大了？<A>66歲
+<Q>Chad 的工作是什麼？<A>工人
+<Q>Chad 住在哪邊？<A>北邊
+<Q>Chad 愛吃什麼？<A>菜
+<Q>Chad 愛喝什麼？<A>紅茶
+<Q>誰是 Chad 的朋友？<A>Bess
+<Q>Chad 的孩子有幾個？<A>1個
+<Q>Chloe 多大了？<A>74歲
+<Q>Chloe 的工作是什麼？<A>工人
+<Q>Chloe 住在哪邊？<A>北邊
+<Q>Chloe 愛吃什麼？<A>飯
+<Q>Chloe 愛喝什麼？<A>水
+<Q>誰是 Chloe 的朋友？<A>Gus
+<Q>Chloe 的孩子有幾個？<A>2個
+<Q>Chris 多大了？<A>42歲
+<Q>Chris 的工作是什麼？<A>醫生
+<Q>Chris 住在哪邊？<A>東邊
+<Q>Chris 愛吃什麼？<A>水果
+<Q>Chris 愛喝什麼？<A>水
+<Q>誰是 Chris 的朋友？<A>Maria
+<Q>Chris 的孩子有幾個？<A>1個
+<Q>Cindy 多大了？<A>39歲
+<Q>Cindy 的工作是什麼？<A>醫生
+<Q>Cindy 住在哪邊？<A>南邊
+<Q>Cindy 愛喝什麼？<A>水
+<Q>誰是 Cindy 的朋友？<A>Rick
+<Q>Cindy 的孩子有幾個？<A>3個
+<Q>Clara 多大了？<A>49歲
+<Q>Clara 的工作是什麼？<A>老師
+<Q>Clara 住在哪邊？<A>西邊
+<Q>Clara 愛吃什麼？<A>水果
+<Q>誰是 Clara 的朋友？<A>Cal
+<Q>Clara 的孩子有幾個？<A>3個
+<Q>Cody 的工作是什麼？<A>醫生
+<Q>Cody 住在哪邊？<A>東邊
+<Q>Cody 愛吃什麼？<A>菜
+<Q>Cody 愛喝什麼？<A>茶
+<Q>誰是 Cody 的朋友？<A>Theo
+<Q>Cody 的孩子有幾個？<A>2個
+<Q>Cole 的工作是什麼？<A>工人
+<Q>Cole 住在哪邊？<A>北邊
+<Q>Cole 愛吃什麼？<A>菜
+<Q>Cole 愛喝什麼？<A>紅茶
+<Q>誰是 Cole 的朋友？<A>Stan
+<Q>Cole 的孩子有幾個？<A>3個
+<Q>Dale 多大了？<A>68歲
+<Q>Dale 的工作是什麼？<A>工人
+<Q>Dale 愛喝什麼？<A>茶
+<Q>誰是 Dale 的朋友？<A>Paula
+<Q>Dale 的孩子有幾個？<A>3個
+<Q>Dean 多大了？<A>45歲
+<Q>Dean 住在哪邊？<A>西邊
+<Q>Dean 愛吃什麼？<A>水果
+<Q>Dean 愛喝什麼？<A>紅茶
+<Q>誰是 Dean 的朋友？<A>Milo
+<Q>Dean 的孩子有幾個？<A>3個
+<Q>Diana 多大了？<A>55歲
+<Q>Diana 住在哪邊？<A>北邊
+<Q>Diana 愛吃什麼？<A>水果
+<Q>誰是 Diana 的朋友？<A>Finn
+<Q>Donna 多大了？<A>66歲
+<Q>Donna 的工作是什麼？<A>醫生
+<Q>Donna 住在哪邊？<A>南邊
+<Q>Donna 愛喝什麼？<A>茶
+<Q>誰是 Donna 的朋友？<A>Zoe
+<Q>Donna 的孩子有幾個？<A>2個
+<Q>Doug 多大了？<A>32歲
+<Q>Doug 的工作是什麼？<A>醫生
+<Q>Doug 住在哪邊？<A>西邊
+<Q>Doug 愛吃什麼？<A>菜
+<Q>誰是 Doug 的朋友？<A>Linda
+<Q>Drew 多大了？<A>69歲
+<Q>Drew 的工作是什麼？<A>醫生
+<Q>Drew 住在哪邊？<A>東邊
+<Q>Drew 愛吃什麼？<A>菜
+<Q>Drew 愛喝什麼？<A>水
+<Q>誰是 Drew 的朋友？<A>Maria
+<Q>Dylan 多大了？<A>37歲
+<Q>Dylan 的工作是什麼？<A>醫生
+<Q>Dylan 住在哪邊？<A>南邊
+<Q>Dylan 愛吃什麼？<A>肉
+<Q>Dylan 愛喝什麼？<A>紅茶
+<Q>誰是 Dylan 的朋友？<A>Alice
+<Q>Dylan 的孩子有幾個？<A>1個
+<Q>Eli 多大了？<A>76歲
+<Q>Eli 的工作是什麼？<A>老師
+<Q>Eli 住在哪邊？<A>東邊
+<Q>Eli 愛吃什麼？<A>肉
+<Q>Eli 愛喝什麼？<A>紅茶
+<Q>誰是 Eli 的朋友？<A>Emily
+<Q>Ellen 多大了？<A>45歲
+<Q>Ellen 的工作是什麼？<A>工人
+<Q>Ellen 愛吃什麼？<A>肉
+<Q>Ellen 愛喝什麼？<A>茶
+<Q>誰是 Ellen 的朋友？<A>Rita
+<Q>Ellen 的孩子有幾個？<A>1個
+<Q>Emily 多大了？<A>44歲
+<Q>Emily 的工作是什麼？<A>醫生
+<Q>Emily 住在哪邊？<A>北邊
+<Q>Emily 愛吃什麼？<A>水果
+<Q>Emily 愛喝什麼？<A>茶
+<Q>誰是 Emily 的朋友？<A>Sam
+<Q>Emily 的孩子有幾個？<A>3個
+<Q>Ethan 多大了？<A>14歲
+<Q>Ethan 的工作是什麼？<A>學生
+<Q>Ethan 愛喝什麼？<A>茶
+<Q>誰是 Ethan 的朋友？<A>Rita
+<Q>Ethan 的孩子有幾個？<A>沒有
+<Q>Evan 多大了？<A>16歲
+<Q>Evan 的工作是什麼？<A>學生
+<Q>Evan 住在哪邊？<A>北邊
+<Q>Evan 愛吃什麼？<A>飯
+<Q>誰是 Evan 的朋友？<A>Kyle
+<Q>Evan 的孩子有幾個？<A>沒有
+<Q>Ezra 多大了？<A>14歲
+<Q>Ezra 的工作是什麼？<A>學生
+<Q>Ezra 住在哪邊？<A>西邊
+<Q>Ezra 愛吃什麼？<A>菜
+<Q>Ezra 愛喝什麼？<A>紅茶
+<Q>Finn 多大了？<A>46歲
+<Q>Finn 的工作是什麼？<A>老師
+<Q>Finn 住在哪邊？<A>東邊
+<Q>誰是 Finn 的朋友？<A>Ugo
+<Q>Finn 的孩子有幾個？<A>1個
+<Q>Flora 多大了？<A>36歲
+<Q>Flora 的工作是什麼？<A>工人
+<Q>Flora 住在哪邊？<A>北邊
+<Q>Flora 愛喝什麼？<A>水
+<Q>誰是 Flora 的朋友？<A>Alan
+<Q>Flora 的孩子有幾個？<A>3個
+<Q>Frank 多大了？<A>62歲
+<Q>Frank 的工作是什麼？<A>醫生
+<Q>Frank 愛喝什麼？<A>紅茶
+<Q>誰是 Frank 的朋友？<A>Nate
+<Q>Frank 的孩子有幾個？<A>沒有
+<Q>Gail 多大了？<A>35歲
+<Q>Gail 住在哪邊？<A>西邊
+<Q>Gail 愛吃什麼？<A>菜
+<Q>Gail 愛喝什麼？<A>茶
+<Q>Gail 的孩子有幾個？<A>沒有
+<Q>Gabe 多大了？<A>78歲
+<Q>Gabe 的工作是什麼？<A>老師
+<Q>Gabe 愛吃什麼？<A>飯
+<Q>Gabe 愛喝什麼？<A>水
+<Q>誰是 Gabe 的朋友？<A>Walt
+<Q>Gabe 的孩子有幾個？<A>1個
+<Q>Glen 多大了？<A>68歲
+<Q>Glen 住在哪邊？<A>西邊
+<Q>Glen 愛喝什麼？<A>紅茶
+<Q>誰是 Glen 的朋友？<A>Diana
+<Q>Glen 的孩子有幾個？<A>沒有
+<Q>Grace 多大了？<A>44歲
+<Q>Grace 的工作是什麼？<A>工人
+<Q>Grace 住在哪邊？<A>東邊
+<Q>Grace 愛吃什麼？<A>菜
+<Q>誰是 Grace 的朋友？<A>Sara
+<Q>Grace 的孩子有幾個？<A>3個
+<Q>Greg 多大了？<A>33歲
+<Q>Greg 的工作是什麼？<A>醫生
+<Q>Greg 住在哪邊？<A>西邊
+<Q>Greg 愛喝什麼？<A>水
+<Q>誰是 Greg 的朋友？<A>Dora
+<Q>Greg 的孩子有幾個？<A>沒有
+<Q>Hanna 住在哪邊？<A>西邊
+<Q>Hanna 愛喝什麼？<A>紅茶
+<Q>Harry 多大了？<A>80歲
+<Q>Harry 的工作是什麼？<A>醫生
+<Q>Harry 住在哪邊？<A>東邊
+<Q>Harry 愛喝什麼？<A>紅茶
+<Q>Harry 的孩子有幾個？<A>3個
+<Q>Heidi 多大了？<A>46歲
+<Q>Heidi 的工作是什麼？<A>工人
+<Q>Heidi 住在哪邊？<A>南邊
+<Q>Heidi 愛吃什麼？<A>飯
+<Q>Heidi 愛喝什麼？<A>水
+<Q>Helen 多大了？<A>18歲
+<Q>Helen 的工作是什麼？<A>學生
+<Q>Helen 愛吃什麼？<A>飯
+<Q>Helen 愛喝什麼？<A>紅茶
+<Q>誰是 Helen 的朋友？<A>Joan
+<Q>Helen 的孩子有幾個？<A>沒有
+<Q>Henry 多大了？<A>49歲
+<Q>Henry 的工作是什麼？<A>工人
+<Q>Henry 住在哪邊？<A>東邊
+<Q>Henry 愛吃什麼？<A>肉
+<Q>Henry 愛喝什麼？<A>茶
+<Q>誰是 Henry 的朋友？<A>Dina
+<Q>Henry 的孩子有幾個？<A>2個
+<Q>Holly 多大了？<A>10歲
+<Q>Holly 的工作是什麼？<A>學生
+<Q>Holly 住在哪邊？<A>南邊
+<Q>Holly 愛吃什麼？<A>肉
+<Q>Holly 愛喝什麼？<A>茶
+<Q>誰是 Holly 的朋友？<A>Zack
+<Q>Holly 的孩子有幾個？<A>沒有
+<Q>Hugo 多大了？<A>68歲
+<Q>Hugo 的工作是什麼？<A>工人
+<Q>Hugo 住在哪邊？<A>南邊
+<Q>Hugo 愛吃什麼？<A>菜
+<Q>Hugo 愛喝什麼？<A>紅茶
+<Q>誰是 Hugo 的朋友？<A>Ivy
+<Q>Hugo 的孩子有幾個？<A>3個
+<Q>Hugh 的工作是什麼？<A>工人
+<Q>Hugh 住在哪邊？<A>東邊
+<Q>Hugh 愛吃什麼？<A>飯
+<Q>Hugh 愛喝什麼？<A>水
+<Q>誰是 Hugh 的朋友？<A>Eli
+<Q>Hugh 的孩子有幾個？<A>3個
+<Q>Ida 多大了？<A>60歲
+<Q>Ida 的工作是什麼？<A>醫生
+<Q>Ida 住在哪邊？<A>東邊
+<Q>Ida 愛吃什麼？<A>菜
+<Q>Ida 愛喝什麼？<A>水
+<Q>Irene 多大了？<A>60歲
+<Q>Irene 的工作是什麼？<A>工人
+<Q>Irene 住在哪邊？<A>南邊
+<Q>Irene 愛吃什麼？<A>飯
+<Q>Irene 愛喝什麼？<A>紅茶
+<Q>誰是 Irene 的朋友？<A>Gail
+<Q>Irene 的孩子有幾個？<A>3個
+<Q>Isaac 多大了？<A>12歲
+<Q>Isaac 住在哪邊？<A>北邊
+<Q>Isaac 愛吃什麼？<A>肉
+<Q>Isaac 愛喝什麼？<A>水
+<Q>誰是 Isaac 的朋友？<A>Cara
+<Q>Jason 多大了？<A>40歲
+<Q>Jason 的工作是什麼？<A>醫生
+<Q>Jason 住在哪邊？<A>北邊
+<Q>Jason 愛喝什麼？<A>紅茶
+<Q>誰是 Jason 的朋友？<A>Stan
+<Q>Jay 多大了？<A>77歲
+<Q>Jay 的工作是什麼？<A>醫生
+<Q>Jay 住在哪邊？<A>東邊
+<Q>Jay 愛喝什麼？<A>紅茶
+<Q>誰是 Jay 的朋友？<A>Jade
+<Q>Jay 的孩子有幾個？<A>3個
+<Q>Jenny 多大了？<A>54歲
+<Q>Jenny 的工作是什麼？<A>工人
+<Q>Jenny 住在哪邊？<A>北邊
+<Q>Jenny 愛吃什麼？<A>肉
+<Q>誰是 Jenny 的朋友？<A>Ezra
+<Q>Jenny 的孩子有幾個？<A>3個
+<Q>Jesse 多大了？<A>42歲
+<Q>Jesse 的工作是什麼？<A>工人
+<Q>Jesse 住在哪邊？<A>南邊
+<Q>Jesse 愛吃什麼？<A>飯
+<Q>Jesse 愛喝什麼？<A>紅茶
+<Q>誰是 Jesse 的朋友？<A>Anna
+<Q>Jesse 的孩子有幾個？<A>1個
+<Q>Joel 多大了？<A>70歲
+<Q>Joel 的工作是什麼？<A>老師
+<Q>Joel 住在哪邊？<A>西邊
+<Q>Joel 愛吃什麼？<A>菜
+<Q>Joel 愛喝什麼？<A>水
+<Q>誰是 Joel 的朋友？<A>Lydia
+<Q>Joel 的孩子有幾個？<A>沒有
+<Q>Jonas 的工作是什麼？<A>老師
+<Q>Jonas 愛吃什麼？<A>菜
+<Q>Jonas 愛喝什麼？<A>茶
+<Q>誰是 Jonas 的朋友？<A>Nora
+<Q>Julia 多大了？<A>67歲
+<Q>Julia 的工作是什麼？<A>老師
+<Q>Julia 住在哪邊？<A>北邊
+<Q>Julia 愛喝什麼？<A>紅茶
+<Q>誰是 Julia 的朋友？<A>Igor
+<Q>Karen 多大了？<A>42歲
+<Q>Karen 的工作是什麼？<A>醫生
+<Q>Karen 住在哪邊？<A>北邊
+<Q>Karen 愛吃什麼？<A>菜
+<Q>Karen 愛喝什麼？<A>水
+<Q>Karen 的孩子有幾個？<A>3個
+<Q>Kevin 多大了？<A>78歲
+<Q>Kevin 的工作是什麼？<A>老師
+<Q>Kevin 愛喝什麼？<A>茶
+<Q>Kevin 的孩子有幾個？<A>3個
+<Q>Laura 多大了？<A>43歲
+<Q>Laura 的工作是什麼？<A>醫生
+<Q>Laura 住在哪邊？<A>南邊
+<Q>Laura 愛吃什麼？<A>肉
+<Q>Laura 愛喝什麼？<A>水
+<Q>誰是 Laura 的朋友？<A>Joy
+<Q>Laura 的孩子有幾個？<A>2個
+<Q>Leah 多大了？<A>46歲
+<Q>Leah 的工作是什麼？<A>工人
+<Q>Leah 住在哪邊？<A>西邊
+<Q>Leah 愛吃什麼？<A>飯
+<Q>Leah 愛喝什麼？<A>紅茶
+<Q>誰是 Leah 的朋友？<A>Irene
+<Q>Leah 的孩子有幾個？<A>3個
+<Q>Leon 多大了？<A>69歲
+<Q>Leon 住在哪邊？<A>北邊
+<Q>Leon 愛吃什麼？<A>飯
+<Q>誰是 Leon 的朋友？<A>Seth
+<Q>Leon 的孩子有幾個？<A>2個
+<Q>Linda 多大了？<A>32歲
+<Q>Linda 的工作是什麼？<A>工人
+<Q>Linda 住在哪邊？<A>北邊
+<Q>Linda 愛吃什麼？<A>菜
+<Q>Linda 愛喝什麼？<A>水
+<Q>Linda 的孩子有幾個？<A>1個
+<Q>Logan 多大了？<A>13歲
+<Q>Logan 的工作是什麼？<A>學生
+<Q>Logan 住在哪邊？<A>南邊
+<Q>誰是 Logan 的朋友？<A>Mary
+<Q>Lori 多大了？<A>56歲
+<Q>Lori 的工作是什麼？<A>醫生
+<Q>Lori 住在哪邊？<A>北邊
+<Q>Lori 愛吃什麼？<A>肉
+<Q>Lori 愛喝什麼？<A>茶
+<Q>誰是 Lori 的朋友？<A>Pete
+<Q>Lori 的孩子有幾個？<A>1個
+<Q>Louis 的工作是什麼？<A>工人
+<Q>Louis 住在哪邊？<A>東邊
+<Q>Louis 愛吃什麼？<A>飯
+<Q>Louis 愛喝什麼？<A>茶
+<Q>誰是 Louis 的朋友？<A>Cal
+<Q>Louis 的孩子有幾個？<A>2個
+<Q>Lydia 多大了？<A>75歲
+<Q>Lydia 住在哪邊？<A>西邊
+<Q>Lydia 愛吃什麼？<A>飯
+<Q>誰是 Lydia 的朋友？<A>Quinn
+<Q>Lydia 的孩子有幾個？<A>沒有
+<Q>Mabel 多大了？<A>27歲
+<Q>Mabel 的工作是什麼？<A>老師
+<Q>Mabel 住在哪邊？<A>南邊
+<Q>Mabel 愛喝什麼？<A>紅茶
+<Q>誰是 Mabel 的朋友？<A>Wanda
+<Q>Maria 多大了？<A>58歲
+<Q>Maria 的工作是什麼？<A>工人
+<Q>Maria 住在哪邊？<A>南邊
+<Q>誰是 Maria 的朋友？<A>Jonas
+<Q>Megan 多大了？<A>70歲
+<Q>Megan 住在哪邊？<A>東邊
+<Q>Megan 愛吃什麼？<A>菜
+<Q>Megan 愛喝什麼？<A>紅茶
+<Q>誰是 Megan 的朋友？<A>Axel
+<Q>Megan 的孩子有幾個？<A>沒有
+<Q>Molly 多大了？<A>44歲
+<Q>Molly 的工作是什麼？<A>老師
+<Q>Molly 住在哪邊？<A>北邊
+<Q>Molly 愛吃什麼？<A>肉
+<Q>Molly 愛喝什麼？<A>紅茶
+<Q>Oscar 的工作是什麼？<A>醫生
+<Q>Oscar 住在哪邊？<A>西邊
+<Q>Oscar 愛吃什麼？<A>水果
+<Q>Oscar 愛喝什麼？<A>茶
+<Q>誰是 Oscar 的朋友？<A>Mark
+<Q>Paula 多大了？<A>13歲
+<Q>Paula 的工作是什麼？<A>學生
+<Q>Paula 愛吃什麼？<A>肉
+<Q>Paula 愛喝什麼？<A>水
+<Q>Paula 的孩子有幾個？<A>沒有
+<Q>Peter 住在哪邊？<A>西邊
+<Q>Peter 愛吃什麼？<A>菜
+<Q>Peter 愛喝什麼？<A>紅茶
+<Q>Quinn 多大了？<A>60歲
+<Q>Quinn 的工作是什麼？<A>工人
+<Q>Quinn 愛吃什麼？<A>菜
+<Q>Quinn 愛喝什麼？<A>茶
+<Q>誰是 Quinn 的朋友？<A>Mia
+<Q>Quinn 的孩子有幾個？<A>1個
+<Q>Ralph 多大了？<A>56歲
+<Q>Ralph 的工作是什麼？<A>工人
+<Q>Ralph 住在哪邊？<A>北邊
+<Q>Ralph 愛吃什麼？<A>菜
+<Q>Ralph 愛喝什麼？<A>茶
+<Q>誰是 Ralph 的朋友？<A>Wren
+<Q>Ralph 的孩子有幾個？<A>1個
+<Q>Rick 多大了？<A>67歲
+<Q>Rick 的工作是什麼？<A>工人
+<Q>誰是 Rick 的朋友？<A>Rob
+<Q>Rick 的孩子有幾個？<A>2個
+<Q>Robin 的工作是什麼？<A>學生
+<Q>Robin 住在哪邊？<A>北邊
+<Q>Robin 愛吃什麼？<A>水果
+<Q>Robin 愛喝什麼？<A>紅茶
+<Q>誰是 Robin 的朋友？<A>Megan
+<Q>Robin 的孩子有幾個？<A>沒有
+<Q>Ron 多大了？<A>77歲
+<Q>Ron 的工作是什麼？<A>老師
+<Q>Ron 住在哪邊？<A>北邊
+<Q>Ron 的孩子有幾個？<A>沒有
+<Q>Rosa 多大了？<A>46歲
+<Q>Rosa 住在哪邊？<A>南邊
+<Q>Rosa 愛吃什麼？<A>飯
+<Q>Rosa 愛喝什麼？<A>水
+<Q>誰是 Rosa 的朋友？<A>Carl
+<Q>Rosa 的孩子有幾個？<A>3個
+<Q>Rudy 多大了？<A>33歲
+<Q>Rudy 住在哪邊？<A>東邊
+<Q>Rudy 愛吃什麼？<A>菜
+<Q>Rudy 愛喝什麼？<A>水
+<Q>誰是 Rudy 的朋友？<A>Zane
+<Q>Rudy 的孩子有幾個？<A>3個
+<Q>Sally 多大了？<A>53歲
+<Q>Sally 的工作是什麼？<A>工人
+<Q>Sally 愛吃什麼？<A>肉
+<Q>Sally 愛喝什麼？<A>紅茶
+<Q>誰是 Sally 的朋友？<A>Brian
+<Q>Sally 的孩子有幾個？<A>2個
+<Q>Sandy 的工作是什麼？<A>醫生
+<Q>Sandy 住在哪邊？<A>東邊
+<Q>Sandy 愛吃什麼？<A>飯
+<Q>Sandy 愛喝什麼？<A>水
+<Q>誰是 Sandy 的朋友？<A>Jenny
+<Q>Sandy 的孩子有幾個？<A>沒有
+<Q>Sarah 多大了？<A>37歲
+<Q>Sarah 的工作是什麼？<A>工人
+<Q>Sarah 愛吃什麼？<A>菜
+<Q>Sarah 的孩子有幾個？<A>2個
+<Q>Simon 多大了？<A>40歲
+<Q>Simon 住在哪邊？<A>東邊
+<Q>Simon 愛吃什麼？<A>肉
+<Q>Simon 愛喝什麼？<A>水
+<Q>誰是 Simon 的朋友？<A>Terry
+<Q>Simon 的孩子有幾個？<A>1個
+<Q>Sofia 多大了？<A>64歲
+<Q>Sofia 的工作是什麼？<A>老師
+<Q>Sofia 住在哪邊？<A>西邊
+<Q>Sofia 愛吃什麼？<A>肉
+<Q>Sofia 愛喝什麼？<A>水
+<Q>Sofia 的孩子有幾個？<A>2個
+<Q>Stan 多大了？<A>49歲
+<Q>Stan 的工作是什麼？<A>工人
+<Q>Stan 住在哪邊？<A>西邊
+<Q>Stan 愛吃什麼？<A>菜
+<Q>Stan 愛喝什麼？<A>茶
+<Q>誰是 Stan 的朋友？<A>Yuri
+<Q>Stan 的孩子有幾個？<A>3個
+<Q>Steve 的工作是什麼？<A>醫生
+<Q>Steve 住在哪邊？<A>西邊
+<Q>Steve 愛吃什麼？<A>水果
+<Q>Steve 愛喝什麼？<A>水
+<Q>誰是 Steve 的朋友？<A>Carol
+<Q>Steve 的孩子有幾個？<A>2個
+<Q>Susan 多大了？<A>45歲
+<Q>Susan 住在哪邊？<A>東邊
+<Q>Susan 愛喝什麼？<A>茶
+<Q>誰是 Susan 的朋友？<A>Edna
+<Q>Terry 多大了？<A>26歲
+<Q>Terry 的工作是什麼？<A>老師
+<Q>Terry 住在哪邊？<A>南邊
+<Q>Terry 愛吃什麼？<A>肉
+<Q>Terry 愛喝什麼？<A>水
+<Q>誰是 Terry 的朋友？<A>Flora
+<Q>Terry 的孩子有幾個？<A>3個
+<Q>Todd 多大了？<A>9歲
+<Q>Todd 住在哪邊？<A>南邊
+<Q>Todd 愛喝什麼？<A>水
+<Q>誰是 Todd 的朋友？<A>Elsa
+<Q>Todd 的孩子有幾個？<A>沒有
+<Q>Tyler 多大了？<A>55歲
+<Q>Tyler 的工作是什麼？<A>工人
+<Q>Tyler 住在哪邊？<A>北邊
+<Q>Tyler 愛喝什麼？<A>茶
+<Q>誰是 Tyler 的朋友？<A>Kyle
+<Q>Tyler 的孩子有幾個？<A>2個
+<Q>Wade 多大了？<A>37歲
+<Q>Wade 住在哪邊？<A>南邊
+<Q>Wade 愛吃什麼？<A>菜
+<Q>Wade 愛喝什麼？<A>紅茶
+<Q>誰是 Wade 的朋友？<A>Yves
+<Q>Wade 的孩子有幾個？<A>沒有
+<Q>Walt 多大了？<A>16歲
+<Q>Walt 的工作是什麼？<A>學生
+<Q>Walt 住在哪邊？<A>北邊
+<Q>Walt 愛吃什麼？<A>水果
+<Q>誰是 Walt 的朋友？<A>Axel
+<Q>Walt 的孩子有幾個？<A>沒有
+<Q>Wanda 的工作是什麼？<A>老師
+<Q>Wanda 住在哪邊？<A>東邊
+<Q>Wanda 愛喝什麼？<A>水
+<Q>誰是 Wanda 的朋友？<A>Yuri
+<Q>Wendy 多大了？<A>71歲
+<Q>Wendy 住在哪邊？<A>西邊
+<Q>Wendy 愛吃什麼？<A>菜
+<Q>誰是 Wendy 的朋友？<A>Cody
+<Q>Wendy 的孩子有幾個？<A>沒有
+<Q>Wes 多大了？<A>66歲
+<Q>Wes 住在哪邊？<A>西邊
+<Q>Wes 愛吃什麼？<A>飯
+<Q>Wes 愛喝什麼？<A>紅茶
+<Q>誰是 Wes 的朋友？<A>Lola
+<Q>Wes 的孩子有幾個？<A>3個
+<Q>Yuri 多大了？<A>20歲
+<Q>Yuri 的工作是什麼？<A>醫生
+<Q>Yuri 住在哪邊？<A>北邊
+<Q>Yuri 愛吃什麼？<A>水果
+<Q>Yuri 愛喝什麼？<A>茶
+<Q>誰是 Yuri 的朋友？<A>Cara
+<Q>Yuri 的孩子有幾個？<A>沒有
+<Q>Zack 的工作是什麼？<A>老師
+<Q>Zack 愛吃什麼？<A>菜
+<Q>Zack 愛喝什麼？<A>水
+<Q>Zack 的孩子有幾個？<A>3個
+<Q>Zara 多大了？<A>20歲
+<Q>Zara 的工作是什麼？<A>工人
+<Q>Zara 愛吃什麼？<A>水果
+<Q>Zara 愛喝什麼？<A>茶
+<Q>誰是 Zara 的朋友？<A>Ruth
+<Q>Al 多大了？<A>58歲
+<Q>Al 的工作是什麼？<A>醫生
+<Q>Al 住在哪邊？<A>東邊
+<Q>Al 愛喝什麼？<A>茶
+<Q>Al 的孩子有幾個？<A>1個
+<Q>Alma 多大了？<A>35歲
+<Q>Alma 的工作是什麼？<A>工人
+<Q>Alma 住在哪邊？<A>東邊
+<Q>Alma 愛吃什麼？<A>水果
+<Q>Alma 愛喝什麼？<A>茶
+<Q>誰是 Alma 的朋友？<A>Theo
+<Q>Amos 多大了？<A>24歲
+<Q>Amos 的工作是什麼？<A>工人
+<Q>Amos 住在哪邊？<A>西邊
+<Q>Amos 愛吃什麼？<A>肉
+<Q>誰是 Amos 的朋友？<A>Helen
+<Q>Amos 的孩子有幾個？<A>沒有
+<Q>Asa 多大了？<A>34歲
+<Q>Asa 的工作是什麼？<A>工人
+<Q>Asa 住在哪邊？<A>西邊
+<Q>Asa 愛吃什麼？<A>水果
+<Q>Asa 的孩子有幾個？<A>1個
+<Q>Axel 多大了？<A>8歲
+<Q>Axel 的工作是什麼？<A>學生
+<Q>Axel 愛吃什麼？<A>菜
+<Q>Axel 愛喝什麼？<A>茶
+<Q>誰是 Axel 的朋友？<A>Brad
+<Q>Axel 的孩子有幾個？<A>沒有
+<Q>Bess 多大了？<A>77歲
+<Q>Bess 的工作是什麼？<A>醫生
+<Q>Bess 住在哪邊？<A>東邊
+<Q>Bess 愛吃什麼？<A>肉
+<Q>Bess 愛喝什麼？<A>茶
+<Q>Boyd 多大了？<A>9歲
+<Q>Boyd 的工作是什麼？<A>學生
+<Q>Boyd 住在哪邊？<A>南邊
+<Q>Boyd 愛吃什麼？<A>菜
+<Q>Boyd 愛喝什麼？<A>紅茶
+<Q>Boyd 的孩子有幾個？<A>沒有
+<Q>Bud 的工作是什麼？<A>老師
+<Q>Bud 住在哪邊？<A>南邊
+<Q>Bud 愛吃什麼？<A>肉
+<Q>Bud 愛喝什麼？<A>茶
+<Q>誰是 Bud 的朋友？<A>Jake
+<Q>Bud 的孩子有幾個？<A>1個
+<Q>Burt 多大了？<A>61歲
+<Q>Burt 愛吃什麼？<A>飯
+<Q>Burt 愛喝什麼？<A>水
+<Q>Burt 的孩子有幾個？<A>沒有
+<Q>Cal 多大了？<A>54歲
+<Q>Cal 的工作是什麼？<A>工人
+<Q>Cal 住在哪邊？<A>北邊
+<Q>Cal 愛吃什麼？<A>菜
+<Q>Cal 愛喝什麼？<A>紅茶
+<Q>誰是 Cal 的朋友？<A>Tara
+<Q>Cal 的孩子有幾個？<A>沒有
+<Q>Cara 多大了？<A>13歲
+<Q>Cara 的工作是什麼？<A>學生
+<Q>Cara 愛吃什麼？<A>飯
+<Q>Cara 愛喝什麼？<A>紅茶
+<Q>誰是 Cara 的朋友？<A>Dylan
+<Q>Cara 的孩子有幾個？<A>沒有
+<Q>Cleo 的工作是什麼？<A>學生
+<Q>Cleo 住在哪邊？<A>東邊
+<Q>Cleo 愛吃什麼？<A>飯
+<Q>誰是 Cleo 的朋友？<A>Finn
+<Q>Cleo 的孩子有幾個？<A>沒有
+<Q>Cruz 多大了？<A>62歲
+<Q>Cruz 的工作是什麼？<A>工人
+<Q>Cruz 住在哪邊？<A>北邊
+<Q>Cruz 愛吃什麼？<A>飯
+<Q>Cruz 愛喝什麼？<A>茶
+<Q>誰是 Cruz 的朋友？<A>Alex
+<Q>Cruz 的孩子有幾個？<A>沒有
+<Q>Dina 多大了？<A>18歲
+<Q>Dina 的工作是什麼？<A>學生
+<Q>Dina 住在哪邊？<A>南邊
+<Q>Dina 愛喝什麼？<A>茶
+<Q>誰是 Dina 的朋友？<A>Yves
+<Q>Dina 的孩子有幾個？<A>沒有
+<Q>Dirk 的工作是什麼？<A>醫生
+<Q>Dirk 住在哪邊？<A>南邊
+<Q>Dirk 愛吃什麼？<A>飯
+<Q>Dirk 愛喝什麼？<A>紅茶
+<Q>Duke 多大了？<A>75歲
+<Q>Duke 愛吃什麼？<A>肉
+<Q>Duke 愛喝什麼？<A>紅茶
+<Q>誰是 Duke 的朋友？<A>Bess
+<Q>Duke 的孩子有幾個？<A>3個
+<Q>Earl 多大了？<A>22歲
+<Q>Earl 的工作是什麼？<A>工人
+<Q>Earl 住在哪邊？<A>西邊
+<Q>Earl 愛吃什麼？<A>飯
+<Q>Earl 愛喝什麼？<A>水
+<Q>誰是 Earl 的朋友？<A>Tina
+<Q>Earl 的孩子有幾個？<A>沒有
+<Q>Emil 多大了？<A>37歲
+<Q>Emil 住在哪邊？<A>北邊
+<Q>Emil 愛喝什麼？<A>水
+<Q>誰是 Emil 的朋友？<A>Alma
+<Q>Emil 的孩子有幾個？<A>2個
+<Q>Enzo 多大了？<A>20歲
+<Q>Enzo 的工作是什麼？<A>醫生
+<Q>Enzo 住在哪邊？<A>北邊
+<Q>Enzo 愛吃什麼？<A>水果
+<Q>誰是 Enzo 的朋友？<A>Jason
+<Q>Enzo 的孩子有幾個？<A>沒有
+<Q>Esme 多大了？<A>40歲
+<Q>Esme 的工作是什麼？<A>醫生
+<Q>Esme 住在哪邊？<A>北邊
+<Q>Esme 愛吃什麼？<A>肉
+<Q>Esme 愛喝什麼？<A>茶
+<Q>Esme 的孩子有幾個？<A>1個
+<Q>Gil 多大了？<A>18歲
+<Q>Gil 的工作是什麼？<A>學生
+<Q>Gil 愛吃什麼？<A>飯
+<Q>Gil 愛喝什麼？<A>茶
+<Q>誰是 Gil 的朋友？<A>Esme
+<Q>Gil 的孩子有幾個？<A>沒有
+<Q>Igor 多大了？<A>55歲
+<Q>Igor 的工作是什麼？<A>老師
+<Q>Igor 愛吃什麼？<A>肉
+<Q>Igor 愛喝什麼？<A>水
+<Q>誰是 Igor 的朋友？<A>Eric
+<Q>Igor 的孩子有幾個？<A>沒有
+<Q>Ines 多大了？<A>53歲
+<Q>Ines 的工作是什麼？<A>工人
+<Q>Ines 住在哪邊？<A>東邊
+<Q>Ines 愛吃什麼？<A>水果
+<Q>Ines 愛喝什麼？<A>紅茶
+<Q>誰是 Ines 的朋友？<A>Kate
+<Q>Ines 的孩子有幾個？<A>3個
+<Q>Jade 多大了？<A>47歲
+<Q>Jade 的工作是什麼？<A>醫生
+<Q>Jade 住在哪邊？<A>西邊
+<Q>Jade 愛吃什麼？<A>菜
+<Q>誰是 Jade 的朋友？<A>Leah
+<Q>Jade 的孩子有幾個？<A>沒有
+<Q>Jon 多大了？<A>69歲
+<Q>Jon 的工作是什麼？<A>老師
+<Q>Jon 住在哪邊？<A>南邊
+<Q>Jon 愛吃什麼？<A>水果
+<Q>Jon 愛喝什麼？<A>茶
+<Q>Jon 的孩子有幾個？<A>沒有
+<Q>Kai 住在哪邊？<A>北邊
+<Q>Kai 愛吃什麼？<A>肉
+<Q>Kai 愛喝什麼？<A>紅茶
+<Q>誰是 Kai 的朋友？<A>Esme
+<Q>Kira 的工作是什麼？<A>老師
+<Q>Kira 住在哪邊？<A>南邊
+<Q>Kira 愛吃什麼？<A>水果
+<Q>Kira 愛喝什麼？<A>水
+<Q>Kira 的孩子有幾個？<A>1個
+<Q>Lars 多大了？<A>52歲
+<Q>Lars 的工作是什麼？<A>老師
+<Q>Lars 住在哪邊？<A>西邊
+<Q>Lars 愛吃什麼？<A>飯
+<Q>Lars 愛喝什麼？<A>茶
+<Q>誰是 Lars 的朋友？<A>Grace
+<Q>Lars 的孩子有幾個？<A>1個
+<Q>Lola 多大了？<A>26歲
+<Q>Lola 住在哪邊？<A>東邊
+<Q>Lola 愛吃什麼？<A>菜
+<Q>誰是 Lola 的朋友？<A>Rory
+<Q>Lola 的孩子有幾個？<A>沒有
+<Q>Mae 多大了？<A>61歲
+<Q>Mae 的工作是什麼？<A>醫生
+<Q>Mae 住在哪邊？<A>西邊
+<Q>Mae 愛吃什麼？<A>水果
+<Q>Mae 愛喝什麼？<A>水
+<Q>誰是 Mae 的朋友？<A>Ted
+<Q>Milo 多大了？<A>49歲
+<Q>Milo 的工作是什麼？<A>工人
+<Q>Milo 愛吃什麼？<A>菜
+<Q>Milo 愛喝什麼？<A>茶
+<Q>誰是 Milo 的朋友？<A>Ron
+<Q>Milo 的孩子有幾個？<A>沒有
+<Q>Nell 多大了？<A>14歲
+<Q>Nell 的工作是什麼？<A>學生
+<Q>Nell 住在哪邊？<A>東邊
+<Q>Nell 愛吃什麼？<A>水果
+<Q>Nell 愛喝什麼？<A>水
+<Q>誰是 Nell 的朋友？<A>Cruz
+<Q>Odin 多大了？<A>62歲
+<Q>Odin 住在哪邊？<A>北邊
+<Q>Odin 愛吃什麼？<A>水果
+<Q>Odin 愛喝什麼？<A>茶
+<Q>誰是 Odin 的朋友？<A>Ethan
+<Q>Otto 多大了？<A>73歲
+<Q>Otto 的工作是什麼？<A>老師
+<Q>Otto 住在哪邊？<A>北邊
+<Q>Otto 愛吃什麼？<A>肉
+<Q>Otto 愛喝什麼？<A>水
+<Q>誰是 Otto 的朋友？<A>Dina
+<Q>Pia 多大了？<A>70歲
+<Q>Pia 住在哪邊？<A>東邊
+<Q>Pia 愛吃什麼？<A>菜
+<Q>Pia 愛喝什麼？<A>水
+<Q>Pia 的孩子有幾個？<A>2個
+<Q>Rhea 愛吃什麼？<A>菜
+<Q>Rhea 愛喝什麼？<A>水
+<Q>Rhea 的孩子有幾個？<A>沒有
+<Q>Rory 多大了？<A>35歲
+<Q>Rory 的工作是什麼？<A>老師
+<Q>Rory 住在哪邊？<A>南邊
+<Q>Rory 愛喝什麼？<A>茶
+<Q>誰是 Rory 的朋友？<A>Jane
+<Q>Saul 多大了？<A>8歲
+<Q>Saul 的工作是什麼？<A>學生
+<Q>Saul 住在哪邊？<A>北邊
+<Q>Saul 愛吃什麼？<A>飯
+<Q>誰是 Saul 的朋友？<A>Tyler
+<Q>Saul 的孩子有幾個？<A>沒有
+<Q>Tad 多大了？<A>24歲
+<Q>Tad 的工作是什麼？<A>醫生
+<Q>Tad 住在哪邊？<A>西邊
+<Q>Tad 愛吃什麼？<A>水果
+<Q>Tad 愛喝什麼？<A>茶
+<Q>誰是 Tad 的朋友？<A>Mary
+<Q>Theo 的工作是什麼？<A>工人
+<Q>Theo 愛喝什麼？<A>水
+<Q>Theo 的孩子有幾個？<A>沒有
+<Q>Ugo 多大了？<A>17歲
+<Q>Ugo 住在哪邊？<A>南邊
+<Q>Ugo 愛喝什麼？<A>紅茶
+<Q>誰是 Ugo 的朋友？<A>Chad
+<Q>Ugo 的孩子有幾個？<A>沒有
+<Q>Vic 的工作是什麼？<A>工人
+<Q>Vic 住在哪邊？<A>南邊
+<Q>Vic 愛喝什麼？<A>水
+<Q>Vic 的孩子有幾個？<A>3個
+<Q>Wynn 住在哪邊？<A>南邊
+<Q>誰是 Wynn 的朋友？<A>Emily
+<Q>Yale 多大了？<A>66歲
+<Q>Yale 的工作是什麼？<A>工人
+<Q>Yale 愛吃什麼？<A>飯
+<Q>Yale 愛喝什麼？<A>茶
+<Q>誰是 Yale 的朋友？<A>Pam
+<Q>Yale 的孩子有幾個？<A>2個
+<Q>Yves 多大了？<A>39歲
+<Q>Yves 的工作是什麼？<A>醫生
+<Q>Yves 住在哪邊？<A>東邊
+<Q>Yves 愛吃什麼？<A>飯
+<Q>Yves 愛喝什麼？<A>水
+<Q>誰是 Yves 的朋友？<A>Burt
+<Q>Yves 的孩子有幾個？<A>3個
+<Q>Zane 多大了？<A>51歲
+<Q>Zane 的工作是什麼？<A>老師
+<Q>Zane 愛吃什麼？<A>肉
+<Q>Zane 愛喝什麼？<A>紅茶
+<Q>誰是 Zane 的朋友？<A>Bea
+<Q>Zane 的孩子有幾個？<A>2個
+<Q>Arlo 的工作是什麼？<A>工人
+<Q>Arlo 住在哪邊？<A>西邊
+<Q>Arlo 愛吃什麼？<A>水果
+<Q>Arlo 愛喝什麼？<A>水
+<Q>誰是 Arlo 的朋友？<A>Zoe
+<Q>Bree 多大了？<A>26歲
+<Q>Bree 的工作是什麼？<A>老師
+<Q>Bree 愛吃什麼？<A>水果
+<Q>Bree 愛喝什麼？<A>茶
+<Q>誰是 Bree 的朋友？<A>Tad
+<Q>Bree 的孩子有幾個？<A>沒有
+<Q>Cass 多大了？<A>30歲
+<Q>Cass 住在哪邊？<A>東邊
+<Q>Cass 愛吃什麼？<A>菜
+<Q>Cass 愛喝什麼？<A>紅茶
+<Q>誰是 Cass 的朋友？<A>Mae
+<Q>Cass 的孩子有幾個？<A>1個
+<Q>Ari 多大了？<A>71歲
+<Q>Ari 住在哪邊？<A>南邊
+<Q>Ari 愛吃什麼？<A>水果
+<Q>Ari 愛喝什麼？<A>茶
+<Q>誰是 Ari 的朋友？<A>Andy
+<Q>Ari 的孩子有幾個？<A>3個
+<Q>Bo 的工作是什麼？<A>老師
+<Q>Bo 住在哪邊？<A>北邊
+<Q>Bo 愛喝什麼？<A>水
+<Q>誰是 Bo 的朋友？<A>Bess
+<Q>Bo 的孩子有幾個？<A>3個
+<Q>Cy 多大了？<A>15歲
+<Q>Cy 的工作是什麼？<A>學生
+<Q>Cy 住在哪邊？<A>南邊
+<Q>誰是 Cy 的朋友？<A>Chad

@@ -1,0 +1,178 @@
+城	<Q>Braru 在哪邊？<A>南邊
+城	<Q>住在 Talar 的人可以去哪裡玩？<A>山邊
+城	<Q>Salar 這個城裡有多少個學校？<A>1個
+城	<Q>Hiter 這個城裡有多少個學校？<A>4個
+城	<Q>住在 Gunum 的人可以去哪裡玩？<A>海邊
+城	<Q>Gunum 這個城裡有多少個學校？<A>1個
+城	<Q>Pradu 在哪邊？<A>西邊
+城	<Q>住在 Wutil 的人可以去哪裡玩？<A>海邊
+城	<Q>Wutil 這個城裡有多少個學校？<A>2個
+城	<Q>住在 Ruwum 的人可以去哪裡玩？<A>河邊
+城	<Q>住在 Vafil 的人可以去哪裡玩？<A>河邊
+城	<Q>住在 Frawa 的人可以去哪裡玩？<A>山邊
+城	<Q>Sofel 在哪邊？<A>北邊
+城	<Q>Sumem 在哪邊？<A>東邊
+城	<Q>Sumem 這個城裡有多少個學校？<A>4個
+城	<Q>Tumon 在哪邊？<A>南邊
+城	<Q>住在 Krole 的人可以去哪裡玩？<A>海邊
+城	<Q>Krole 這個城裡有多少個學校？<A>3個
+城	<Q>住在 Jele 的人可以去哪裡玩？<A>山邊
+城	<Q>Zudom 這個城裡有多少個學校？<A>5個
+城	<Q>Kako 這個城裡有多少個學校？<A>1個
+店	<Q>哪個城有 Weti 這個店？<A>Pradu
+店	<Q>Huver 這個店早上什麼時候開門？<A>9點
+店	<Q>去 Nulun 這個店可以買到什麼？<A>菜
+店	<Q>去 Mute 這個店可以買到什麼？<A>水果
+店	<Q>哪個城有 Mute 這個店？<A>Sofel
+店	<Q>去 Zohu 這個店可以買到什麼？<A>菜
+店	<Q>Zubom 這個店早上什麼時候開門？<A>8點
+店	<Q>Prumu 這個店早上什麼時候開門？<A>8點
+店	<Q>去 Vifel 這個店可以買到什麼？<A>水果
+店	<Q>哪個城有 Fenam 這個店？<A>Zudom
+店	<Q>Fenam 這個店早上什麼時候開門？<A>10點
+店	<Q>哪個城有 Hihi 這個店？<A>Pradu
+店	<Q>哪個城有 Jejor 這個店？<A>Frawa
+店	<Q>Paran 這個店早上什麼時候開門？<A>7點
+店	<Q>去 Majo 這個店可以買到什麼？<A>刀
+店	<Q>去 Dekis 這個店可以買到什麼？<A>書
+店	<Q>哪個城有 Nukil 這個店？<A>Gida
+店	<Q>去 Bida 這個店可以買到什麼？<A>衣服
+店	<Q>Logos 這個店早上什麼時候開門？<A>10點
+店	<Q>Preli 這個店早上什麼時候開門？<A>6點
+店	<Q>Zili 這個店早上什麼時候開門？<A>7點
+店	<Q>哪個城有 Vejil 這個店？<A>Betun
+店	<Q>去 Birir 這個店可以買到什麼？<A>水果
+店	<Q>Pedi 這個店早上什麼時候開門？<A>7點
+店	<Q>去 Rebil 這個店可以買到什麼？<A>菜
+店	<Q>哪個城有 Fomus 這個店？<A>Sofel
+店	<Q>Keban 這個店早上什麼時候開門？<A>6點
+店	<Q>去 Fesu 這個店可以買到什麼？<A>球
+店	<Q>哪個城有 Fesu 這個店？<A>Tages
+店	<Q>去 Lahul 這個店可以買到什麼？<A>衣服
+店	<Q>Lahul 這個店早上什麼時候開門？<A>8點
+店	<Q>去 Prutu 這個店可以買到什麼？<A>衣服
+店	<Q>Prefa 這個店早上什麼時候開門？<A>7點
+店	<Q>Brewi 這個店早上什麼時候開門？<A>9點
+家人	<Q>Teke 的太太叫什麼名字？<A>Jifi
+家人	<Q>Totu 的媽媽叫什麼名字？<A>Jifi
+家人	<Q>Mures 的孩子有幾個？<A>1個
+家人	<Q>Dihir 的孩子有幾個？<A>3個
+家人	<Q>Lodis 的孩子有幾個？<A>2個
+家人	<Q>Linar 的媽媽叫什麼名字？<A>Tise
+家人	<Q>Kaho 的孩子有幾個？<A>3個
+家人	<Q>Baman 的太太叫什麼名字？<A>Takon
+家人	<Q>Tado 的媽媽叫什麼名字？<A>Takon
+家人	<Q>Vadi 的孩子有幾個？<A>3個
+家人	<Q>Fupin 的妹妹叫什麼名字？<A>Primi
+家人	<Q>Hojam 的爸爸叫什麼名字？<A>Begos
+家人	<Q>Trihu 的爸爸叫什麼名字？<A>Begos
+家人	<Q>Trihu 的弟弟叫什麼名字？<A>Hojam
+家人	<Q>Fife 的爸爸叫什麼名字？<A>Jetas
+家人	<Q>Kifon 的爸爸叫什麼名字？<A>Velel
+家人	<Q>Kifon 的媽媽叫什麼名字？<A>Vulum
+家人	<Q>Riha 的先生叫什麼名字？<A>Bare
+家人	<Q>Jomon 的爸爸叫什麼名字？<A>Brofo
+家人	<Q>Jomon 的弟弟叫什麼名字？<A>Bikos
+家人	<Q>Neja 的孩子有幾個？<A>2個
+家人	<Q>Kadi 的媽媽叫什麼名字？<A>Sige
+家人	<Q>Kadi 的姐姐叫什麼名字？<A>Losil
+家人	<Q>Zade 的爸爸叫什麼名字？<A>Lovem
+家人	<Q>Zade 的媽媽叫什麼名字？<A>Woga
+家人	<Q>Nelam 的爸爸叫什麼名字？<A>Fase
+家人	<Q>Rumen 的爸爸叫什麼名字？<A>Fase
+家人	<Q>Rumen 的妹妹叫什麼名字？<A>Nelam
+家人	<Q>Hiwer 的太太叫什麼名字？<A>Mulin
+家人	<Q>Hiwer 的孩子有幾個？<A>1個
+家人	<Q>Vugir 的先生叫什麼名字？<A>Poji
+家人	<Q>Foler 的弟弟叫什麼名字？<A>Dehir
+家人	<Q>Rulor 的孩子有幾個？<A>2個
+家人	<Q>Weham 的爸爸叫什麼名字？<A>Fraba
+家人	<Q>Leva 的姐姐叫什麼名字？<A>Weham
+家人	<Q>Trole 的先生叫什麼名字？<A>Sibas
+家人	<Q>Kreho 的孩子有幾個？<A>3個
+家人	<Q>Nanas 的爸爸叫什麼名字？<A>Kreho
+家人	<Q>Nanas 的媽媽叫什麼名字？<A>Zutu
+家人	<Q>Tofo 的媽媽叫什麼名字？<A>Zutu
+家人	<Q>Tofo 的弟弟叫什麼名字？<A>Nanas
+家人	<Q>Leji 的孩子有幾個？<A>2個
+家人	<Q>Pulom 的媽媽叫什麼名字？<A>Leji
+家人	<Q>Zabos 的爸爸叫什麼名字？<A>Kaben
+家人	<Q>Zabos 的媽媽叫什麼名字？<A>Leji
+家人	<Q>Frufu 的孩子有幾個？<A>3個
+家人	<Q>Kadam 的孩子有幾個？<A>3個
+家人	<Q>Fiwa 的媽媽叫什麼名字？<A>Kadam
+家人	<Q>Genin 的爸爸叫什麼名字？<A>Proge
+家人	<Q>Genin 的妹妹叫什麼名字？<A>Fiwa
+家人	<Q>Lojas 的先生叫什麼名字？<A>Wurun
+家人	<Q>Wugin 的爸爸叫什麼名字？<A>Wurun
+家人	<Q>Kimor 的太太叫什麼名字？<A>Zesel
+家人	<Q>Zesel 的先生叫什麼名字？<A>Kimor
+家人	<Q>Lukin 的媽媽叫什麼名字？<A>Lepos
+家人	<Q>Stuhe 的弟弟叫什麼名字？<A>Lukin
+家人	<Q>Stuhe 的妹妹叫什麼名字？<A>Trire
+家人	<Q>Trire 的爸爸叫什麼名字？<A>Jovir
+家人	<Q>Trire 的媽媽叫什麼名字？<A>Lepos
+家人	<Q>Krako 的孩子有幾個？<A>1個
+家人	<Q>Hinon 的孩子有幾個？<A>1個
+家人	<Q>Solus 的太太叫什麼名字？<A>Noben
+家人	<Q>Noben 的先生叫什麼名字？<A>Solus
+家人	<Q>Noben 的孩子有幾個？<A>3個
+家人	<Q>Gotin 的哥哥叫什麼名字？<A>Tutes
+家人	<Q>Semol 的妹妹叫什麼名字？<A>Gotin
+家人	<Q>Poves 的先生叫什麼名字？<A>Kobir
+家人	<Q>Mosa 的孩子有幾個？<A>2個
+家人	<Q>Love 的媽媽叫什麼名字？<A>Fotir
+家人	<Q>Love 的弟弟叫什麼名字？<A>Genor
+家人	<Q>Safun 的先生叫什麼名字？<A>Niwol
+家人	<Q>Niwol 的孩子有幾個？<A>1個
+家人	<Q>Ziba 的爸爸叫什麼名字？<A>Niwol
+家人	<Q>Nigu 的太太叫什麼名字？<A>Levim
+家人	<Q>Gugil 的孩子有幾個？<A>1個
+動物	<Q>Prolo 是什麼？<A>豬
+動物	<Q>Prolo 的身體是什麼色？<A>白色
+動物	<Q>Powim 是什麼？<A>鳥
+動物	<Q>Vitos 是什麼？<A>雞
+動物	<Q>Fera 多大了？<A>6歲
+動物	<Q>Nirol 每天和誰一起玩？<A>Pudis
+動物	<Q>Kogi 的身體是什麼色？<A>白色
+動物	<Q>Pihus 是什麼？<A>豬
+動物	<Q>Pihus 多大了？<A>8歲
+動物	<Q>Fasul 每天和誰一起玩？<A>Nupas
+動物	<Q>Gadem 是什麼？<A>馬
+動物	<Q>Wudur 是什麼？<A>鳥
+動物	<Q>Fedos 的身體是什麼色？<A>紅色
+動物	<Q>Fedos 每天和誰一起玩？<A>Wenem
+動物	<Q>Dogan 的身體是什麼色？<A>白色
+動物	<Q>Himi 多大了？<A>3歲
+動物	<Q>Tapal 是什麼？<A>雞
+動物	<Q>Tugas 的身體是什麼色？<A>白色
+動物	<Q>Wehal 的身體是什麼色？<A>紅色
+動物	<Q>Wehal 每天和誰一起玩？<A>Steha
+動物	<Q>Baga 是什麼？<A>馬
+動物	<Q>Praba 是什麼？<A>豬
+動物	<Q>Praba 的身體是什麼色？<A>黑色
+動物	<Q>Praba 多大了？<A>8歲
+動物	<Q>Benul 是什麼？<A>馬
+動物	<Q>Benul 的身體是什麼色？<A>黑色
+動物	<Q>Losor 每天和誰一起玩？<A>Mukas
+動物	<Q>Bimil 是什麼？<A>牛
+動物	<Q>Bimil 的身體是什麼色？<A>紅色
+動物	<Q>Judim 多大了？<A>6歲
+動物	<Q>Huhim 多大了？<A>2歲
+動物	<Q>Broru 是什麼？<A>雞
+動物	<Q>Stenu 是什麼？<A>牛
+動物	<Q>Stenu 多大了？<A>12歲
+動物	<Q>Fura 每天和誰一起玩？<A>Gotin
+動物	<Q>Zelal 是什麼？<A>魚
+動物	<Q>Kuwur 是什麼？<A>鳥
+動物	<Q>Kuwur 的身體是什麼色？<A>白色
+動物	<Q>Kimo 每天和誰一起玩？<A>Mures
+動物	<Q>Vuhim 每天和誰一起玩？<A>Steha
+動物	<Q>Fadar 是什麼？<A>牛
+動物	<Q>Fadar 的身體是什麼色？<A>黑色
+動物	<Q>Fadar 多大了？<A>1歲
+動物	<Q>Pulas 每天和誰一起玩？<A>Ruven
+動物	<Q>Zojom 是什麼？<A>牛
+動物	<Q>Jile 的身體是什麼色？<A>黑色
+動物	<Q>Bamus 每天和誰一起玩？<A>Leji
+動物	<Q>Troda 每天和誰一起玩？<A>Funel
