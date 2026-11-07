@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini-English 專家</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .chat { display: flex; flex-direction: column; height: calc(100vh - 190px); min-height: 420px; }
+  .log { flex: 1; overflow-y: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .msg { margin-bottom: 14px; }
+  .msg .who { font-size: 0.8rem; color: var(--muted); margin-bottom: 2px; }
+  .msg .body { white-space: pre-wrap; word-break: break-word; }
+  .me .body { background: var(--accent-soft); border-radius: 10px; padding: 8px 10px; }
+  .mini-box { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 10px; padding: 8px 10px; margin: 6px 0; }
+  .mini-box .verdict { font-size: 0.85rem; margin-bottom: 4px; }
+  .mini-box.ok .verdict { color: var(--accent); }
+  .mini-box.no .verdict { color: var(--bad-line); }
+  .tool { font-size: 0.85rem; color: var(--muted); background: var(--bg); border-left: 3px solid var(--sub-line); padding: 4px 8px; margin: 4px 0; }
+  .composer { display: flex; gap: 8px; margin-top: 10px; }
+  .composer textarea { min-height: 70px; }
+  .prompts { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Mini-English 專家</h1>
+  <p class="tagline">用 Mini-English 回答問題、翻譯、寫文章。模型寫完會自己用 <code>check_minienglish</code> 檢查，不通過就改到通過為止。</p>
+</header>
+
+<main>
+  <div class="prompts" id="presets"></div>
+  <div class="chat">
+    <div class="log" id="log"></div>
+    <div class="composer">
+      <textarea id="input" placeholder="問一個問題，或貼一段英文要改寫成 Mini-English"></textarea>
+      <button id="send" class="primary">送出</button>
+    </div>
+  </div>
+  <div class="stats"><span id="status"></span></div>
+</main>
+
+<script src="data.js"></script>
+<script src="minienglish.js"></script>
+<script>
+(function () {
+  'use strict';
+  const ME = MiniEnglish.create(DATA);
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  const PRESETS = [
+    '請把下面這段英文改寫成 Mini-English：\n\nThe hospital near the railway station was built in 1908.',
+    '請用 Mini-English 寫一段 5 句的對話：兩個人在問路。',
+    '我最近很忙，每天只能睡 5 個小時，請用 Mini-English 給我三個建議。',
+    '請把 Mini-English 翻回一般英文：\n\nThe place where I work has many people and the work is hard.',
+  ];
+  $('presets').innerHTML = PRESETS.map((p, i) => `<button class="ghost small" data-p="${i}">${esc(p.split('\n')[0])}</button>`).join('');
+  $('presets').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-p]');
+    if (!b) return;
+    $('input').value = PRESETS[+b.getAttribute('data-p')];
+    $('input').focus();
+  });
+
+  let convo = [];
+  try { convo = JSON.parse(localStorage.getItem('mini-english-expert') || '[]'); } catch (e) { convo = []; }
+  const save = () => { try { localStorage.setItem('mini-english-expert', JSON.stringify(convo)); } catch (e) { /* 忽略 */ } };
+
+  function addMsg(role, html) {
+    const div = document.createElement('div');
+    div.className = 'msg ' + (role === 'user' ? 'me' : 'ai');
+    div.innerHTML = `<div class="who">${role === 'user' ? '你' : 'Mini-English 專家'}</div><div class="body">${html}</div>`;
+    $('log').appendChild(div);
+    $('log').scrollTop = $('log').scrollHeight;
+    return div;
+  }
+
+  // 把模型輸出裡的 ```en 區塊畫成綠框，並用瀏覽器的檢查器標出違規詞
+  function renderText(text) {
+    const parts = text.split(/(```en\n[\s\S]*?```)/g);
+    return parts.map((p) => {
+      if (!p.startsWith('```en')) return esc(p);
+      const body = p.replace(/^```en\n/, '').replace(/```$/, '');
+      const errors = ME.check(body);
+      const verdict = errors.length
+        ? `<div class="verdict">⚠️ 還有 ${errors.length} 個問題：${errors.slice(0, 8).map((e) => esc(e.token)).join('、')}${errors.length > 8 ? '…' : ''}</div>`
+        : '<div class="verdict">✅ 全部在詞表內</div>';
+      // 標出違規詞
+      let html = esc(body);
+      for (const e of errors) {
+        html = html.replace(new RegExp('\\b' + esc(e.token).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b'), `<span class="bad">${esc(e.token)}</span>`);
+      }
+      return `<div class="mini-box ${errors.length ? 'no' : 'ok'}">${verdict}${html}</div>`;
+    }).join('');
+  }
+
+  function renderAll() {
+    $('log').innerHTML = '';
+    convo.forEach((m) => addMsg(m.role, m.role === 'user' ? esc(m.content) : renderText(m.content)));
+  }
+  renderAll();
+
+  async function send() {
+    const text = $('input').value.trim();
+    if (!text) return;
+    convo.push({ role: 'user', content: text });
+    addMsg('user', esc(text));
+    $('input').value = '';
+    save();
+    const bot = addMsg('assistant', '');
+    $('send').disabled = true;
+    $('status').textContent = '回答中…';
+
+    let answer = '';
+    let pending = '';
+    try {
+      const resp = await fetch('/api/chat', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages: convo }),
+      });
+      const reader = resp.body.getReader();
+      const decoder = new TextDecoder();
+      let buf = '';
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buf += decoder.decode(value, { stream: true });
+        const parts = buf.split('\n\n');
+        buf = parts.pop();
+        for (const part of parts) {
+          if (!part.startsWith('data: ')) continue;
+          const obj = JSON.parse(part.slice(6));
+          if (obj.type === 'text') {
+            answer += obj.text;
+            bot.querySelector('.body').innerHTML = renderText(answer);
+            $('log').scrollTop = $('log').scrollHeight;
+          } else if (obj.type === 'tool') {
+            bot.querySelector('.body').insertAdjacentHTML('beforeend',
+              `<div class="tool">🔧 ${esc(obj.name)}：${esc(JSON.stringify(obj.result).slice(0, 300))}</div>`);
+          } else if (obj.type === 'error') {
+            $('status').textContent = '錯誤：' + obj.message;
+          }
+        }
+      }
+    } catch (e) {
+      $('status').textContent = '錯誤：' + e;
+    }
+    if (answer) { convo.push({ role: 'assistant', content: answer }); save(); }
+    $('send').disabled = false;
+    $('status').textContent = '';
+  }
+
+  $('send').addEventListener('click', send);
+  $('input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) send();
+  });
+})();
+</script>
+</body>
+</html>

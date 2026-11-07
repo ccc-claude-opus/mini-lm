@@ -416,6 +416,23 @@ Mini-Lang 的第三層是「英文原字」：`Beijing (a big city in China)`。
 * **改寫測試**：6 段真實文章，第一次寫 **0/6** 通過；依錯誤補了 256 個詞、修了 4 條檢查規則後 **6/6** 通過。
 * **自然度**：抽 20 句發現 7 處不自然，全部修正後複檢通過。
 
+## 14. 第 5 階段：網頁專案（`web/`）
+
+| 檔案 | 內容 |
+|---|---|
+| `index.html`＋`app.js`＋`minienglish.js` | 翻譯器（English ⇄ Mini-English）、檢查器、詞表瀏覽、語法規則、範例。直接開檔就能用 |
+| `expert.html`＋`expert_server.py` | LLM 專家：模型用 `prompts/system.md` 寫作，自己呼叫 `check_minienglish` 工具檢查並修改 |
+| `build.py` | 由 `mini-english.md`＋`lexicon.tsv` 產生 `data.js` |
+| `test.js`＋`crosscheck.py` | 26 個 Node 測試＋「JS 檢查器與 check.py 必須一致」的交叉檢查（22 句全對） |
+
+**順帶做的兩件事：**
+
+1. **提示詞效果測試**（`tools/prompt_test.py`）：只給提示詞時 GLM 5.3 Flash 一次寫對 **0/3**；
+   讓模型自己用檢查工具之後 **3/3**。→ 檢查工具是這個設計能不能被 LLM 使用的關鍵。
+2. **反向翻譯**（`translate.py`）：用 `lexicon.tsv` 與 `data/reverse.tsv` 把 Mini-English 查回一般英文
+   （`the place where doctors help sick people` → `hospital`）。這是近似還原，冠詞與時態不會完全對上；
+   完美的還原要用 LLM 專家。
+
 
 
 | # | 問題 | 我的建議 |

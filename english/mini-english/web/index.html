@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini-English 翻譯器</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Mini-English</h1>
+  <p class="tagline">用 600 個核心英文詞說話：一般英文 ⇄ Mini-English。所有結果都通過 <code>check.py</code> 的檢查。</p>
+</header>
+
+<main>
+  <div class="toolbar">
+    <label class="lang">從
+      <select id="src" aria-label="來源語言">
+        <option value="en">English</option>
+        <option value="mini">Mini-English</option>
+      </select>
+    </label>
+    <button id="swap" class="ghost" title="把結果放回輸入，換方向" aria-label="交換語言">⇄</button>
+    <label class="lang">翻成
+      <select id="dst" aria-label="目標語言">
+        <option value="mini">Mini-English</option>
+        <option value="en">English</option>
+      </select>
+    </label>
+    <select id="examples" aria-label="範例"></select>
+    <button id="check" class="primary">檢查這段文字</button>
+  </div>
+
+  <div class="panes">
+    <section class="pane">
+      <div class="pane-head">
+        <h2 id="in-label">English</h2>
+        <span class="count" id="in-count"></span>
+      </div>
+      <textarea id="input" spellcheck="false" placeholder="在這裡輸入或貼上文章"></textarea>
+    </section>
+
+    <section class="pane">
+      <div class="pane-head">
+        <h2 id="out-label">Mini-English</h2>
+        <button id="copy" class="ghost small">複製</button>
+      </div>
+      <div id="output" class="output" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <div class="legend">
+    <span><i class="sub">換掉的詞</i> 詞典換掉的詞（滑鼠移上去看原文）</span>
+    <span><i class="alt">外來詞</i> 原詞保留，括號說明在說明欄</span>
+    <span><i class="hint">要改寫</i> 要依句子改寫（例如複數）</span>
+    <span><i class="bad">表外的詞</i> 詞表外、詞典也沒有</span>
+  </div>
+
+  <div id="stats" class="stats"></div>
+  <ul id="notes" class="notes"></ul>
+
+  <div class="panel">
+    <h2>檢查結果</h2>
+    <p class="tagline">和 <code>check.py</code> 同一套規則：表外的詞、禁用詞、外來詞缺括號說明。</p>
+    <ul id="checklist" class="notes"></ul>
+  </div>
+
+  <details class="panel">
+    <summary><b>詞表</b>（<span id="wordcount"></span> 個詞）</summary>
+    <div class="toolbar">
+      <input id="q" class="mono" placeholder="搜尋英文或中文" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);min-width:220px">
+      <label class="lang"><input type="checkbox" id="coreonly"> 只看核心層</label>
+    </div>
+    <div id="wordlist"></div>
+  </details>
+
+  <details class="panel">
+    <summary><b>語法規則</b>（20 條）</summary>
+    <div id="rules"></div>
+  </details>
+
+  <details class="panel">
+    <summary><b>翻譯範例</b></summary>
+    <div id="examples-list" class="grid2"></div>
+  </details>
+
+  <footer>
+    規格與驗證報告：<a href="../mini-english.md">mini-english.md</a> ·
+    <a href="../report.md">report.md</a> ·
+    <a href="../design.md">design.md</a> ·
+    詞典 <a href="../lexicon.tsv">lexicon.tsv</a>
+  </footer>
+</main>
+
+<script src="data.js"></script>
+<script src="minienglish.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

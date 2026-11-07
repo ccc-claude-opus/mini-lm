@@ -219,6 +219,12 @@ def check_text(text, spec, defined=None, in_paren=False, allow_proper=False):
     errors = []
     if defined is None:
         defined = set()
+    # 多字禁用詞（a lot of、in order to…）先抓，抓到後整段跳過
+    phrase_spans = []
+    for phrase in sorted((p for p in spec.replace if ' ' in p), key=len, reverse=True):
+        for m in re.finditer(r'(?<![A-Za-z])' + re.escape(phrase) + r'(?![A-Za-z])', text, re.I):
+            errors.append(('禁用詞', f'「{m.group(0)}」是禁用詞，改用「{spec.replace[phrase.lower()]}」', m.group(0)))
+            phrase_spans.append((m.start(), m.end()))
     # 專有名詞（例如 Li Ming、The Great Wall of China）＋括號說明 → 全部視為已說明
     for m in re.finditer(r'([A-Z][A-Za-z]*(?:\s+[A-Za-z]+)*)\s*\(', text):
         for w in m.group(1).split():
@@ -234,6 +240,9 @@ def check_text(text, spec, defined=None, in_paren=False, allow_proper=False):
         tok = m.group(0)
         pos = m.start()
         par = is_in_paren(pos)
+        # 在多字禁用詞裡的片段，不再重複報
+        if any(a <= pos < b for a, b in phrase_spans):
+            continue
         # 數字
         if tok[0].isdigit():
             continue
